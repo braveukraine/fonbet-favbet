@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.viewpager.widget.ViewPager android:id="@id/withdrawal_favorit_pay_viewpager" android:tag="layout/balance_withdrawal_ipay_viewpager_layout_0" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.betinvest.favbet3.custom.view.CustomTabLayout android:id="@id/withdrawal_favorit_pay_tab" android:background="?secondary_white1" android:layout_width="fill_parent" android:layout_height="wrap_content" app:tabIndicatorColor="?primary_blue" app:tabIndicatorHeight="3.0dip" app:tabSelectedTextColor="?primary_blue" app:tabTextColor="?secondary_blue3">
+        <com.google.android.material.tabs.TabItem android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/native_favoritpay_creditcard_tab_title" />
+        <com.google.android.material.tabs.TabItem android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/native_vipcash_tab_title" />
+    </com.betinvest.favbet3.custom.view.CustomTabLayout>
+</androidx.viewpager.widget.ViewPager>

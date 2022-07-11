@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.fonbet.restrictions.api.fon.ui.widget.RestrictionWidgetContainer android:id="@id/static_restriction_widget_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <FrameLayout android:background="?color_100" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:id="@id/payment_area" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.fonbet.core.commons.ui.widget.epoxy.CustomEpoxyRecyclerView android:id="@id/payment_facilities_list" android:background="?color_150" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="8.0dip" android:paddingEnd="8.0dip" />
+            <View android:layout_gravity="top" android:background="?color_500_a20" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <com.fonbet.core.commons.ui.widget.epoxy.CustomEpoxyRecyclerView android:id="@id/form_list" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        </LinearLayout>
+        <com.fonbet.core.impl.fon.ui.widget.StyledLoader android:layout_gravity="center" android:id="@id/progress_bar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="288.0dip" />
+        <com.fonbet.core.impl.fon.ui.widget.ErrorWidget android:id="@id/error_widget" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="80.0dip" />
+        <View android:layout_gravity="top" android:background="?color_500_a20" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    </FrameLayout>
+    <com.fonbet.restrictions.api.fon.ui.widget.RestrictionWidgetContainer android:layout_gravity="bottom" android:id="@id/restriction_widget_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.fonbet.payments.impl.fon.ui.widget.WithdrawalBlockedByPromoWidget android:id="@id/withdrawal_blocked_by_promo_widget" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

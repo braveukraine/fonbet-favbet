@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:tag="layout/club_player_stats_empty_layout_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_player_stats_coins" android:tint="?profile_txt2" />
+    <com.betinvest.android.views.RobotoBoldTextView android:textSize="14.0sp" android:textColor="?profile_txt2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/native_club_player_stats_no_data" android:textAllCaps="true" />
+</LinearLayout>

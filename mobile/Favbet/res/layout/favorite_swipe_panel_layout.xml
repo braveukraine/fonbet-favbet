@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/favorite_swipe_panel_layout_0" android:background="?selectableItemBackground" android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:bind="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/swipe_btn_favorite_bg" android:padding="7.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <androidx.appcompat.widget.AppCompatImageView android:tag="binding_1" android:layout_width="25.0dip" android:layout_height="25.0dip" android:src="@drawable/ic_favorite_selector" android:scaleType="fitXY" android:tint="?state_favoriteTitle" />
+        <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.betinvest.android.views.RobotoRegularTextView android:textSize="12.0dip" android:textColor="?state_favoriteTitle" android:layout_gravity="center" android:tag="binding_2" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" />
+            <com.betinvest.android.views.RobotoRegularTextView android:textSize="12.0dip" android:textColor="?state_favoriteTitle" android:layout_gravity="center" android:tag="binding_3" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" />
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

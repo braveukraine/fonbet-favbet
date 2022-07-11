@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.fonbet.core.impl.fon.ui.widget.StyledLoader android:id="@id/f_progress_dialog_loader" android:layout_width="fill_parent" android:layout_height="fill_parent" app:sl_alphaBase="0.2" app:sl_alphaHighlight="0.6" app:sl_color="?color_500" xmlns:app="http://schemas.android.com/apk/res-auto" />
+    <com.google.android.material.textview.MaterialTextView android:textSize="12.0sp" android:textColor="?color_900_a60" android:gravity="center_horizontal" android:id="@id/label_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip" android:layout_marginVertical="16.0dip" style="@style/Widget.Fonbet.Text.Medium" />
+    <com.google.android.material.textview.MaterialTextView android:textSize="12.0sp" android:textColor="?color_blue" android:id="@id/progress_value_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Widget.Fonbet.Text.Bold" />
+    <ProgressBar android:id="@id/progress_bar" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_marginTop="8.0dip" android:max="100" android:progress="0" android:progressDrawable="@drawable/progress" style="@android:style/Widget.ProgressBar.Horizontal" />
+</merge>

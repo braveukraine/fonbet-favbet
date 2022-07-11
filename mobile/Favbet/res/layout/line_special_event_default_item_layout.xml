@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zerobranch.layout.SwipeLayout android:id="@id/swipe_layout" android:tag="layout/line_special_event_default_item_layout_0" android:layout_width="fill_parent" android:layout_height="wrap_content" app:draggedItem="@id/event_layout" app:leftItem="@id/favorite_panel" app:swipeDirection="right"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/favorite_panel" layout="@layout/favorite_swipe_panel_layout" />
+    <LinearLayout android:orientation="vertical" android:id="@id/event_layout" android:tag="binding_1" android:background="@drawable/round_2_ripple_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="71.0dip" android:backgroundTint="?Line_bS_mainViewBg">
+        <include android:id="@id/short_details_panel" layout="@layout/line_prematch_event_short_details_panel_layout" />
+        <include android:id="@id/body_panel" layout="@layout/line_event_body_panel_layout" />
+        <View android:background="?Line_bS_separator" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="8.0dip" />
+    </LinearLayout>
+</com.zerobranch.layout.SwipeLayout>

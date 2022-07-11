@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:tag="layout/capture_document_panel_layout_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.betinvest.android.views.RobotoBoldTextView android:textSize="16.0sp" android:textColor="?profile_txt1" android:ellipsize="end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/native_verification_take_a_picture" android:maxLines="1" android:textAllCaps="true" />
+    <com.betinvest.android.views.RobotoRegularTextView android:textSize="12.0sp" android:textColor="?profile_txt1" android:ellipsize="end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/native_verification_make_photo" android:maxLines="1" />
+    <com.betinvest.android.views.RobotoRegularTextView android:textSize="12.0sp" android:textColor="?profile_txt2" android:ellipsize="end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/native_verification_check_permission" android:textAlignment="center" />
+    <FrameLayout android:enabled="true" android:id="@id/action_button" android:background="@drawable/round_2_ripple_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:minHeight="45.0dip" android:backgroundTint="?Btn_Primary_bg_color_1">
+        <com.betinvest.android.views.RobotoBoldTextView android:textColor="?Btn_Primary_txt_color_1" android:layout_gravity="center" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:text="@string/native_verification_make_a_photo" android:maxLines="1" android:textAllCaps="true" android:layout_marginHorizontal="20.0dip" />
+    </FrameLayout>
+</LinearLayout>

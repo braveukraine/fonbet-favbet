@@ -1,0 +1,34 @@
+.class public final synthetic Lcom/fonbet/feature/helpcenter/impl/widget/richtext/-$$Lambda$RTLinkButtonWidget$mhoEs-3o9y5jIXx3gmAgaymLLE8;
+.super Ljava/lang/Object;
+.source "lambda"
+
+# interfaces
+.implements Landroid/view/View$OnClickListener;
+
+
+# instance fields
+.field public final synthetic f$0:Lcom/fonbet/feature/helpcenter/impl/widget/richtext/RTLinkButtonWidget;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lcom/fonbet/feature/helpcenter/impl/widget/richtext/RTLinkButtonWidget;)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lcom/fonbet/feature/helpcenter/impl/widget/richtext/-$$Lambda$RTLinkButtonWidget$mhoEs-3o9y5jIXx3gmAgaymLLE8;->f$0:Lcom/fonbet/feature/helpcenter/impl/widget/richtext/RTLinkButtonWidget;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final onClick(Landroid/view/View;)V
+    .locals 1
+
+    iget-object v0, p0, Lcom/fonbet/feature/helpcenter/impl/widget/richtext/-$$Lambda$RTLinkButtonWidget$mhoEs-3o9y5jIXx3gmAgaymLLE8;->f$0:Lcom/fonbet/feature/helpcenter/impl/widget/richtext/RTLinkButtonWidget;
+
+    invoke-static {v0, p1}, Lcom/fonbet/feature/helpcenter/impl/widget/richtext/RTLinkButtonWidget;->lambda$mhoEs-3o9y5jIXx3gmAgaymLLE8(Lcom/fonbet/feature/helpcenter/impl/widget/richtext/RTLinkButtonWidget;Landroid/view/View;)V
+
+    return-void
+.end method

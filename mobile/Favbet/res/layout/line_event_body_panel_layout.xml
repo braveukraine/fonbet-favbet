@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/line_event_body_panel_layout_id" android:tag="layout/line_event_body_panel_layout_0" android:duplicateParentState="false" android:layout_width="fill_parent" android:layout_height="0.0dip" android:minHeight="50.0dip" android:layout_weight="1.0" android:paddingEnd="8.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.betinvest.favbet3.custom.view.TouchAbsorbLinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/participant_list_view" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:overScrollMode="never" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/score_list_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:overScrollMode="never" />
+    </com.betinvest.favbet3.custom.view.TouchAbsorbLinearLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/outcome_list_view" android:duplicateParentState="false" android:layout_width="@dimen/events_line_outcomes_section_width" android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" android:overScrollMode="never" android:layout_marginStart="5.0dip" />
+</LinearLayout>

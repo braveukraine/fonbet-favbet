@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.fonbet.core.impl.fon.ui.widget.inputlayout.CustomTextInputLayout android:layout_gravity="start" android:id="@id/captcha_il" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/Widget.Fonbet.CustomTextInputLayout.Medium">
+        <com.fonbet.core.commons.ui.widget.inputlayout.edittext.CustomTextInputEditText android:id="@id/captcha_et" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/field.captcha" android:inputType="textNoSuggestions" />
+    </com.fonbet.core.impl.fon.ui.widget.inputlayout.CustomTextInputLayout>
+    <androidx.cardview.widget.CardView android:layout_width="0.0dip" android:layout_height="36.0dip" android:layout_weight="1.0" app:cardBackgroundColor="?color_100" app:cardCornerRadius="4.0dip" app:cardElevation="0.0dip">
+        <ImageView android:id="@id/captcha_iv" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="36.0dip" android:scaleType="fitXY" android:contentDescription="@null" />
+        <com.constanta.fancyprogressbar.FancyProgressBar android:layout_gravity="center" android:id="@id/captcha_progress" android:layout_width="16.0dip" android:layout_height="16.0dip" app:fpb_color="?color_500" />
+    </androidx.cardview.widget.CardView>
+</merge>

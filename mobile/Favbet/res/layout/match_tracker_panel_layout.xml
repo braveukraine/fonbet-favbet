@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/match_tracker_panel_layout_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:bind="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/web_view_container_layout" android:tag="binding_1" android:layout_width="0.0dip" android:layout_height="0.0dip" bind:layout_constraintBottom_toBottomOf="parent" bind:layout_constraintDimensionRatio="H,24:17" bind:layout_constraintEnd_toEndOf="parent" bind:layout_constraintStart_toStartOf="parent" bind:layout_constraintTop_toTopOf="parent">
+        <WebView android:id="@id/match_tracker_web_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <include android:id="@id/progress_panel" android:layout_width="0.0dip" android:layout_height="0.0dip" bind:layout_constraintBottom_toBottomOf="parent" bind:layout_constraintEnd_toEndOf="parent" bind:layout_constraintStart_toStartOf="parent" bind:layout_constraintTop_toTopOf="parent" layout="@layout/progress_panel_layout" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/information_fragment_layout_0" android:background="?General_body_profile" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:gravity="end" android:id="@id/app_bar" android:tag="binding_1" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" app:elevation="0.0dip">
+        <include android:id="@id/toolbar_panel" layout="@layout/default_toolbar_panel_layout" />
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/information_recyclerview" android:paddingTop="20.0dip" android:paddingBottom="20.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="ifContentScrolls" android:paddingVertical="20.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/toolbar_panel" />
+</LinearLayout>

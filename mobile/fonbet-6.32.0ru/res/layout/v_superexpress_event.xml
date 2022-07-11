@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="?color_100" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="8.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/event_container" android:padding="8.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:divider="@drawable/space_h_8" android:layout_weight="1.0" android:showDividers="middle">
+        <TextView android:textSize="12.0sp" android:textColor="?color_900" android:id="@id/team1_name_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Widget.Fonbet.Text.Medium" />
+        <TextView android:textSize="12.0sp" android:textColor="?color_900" android:id="@id/team2_name_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Widget.Fonbet.Text.Medium" />
+        <TextView android:textSize="12.0sp" android:textColor="?color_900_a60" android:id="@id/event_time_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Widget.Fonbet.Text.Regular" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/quotes_container" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <com.fonbet.superexpress.impl.fon.ui.widget.SuperexpressQuoteWidget android:gravity="center" android:id="@id/win1_quote_widget" android:background="?color_700_a05" android:paddingLeft="4.0dip" android:paddingTop="10.0dip" android:paddingRight="4.0dip" android:paddingBottom="10.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <com.fonbet.superexpress.impl.fon.ui.widget.SuperexpressQuoteWidget android:gravity="center" android:id="@id/draw_quote_widget" android:paddingLeft="4.0dip" android:paddingTop="10.0dip" android:paddingRight="4.0dip" android:paddingBottom="10.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <com.fonbet.superexpress.impl.fon.ui.widget.SuperexpressQuoteWidget android:gravity="center" android:id="@id/win2_quote_widget" android:background="?color_700_a05" android:paddingLeft="4.0dip" android:paddingTop="10.0dip" android:paddingRight="4.0dip" android:paddingBottom="10.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

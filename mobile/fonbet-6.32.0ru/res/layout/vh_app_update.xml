@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.textview.MaterialTextView android:textColor="?color_900_a60" android:id="@id/app_version" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Widget.Fonbet.Text.Medium" />
+    <com.fonbet.appupdate.api.ui.widget.internal.AppUpdateDebugInfoWidget android:id="@id/debug_info" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.google.android.material.switchmaterial.SwitchMaterial android:id="@id/wifi_toggle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/setting_app_update_over_wifi" style="@style/Widget.Fonbet.SwitchButton.Blue" />
+    <com.google.android.material.button.MaterialButton android:id="@id/update_action_btn" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Widget.Fonbet.Button.Outlined.Blue" />
+</merge>

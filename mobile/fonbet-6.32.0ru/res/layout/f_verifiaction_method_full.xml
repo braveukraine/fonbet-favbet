@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/f_verification_method_content" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:background="?color_500_a20" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <com.google.android.material.textview.MaterialTextView android:textSize="14.0sp" android:textColor="?color_900_a80" android:id="@id/title_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="16.0dip" style="@style/Widget.Fonbet.Text.Medium" />
+    <View android:background="?color_500_a20" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <LinearLayout android:orientation="vertical" android:background="?color_100" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@drawable/divider_margin_right_16" android:showDividers="middle">
+        <com.fonbet.ident.impl.ru.verificationmethodfull.ui.widget.VerificationMethodFullWidget android:id="@id/method_remote_view" android:background="?selectableItemBackground" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="56.0dip" app:vmfw_methodIcon="@drawable/ident_remote" app:vmfw_methodName="@string/sign_up.method.remote_id.short" />
+        <com.fonbet.ident.impl.ru.verificationmethodfull.ui.widget.VerificationMethodFullWidget android:id="@id/method_card_view" android:background="?selectableItemBackground" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="56.0dip" app:vmfw_methodIcon="@drawable/ident_fonbet" app:vmfw_methodName="@string/sign_up.method.fonbet_card.short" />
+        <com.fonbet.ident.impl.ru.verificationmethodfull.ui.widget.VerificationMethodFullWidget android:id="@id/method_qiwi_view" android:background="?selectableItemBackground" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="56.0dip" app:vmfw_methodIcon="@drawable/ident_qiwi" app:vmfw_methodName="@string/sign_up.method.qiwi.short" />
+    </LinearLayout>
+    <View android:background="?color_500_a20" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <com.google.android.material.textview.MaterialTextView android:textSize="14.0sp" android:textColor="?color_900_a80" android:id="@id/legal_notice_tv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="16.0dip" android:text="@string/ident.legal_notice" style="@style/Widget.Fonbet.Text.Regular" />
+</LinearLayout>

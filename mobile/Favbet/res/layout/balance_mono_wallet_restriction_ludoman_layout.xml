@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/balance_mono_wallet_restriction_ludoman_layout_0" android:background="?General_body_profile" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/dist_8" android:paddingEnd="@dimen/dist_8"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.betinvest.android.views.RobotoBoldTextView android:textSize="16.0sp" android:textColor="?profile_txt2" android:gravity="center" android:id="@id/ludoman_title_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dist_16" android:textAllCaps="true" />
+    <com.betinvest.android.views.RobotoRegularTextView android:textSize="14.0sp" android:textColor="?profile_txt2" android:gravity="center" android:id="@id/ludoman_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dist_16" />
+</LinearLayout>

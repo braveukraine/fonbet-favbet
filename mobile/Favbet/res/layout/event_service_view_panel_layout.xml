@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/event_service_view_panel_layout_0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/scoreboard_recycler_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <include android:id="@id/web_stream_panel" layout="@layout/event_web_stream_panel_layout" />
+    <include android:id="@id/fav_stream_panel" layout="@layout/fav_tv_panel_layout" />
+    <include android:id="@id/match_tracker_panel" layout="@layout/match_tracker_panel_layout" />
+</LinearLayout>

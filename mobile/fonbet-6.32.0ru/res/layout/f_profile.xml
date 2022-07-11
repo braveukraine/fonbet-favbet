@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.tabs.TabLayout android:id="@id/f_profile_tab_layout" android:background="?color_toolbar_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Widget.Fonbet.TabLayout.Fixed" />
+    <View android:background="@drawable/divider_color_500_a20" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <androidx.viewpager.widget.ViewPager android:id="@id/f_profile_pager" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+</LinearLayout>

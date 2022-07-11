@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.textview.MaterialTextView android:textSize="14.0sp" android:textColor="?color_900" android:gravity="start|center" android:layout_gravity="start|center|top" android:id="@id/top_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" style="@style/Widget.Fonbet.Text.Medium" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.google.android.material.textview.MaterialTextView android:textSize="14.0sp" android:textColor="?color_900" android:gravity="start|center" android:layout_gravity="center_vertical" android:id="@id/side_title" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Widget.Fonbet.Text.Medium" />
+        <com.fonbet.feature.settings.impl.fon.ui.widget.locale.LocalePickerWidget android:id="@id/locale_picker" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    </LinearLayout>
+</merge>

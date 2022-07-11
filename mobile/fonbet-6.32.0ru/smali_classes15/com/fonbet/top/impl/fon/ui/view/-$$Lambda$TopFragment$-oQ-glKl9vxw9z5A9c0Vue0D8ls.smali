@@ -1,0 +1,40 @@
+.class public final synthetic Lcom/fonbet/top/impl/fon/ui/view/-$$Lambda$TopFragment$-oQ-glKl9vxw9z5A9c0Vue0D8ls;
+.super Ljava/lang/Object;
+.source "lambda"
+
+# interfaces
+.implements Lcom/google/android/material/appbar/AppBarLayout$OnOffsetChangedListener;
+
+
+# instance fields
+.field public final synthetic f$0:Lcom/fonbet/top/impl/fon/ui/view/TopFragment;
+
+.field public final synthetic f$1:Landroid/view/View;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lcom/fonbet/top/impl/fon/ui/view/TopFragment;Landroid/view/View;)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lcom/fonbet/top/impl/fon/ui/view/-$$Lambda$TopFragment$-oQ-glKl9vxw9z5A9c0Vue0D8ls;->f$0:Lcom/fonbet/top/impl/fon/ui/view/TopFragment;
+
+    iput-object p2, p0, Lcom/fonbet/top/impl/fon/ui/view/-$$Lambda$TopFragment$-oQ-glKl9vxw9z5A9c0Vue0D8ls;->f$1:Landroid/view/View;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final onOffsetChanged(Lcom/google/android/material/appbar/AppBarLayout;I)V
+    .locals 2
+
+    iget-object v0, p0, Lcom/fonbet/top/impl/fon/ui/view/-$$Lambda$TopFragment$-oQ-glKl9vxw9z5A9c0Vue0D8ls;->f$0:Lcom/fonbet/top/impl/fon/ui/view/TopFragment;
+
+    iget-object v1, p0, Lcom/fonbet/top/impl/fon/ui/view/-$$Lambda$TopFragment$-oQ-glKl9vxw9z5A9c0Vue0D8ls;->f$1:Landroid/view/View;
+
+    invoke-static {v0, v1, p1, p2}, Lcom/fonbet/top/impl/fon/ui/view/TopFragment;->lambda$-oQ-glKl9vxw9z5A9c0Vue0D8ls(Lcom/fonbet/top/impl/fon/ui/view/TopFragment;Landroid/view/View;Lcom/google/android/material/appbar/AppBarLayout;I)V
+
+    return-void
+.end method

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zerobranch.layout.SwipeLayout android:id="@id/swipe_layout" android:tag="layout/sport_lobby_category_list_item_layout_0" android:background="?line_category_Bg" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginBottom="1.0dip" android:elevation="1.0dip" bind:draggedItem="@id/content_view" bind:leftItem="@id/pin_action_view" bind:swipeDirection="right"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:bind="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="start|center" android:orientation="vertical" android:id="@id/pin_action_view" android:background="@drawable/swipe_btn_favorite_bg" android:paddingLeft="9.0dip" android:paddingRight="9.0dip" android:layout_width="wrap_content" android:layout_height="50.0dip" android:paddingHorizontal="9.0dip">
+        <androidx.appcompat.widget.AppCompatImageView android:layout_width="17.0dip" android:layout_height="17.0dip" android:layout_marginTop="11.0dip" android:src="@drawable/ic_pin_on" android:tint="?state_favoriteTitle" />
+        <com.betinvest.android.views.RobotoRegularTextView android:textSize="12.0sp" android:textColor="?state_favoriteTitle" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="9.0dip" android:layout_marginTop="2.0dip" android:layout_marginRight="9.0dip" android:maxLines="1" android:layout_marginHorizontal="9.0dip" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/content_view" android:background="@drawable/rect_ripple_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="16.0dip" android:paddingEnd="18.0dip" android:backgroundTint="?line_category_Bg">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/favorite_view" android:tag="binding_2" android:layout_width="17.0dip" android:layout_height="17.0dip" android:src="@drawable/ic_pin_on" android:scaleType="fitXY" />
+        <FrameLayout android:background="@drawable/flag_bg" android:padding="1.0px" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="8.0dip">
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/category_flag_image" android:layout_width="27.0dip" android:layout_height="wrap_content" android:scaleType="centerInside" android:adjustViewBounds="true" />
+        </FrameLayout>
+        <com.betinvest.android.views.RobotoRegularTextView android:textSize="16.0sp" android:textColor="?line_category_Title" android:ellipsize="end" android:tag="binding_3" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="1" android:layout_weight="1.0" android:layout_marginStart="10.0dip" />
+        <com.betinvest.android.views.RobotoBoldTextView android:textSize="12.0sp" android:textColor="?line_category_Count" android:tag="binding_4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="19.0sp" android:textAlignment="viewEnd" android:layout_marginStart="10.0dip" />
+        <androidx.appcompat.widget.AppCompatImageView android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/ic_next" android:tint="?line_category_Title" android:layout_marginStart="15.0dip" />
+    </LinearLayout>
+</com.zerobranch.layout.SwipeLayout>

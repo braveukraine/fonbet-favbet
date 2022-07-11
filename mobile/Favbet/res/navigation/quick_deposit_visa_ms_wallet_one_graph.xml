@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/quick_deposit_visa_ms_wallet_one_graph.xml" app:startDestination="@id/balanceTopUpVisaMcWalletOneQuickDepositFragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="BalanceTopUpVisaMcWalletOneQuickDepositFragment" android:name="com.betinvest.favbet3.menu.balance.deposits.visamcwalletone.top_up.fragments.BalanceTopUpVisaMcWalletOneQuickDepositFragment" android:id="@id/balanceTopUpVisaMcWalletOneQuickDepositFragment">
+        <argument android:name="wallet_hash" app:argType="string" />
+    </fragment>
+</navigation>

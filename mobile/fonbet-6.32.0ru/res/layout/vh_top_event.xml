@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="?color_100" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="10.0sp" android:textColor="?color_900_a60" android:gravity="center" android:id="@id/vh_top_event_extra_event_title" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" android:layout_marginBottom="3.0dip" android:minHeight="18.0dip" android:textAllCaps="true" android:paddingStart="16.0dip" android:paddingEnd="8.0dip" style="@style/Widget.Fonbet.Text.Bold" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:layout_gravity="top" android:orientation="vertical" android:id="@id/vh_top_event_event_area" android:paddingTop="9.0dip" android:paddingBottom="8.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:divider="@drawable/space_h_8" android:layout_weight="1.0" android:showDividers="middle">
+                <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <com.fonbet.top.impl.fon.ui.widget.TopEventMiscView android:id="@id/vh_top_event_misc_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="16.0dip" android:layout_marginEnd="8.0dip" />
+                    <com.google.android.material.textview.MaterialTextView android:textSize="12.0sp" android:textColor="?color_900" android:gravity="center_vertical" android:id="@id/name_prefix_tv" android:background="@drawable/bg_frame_rounded_2_s_500_a20" android:paddingTop="1.0dip" android:paddingBottom="1.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:paddingStart="2.0dip" android:paddingEnd="2.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="8.0dip" style="@style/Widget.Fonbet.Text.Medium" />
+                </LinearLayout>
+                <com.fonbet.top.impl.fon.ui.widget.TopEventContainer android:id="@id/vh_top_event_main_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginEnd="8.0dip" />
+                <com.google.android.flexbox.FlexboxLayout android:id="@id/vh_top_event_comments_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="16.0dip" app:dividerDrawable="@drawable/space_w_8" app:flexWrap="wrap" app:showDivider="middle">
+                    <com.google.android.material.textview.MaterialTextView android:textSize="12.0sp" android:gravity="center_vertical" android:id="@id/vh_comment_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Widget.Fonbet.Text.Medium" />
+                </com.google.android.flexbox.FlexboxLayout>
+            </LinearLayout>
+            <com.fonbet.top.impl.fon.ui.widget.TopEventQuotesContainer android:layout_gravity="center_vertical" android:id="@id/vh_top_event_quotes_container" android:background="?color_100" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:layout_gravity="bottom" android:background="?color_500_a20" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+</FrameLayout>

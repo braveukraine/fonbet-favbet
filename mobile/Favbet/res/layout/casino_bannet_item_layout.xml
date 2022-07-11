@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/casino_bannet_item_layout_0" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginStart="8.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:bind="http://schemas.android.com/apk/res-auto" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/image_container" android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:id="@id/progress_panel" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintDimensionRatio="H,424:207" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" layout="@layout/lobby_slider_progress_layout" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/casino_banner_image_view" android:tag="binding_2" android:background="@drawable/round_2_ripple_bg" android:layout_width="0.0dip" android:layout_height="0.0dip" android:scaleType="centerCrop" android:adjustViewBounds="true" app:layout_constraintDimensionRatio="H,424:207" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

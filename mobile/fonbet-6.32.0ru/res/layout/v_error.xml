@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.textview.MaterialTextView android:textSize="20.0sp" android:textColor="?color_900" android:gravity="center" android:id="@id/title_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Widget.Fonbet.Text.Bold" />
+    <com.google.android.material.textview.MaterialTextView android:textSize="14.0sp" android:textColor="?color_900_a80" android:gravity="center" android:id="@id/description_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" style="@style/Widget.Fonbet.Text.Medium" />
+    <com.google.android.material.button.MaterialButton android:id="@id/retry_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:text="@string/action.retry" style="@style/Widget.Fonbet.Button.Filled.Shrunk" />
+</merge>

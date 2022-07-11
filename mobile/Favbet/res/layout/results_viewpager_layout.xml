@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.viewpager.widget.ViewPager android:id="@id/results_viewpager" android:tag="layout/results_viewpager_layout_0" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.betinvest.favbet3.custom.view.CustomTabLayout android:id="@id/results_viewpager_tab" android:background="?text_tab2_bg" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="8.0dip" app:tabIndicatorColor="?text_tab2_border" app:tabIndicatorHeight="3.0dip" app:tabSelectedTextColor="?text_tab2_Selected" app:tabTextColor="?text_tab2_Default" />
+    <include android:id="@id/results_page" layout="@layout/results_page_layout" />
+</androidx.viewpager.widget.ViewPager>

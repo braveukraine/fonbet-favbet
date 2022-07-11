@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_payment_settings" android:id="@id/go_to_deposit_settings" android:visible="true" android:title="@string/drawer.deposit_settings" app:showAsAction="ifRoom" />
+</menu>

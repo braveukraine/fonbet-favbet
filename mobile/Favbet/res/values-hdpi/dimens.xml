@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bam_additional_cc_number_text">16.0sp</dimen>
+    <item type="dimen" name="nv_helpview_animation_layout_height">0.65</item>
+    <dimen name="nv_helpview_container_padding_top">25.0dip</dimen>
+    <item type="dimen" name="nv_helpview_description_layout_height">0.35</item>
+    <dimen name="nv_helpview_fallback_button_text">12.0sp</dimen>
+    <dimen name="nv_helpview_full_description_margin_top">10.0dip</dimen>
+    <dimen name="nv_helpview_full_padding_top">20.0dip</dimen>
+    <item type="dimen" name="nv_helpview_liveness_bottom_height">0.14</item>
+    <item type="dimen" name="nv_helpview_liveness_cell_height">0.28</item>
+    <dimen name="nv_helpview_liveness_image_size">78.0dip</dimen>
+    <dimen name="nv_helpview_liveness_spacer">2.0dip</dimen>
+    <item type="dimen" name="nv_helpview_liveness_top_height">0.02</item>
+    <dimen name="nv_upload_container_padding_top">24.0dip</dimen>
+    <dimen name="nv_upload_description_text">14.0sp</dimen>
+    <dimen name="nv_upload_progress_info_text">12.0sp</dimen>
+    <dimen name="nv_upload_retry_button_landscape_text">12.0sp</dimen>
+    <dimen name="nv_upload_title_text">19.0sp</dimen>
+</resources>

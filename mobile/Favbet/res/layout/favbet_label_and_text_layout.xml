@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/favbet_label_and_text_layout_0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginHorizontal="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:bind="http://schemas.android.com/apk/res-auto">
+    <com.betinvest.android.views.RobotoRegularTextView android:textSize="16.0sp" android:textColor="?profile_txt2" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="2.0dip" />
+    <com.betinvest.android.views.RobotoBoldTextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="?profile_txt1" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

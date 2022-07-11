@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/registration_home_fragment_layout_0" android:background="?secondary_white1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:name="androidx.navigation.fragment.NavHostFragment" android:id="@id/registration_home_nav_host_fragment" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" app:defaultNavHost="true" app:navGraph="@navigation/registration_navigation_graph" />
+</LinearLayout>

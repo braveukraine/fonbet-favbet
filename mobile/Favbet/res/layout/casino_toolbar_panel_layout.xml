@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Toolbar android:id="@id/toolbar" android:tag="layout/casino_toolbar_panel_layout_0" style="@style/CasinoToolbarStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/CustomToolbarLayoutDefaultStyle">
+        <include android:id="@id/body_panel" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" layout="@layout/toolbar_body_panel_layout" />
+        <include android:id="@id/account_panel" layout="@layout/toolbar_account_panel_layout" />
+    </LinearLayout>
+</Toolbar>

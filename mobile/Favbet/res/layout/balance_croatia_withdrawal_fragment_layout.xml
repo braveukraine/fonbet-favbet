@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:id="@id/nested_scroll_view" android:tag="layout/balance_croatia_withdrawal_fragment_layout_0" android:background="?General_body_profile" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:bind="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:tag="binding_1" android:background="?General_body_profile" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/dist_20" android:layout_marginBottom="@dimen/dist_30" android:layout_marginStart="@dimen/dist_16" android:layout_marginEnd="@dimen/dist_16">
+        <com.betinvest.android.views.RobotoBoldTextView android:textSize="@dimen/text_14sp" android:textStyle="bold" android:textColor="?profile_txt1" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/balance_select_payment_method_for_withdrawal_text" android:focusable="true" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:textAllCaps="true" android:textAlignment="center" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/deposit_type_recycle_items_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dist_10" android:nestedScrollingEnabled="false" />
+        <include android:id="@id/withdrawal_item_iban_layout" layout="@layout/balance_croatia_withdrawal_item_iban_layout" />
+        <include android:id="@id/withdrawal_item_air_cash_layout" layout="@layout/balance_croatia_withdrawal_item_air_cash_layout" />
+        <include android:id="@id/withdrawal_item_cashdesk_layout" layout="@layout/balance_croatia_withdrawal_item_cashdesk_layout" />
+        <LinearLayout android:orientation="vertical" android:id="@id/history_block" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dist_30">
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <View android:layout_gravity="center_vertical" android:background="?profile_border1" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                <com.betinvest.android.views.RobotoBoldTextView android:textSize="@dimen/text_12sp" android:textStyle="normal" android:textColor="?profile_txt2" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/balance_or_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAllCaps="true" android:textAlignment="center" />
+            </FrameLayout>
+            <com.betinvest.android.views.RobotoBoldTextView android:textSize="@dimen/text_14sp" android:textStyle="bold" android:textColor="?Btn_Tertiary_color_3" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/view_withdrawal_history" android:focusable="true" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dist_10" android:includeFontPadding="false" android:textAllCaps="true" android:textAlignment="center" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

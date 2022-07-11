@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?color_100" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@drawable/divider_color_500_a20" android:showDividers="beginning|middle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <WebView android:id="@id/f_rules_acceptance_web_view" android:focusable="true" android:focusableInTouchMode="true" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.fonbet.core.impl.fon.ui.widget.StyledLoader android:layout_gravity="center" android:id="@id/f_rules_acceptance_progress_bar" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <com.google.android.material.button.MaterialButton android:id="@id/f_rules_acceptance_accept" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="16.0dip" android:text="@string/action.accept" style="@style/Widget.Fonbet.Button.Filled" />
+</LinearLayout>

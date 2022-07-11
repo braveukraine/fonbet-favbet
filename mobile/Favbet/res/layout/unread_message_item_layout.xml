@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zerobranch.layout.SwipeLayout android:id="@id/swipe_layout" android:tag="layout/unread_message_item_layout_0" android:background="?profile_cardBg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="2.0dip" app:draggedItem="@id/container_layout" app:leftItem="@id/unread_panel" app:rightItem="@id/delete_panel" app:swipeDirection="left|right"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:layout_gravity="end" android:id="@id/delete_panel" android:layout_width="wrap_content" android:layout_height="fill_parent" layout="@layout/delete_swipe_panel_layout" />
+    <include android:id="@id/unread_panel" layout="@layout/unread_swipe_panel_layout" />
+    <LinearLayout android:orientation="vertical" android:id="@id/container_layout" android:tag="binding_1" android:background="?profile_cardBg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.betinvest.favbet3.custom.view.FavbetBoldTextView android:textSize="10.0sp" android:textStyle="bold" android:textColor="?profile_BadgeTxt" android:gravity="center_vertical" android:tag="binding_2" android:background="?General_accent_color_1" android:layout_width="fill_parent" android:layout_height="25.0dip" android:paddingStart="16.0dip" />
+        <com.betinvest.favbet3.custom.view.FavbetBoldTextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="?profile_txt1" android:ellipsize="end" android:gravity="center_vertical" android:tag="binding_3" android:background="@drawable/messages_subject_item_bg" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="55.0dip" android:maxLines="1" android:paddingHorizontal="16.0dip" />
+    </LinearLayout>
+</com.zerobranch.layout.SwipeLayout>

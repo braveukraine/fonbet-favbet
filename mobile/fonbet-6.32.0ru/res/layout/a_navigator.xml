@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.fonbet.core.commons.ui.viewgroup.BaseFrameLayout android:id="@id/root_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.drawerlayout.widget.DrawerLayout android:id="@id/a_navigator_drawer" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/a_navigator_main_content" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <androidx.fragment.app.FragmentContainerView android:id="@id/fragment_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </FrameLayout>
+        <androidx.fragment.app.FragmentContainerView android:name="com.fonbet.drawer.impl.ui.view.DrawerFragment" android:layout_gravity="start" android:id="@id/a_navigator_drawer_fragment" android:layout_width="@dimen/drawer_width" android:layout_height="fill_parent" />
+    </androidx.drawerlayout.widget.DrawerLayout>
+</com.fonbet.core.commons.ui.viewgroup.BaseFrameLayout>

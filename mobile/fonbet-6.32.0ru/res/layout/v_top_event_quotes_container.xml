@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.textview.MaterialTextView android:textSize="10.0sp" android:textColor="?color_900_a60" android:ellipsize="end" android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/vh_top_event_item_quotes_container_title" android:background="?color_700_a05" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" app:textAllCaps="true" style="@style/Widget.Fonbet.Text.Bold" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/vh_top_event_item_quotes_container_main" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</merge>

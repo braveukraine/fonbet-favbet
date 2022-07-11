@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="50.0dip" android:paddingStart="8.0dip" android:paddingEnd="8.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:divider="@drawable/space_w_4" android:showDividers="middle">
+        <TextView android:textSize="14.0sp" android:textColor="?color_900" android:id="@id/bet_status_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Widget.Fonbet.Text.Bold" />
+        <TextView android:textSize="14.0sp" android:textColor="?color_500" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/superexpress.history.name" style="@style/Widget.Fonbet.Text.Medium" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:divider="@drawable/space_w_8" android:showDividers="middle">
+        <TextView android:textSize="12.0sp" android:textColor="?color_900_a80" android:id="@id/number_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Widget.Fonbet.Text.Medium" />
+        <TextView android:textSize="12.0sp" android:textColor="?color_900_a60" android:id="@id/date_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Widget.Fonbet.Text.Regular" />
+        <TextView android:textSize="12.0sp" android:textColor="?color_900_a60" android:id="@id/time_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Widget.Fonbet.Text.Regular" />
+    </LinearLayout>
+</LinearLayout>

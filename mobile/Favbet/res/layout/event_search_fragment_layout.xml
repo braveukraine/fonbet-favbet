@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/event_search_fragment_layout_0" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:id="@id/toolbar_panel" layout="@layout/default_toolbar_panel_layout" />
+        <androidx.core.widget.NestedScrollView android:background="?General_body_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="ifContentScrolls">
+            <LinearLayout android:orientation="vertical" android:tag="binding_2" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <include android:id="@id/search_field_panel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="16.0dip" android:layout_marginHorizontal="16.0dip" layout="@layout/search_input_panel_layout" />
+                <include android:id="@id/search_results_panel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" layout="@layout/search_results_panel_layout" />
+                <include android:id="@id/empty_query_panel" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/empty_query_panel_layout" />
+                <include android:id="@id/empty_search_results_panel" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/empty_search_results_panel_layout" />
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </LinearLayout>
+    <FrameLayout android:id="@id/dismiss_keyboard_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

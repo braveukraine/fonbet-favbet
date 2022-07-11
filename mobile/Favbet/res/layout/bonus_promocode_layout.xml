@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/bonus_promocode_layout_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:bind="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:tag="binding_1" android:background="?General_body_profile" android:paddingTop="@dimen/dist_16" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginHorizontal="16.0dip">
+        <include android:id="@id/promocode_input_layout" layout="@layout/favbet_input_layout" />
+        <com.betinvest.android.views.RobotoBoldButton android:textSize="14.0sp" android:textStyle="bold" android:textColor="?Btn_Primary_txt_color_1" android:id="@id/action_button" android:background="?Btn_Primary_bg_color_1" android:layout_width="fill_parent" android:layout_height="45.0dip" android:layout_marginTop="16.0dip" android:layout_marginBottom="12.0dip" android:text="@string/native_bonuses_promocode_apply" android:textAllCaps="true" android:stateListAnimator="@null" />
+        <com.betinvest.android.views.RobotoBoldTextView android:textSize="14.0sp" android:textColor="?profile_txt1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40.0dip" android:text="@string/native_bonuses_promocode_description_title" android:textAllCaps="true" />
+        <View android:background="?profile_border1" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="8.0dip" />
+        <com.betinvest.android.views.RobotoRegularTextView android:textSize="14.0sp" android:textColor="?profile_txt2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/native_bonuses_promocode_description_info" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/shield_keyboard_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

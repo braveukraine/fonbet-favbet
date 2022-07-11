@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/bank_details_empty_page" app:startDestination="@id/balanceWithdrawalIpayFragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <navigation android:id="@id/quick_deposit_navigation" app:startDestination="@id/quick_deposit_nested_graph">
+        <include app:graph="@navigation/quick_deposit_nested_graph" />
+    </navigation>
+    <action android:id="@id/toGlobalQuickDeposit" app:destination="@id/quick_deposit_navigation" />
+    <fragment android:label="BalanceWithdrawalIpayFragment" android:name="com.betinvest.favbet3.menu.balance.deposits.i_pay.withdrawal.BalanceWithdrawalIpayFragment" android:id="@id/balanceWithdrawalIpayFragment">
+        <argument android:name="wallet_hash" app:argType="string" />
+        <action android:id="@id/to_balanceWithdrawalIpayOnBankAccountDeclarationFragment" app:destination="@id/balanceWithdrawalIpayOnBankAccountDeclarationFragment" app:popUpTo="@id/balanceFragment" />
+        <action android:id="@id/to_balanceWithdrawalIpayOnCashDeskResultFragment" app:destination="@id/balanceWithdrawalIpayOnCashDeskResultFragment" />
+    </fragment>
+    <fragment android:label="BalanceWithdrawalIpayOnCashDeskResultFragment" android:name="com.betinvest.favbet3.menu.balance.deposits.i_pay.withdrawal.on_cashdesk.fragments.BalanceWithdrawalIpayOnCashDeskResultFragment" android:id="@id/balanceWithdrawalIpayOnCashDeskResultFragment">
+        <argument android:name="response" app:argType="com.betinvest.android.data.api.accounting.entities.withdraw_deposit_cash.Response" />
+    </fragment>
+    <fragment android:label="BalanceWithdrawalIpayOnBankAccountDeclarationFragment" android:name="com.betinvest.favbet3.menu.balance.deposits.i_pay.withdrawal.on_bank_account.fragments.BalanceWithdrawalIpayOnBankAccountDeclarationFragment" android:id="@id/balanceWithdrawalIpayOnBankAccountDeclarationFragment">
+        <argument android:name="data" app:argType="com.betinvest.favbet3.menu.balance.deposits.i_pay.withdrawal.on_bank_account.viewdata.prepare_result.BelarusBankAccountPrepareResultEntityViewData" />
+    </fragment>
+</navigation>

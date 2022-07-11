@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:tag="layout/casino_games_panel_item_favourite_empty_layout_0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="48.0dip" android:layout_marginRight="24.0dip" android:overScrollMode="never" android:layout_marginHorizontal="24.0dip" app:layout_behavior="@string/appbar_scrolling_view_behavior"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/empty_favourites_panel" android:adjustViewBounds="true" />
+    <com.betinvest.android.views.RobotoBoldTextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="?General_txt_color1" android:id="@id/empty_live_favorites_header_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/native_casino_no_favourites" android:textAllCaps="true" />
+    <com.betinvest.android.views.RobotoRegularTextView android:textSize="16.0sp" android:textColor="?General_txt_color1" android:gravity="center" android:id="@id/empty_favorites_descriptions_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/native_casino_no_favourites_info" />
+</LinearLayout>

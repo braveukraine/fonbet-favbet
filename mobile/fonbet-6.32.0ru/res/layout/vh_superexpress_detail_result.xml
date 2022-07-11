@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@drawable/space_w_4" android:minHeight="32.0dip" android:showDividers="middle" android:paddingStart="8.0dip" android:paddingEnd="8.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0sp" android:id="@id/stake_sum_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:tint="?color_900" style="@style/Widget.Fonbet.Text.Bold" />
+    <com.google.android.material.textview.MaterialTextView android:textSize="14.0sp" android:layout_gravity="center_vertical" android:id="@id/arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/history.bet.arrow" android:includeFontPadding="false" />
+    <TextView android:textSize="16.0sp" android:textColor="?color_positive" android:id="@id/win_sum_text_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Widget.Fonbet.Text.Bold" />
+    <LinearLayout android:gravity="end" android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:divider="@drawable/space_w_4" android:layout_weight="1.0" android:showDividers="middle">
+        <TextView android:textSize="12.0sp" android:textColor="?color_900" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/superexpress.winning_outcomes_number_2" style="@style/Widget.Fonbet.Text.Regular" />
+        <TextView android:textSize="12.0sp" android:textColor="?color_900" android:id="@id/variant_count" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Widget.Fonbet.Text.Bold" />
+    </LinearLayout>
+</LinearLayout>

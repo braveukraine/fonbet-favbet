@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:background="?color_toolbar_bg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <View android:layout_gravity="bottom" android:background="@drawable/divider_color_500_a20" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <com.google.android.material.tabs.TabLayout android:id="@id/tab_layout" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Widget.Fonbet.TabLayout.Fixed" />
+        </FrameLayout>
+        <ViewFlipper android:id="@id/view_flipper" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/form_field_vertical_space" android:layout_marginStart="@dimen/form_margin_start" android:layout_marginEnd="@dimen/form_margin_end" />
+        <com.fonbet.core.commons.ui.widget.inputlayout.PasswordTextInputLayout android:id="@id/password_input_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/form_field_vertical_space" android:layout_marginStart="@dimen/form_margin_start" android:layout_marginEnd="@dimen/form_margin_end" style="@style/Widget.Fonbet.PasswordTextInputLayout.Medium">
+            <com.fonbet.core.commons.ui.widget.inputlayout.edittext.CustomTextInputEditText android:id="@id/password_edit_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/sign_in.field.password" android:selectAllOnFocus="true" android:inputType="textPassword" />
+        </com.fonbet.core.commons.ui.widget.inputlayout.PasswordTextInputLayout>
+        <com.google.android.material.button.MaterialButton android:id="@id/sign_in" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="16.0dip" android:minHeight="40.0dip" android:text="@string/action.sign_in" style="@style/Widget.Fonbet.Button.Filled" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginStart="@dimen/form_margin_start" android:layout_marginEnd="@dimen/form_margin_end">
+            <com.google.android.material.button.MaterialButton android:gravity="start|center" android:id="@id/restore_password" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/sign_in.recover_password" android:layout_weight="1.0" style="@style/Widget.Fonbet.Button.Naked.Medium" />
+            <com.google.android.material.button.MaterialButton android:gravity="end|center" android:id="@id/sign_up" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/action.sign_up" android:layout_weight="1.0" style="@style/Widget.Fonbet.Button.Naked.Medium" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

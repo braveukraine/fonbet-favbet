@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.fonbet.restrictions.api.fon.ui.widget.IdentStatusWidget android:id="@id/ident_status_widget" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/dialog_ident_level_widget_padding_start" android:paddingEnd="24.0dip" />
+    <com.google.android.material.textview.MaterialTextView android:id="@id/description_tv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:paddingStart="@dimen/dialog_margin_start" android:paddingEnd="@dimen/dialog_margin_end" style="@style/DialogText" />
+</LinearLayout>

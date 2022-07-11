@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/iv_bottom_sheet_indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginBottom="8.0dip" android:src="@drawable/indicator_bottom_sheet" android:contentDescription="@null" />
+    <androidx.core.widget.NestedScrollView android:id="@id/nested_scroll_view" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <com.fonbet.betting.impl.ui.widget.internal.betsettings.BetSettingsWidget android:id="@id/bet_settings_widget" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </androidx.core.widget.NestedScrollView>
+    <com.fonbet.restrictions.api.fon.ui.widget.RestrictionWidgetContainer android:layout_gravity="bottom" android:id="@id/restriction_widget_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip" />
+</LinearLayout>

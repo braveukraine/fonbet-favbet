@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:tag="layout/create_document_status_panel_layout_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:bind="http://schemas.android.com/apk/res-auto">
+    <com.betinvest.android.views.RobotoRegularTextView android:textSize="12.0sp" android:textColor="?profile_txt2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/native_verification_title" />
+    <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip">
+        <androidx.appcompat.widget.AppCompatImageView android:tag="binding_1" android:layout_width="15.0dip" android:layout_height="15.0dip" android:scaleType="fitXY" android:adjustViewBounds="true" android:layout_marginEnd="7.0dip" />
+        <com.betinvest.android.views.RobotoBoldTextView android:tag="binding_2" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <View android:background="?profile_border1" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="2.0dip" />
+</LinearLayout>

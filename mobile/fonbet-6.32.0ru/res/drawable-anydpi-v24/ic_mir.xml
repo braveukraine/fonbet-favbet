@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="8.0dip" android:width="28.0dip" android:viewportWidth="28.0" android:viewportHeight="8.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="#ff4db45e" android:pathData="M7.5451,-0L7.5451,0.0035C7.5417,0.0035 6.4514,-0 6.1607,1.0515C5.8942,2.0157 5.1431,4.6777 5.1224,4.7511L4.9147,4.7511C4.9147,4.7511 4.1464,2.0297 3.8764,1.048C3.5857,-0.0035 2.492,-0 2.492,-0L0,-0L0,8L2.492,8L2.492,3.2489L2.5958,3.2489L2.6996,3.2489L4.1533,8L5.8838,8L7.3375,3.2524L7.5451,3.2524L7.5451,8L10.0371,8L10.0371,-0L7.5451,-0Z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+    <path android:fillColor="#ff4db45e" android:pathData="M16.6477,0C16.6477,0 15.9174,0.0664 15.5748,0.8384L13.8096,4.7511L13.602,4.7511L13.602,0L11.11,0L11.11,8L13.4635,8L13.4635,8C13.4635,8 14.2284,7.9301 14.5711,7.1616L16.3016,3.2489L16.5093,3.2489L16.5093,8L19.0012,8L19.0012,0L16.6477,0Z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+    <path android:fillColor="#ff4db45e" android:pathData="M20.1088,3.6332L20.1088,8L22.6007,8L22.6007,5.4498L25.3004,5.4498C26.4771,5.4498 27.4739,4.6917 27.8443,3.6332L20.1088,3.6332Z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+    <path android:fillColor="@drawable/$ic_mir__0" android:pathData="M25.3004,0L19.7592,0C20.0361,1.5231 21.1679,2.7459 22.6319,3.1441L22.6319,3.1441C22.9642,3.2349 23.3137,3.2838 23.6737,3.2838L27.9446,3.2838C27.9827,3.1022 28,2.917 28,2.7249C28,1.2192 26.7921,0 25.3004,0Z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+</vector>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:foreground="@drawable/bg_event_quote_group" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.fonbet.event.impl.ui.widget.quotelist.table.EventSimpleTableWidget android:id="@id/widget" android:background="?color_700_a05" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@drawable/divider_color_500_a20" android:showDividers="middle" />
+</FrameLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/upload_document_fragment_layout_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/toolbar_panel" layout="@layout/default_toolbar_panel_layout" />
+    <androidx.core.widget.NestedScrollView android:background="?General_body_profile" android:paddingTop="20.0dip" android:paddingBottom="20.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:paddingVertical="20.0dip">
+        <FrameLayout android:id="@id/root_layout" android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:tag="binding_2" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <include android:id="@id/step_panel" layout="@layout/create_document_step_panel_layout" />
+                <include android:id="@id/info_panel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="20.0dip" android:layout_marginHorizontal="16.0dip" android:layout_marginVertical="20.0dip" layout="@layout/upload_document_info_panel_layout" />
+                <include android:id="@id/capture_panel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="40.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="40.0dip" android:layout_marginHorizontal="16.0dip" android:layout_marginVertical="40.0dip" layout="@layout/capture_document_panel_layout" />
+                <View android:background="?profile_border1" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginHorizontal="16.0dip" />
+                <include android:id="@id/files_panel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="20.0dip" android:layout_marginVertical="20.0dip" layout="@layout/upload_document_files_panel_layout" />
+                <include android:id="@id/button_panel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="16.0dip" android:layout_marginHorizontal="16.0dip" layout="@layout/primary1_btn_layout" />
+            </LinearLayout>
+            <include android:id="@id/progress_panel" android:visibility="gone" layout="@layout/progress_panel_layout" />
+        </FrameLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

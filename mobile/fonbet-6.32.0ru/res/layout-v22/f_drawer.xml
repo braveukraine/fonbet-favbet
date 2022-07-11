@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:background="?nav_bg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:id="@id/drawer_headers_container" android:background="?nav_bg" android:paddingTop="16.0dip" android:paddingBottom="14.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:showDividers="middle" android:paddingStart="16.0dip" android:paddingEnd="10.0dip">
+            <com.fonbet.drawer.impl.ui.widget.UnauthorizedHeaderTopWidget android:id="@id/unauthorized_header_top" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginEnd="4.0dip" />
+            <com.fonbet.drawer.impl.ui.widget.AuthorizedHeaderTopWidget android:id="@id/auth_header_top" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            <com.fonbet.drawer.impl.ui.widget.AuthorizedHeaderTopAccountWidget android:layout_gravity="center_vertical" android:id="@id/auth_header_top_account" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            <FrameLayout android:layout_width="32.0dip" android:layout_height="32.0dip">
+                <ImageView android:id="@id/in_app_messages_iv" android:background="?android:selectableItemBackgroundBorderless" android:layout_width="32.0dip" android:layout_height="32.0dip" android:src="@drawable/ic_inapp_center" android:scaleType="centerInside" />
+                <ImageView android:layout_gravity="end|center|top" android:id="@id/in_app_messages_alert_iv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:src="@drawable/ic_marker_promo" android:layout_marginEnd="2.0dip" />
+            </FrameLayout>
+            <FrameLayout android:layout_width="32.0dip" android:layout_height="32.0dip">
+                <ImageView android:id="@id/account_iv" android:background="?android:selectableItemBackgroundBorderless" android:padding="6.0dip" android:layout_width="32.0dip" android:layout_height="32.0dip" android:src="@drawable/ic_drawer_account" android:scaleType="centerInside" />
+                <ImageView android:layout_gravity="end|center|top" android:id="@id/account_alert_iv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:src="@drawable/ic_marker_promo" android:layout_marginEnd="2.0dip" />
+            </FrameLayout>
+        </LinearLayout>
+        <com.fonbet.drawer.impl.ui.widget.UnauthorizedHeaderBottomWidget android:id="@id/unauthorized_header_bottom" android:paddingBottom="16.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" />
+        <com.fonbet.drawer.impl.ui.widget.AuthorizedHeaderBottomWidget android:id="@id/auth_header_bottom" android:paddingBottom="16.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" />
+        <View android:id="@id/smart_filter_divider" android:background="?nav_divider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <FrameLayout android:id="@id/superexpress_button" android:background="@drawable/bg_web_games" android:padding="12.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="16.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="8.0dip" android:minWidth="40.0dip" android:layout_marginHorizontal="16.0dip" android:layout_marginVertical="8.0dip">
+            <com.google.android.material.textview.MaterialTextView android:textSize="16.0sp" android:textColor="?color_900" android:gravity="center_vertical" android:id="@id/superexpress_button_title" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/section.superexpress" style="@style/Widget.Fonbet.Text.Bold" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/smart_filter_button" android:background="@drawable/bg_web_games" android:padding="12.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="16.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="8.0dip" android:minWidth="40.0dip" android:layout_marginHorizontal="16.0dip" android:layout_marginVertical="8.0dip">
+            <com.google.android.material.textview.MaterialTextView android:textSize="16.0sp" android:textColor="?color_900" android:gravity="center_vertical" android:id="@id/smart_filter_button_title" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/section.event_smart_filter" android:drawablePadding="6.0dip" app:drawableStartCompat="@drawable/ic_olympic" app:drawableTint="?color_900" style="@style/Widget.Fonbet.Text.Bold" />
+        </FrameLayout>
+        <View android:id="@id/web_games_divider" android:background="?nav_divider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <com.google.android.flexbox.FlexboxLayout android:id="@id/web_games_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="8.0dip" android:layout_marginHorizontal="16.0dip" app:dividerDrawableHorizontal="@drawable/space_h_8" app:dividerDrawableVertical="@drawable/space_w_8" app:flexDirection="row" app:flexWrap="wrap" app:showDivider="middle" />
+    </LinearLayout>
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/coordinator_layout" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.google.android.material.appbar.AppBarLayout android:id="@id/app_bar_layout" android:background="?color_150" android:layout_width="fill_parent" android:layout_height="wrap_content" app:elevation="0.0dip">
+                <com.fonbet.restrictions.api.fon.ui.widget.RestrictionWidgetContainer android:id="@id/restriction_widget_container" android:background="?color_150" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingVertical="8.0dip" app:layout_scrollFlags="scroll|enterAlways" />
+                <View android:id="@id/drawer_header_bottom_divider" android:background="?nav_divider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            </com.google.android.material.appbar.AppBarLayout>
+            <FrameLayout android:background="?color_150" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <com.fonbet.core.commons.ui.widget.epoxy.CustomEpoxyRecyclerView android:id="@id/recycler_view" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+                <com.constanta.speechbubble.SpeechBubbleWidget android:layout_gravity="end" android:id="@id/drawer_tooltip" android:visibility="invisible" android:layout_width="226.0dip" android:layout_height="wrap_content" android:layout_marginEnd="26.0dip" app:sbw_cornerRadius="4.0dip" app:sbw_solidColor="?color_700" app:sbw_strokeColor="?color_500_a40" app:sbw_strokeWidth="1.0dip" app:sbw_tailSize="8.0dip" app:sbw_tailSpacing="1.0dip">
+                    <TextView android:textSize="12.0sp" android:textColor="?color_100" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/drawer_app_update_tooltip" style="@style/Widget.Fonbet.Text.Medium" />
+                </com.constanta.speechbubble.SpeechBubbleWidget>
+            </FrameLayout>
+        </LinearLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</LinearLayout>

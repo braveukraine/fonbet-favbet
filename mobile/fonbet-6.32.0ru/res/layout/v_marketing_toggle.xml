@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.SwitchCompat android:textSize="14.0sp" android:textColor="@color/text_color" android:id="@id/toggle" android:background="?color_100" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="40.0dip" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" style="@style/Widget.Fonbet.SwitchButton.Blue" />
+</FrameLayout>

@@ -1,0 +1,138 @@
+.class public Lcom/betinvest/favbet3/menu/balance/filter/viewmodel/BalanceFilterStateViewData;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# instance fields
+.field private acceptButtonEnable:Z
+
+.field private filterApplied:Z
+
+.field private filterCount:Ljava/lang/String;
+
+.field private previousFilterState:Lcom/betinvest/favbet3/menu/balance/filter/viewdata/BalanceFilterViewData;
+
+.field private resetEnable:Z
+
+.field private state:Lcom/betinvest/favbet3/common/filter/FilterStateEnum;
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public getFilterCount()Ljava/lang/String;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lcom/betinvest/favbet3/menu/balance/filter/viewmodel/BalanceFilterStateViewData;->filterCount:Ljava/lang/String;
+
+    return-object v0
+.end method
+
+.method public getPreviousFilterState()Lcom/betinvest/favbet3/menu/balance/filter/viewdata/BalanceFilterViewData;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lcom/betinvest/favbet3/menu/balance/filter/viewmodel/BalanceFilterStateViewData;->previousFilterState:Lcom/betinvest/favbet3/menu/balance/filter/viewdata/BalanceFilterViewData;
+
+    return-object v0
+.end method
+
+.method public getState()Lcom/betinvest/favbet3/common/filter/FilterStateEnum;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lcom/betinvest/favbet3/menu/balance/filter/viewmodel/BalanceFilterStateViewData;->state:Lcom/betinvest/favbet3/common/filter/FilterStateEnum;
+
+    return-object v0
+.end method
+
+.method public isAcceptButtonEnable()Z
+    .locals 1
+
+    .line 1
+    iget-boolean v0, p0, Lcom/betinvest/favbet3/menu/balance/filter/viewmodel/BalanceFilterStateViewData;->acceptButtonEnable:Z
+
+    return v0
+.end method
+
+.method public isFilterApplied()Z
+    .locals 1
+
+    .line 1
+    iget-boolean v0, p0, Lcom/betinvest/favbet3/menu/balance/filter/viewmodel/BalanceFilterStateViewData;->filterApplied:Z
+
+    return v0
+.end method
+
+.method public isResetEnable()Z
+    .locals 1
+
+    .line 1
+    iget-boolean v0, p0, Lcom/betinvest/favbet3/menu/balance/filter/viewmodel/BalanceFilterStateViewData;->resetEnable:Z
+
+    return v0
+.end method
+
+.method public setAcceptButtonEnable(Z)V
+    .locals 0
+
+    .line 1
+    iput-boolean p1, p0, Lcom/betinvest/favbet3/menu/balance/filter/viewmodel/BalanceFilterStateViewData;->acceptButtonEnable:Z
+
+    return-void
+.end method
+
+.method public setFilterApplied(Z)V
+    .locals 0
+
+    .line 1
+    iput-boolean p1, p0, Lcom/betinvest/favbet3/menu/balance/filter/viewmodel/BalanceFilterStateViewData;->filterApplied:Z
+
+    return-void
+.end method
+
+.method public setFilterCount(Ljava/lang/String;)V
+    .locals 0
+
+    .line 1
+    iput-object p1, p0, Lcom/betinvest/favbet3/menu/balance/filter/viewmodel/BalanceFilterStateViewData;->filterCount:Ljava/lang/String;
+
+    return-void
+.end method
+
+.method public setPreviousFilterState(Lcom/betinvest/favbet3/menu/balance/filter/viewdata/BalanceFilterViewData;)V
+    .locals 0
+
+    .line 1
+    iput-object p1, p0, Lcom/betinvest/favbet3/menu/balance/filter/viewmodel/BalanceFilterStateViewData;->previousFilterState:Lcom/betinvest/favbet3/menu/balance/filter/viewdata/BalanceFilterViewData;
+
+    return-void
+.end method
+
+.method public setResetEnable(Z)V
+    .locals 0
+
+    .line 1
+    iput-boolean p1, p0, Lcom/betinvest/favbet3/menu/balance/filter/viewmodel/BalanceFilterStateViewData;->resetEnable:Z
+
+    return-void
+.end method
+
+.method public setState(Lcom/betinvest/favbet3/common/filter/FilterStateEnum;)V
+    .locals 0
+
+    .line 1
+    iput-object p1, p0, Lcom/betinvest/favbet3/menu/balance/filter/viewmodel/BalanceFilterStateViewData;->state:Lcom/betinvest/favbet3/common/filter/FilterStateEnum;
+
+    return-void
+.end method

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:background="?color_500_a20" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="292.0dip" android:layout_marginBottom="8.0dip">
+        <com.shawnlin.numberpicker.NumberPicker android:id="@id/hours_np" android:layout_width="124.0dip" android:layout_height="292.0dip" app:np_dividerColor="?color_blue" app:np_dividerDistance="96.0dip" app:np_min="0" app:np_selectedTextColor="?color_900" app:np_selectedTextSize="24.0dip" app:np_textColor="?color_500" app:np_textSize="24.0sp" />
+        <com.google.android.material.textview.MaterialTextView android:textSize="24.0sp" android:textColor="?color_900_a80" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="24.0dip" android:text=":" style="@style/Widget.Fonbet.Text.Medium" />
+        <com.shawnlin.numberpicker.NumberPicker android:id="@id/minutes_np" android:layout_width="124.0dip" android:layout_height="292.0dip" app:np_dividerColor="?color_blue" app:np_dividerDistance="96.0dip" app:np_max="59" app:np_min="0" app:np_selectedTextColor="?color_900" app:np_selectedTextSize="24.0dip" app:np_textColor="?color_500" app:np_textSize="24.0sp" />
+    </LinearLayout>
+</FrameLayout>

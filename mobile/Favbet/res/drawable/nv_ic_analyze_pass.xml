@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="42.0dip" android:width="42.0dip" android:viewportWidth="42.0" android:viewportHeight="42.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="?netverify_confirmationBackground" android:pathData="M21,21m-21,0a21,21 0,1 1,42 0a21,21 0,1 1,-42 0" android:fillType="evenOdd" />
+    <path android:fillColor="?netverify_confirmationIcon" android:pathData="M21,5C12.168,5 5,12.168 5,21s7.168,16 16,16 16,-7.168 16,-16S29.832,5 21,5zM17.8,29l-8,-8 2.256,-2.256 5.744,5.728 12.144,-12.144L32.2,14.6 17.8,29z" android:fillType="nonZero" />
+</vector>

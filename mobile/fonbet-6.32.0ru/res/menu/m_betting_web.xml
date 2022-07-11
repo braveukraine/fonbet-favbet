@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_search" android:id="@id/m_line_search" android:visible="true" android:title="@string/action.find" app:showAsAction="always" />
+    <item android:icon="@drawable/ic_bet_settings" android:id="@id/m_bet_settings" android:title="@string/section.settings" app:showAsAction="always" />
+</menu>

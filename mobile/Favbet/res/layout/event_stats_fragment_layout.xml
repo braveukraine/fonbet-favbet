@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/event_stats_fragment_layout_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/toolbar_panel" layout="@layout/default_toolbar_panel_layout" />
+    <include android:id="@id/web_view_panel" layout="@layout/event_stats_web_view_panel_layout" />
+</LinearLayout>

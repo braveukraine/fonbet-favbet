@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="24.0dip" android:width="2.0dip" android:viewportWidth="2.0" android:viewportHeight="24.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <group android:translateY="-8.0">
+        <group android:rotation="-90.0" android:translateX="-19.0" android:translateY="21.0">
+            <path android:fillColor="@drawable/$ic_ident_method_gosuslugi_stripe__0" android:pathData="M-11 19H13V21H-11V19Z" />
+        </group>
+    </group>
+</vector>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/new_main_lobby_fragment_layout_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/toolbar_panel" layout="@layout/default_toolbar_panel_layout" />
+    <androidx.core.widget.NestedScrollView android:id="@id/scroll_view" android:background="?General_body_lobby" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/blocks_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/dist_5" android:layout_marginBottom="@dimen/dist_20" android:animateLayoutChanges="true" />
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

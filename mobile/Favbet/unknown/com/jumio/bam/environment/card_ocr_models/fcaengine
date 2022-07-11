@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+
+<find_card_engine xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="fcaengine.xsd">
+
+  <analysis_settings>
+    <use_new_quad_assembler>true</use_new_quad_assembler>
+    <n_quads>8</n_quads>
+    <max_angle_dev>0.35</max_angle_dev>
+    <min_side_len>11.0</min_side_len>
+    <max_lines_overlap>5.6</max_lines_overlap>
+    <use_side_len_score>true</use_side_len_score>
+    <use_cover_percentage_score>false</use_cover_percentage_score>
+  </analysis_settings>
+
+  <iterative_canny_settings>
+    <max_factor>0.0</max_factor>
+    <min_thresh>0.0</min_thresh>
+    <max_thresh>0.05</max_thresh>
+    <max_n_iters>7</max_n_iters>
+    <delta_max_thresh>0.05</delta_max_thresh>
+    <max_acceptable_track_count>50</max_acceptable_track_count>
+    <sigma>0.5</sigma>
+  </iterative_canny_settings>
+
+  <track_parser_settings>
+    <min_track_length>8</min_track_length>
+    <min_segm_axis_ratio>10.0</min_segm_axis_ratio>
+    <segm_wing_length>5.0</segm_wing_length>
+  </track_parser_settings>
+
+  <roi_placement_settings>
+    <number_of_roi>1</number_of_roi>
+    <number_of_quadrangles_per_roi>4</number_of_quadrangles_per_roi>
+    <roi_expand_ratio>0.1</roi_expand_ratio>
+    <minimum_area_ratio>0.3</minimum_area_ratio>
+    <maximum_roi_overlap_ratio>0.9</maximum_roi_overlap_ratio>
+  </roi_placement_settings>
+
+  <quads_geometry_settings>
+    <d2_min_sides_ratio>1.45</d2_min_sides_ratio>
+    <d2_max_sides_ratio>1.73</d2_max_sides_ratio>
+    <d2_max_corner_cos>0.093</d2_max_corner_cos>
+    <d3_min_sides_ratio>1.5</d3_min_sides_ratio>
+    <d3_max_sides_ratio>2.0</d3_max_sides_ratio>
+    <d3_max_corner_cos>0.085</d3_max_corner_cos>
+  </quads_geometry_settings>
+
+  <hor_ver_edges_settings>
+    <size_part>0.65</size_part>
+    <weight_coef>0.1</weight_coef>
+    <sigma>0.75</sigma>
+  </hor_ver_edges_settings>
+
+  <image_filter_settings>
+    <median_wing>2</median_wing>
+    <close_wing>0</close_wing>
+    <open_wing>0</open_wing>
+  </image_filter_settings>
+
+  <segments_settings>
+    <min_line_len>10.0</min_line_len>
+    <max_one_line_point_dist>3.5</max_one_line_point_dist>
+    <max_acceptable_lines_count>150</max_acceptable_lines_count>
+    <far_away_dist>20.0</far_away_dist>
+    <preliminary_max_lines_count>200</preliminary_max_lines_count>
+    <pre_one_line_point_dist>0.6</pre_one_line_point_dist>
+    <pre_far_away_dist>2.7</pre_far_away_dist>
+    <base_one_line_point_dist>1.0</base_one_line_point_dist>
+    <base_far_away_dist>0.3</base_far_away_dist>
+  </segments_settings>
+
+  <scale>0.5</scale>
+
+  <search_rounded_corners>true</search_rounded_corners>
+
+</find_card_engine>

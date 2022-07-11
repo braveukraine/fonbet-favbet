@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="?color_blue" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="24.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.textview.MaterialTextView android:textSize="14.0sp" android:textColor="?color_100" android:layout_gravity="center_vertical" android:id="@id/fast_bet_tv" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="16.0dip" style="@style/Widget.Fonbet.Text.Bold" />
+</FrameLayout>

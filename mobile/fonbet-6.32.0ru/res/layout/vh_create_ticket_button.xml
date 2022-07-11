@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.button.MaterialButton android:id="@id/redirect_btn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginBottom="8.0dip" android:minHeight="40.0dip" android:text="@string/action.create_ticket_from_operation" android:textAllCaps="false" style="@style/Widget.Fonbet.Button.Outlined.Blue"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

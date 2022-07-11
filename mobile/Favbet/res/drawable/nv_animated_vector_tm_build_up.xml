@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector android:drawable="@drawable/id_1_tm_front_overlay"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <target android:name="circleEmpty" android:animation="@anim/nv_fade_tm_zero" />
+    <target android:name="circle1" android:animation="@anim/nv_fade_tm_first" />
+    <target android:name="circle2" android:animation="@anim/nv_fade_tm_second" />
+    <target android:name="circle3" android:animation="@anim/nv_fade_tm_third" />
+    <target android:name="circle4" android:animation="@anim/nv_fade_tm_fourth" />
+</animated-vector>

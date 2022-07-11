@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/virtual_sport_category_fragment_layout_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/toolbar_panel" layout="@layout/default_toolbar_panel_layout" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/live_sports_list_view" android:paddingLeft="8.0dip" android:paddingTop="5.0dip" android:paddingRight="8.0dip" android:paddingBottom="7.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/details_layout" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <com.google.android.material.appbar.AppBarLayout android:gravity="end" android:id="@id/app_bar" android:tag="binding_1" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" app:elevation="0.0dip">
+            <include android:id="@id/event_block" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="never" app:layout_scrollFlags="scroll" layout="@layout/virtual_sport_category_event_layout" />
+            <include android:id="@id/empty_bets" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/virtual_sport_category_empty_market_list_layout" />
+        </com.google.android.material.appbar.AppBarLayout>
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/event_line_items_list_view" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</LinearLayout>

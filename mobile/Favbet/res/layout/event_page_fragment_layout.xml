@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/event_page_fragment_layout_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/toolbar_panel" layout="@layout/default_toolbar_panel_layout" />
+    <LinearLayout android:orientation="vertical" android:id="@id/event_container_layout" android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:id="@id/score_panel" layout="@layout/event_page_score_panel_layout" />
+        <androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/scroll_behavior_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.google.android.material.appbar.AppBarLayout android:gravity="end" android:id="@id/app_bar" android:tag="binding_2" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" app:elevation="0.0dip">
+                <include android:id="@id/service_tabs_panel" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_scrollFlags="scroll" layout="@layout/event_service_tabs_panel_layout" />
+                <include android:id="@id/service_view_panel" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_scrollFlags="scroll" layout="@layout/event_service_view_panel_layout" />
+                <include android:id="@id/comment_panel" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_scrollFlags="scroll" layout="@layout/event_comment_panel_layout" />
+                <include android:id="@id/market_groups_panel" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_scrollFlags="scroll" layout="@layout/tabs_panel" />
+            </com.google.android.material.appbar.AppBarLayout>
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/markets_grid_recycler_view" android:visibility="gone" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/markets_not_found_recycler_view" android:paddingLeft="3.0dip" android:paddingRight="3.0dip" android:visibility="gone" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never" android:paddingHorizontal="3.0dip" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    </LinearLayout>
+    <include android:id="@id/event_not_found_panel" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/data_not_found_panel_layout" />
+</LinearLayout>

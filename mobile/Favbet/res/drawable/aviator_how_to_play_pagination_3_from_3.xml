@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:right="45.0dip">
+        <shape android:shape="oval">
+            <solid android:color="@color/profile_pagination_bg_color_with_alpha_selector" />
+            <corners android:radius="10.0dip" />
+            <size android:height="5.0dip" android:width="5.0dip" />
+        </shape>
+    </item>
+    <item android:left="10.0dip" android:right="35.0dip">
+        <shape android:shape="oval">
+            <solid android:color="@color/profile_pagination_bg_color_with_alpha_selector" />
+            <corners android:radius="10.0dip" />
+            <size android:height="5.0dip" android:width="5.0dip" />
+        </shape>
+    </item>
+    <item android:left="20.0dip">
+        <shape>
+            <solid android:color="?profile_pagination" />
+            <corners android:radius="11.0dip" />
+            <size android:height="5.0dip" android:width="30.0dip" />
+        </shape>
+    </item>
+</layer-list>

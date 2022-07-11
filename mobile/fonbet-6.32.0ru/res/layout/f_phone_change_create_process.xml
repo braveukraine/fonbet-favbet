@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:id="@id/scroll_view" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/process_container_top_padding" android:paddingBottom="@dimen/process_container_bottom_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@drawable/space_h_8" android:showDividers="middle" android:paddingStart="@dimen/process_container_start_padding" android:paddingEnd="@dimen/process_container_end_padding">
+        <com.google.android.material.textview.MaterialTextView android:textSize="12.0sp" android:textColor="?color_900" android:id="@id/current_phone_label_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/phone_change.old_phone" style="@style/Widget.Fonbet.Text.Regular" />
+        <com.fonbet.core.impl.fon.ui.widget.inputlayout.CustomTextInputLayout android:id="@id/current_phone_il" android:layout_width="fill_parent" android:layout_height="wrap_content" app:ctil_isStaticText="true" app:hintEnabled="false" style="@style/Widget.Fonbet.CustomTextInputLayout.Bold">
+            <com.fonbet.core.commons.ui.widget.inputlayout.edittext.CustomTextInputEditText android:textSize="16.0sp" android:id="@id/current_phone_et" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="phone" />
+        </com.fonbet.core.impl.fon.ui.widget.inputlayout.CustomTextInputLayout>
+        <com.google.android.material.textview.MaterialTextView android:textSize="12.0sp" android:textColor="?color_900" android:id="@id/new_phone_label_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/field.phone_number" style="@style/Widget.Fonbet.Text.Regular" />
+        <com.fonbet.core.phonemask.impl.fon.ui.widget.PhoneInputWidget android:id="@id/phone_input_widget" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.google.android.material.button.MaterialButton android:id="@id/send_code_btn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/action.send_confirmation_code" style="@style/Widget.Fonbet.Button.Filled" />
+        <com.google.android.material.button.MaterialButton android:id="@id/change_number_btn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/phonechange_create_process_action_change_number" style="@style/Widget.Fonbet.Button.Naked.Bold.Blue" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

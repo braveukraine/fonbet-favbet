@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.textview.MaterialTextView android:textSize="12.0sp" android:textColor="?color_900_a40" android:layout_gravity="center_vertical" android:id="@id/resend_code_in" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/phone_change_request_code_again_in" style="@style/Widget.Fonbet.Text.Medium" />
+    <com.google.android.material.button.MaterialButton android:layout_gravity="center_vertical" android:id="@id/resend_code" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/phone_change.request_code_again" style="@style/Widget.Fonbet.Button.Naked.Medium.Blue" />
+</FrameLayout>

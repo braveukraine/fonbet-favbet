@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.button.MaterialButton android:ellipsize="end" android:id="@id/sign_up" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/action.sign_up" android:maxLines="1" android:layout_weight="1.0" style="@style/Widget.Fonbet.Button.Filled" />
+    <com.google.android.material.button.MaterialButton android:id="@id/sign_in" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/action.sign_in" style="@style/Widget.Fonbet.Button.Filled.White" />
+</merge>

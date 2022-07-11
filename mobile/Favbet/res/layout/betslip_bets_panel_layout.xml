@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/betslip_bets_panel_layout_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:bind="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minHeight="190.0dip">
+        <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="41.0dip" android:layout_marginRight="41.0dip" android:layout_marginHorizontal="41.0dip">
+            <androidx.appcompat.widget.AppCompatImageView android:layout_width="67.0dip" android:layout_height="67.0dip" android:src="@drawable/ic_nav_tab_prematch_lobby" android:scaleType="fitXY" android:tint="?General_txt_color2" />
+            <com.betinvest.android.views.RobotoBoldTextView android:textStyle="bold" android:textColor="?General_txt_color2" android:id="@id/empty_betslip_title_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:textAllCaps="true" />
+            <com.betinvest.android.views.RobotoRegularTextView android:textStyle="bold" android:textColor="?General_txt_color2" android:gravity="center" android:id="@id/empty_betslip_description_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" />
+        </LinearLayout>
+    </FrameLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/bets_recycler_view" android:tag="binding_2" android:background="?General_body_betslip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="never" />
+    <FrameLayout android:id="@id/clean_button" android:tag="binding_3" android:background="@drawable/betslip_clear_all_bg_selector" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="40.0dip">
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="12.0dip">
+            <androidx.appcompat.widget.AppCompatImageView android:layout_width="14.0sp" android:layout_height="14.0sp" android:src="@drawable/ic_betslip_delete" android:scaleType="centerInside" android:tint="?Btn_Tertiary_color_3" />
+            <com.betinvest.android.views.RobotoBoldTextView android:textColor="?Btn_Tertiary_color_3" android:id="@id/clean_description_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAllCaps="true" android:layout_marginStart="6.0dip" />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/event_details_nested_nav_graph" app:startDestination="@id/eventDetailsFragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="EventDetailsFragment" android:name="com.betinvest.favbet3.sportsbook.event.details.EventDetailsFragment" android:id="@id/eventDetailsFragment">
+        <argument android:name="eventId" app:argType="integer" />
+        <argument android:name="serviceId" app:argType="integer" />
+        <argument android:name="category" android:defaultValue="@null" app:argType="string" app:nullable="true" />
+        <argument android:name="tournament" android:defaultValue="@null" app:argType="string" app:nullable="true" />
+        <action android:id="@id/toEventStats" app:destination="@id/eventStatsFragment" />
+        <action android:id="@id/toBetRadarStats" app:destination="@id/betRadarStatsFragment" />
+    </fragment>
+    <fragment android:label="StatisticsFragment" android:name="com.betinvest.favbet3.sportsbook.event.details.services.EventStatsFragment" android:id="@id/eventStatsFragment">
+        <argument android:name="url" app:argType="string" />
+    </fragment>
+    <fragment android:label="BetRadarStatisticsFragment" android:name="com.betinvest.favbet3.sportsbook.event.details.services.betradar.BetRadarStatsFragment" android:id="@id/betRadarStatsFragment">
+        <argument android:name="matchId" app:argType="string" />
+        <argument android:name="mode" app:argType="com.betinvest.favbet3.sportsbook.event.details.services.betradar.BetRadarStatMode" />
+    </fragment>
+</navigation>

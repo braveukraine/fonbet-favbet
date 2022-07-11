@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/item_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@drawable/space_h_16" android:minHeight="40.0dip" android:showDividers="middle" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip">
+        <com.google.android.material.textview.MaterialTextView android:textColor="?color_900" android:layout_gravity="center_vertical" android:id="@id/title_tv" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/Widget.Fonbet.Text.Medium" />
+        <com.fonbet.core.commons.ui.widget.ConcentricCirclesWidget android:layout_gravity="center_vertical" android:id="@id/indicator_view" android:visibility="gone" android:layout_width="20.0dip" android:layout_height="20.0dip" app:ccw_circleColor="?color_blue" app:ccw_innerCircleRadius="6.0dip" />
+        <ImageView android:layout_gravity="center_vertical" android:layout_width="12.0dip" android:layout_height="12.0dip" app:srcCompat="@drawable/ic_arrow_right" app:tint="?color_500" />
+    </LinearLayout>
+</merge>

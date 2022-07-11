@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.button.MaterialButton android:orientation="vertical" android:id="@id/widget" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:text="@string/action.sign_out" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" style="@style/Widget.Fonbet.Button.Outlined.Blue"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

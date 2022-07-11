@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:divider="@drawable/space_h_8" android:layout_weight="1.0" android:showDividers="middle">
+        <com.google.android.material.textview.MaterialTextView android:textSize="14.0sp" android:textColor="?color_900" android:id="@id/title_tv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/settings.gold_bet.title" style="@style/Widget.Fonbet.Text.Medium" />
+        <com.google.android.material.textview.MaterialTextView android:textSize="14.0sp" android:textColor="?color_900" android:id="@id/subtitle_tv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/settings.gold_bet.description" style="@style/Widget.Fonbet.Text.Regular" />
+    </LinearLayout>
+    <androidx.appcompat.widget.SwitchCompat android:textSize="14.0sp" android:id="@id/switcher" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Widget.Fonbet.SwitchButton.Blue" />
+</merge>

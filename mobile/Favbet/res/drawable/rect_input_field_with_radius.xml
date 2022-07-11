@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="?input_bg_color_1" />
+    <corners android:topLeftRadius="@dimen/corner_radius" android:topRightRadius="@dimen/corner_radius" />
+    <stroke android:width="@dimen/dist_1" android:color="?input_border_color_1" />
+</shape>

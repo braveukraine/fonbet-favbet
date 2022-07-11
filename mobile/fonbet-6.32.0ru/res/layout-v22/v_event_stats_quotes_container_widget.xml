@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.fonbet.event.impl.ui.widget.eventheader.metainfo.EventStatsWidget android:id="@id/stats_widget" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="0.0dip" android:paddingHorizontal="16.0dip" app:layout_constraintBottom_toTopOf="@id/stats_widget" app:layout_constraintTop_toTopOf="parent" />
+    <com.fonbet.core.commons.ui.widget.epoxy.CustomEpoxyRecyclerView android:id="@id/quotes_container" android:background="@color/transparent" android:paddingLeft="16.0dip" android:paddingTop="8.0dip" android:paddingRight="16.0dip" android:paddingBottom="8.0dip" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingHorizontal="16.0dip" android:paddingVertical="8.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.0" app:layout_constraintStart_toStartOf="parent" />
+</merge>

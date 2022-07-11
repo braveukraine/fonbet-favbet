@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.textview.MaterialTextView android:textSize="16.0sp" android:id="@id/caption" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip" style="@style/Widget.Fonbet.Text.Bold" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip">
+        <com.google.android.material.textview.MaterialTextView android:textSize="12.0sp" android:textColor="?color_900_a80" android:id="@id/datetime" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Widget.Fonbet.Text.Medium" />
+        <com.google.android.material.textview.MaterialTextView android:textSize="12.0sp" android:textColor="?color_900_a60" android:id="@id/region" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="8.0dip" style="@style/Widget.Fonbet.Text.Regular" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/sum_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip">
+        <com.google.android.material.textview.MaterialTextView android:textSize="12.0sp" android:textColor="?color_900_a60" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/news.win_sum" style="@style/Widget.Fonbet.Text.Regular" />
+        <com.google.android.material.textview.MaterialTextView android:textSize="16.0sp" android:textColor="?color_positive" android:id="@id/win_sum" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="8.0dip" style="@style/Widget.Fonbet.Text.Bold" />
+    </LinearLayout>
+</merge>

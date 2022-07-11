@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/login_user_panel_layout_0" android:background="?General_body_profile" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:bind="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.betinvest.android.views.RobotoRegularEditText android:textSize="14.0sp" android:textColor="?input_txt" android:textColorHint="?input_txt_placeholder" android:gravity="center_vertical" android:id="@id/login_email_value" android:tag="binding_2" android:background="@drawable/favbet_input_layout_input_text_background_selector" android:layout_width="fill_parent" android:layout_height="40.0dip" android:hint="@string/native_login_email" android:inputType="text" android:imeOptions="actionNext" android:paddingStart="8.0dip" />
+        <include android:id="@id/password" layout="@layout/favbet_input_password_with_eye_layout" />
+        <LinearLayout android:orientation="vertical" android:id="@id/login_captcha_block" android:tag="binding_3" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center_horizontal" android:id="@id/login_captcha_image" android:layout_width="wrap_content" android:layout_height="@dimen/dist_60" android:scaleType="centerCrop" android:adjustViewBounds="true" android:minHeight="@dimen/dist_50" />
+                <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center_vertical" android:id="@id/login_captcha_refresh_image" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_refresh" android:tint="?profile_txt2" android:layout_marginStart="@dimen/dist_20" />
+            </LinearLayout>
+            <include android:id="@id/login_captcha_edit" layout="@layout/favbet_input_layout" />
+        </LinearLayout>
+        <com.betinvest.android.views.RobotoBoldTextView android:textSize="10.0sp" android:textColor="?profile_txt1" android:gravity="center_vertical" android:layout_gravity="end|center" android:id="@id/forgot_password_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" bind:textAllCaps="true" />
+        <com.betinvest.favbet3.custom.view.FavbetCheckBox android:textSize="@dimen/text_14sp" android:textColor="?checkbox_txt" android:id="@id/remember_me_check_box" android:tag="binding_4" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textOff="" android:buttonTint="?checkbox" android:drawableTint="?checkbox" bind:showText="true" />
+        <include android:id="@id/login_button_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" layout="@layout/primary1_btn_layout" />
+        <com.betinvest.android.views.RobotoRegularTextView android:textSize="16.0sp" android:textColor="?profile_txt2" android:layout_gravity="center" android:id="@id/login_no_account_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="22.0dip" />
+        <com.betinvest.android.views.RobotoBoldTextView android:textSize="@dimen/text_14sp" android:textStyle="bold" android:textColor="?Btn_Tertiary_color_1" android:layout_gravity="center" android:id="@id/sign_up" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:textAllCaps="true" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/shield_keyboard_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

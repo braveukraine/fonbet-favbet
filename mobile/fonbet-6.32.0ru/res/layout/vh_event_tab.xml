@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/ripple_unbound" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginStart="4.0dip" android:layout_marginEnd="4.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.textview.MaterialTextView android:textSize="14.0sp" android:layout_gravity="center" android:id="@id/text" android:layout_width="wrap_content" android:layout_height="14.0dip" android:singleLine="true" android:paddingStart="4.0dip" android:paddingEnd="4.0dip" style="@style/Widget.Fonbet.Text.Bold" />
+    <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:id="@id/image_view" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip" />
+    <View android:layout_gravity="bottom" android:id="@id/indicator" android:background="?color_900" android:layout_width="wrap_content" android:layout_height="2.0dip" />
+</FrameLayout>

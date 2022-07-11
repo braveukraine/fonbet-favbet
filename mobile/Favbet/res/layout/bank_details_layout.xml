@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/bank_details_layout_0" android:background="?secondary_white1" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:bind="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/bank_details_empty_credential_layout" layout="@layout/bank_details_credential_empty_layout" />
+    <include android:id="@id/bank_details_credential_list_layout" layout="@layout/bank_details_credential_list_layout" />
+</LinearLayout>

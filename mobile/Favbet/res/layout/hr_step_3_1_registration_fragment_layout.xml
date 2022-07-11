@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/hr_step_3_1_registration_fragment_layout_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:bind="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.betinvest.android.views.RobotoBoldTextView android:textSize="@dimen/text_14sp" android:textStyle="bold" android:textColor="?profile_txt1" android:gravity="start" android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dist_20" bind:textAllCaps="true" />
+        <com.betinvest.android.views.RobotoBoldTextView android:textSize="@dimen/text_14sp" android:textStyle="bold" android:textColor="?state_danger" android:gravity="start" android:id="@id/register_source_of_assets_empty_text" android:tag="binding_2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" bind:textAllCaps="true" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/politically_state_recycler" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</FrameLayout>

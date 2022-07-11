@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/document_verification_nested_graph" app:startDestination="@id/documentFieldsFragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="DocumentFieldsFragment" android:name="com.betinvest.favbet3.menu.myprofile.document.verification.ua.create.CreateDocumentFragment" android:id="@id/documentFieldsFragment">
+        <action android:id="@id/toUploadDocument" app:destination="@id/uploadDocumentFragment" />
+        <action android:id="@id/toChangeNationality" app:destination="@id/nationalityBottomSheetDialogFragment" />
+        <action android:id="@id/toChangeDocumentType" app:destination="@id/documentTypeBottomSheetDialogFragment" />
+    </fragment>
+    <fragment android:label="DocumentPhotoFragment" android:name="com.betinvest.favbet3.menu.myprofile.document.verification.ua.upload.UploadDocumentFragment" android:id="@id/uploadDocumentFragment">
+        <action android:id="@id/toUploadSuccess" app:destination="@id/uploadDocumentSuccessFragment" />
+        <action android:id="@id/toUploadFail" app:destination="@id/uploadDocumentFailFragment" />
+        <action android:id="@id/toCaptureDocumentRequestPermissionFragment" app:destination="@id/captureDocumentRequestPermissionFragment" />
+    </fragment>
+    <dialog android:label="DocumentTypeBottomSheetDialogFragment" android:name="com.betinvest.favbet3.menu.myprofile.document.verification.ua.create.dialog.document.type.DocumentTypeDialogFragment" android:id="@id/documentTypeBottomSheetDialogFragment" />
+    <dialog android:label="NationalityBottomSheetDialogFragment" android:name="com.betinvest.favbet3.menu.myprofile.document.verification.ua.create.dialog.nationality.ChangeNationalityDialog" android:id="@id/nationalityBottomSheetDialogFragment" />
+    <fragment android:label="UploadDocumentSuccessFragment" android:name="com.betinvest.favbet3.menu.myprofile.document.verification.ua.success.UploadUaDocumentSuccessFragment" android:id="@id/uploadDocumentSuccessFragment">
+        <action android:id="@id/toViewDocument" app:destination="@id/viewDocumentFragment" />
+    </fragment>
+    <fragment android:label="UploadDocumentFailFragment" android:name="com.betinvest.favbet3.menu.myprofile.document.verification.ua.fail.UploadUaDocumentFailFragment" android:id="@id/uploadDocumentFailFragment" />
+    <fragment android:label="ViewDocumentFragment" android:name="com.betinvest.favbet3.menu.myprofile.document.view.ViewDocumentFragment" android:id="@id/viewDocumentFragment" />
+    <fragment android:label="CaptureDocumentRequestPermissionFragment" android:name="com.betinvest.favbet3.menu.myprofile.document.verification.ua.jumio.CaptureDocumentRequestPermissionFragment" android:id="@id/captureDocumentRequestPermissionFragment">
+        <action android:id="@id/toUploadDocument" app:destination="@id/uploadDocumentFragment" />
+    </fragment>
+</navigation>

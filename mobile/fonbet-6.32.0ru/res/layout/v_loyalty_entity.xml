@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.facebook.shimmer.ShimmerFrameLayout android:layout_gravity="center_horizontal" android:id="@id/shimmer_background_view" android:background="?color_700_a20" android:layout_width="fill_parent" android:layout_height="fill_parent" app:shimmer_direction="left_to_right" app:shimmer_tilt="0.0">
+        <WebView android:id="@id/web_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.facebook.shimmer.ShimmerFrameLayout>
+</merge>

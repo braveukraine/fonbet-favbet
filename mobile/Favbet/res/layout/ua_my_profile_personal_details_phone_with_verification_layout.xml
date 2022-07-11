@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/ua_my_profile_personal_details_phone_with_verification_layout_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:bind="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.betinvest.android.views.RobotoRegularTextView android:textSize="14.0sp" android:textColor="?profile_txt1" android:id="@id/profile_personal_data_phone_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+            <LinearLayout android:orientation="horizontal" android:id="@id/by_mobile_code" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="85.0dip" android:minHeight="40.0dip">
+                <com.betinvest.android.views.RobotoBoldTextView android:textStyle="bold" android:textColor="?profile_txt1" android:layout_gravity="center" android:tag="binding_2" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="8.0dip" />
+                <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/ic_open_down" android:scaleType="fitXY" android:tint="?input_txt" android:layout_marginStart="4.0dip" android:layout_marginEnd="16.0dip" />
+            </LinearLayout>
+            <com.betinvest.android.views.RobotoBoldEditText android:textSize="14.0sp" android:textStyle="bold" android:textColor="?profile_txt1" android:layout_gravity="center" android:id="@id/phone_number" android:tag="binding_3" android:background="@drawable/result_filter_field_bg_selector" android:paddingLeft="8.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:minHeight="40.0dip" android:layout_weight="1.0" android:inputType="phone" android:imeOptions="actionDone" android:layout_marginStart="10.0dip" />
+            <LinearLayout android:id="@id/phone_verification_action_button" android:tag="binding_4" android:layout_width="120.0dip" android:layout_height="fill_parent" android:layout_marginStart="10.0dip">
+                <com.betinvest.android.views.RobotoBoldTextView android:textStyle="bold" android:gravity="center" android:layout_gravity="center" android:id="@id/phone_verification_action_text" android:tag="binding_5" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textAllCaps="true" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:tag="binding_6" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip">
+            <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:layout_width="12.0dip" android:layout_height="12.0dip" android:src="@drawable/ic_warning" />
+            <com.betinvest.android.views.RobotoRegularTextView android:textSize="12.0sp" android:textColor="?profile_txt2" android:id="@id/phone_verification_not_verified_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="8.0dip" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:tag="binding_7" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip">
+            <com.betinvest.android.views.RobotoBoldTextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="?accent_red" android:id="@id/error_with_dot_text" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <com.betinvest.android.views.RobotoRegularTextView android:textSize="12.0sp" android:textColor="?accent_red" android:tag="binding_8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="4.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/phone_verification_code_section" android:tag="binding_9" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.betinvest.android.views.RobotoRegularTextView android:textSize="14.0sp" android:textColor="?profile_txt1" android:id="@id/phone_verification_code_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" />
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.betinvest.favbet3.custom.view.status_aware.StatusAwareRegularEditText android:textSize="14.0sp" android:textStyle="bold" android:textColor="?profile_txt1" android:layout_gravity="center" android:id="@id/verification_code_edit" android:tag="binding_10" android:background="@drawable/favbet_input_layout_input_text_background_selector" android:paddingLeft="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="40.0dip" android:inputType="number" android:imeOptions="actionDone" />
+        </LinearLayout>
+        <com.betinvest.android.views.RobotoRegularTextView android:textSize="12.0sp" android:id="@id/phone_verification_code_label" android:tag="binding_11" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" />
+        <LinearLayout android:id="@id/verification_code_button" android:tag="binding_12" android:background="@drawable/round_2_ripple_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:minHeight="45.0dip" android:backgroundTint="?Btn_Primary_bg_color_1">
+            <com.betinvest.android.views.RobotoBoldTextView android:textStyle="bold" android:textColor="?Btn_Primary_txt_color_1" android:gravity="center" android:layout_gravity="center" android:id="@id/verification_code_button_text" android:tag="binding_13" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textAllCaps="true" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

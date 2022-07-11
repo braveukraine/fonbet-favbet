@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="20.0dip" android:layoutDirection="rtl"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/monetary_balance_container" android:background="@drawable/bg_frame_rounded_2_f_100_s_500_a40" android:layout_width="wrap_content" android:layout_height="fill_parent" android:translationZ="1.0dip">
+        <com.google.android.material.textview.MaterialTextView android:textSize="12.0sp" android:textColor="?color_900" android:layout_gravity="center_vertical" android:id="@id/monetary_balance_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="6.0dip" android:layout_marginEnd="6.0dip" style="@style/Widget.Fonbet.Text.Bold" />
+        <View android:background="?color_500_a40" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/deposit_iv" android:layout_width="12.0dip" android:layout_height="12.0dip" android:src="@drawable/ic_make_deposit" android:contentDescription="@null" android:layout_marginStart="6.0dip" android:layout_marginEnd="6.0dip" app:tint="?color_900" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/additional_balance_container" android:background="@drawable/bg_frame_rounded_2_f_700_a05_s_500_a40" android:layout_width="wrap_content" android:layout_height="fill_parent" android:paddingStart="16.0dip" android:paddingEnd="8.0dip" android:layout_marginStart="-8.0dip">
+        <LinearLayout android:orientation="horizontal" android:id="@id/hold_balance_container" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <ImageView android:layout_gravity="center_vertical" android:layout_width="12.0dip" android:layout_height="12.0dip" android:src="@drawable/ic_event_blocked" android:contentDescription="@null" app:tint="?color_500" />
+            <com.google.android.material.textview.MaterialTextView android:textSize="12.0sp" android:textColor="?color_500" android:layout_gravity="center_vertical" android:id="@id/hold_balance_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="2.0dip" style="@style/Widget.Fonbet.Text.Bold" />
+        </LinearLayout>
+        <View android:id="@id/additional_balance_divider" android:background="?color_500_a40" android:layout_width="1.0dip" android:layout_height="fill_parent" android:layout_marginStart="6.0dip" android:layout_marginEnd="6.0dip" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/bonus_balance_container" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <ImageView android:layout_gravity="center_vertical" android:layout_width="12.0dip" android:layout_height="12.0dip" android:src="@drawable/ic_free_bet_2" android:contentDescription="@null" app:tint="?color_900" />
+            <com.google.android.material.textview.MaterialTextView android:textSize="12.0sp" android:textColor="?color_900" android:layout_gravity="center_vertical" android:id="@id/bonus_balance_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="2.0dip" style="@style/Widget.Fonbet.Text.Bold" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

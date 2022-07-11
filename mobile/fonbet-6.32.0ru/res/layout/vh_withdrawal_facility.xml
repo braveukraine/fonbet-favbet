@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="108.0dip" android:minHeight="108.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/content_container" android:background="@drawable/bg_frame_rounded_4_f_500_a20_s_100" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:minWidth="108.0dip" android:minHeight="108.0dip">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="start|center" android:id="@id/facility_icon_iv" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/ic_payment_facility_default" />
+            <ImageView android:layout_gravity="end|center" android:id="@id/facility_fav_icon_iv" android:layout_width="24.0dip" android:layout_height="24.0dip" />
+            <ProgressBar android:layout_gravity="end|center" android:id="@id/facility_fav_progress" android:visibility="gone" android:layout_width="24.0dip" android:layout_height="24.0dip" android:indeterminateTint="?color_red" />
+        </FrameLayout>
+        <Space android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <com.google.android.material.textview.MaterialTextView android:textSize="16.0sp" android:textColor="?color_900" android:ellipsize="end" android:id="@id/facility_title_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:maxLines="2" style="@style/Widget.Fonbet.Text.Bold" />
+        <com.google.android.material.textview.MaterialTextView android:textSize="14.0sp" android:textColor="?color_900" android:ellipsize="end" android:id="@id/facility_fee_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:maxLines="2" style="@style/Widget.Fonbet.Text.Medium" />
+    </LinearLayout>
+</FrameLayout>

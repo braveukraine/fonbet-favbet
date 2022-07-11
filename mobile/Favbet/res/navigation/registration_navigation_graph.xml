@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/registration_navigation_graph" app:startDestination="@id/registrationStep1Fragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="RegistrationStep1Fragment" android:name="com.betinvest.favbet3.registration.partners.common.step1.Step1Fragment" android:id="@id/registrationStep1Fragment">
+        <action android:id="@id/to_registrationStep2Fragment" app:destination="@id/registrationStep2Fragment" />
+        <action android:id="@id/to_registrationStep4SuccessFragment" app:destination="@id/registrationStep4SuccessFragment" />
+        <action android:id="@id/to_registrationStep5FailFragment" app:destination="@id/registrationStep5FailFragment" />
+    </fragment>
+    <fragment android:label="RegistrationStep2Fragment" android:name="com.betinvest.favbet3.registration.partners.common.step2.Step2Fragment" android:id="@id/registrationStep2Fragment">
+        <action android:id="@id/to_registrationStep3Fragment" app:destination="@id/registrationStep3Fragment" />
+    </fragment>
+    <fragment android:label="RegistrationStep3Fragment" android:name="com.betinvest.favbet3.registration.partners.common.step3.Step3Fragment" android:id="@id/registrationStep3Fragment">
+        <action android:id="@id/to_registrationStep4SuccessFragment" app:destination="@id/registrationStep4SuccessFragment" />
+        <action android:id="@id/to_registrationStep5FailFragment" app:destination="@id/registrationStep5FailFragment" />
+    </fragment>
+    <fragment android:label="RegistrationStep4Fragment" android:name="com.betinvest.favbet3.registration.partners.common.step4.Step4Fragment" android:id="@id/registrationStep4SuccessFragment">
+        <action android:id="@id/action_registrationStep4SuccessFragment_to_walletsCreationFragment2" app:destination="@id/to_walletsCreationFragment2" />
+    </fragment>
+    <fragment android:label="RegistrationStep5Fragment" android:name="com.betinvest.favbet3.registration.partners.common.step5.Step5Fragment" android:id="@id/registrationStep5FailFragment">
+        <action android:id="@id/to_registrationStep1Fragment" app:destination="@id/registrationStep1Fragment" />
+    </fragment>
+    <fragment android:label="WalletsCreationFragment" android:name="com.betinvest.favbet3.menu.balance.wallets_creation.WalletsCreationFragment" android:id="@id/to_walletsCreationFragment2" />
+</navigation>

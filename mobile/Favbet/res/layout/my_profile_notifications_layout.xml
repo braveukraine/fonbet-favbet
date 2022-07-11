@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/root_layout" android:tag="layout/my_profile_notifications_layout_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:bind="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:tag="binding_1" android:background="?General_body_profile" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:id="@id/toolbar" layout="@layout/default_toolbar_panel_layout" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="16.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="16.0dip" android:layout_marginHorizontal="16.0dip">
+            <com.betinvest.android.views.RobotoRegularTextView android:textSize="14.0sp" android:textColor="?profile_txt1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/native_profile_notifications_info_1" />
+            <com.betinvest.android.views.RobotoRegularTextView android:textSize="14.0sp" android:textColor="?profile_txt1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/native_profile_notifications_info_2" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/notification_email" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip">
+                <androidx.appcompat.widget.AppCompatImageView android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_check_on" android:tint="?checkbox" />
+                <androidx.appcompat.widget.AppCompatImageView android:tag="binding_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_check_off" android:tint="?checkbox" />
+                <com.betinvest.android.views.RobotoRegularTextView android:textColor="?checkbox_txt" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/native_profile_notifications_email" android:layout_marginStart="8.0dip" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/notification_text_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip">
+                <androidx.appcompat.widget.AppCompatImageView android:tag="binding_4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_check_on" android:tint="?checkbox" />
+                <androidx.appcompat.widget.AppCompatImageView android:tag="binding_5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_check_off" android:tint="?checkbox" />
+                <com.betinvest.android.views.RobotoRegularTextView android:textColor="?checkbox_txt" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/native_profile_notifications_text_message" android:layout_marginStart="8.0dip" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/notification_voice_calls" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip">
+                <androidx.appcompat.widget.AppCompatImageView android:tag="binding_6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_check_on" android:tint="?checkbox" />
+                <androidx.appcompat.widget.AppCompatImageView android:tag="binding_7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_check_off" android:tint="?checkbox" />
+                <com.betinvest.android.views.RobotoRegularTextView android:textColor="?checkbox_txt" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/native_profile_notifications_voice_calls" android:layout_marginStart="8.0dip" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/save_button" android:tag="binding_8" android:background="@drawable/round_2_ripple_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:minHeight="45.0dip" android:backgroundTint="?Btn_Primary_bg_color_1">
+                <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+                <com.betinvest.android.views.RobotoBoldTextView android:textStyle="bold" android:textColor="?Btn_Primary_txt_color_1" android:layout_gravity="center" android:tag="binding_9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/native_profile_notifications_save" android:textAllCaps="true" />
+                <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <FrameLayout android:id="@id/shield_keyboard_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mdtp_date_v1_monthyear">MMMM, yyyy</string>
+    <string name="mdtp_date_v2_daymonthyear">EEE, dd MMM</string>
+    <string name="mdtp_day_picker_description">დღეების ბადე თვეზე</string>
+    <string name="mdtp_deleted_key">%1$s წაიშალა</string>
+    <string name="mdtp_done_label">დასრულდა</string>
+    <string name="mdtp_hour_picker_description">წრიული სლაიდერის დამალვა</string>
+    <string name="mdtp_item_is_selected">არჩეულია %1$s</string>
+    <string name="mdtp_minute_picker_description">წუთების წრიული სლაიდერი</string>
+    <string name="mdtp_select_day">აირჩიეთ თვე და რიცხვი</string>
+    <string name="mdtp_select_hours">აირჩიეთ საათები</string>
+    <string name="mdtp_select_minutes">აირჩიეთ წუთები</string>
+    <string name="mdtp_select_year">აირჩიეთ წელი</string>
+    <string name="mdtp_year_picker_description">წლის სია</string>
+</resources>

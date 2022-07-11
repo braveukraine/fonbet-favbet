@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/panel_root_view" android:tag="layout/euro_tournament_panel_layout_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/euro_logo_view" android:background="?selectableItemBackground" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="centerInside" android:adjustViewBounds="true" app:srcCompat="@drawable/euro_tournament_banner" />
+</FrameLayout>

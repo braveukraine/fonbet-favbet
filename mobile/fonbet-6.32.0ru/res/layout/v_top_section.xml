@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/v_top_section_icon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginBottom="8.0dip" app:tint="@android:color/white" />
+    <TextView android:textSize="14.0sp" android:textColor="@android:color/white" android:id="@id/v_top_section_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAllCaps="true" android:fontFamily="sans-serif-medium" />
+</merge>

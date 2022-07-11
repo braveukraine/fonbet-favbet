@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple android:color="?color_ripple" android:exitFadeDuration="@android:integer/config_shortAnimTime"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <solid android:color="?nav_button_bg" />
+            <corners android:topLeftRadius="4.0dip" android:topRightRadius="4.0dip" android:bottomLeftRadius="4.0dip" android:bottomRightRadius="4.0dip" />
+        </shape>
+    </item>
+</ripple>

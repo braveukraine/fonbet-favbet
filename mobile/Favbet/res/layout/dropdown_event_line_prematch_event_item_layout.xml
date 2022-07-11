@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:tag="layout/dropdown_event_line_prematch_event_item_layout_0" android:background="?dropdown_list_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="?dropdown_list_border" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="4.0dip" android:layout_marginRight="4.0dip" android:layout_marginHorizontal="4.0dip" />
+    <com.betinvest.favbet3.custom.view.TouchAbsorbLinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:tag="binding_1" android:background="?selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="4.0dip">
+        <include android:id="@id/period_panel" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/dropdown_event_time_details_panel_layout" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/participants_rv" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginEnd="5.0dip" />
+    </com.betinvest.favbet3.custom.view.TouchAbsorbLinearLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>

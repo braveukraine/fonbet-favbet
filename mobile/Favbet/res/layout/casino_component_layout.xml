@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:tag="layout/casino_component_layout_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:gravity="end" android:id="@id/app_bar_layout" android:tag="binding_1" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" app:elevation="0.0dip">
+        <include android:id="@id/banners_panel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" app:layout_scrollFlags="scroll" layout="@layout/casino_banners_panel_layout" />
+        <include android:id="@id/categories_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_scrollFlags="enterAlways" layout="@layout/casino_categories_component_layout" />
+    </com.google.android.material.appbar.AppBarLayout>
+    <include android:id="@id/empty_games_panel" android:visibility="gone" layout="@layout/casino_games_panel_item_empty_layout" />
+    <include android:id="@id/empty_favourite_games_panel" android:visibility="gone" layout="@layout/casino_games_panel_item_favourite_empty_layout" />
+    <include android:id="@id/empty_live_favourite_games_panel" android:visibility="gone" layout="@layout/casino_games_panel_item_live_favourite_empty_layout" />
+    <include android:id="@id/games_layout" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never" app:layout_behavior="@string/appbar_scrolling_view_behavior" layout="@layout/casino_games_component_layout" />
+    <include android:id="@id/progress_panel" android:visibility="gone" layout="@layout/progress_panel_layout" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

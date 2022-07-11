@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/v_event_penalty" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="264.0dip" android:minWidth="58.0dip" android:animateLayoutChanges="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="50.0dip" android:layout_height="fill_parent">
+        <ImageView android:layout_gravity="end|center" android:id="@id/shadow_image" android:layout_width="100.0dip" android:layout_height="58.0dip" android:translationX="50.0dip" />
+    </FrameLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/event_penalty_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="264.0dip" android:minWidth="58.0dip" android:animateLayoutChanges="true">
+        <FrameLayout android:layout_gravity="start" android:id="@id/expand_button_container" android:layout_width="9.0dip" android:layout_height="fill_parent">
+            <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:id="@id/expand_button" android:layout_width="12.0dip" android:layout_height="12.0dip" />
+        </FrameLayout>
+        <HorizontalScrollView android:enabled="true" android:id="@id/penalty_scroll" android:scrollbars="none" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="227.0dip" android:minWidth="31.0dip" android:fillViewport="true" android:overScrollMode="never" android:animateLayoutChanges="true" android:layoutDirection="rtl">
+            <LinearLayout android:orientation="vertical" android:id="@id/teams_penalties_container" android:paddingTop="6.0dip" android:paddingBottom="6.0dip" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="31.0dip" android:minHeight="58.0dip" android:animateLayoutChanges="true">
+                <com.fonbet.core.sportbook.commons.ui.view.penalty.EventTeamPenaltyWidget android:gravity="top" android:id="@id/team_1_penalty_widget" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="2.0dip" />
+                <Space android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_weight="1.0" />
+                <com.fonbet.core.sportbook.commons.ui.view.penalty.EventTeamPenaltyWidget android:gravity="bottom" android:id="@id/team_2_penalty_widget" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="2.0dip" />
+            </LinearLayout>
+        </HorizontalScrollView>
+        <LinearLayout android:gravity="center_horizontal" android:layout_gravity="end" android:orientation="vertical" android:id="@id/current_penalty_info_container" android:paddingTop="6.0dip" android:paddingBottom="6.0dip" android:layout_width="18.0dip" android:layout_height="fill_parent">
+            <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center|top" android:id="@id/team_1_current_indicator" android:layout_width="11.0dip" android:layout_height="11.0dip" android:layout_marginLeft="3.0dip" android:layout_marginRight="4.0dip" />
+            <TextView android:textSize="10.0sp" android:gravity="center" android:id="@id/penalty_count_tv" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" style="@style/Widget.Fonbet.Text.Medium" />
+            <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="bottom|center" android:id="@id/team_2_current_indicator" android:layout_width="11.0dip" android:layout_height="11.0dip" android:layout_marginLeft="3.0dip" android:layout_marginRight="4.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

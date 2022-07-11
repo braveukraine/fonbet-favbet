@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/bonus_icon_from_iv" android:visibility="gone" android:layout_width="11.0dip" android:layout_height="11.0dip" android:src="@drawable/ic_free_bet_2" android:contentDescription="@null" />
+    <com.google.android.material.textview.MaterialTextView android:textSize="14.0sp" android:layout_gravity="center" android:id="@id/sum_from_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" />
+    <com.google.android.material.textview.MaterialTextView android:textSize="14.0sp" android:layout_gravity="center_vertical" android:id="@id/arrow_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/history.bet.arrow" android:includeFontPadding="false" />
+    <ImageView android:id="@id/bonus_icon_to_iv" android:visibility="gone" android:layout_width="11.0dip" android:layout_height="11.0dip" android:src="@drawable/ic_free_bet_2" android:contentDescription="@null" />
+    <com.google.android.material.textview.MaterialTextView android:textSize="14.0sp" android:layout_gravity="center" android:id="@id/sum_to_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" />
+</merge>

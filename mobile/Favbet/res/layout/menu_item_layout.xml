@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:tag="layout/menu_item_layout_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:bind="http://schemas.android.com/apk/res-auto" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:tag="binding_1" android:background="@drawable/round_2_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="2.0dip" android:elevation="2.0dip" android:backgroundTint="?profile_menu_item_bg">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <androidx.appcompat.widget.AppCompatImageView android:tag="binding_2" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_margin="8.0dip" android:scaleType="fitXY" android:tint="?profile_menu_item_txt" />
+            <com.betinvest.android.views.RobotoRegularTextView android:textSize="16.0sp" android:textColor="?profile_menu_item_txt" android:tag="binding_3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="8.0dip" android:maxLines="1" app:autoSizeMaxTextSize="16.0sp" app:autoSizeMinTextSize="12.0sp" app:autoSizeStepGranularity="1.0sp" app:autoSizeTextType="uniform" />
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="right" android:tag="binding_4" android:background="?profile_menu_item_counter" android:layout_width="25.0dip" android:layout_height="20.0dip">
+            <com.betinvest.android.views.RobotoRegularTextView android:textSize="12.0sp" android:textColor="?profile_menu_item_counter_txt" android:gravity="center" android:tag="binding_5" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/message_write_fragment_layout_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:bind="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:tag="binding_1" android:background="?General_body_profile" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:id="@id/toolbar_panel" layout="@layout/default_toolbar_panel_layout" />
+        <LinearLayout android:orientation="vertical" android:tag="binding_2" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_weight="1.0" android:layout_marginHorizontal="16.0dip">
+            <com.betinvest.android.views.RobotoBoldTextView android:textColor="?input_label_txt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40.0dip" android:text="@string/native_messages_subject" android:textAllCaps="true" />
+            <include android:id="@id/message_subject" layout="@layout/favbet_input_layout" />
+            <com.betinvest.android.views.RobotoBoldTextView android:textColor="?input_label_txt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/native_messages_text" android:textAllCaps="true" />
+            <include android:id="@id/message_text" layout="@layout/favbet_input_stretched_layout" />
+        </LinearLayout>
+        <include android:id="@id/message_button_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:elevation="1.0dip" layout="@layout/primary1_btn_layout_with_bg" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/shield_keyboard_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:gravity="center" android:id="@id/progress_bar" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ProgressBar android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</FrameLayout>

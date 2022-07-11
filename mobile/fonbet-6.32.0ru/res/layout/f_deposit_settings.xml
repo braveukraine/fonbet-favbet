@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:background="?color_toolbar_bg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:layout_gravity="bottom" android:background="@drawable/divider_color_500_a20" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <com.google.android.material.tabs.TabLayout android:id="@id/tab_layout" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Widget.Fonbet.TabLayout.Fixed" />
+    </FrameLayout>
+    <androidx.viewpager.widget.ViewPager android:id="@id/view_pager" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.fonbet.core.commons.ui.widget.TouchableEpoxyRecyclerView android:id="@id/container1" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <FrameLayout android:id="@id/receipt_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.fonbet.core.commons.ui.widget.epoxy.CustomEpoxyRecyclerView android:id="@id/receipt_rv" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <com.fonbet.restrictions.api.fon.ui.widget.RestrictionWidgetContainer android:layout_gravity="bottom" android:id="@id/restriction_widget" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" />
+        </FrameLayout>
+    </androidx.viewpager.widget.ViewPager>
+</LinearLayout>

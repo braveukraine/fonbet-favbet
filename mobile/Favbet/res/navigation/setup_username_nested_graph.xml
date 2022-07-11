@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/setup_username_nested_graph" app:startDestination="@id/setupUsernameFragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="SetupUsernameFragment" android:name="com.betinvest.favbet3.menu.login.setupusername.SetupUsernameFragment" android:id="@id/setupUsernameFragment">
+        <action android:id="@id/toSetupUsernameSuccessFragment" app:destination="@id/setupUsernameSuccessFragment" />
+    </fragment>
+    <fragment android:label="SetupUsernameSuccessFragment" android:name="com.betinvest.favbet3.menu.login.setupusername.SetupUsernameSuccessFragment" android:id="@id/setupUsernameSuccessFragment" />
+</navigation>

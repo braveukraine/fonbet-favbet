@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:tag="layout/information_web_view_fragment_layout_0" android:background="?primary_white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:gravity="end" android:id="@id/app_bar" android:tag="binding_1" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" app:elevation="0.0dip">
+        <include android:id="@id/toolbar_panel" layout="@layout/default_toolbar_panel_layout" />
+    </com.google.android.material.appbar.AppBarLayout>
+    <WebView android:id="@id/web_view" android:paddingTop="20.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/toolbar_panel" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

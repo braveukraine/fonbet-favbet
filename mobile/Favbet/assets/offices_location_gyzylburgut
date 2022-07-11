@@ -1,0 +1,257 @@
+<style>
+#ebzx {
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+#zmbr {
+background-color: #163768;
+border-radius: 2px;
+-moz-border-radius: 2px;
+-webkit-border-radius: 2px;
+box-shadow: 0 0 2px rgba(0, 0, 0, .24), 0 1px 1px rgba(0, 0, 0, .12);
+-moz-box-shadow: 0 0 2px rgba(0, 0, 0, .24), 0 1px 1px rgba(0, 0, 0, .12);
+-webkit-box-shadow: 0 0 2px rgba(0, 0, 0, .24), 0 1px 1px rgba(0, 0, 0, .12);
+color: #ffffff;
+font: 16px/18px sans-serif;
+letter-spacing: -1px;
+margin: 8px;
+overflow-wrap: break-word;
+padding: 32px;
+word-wrap: break-word;
+}
+
+#zmbr > h5 {
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  height: 48px;
+  line-height: 48px;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+}
+
+#zmbr > .aozp {
+  display: none;
+  margin: 0 0 16px 0;
+}
+
+#zmbr > .aozp > h6 {
+  font-size: 14px;
+  font-weight: bold;
+  padding: 0;
+  margin: 16px 0 8px;
+  text-transform: uppercase;
+}
+</style>
+<script>
+  window.addEventListener('load', Offices, false);
+
+  function Offices() {
+    var _headers = document.getElementsByTagName('h5');
+    for (var i = 0; i < _headers.length; i++) {
+      _headers[i].onclick = function() {
+        var _offices = this.nextSibling.nextSibling;
+        if (_offices.style.display === 'block') {
+          this.style.color = '#ffffff';
+          _offices.style.display = 'none';
+        } else {
+          this.style.color = 'red';
+          _offices.style.display = 'block';
+        }
+      }
+    }
+  }
+</script>
+<div id="ebzx">
+  <div id="zmbr">
+    <h5>Aşgabat</h5>
+    <div class="aozp">
+      <h6>Ашхабад</h6>
+      Salgysy: Парахат 7/1, Бахар магазин.<br>
+      Telefon: +99364301599.<br>
+      Iş wagty: 9:00 - 21:00
+                        <h6>Ашхабад</h6>
+      Salgysy: Русский базар, Магазин №23.<br>
+      Telefon: +99364308770.<br>
+      Iş wagty: 9:00 - 20:00
+                        <h6>Ашхабад</h6>
+      Salgysy: МИР 4, АЙ МАРКЕТ.<br>
+      Telefon: +99364305093.<br>
+      Iş wagty: 9:00 - 21:00
+                        <h6>Ашхабад</h6>
+      Salgysy: Багыр круг.<br>
+      Telefon: +99364300136.<br>
+      Iş wagty: 9:00 - 21:00
+                        <h6>Ашхабад</h6>
+      Salgysy: 5 АЯК, Бильярдный.<br>
+      Telefon: +99364302145.<br>
+      Iş wagty: 9:00 - 20:00
+                        <h6>Ашхабад</h6>
+      Salgysy: Гаудан Б, возле Гурт кафе.<br>
+      Telefon: +99364302791.<br>
+      Iş wagty: 9:00 - 22:00
+                        <h6>Ашхабад</h6>
+      Salgysy: Варашил, ул. Байкал<br>
+      Telefon: +99364301358.<br>
+      Iş wagty: 9:00 - 21:00
+                        <h6>Ашхабад</h6>
+      Salgysy: 30 микрорайон, возле кафе "Ice Berg".<br>
+      Telefon: +99364304409.<br>
+      Iş wagty: 9:00 - 21:00
+                        <h6>Ашхабад</h6>
+      Salgysy: 40 Йыллык, возле Мекан магазин.<br>
+      Telefon: +99364307304.<br>
+      Iş wagty: 9:00 - 21:00
+                         <h6>Ашхабад</h6>
+      Salgysy: Безмеин, Круг<br>
+      Telefon: +99364304461.<br>
+      Iş wagty: 9:00 - 21:00
+                         <h6>Ашхабад</h6>
+      Salgysy: Коши, Таслама.<br>
+      Telefon: +99364305568.<br>
+      Iş wagty: 9:00 - 21:00
+                         <h6>Ашхабад</h6>
+      Salgysy: Гыпджак, ул. Ниязов, 8 (около Парка)<br>
+      Telefon: +99361493625.<br>
+      Iş wagty: 9:00 - 21:00
+                        <h6>Ашхабад</h6>
+      Salgysy: Ашхабад, с выездом.<br>
+      Telefon: +99365673933.<br>
+      Iş wagty: 7/24
+                        <h6>Ашхабад</h6>
+      Salgysy: Ашхабад, с выездом.<br>
+      Telefon: +99365539076.<br>
+      Iş wagty: 7/24
+                         <h6>Ашхабад</h6>
+                        Salgysy: Ашхабад, МИР 1, Арзув Маркет.<br>
+      Telefon: +99364302246.<br>
+      Iş wagty: 7/24
+                        <h6>Ашхабад</h6>
+      Salgysy: Ашхабад, с выездом.<br>
+      Telefon: +99365599339.<br>
+      Iş wagty: 7/24
+                        <h6>Ашхабад</h6>
+                        Salgysy: Ашхабад, с выездом.<br>
+      Telefon: +99363333939.<br>
+      Iş wagty: 7/24
+                        <h6>Ашхабад</h6>
+                        Salgysy: Ашхабад, 10 мкр. Лачын магазин<br>
+
+Telefon: +99364305459.<br>
+      Iş wagty: 7/24
+                        <h6>Ашхабад</h6>
+                        Salgysy: Ашхабад, городок Чоганлы, улица Мятаджи.<br>
+      Telefon: +99364309029.<br>
+      Iş wagty: 7/24
+                        <h6>Ашхабад</h6>
+                        Salgysy: Ашхабад, Безмеин этрап, Томатный район,улица Кемине 19.<br>
+      Telefon: +99364300863.<br>
+      Iş wagty: 7/24
+                         <h6>Ашхабад</h6>
+                        Salgysy: Тазе Гами, ул. Арзув<br>
+      Telefon: +99361495471<br>
+      Iş wagty: 7/24
+                         <h6>Ашхабад</h6>
+                        Salgysy: 10 МКР, обратная сторона лицея, ул. Айтакова<br>
+      Telefon: +99361496893<br>
+      Iş wagty: 7/24
+    </div>
+                <h5>Ahal</h5>
+    <div class="aozp">
+      <h6>АХАЛ</h6>
+      Salgysy: Анев, улица 27-октябяря, МЕКАН магазин.<br>
+      Telefon: +99364300479.<br>
+      Iş wagty: 9:00 - 22:00
+                        <h6>АХАЛ</h6>
+      Salgysy: Гами, Бильярдный.<br>
+      Telefon: +99364301992.<br>
+      Iş wagty: 9:00 - 21:00
+                        <h6>АХАЛ</h6>
+                         Salgysy: Бахерден, улица С.Каранов.<br>
+      Telefon: +99364302056.<br>
+      Iş wagty: 9:00 - 21:00
+                        <h6>АХАЛ</h6>
+                        Salgysy: г. Теджен, Гок базар<br>
+      Telefon: +99362933394<br>
+      Iş wagty: 7/24
+                        <h6>АХАЛ</h6>
+                        Salgysy: г. Теджен, Бабадайхан, Юсуп Гурбан д/б, ул. Азады<br>
+      Telefon: +99361460289<br>
+      Iş wagty: 7/24
+                        <h6>АХАЛ</h6>
+                        Salgysy: г. Теджен, Алтын Асыр<br>
+      Telefon: +99365086208<br>
+      Iş wagty: 7/24
+                        <h6>АХАЛ</h6>
+                        Salgysy: г. Теджен, ул. Г. Атабаев, магазин "RYSGAL"<br>
+      Telefon: +99364302265<br>
+      Iş wagty: 7/24
+                </div>
+    <h5>Balkan</h5>
+    <div class="aozp">
+      <h6>Балкан</h6>
+      Salgysy: Небит-Даг, Джебел.<br>
+      Telefon: +99364307465.<br>
+      Iş wagty: 
+      <h6>Балкан</h6>
+      Salgysy: Красноводск, улица Ватан, магазин Детской одежды.<br>
+      Telefon: +99364301779.<br>
+      Iş wagty: 9:00 - 21:00
+                        <h6>Балкан</h6>
+      Salgysy: город Сердар, улица О.Реджепов, магазин Копетдаг.<br>
+      Telefon: +99364308580.<br>
+      Iş wagty: 7/24
+                        <h6>Балкан</h6>
+      Salgysy: Балканабат, проспект Гурбансолтан эдже, 13 микрорайон, дом 26<br>
+      Telefon: +99364304205.<br>
+      Iş wagty: 9:00 - 21:00
+                        <h6>Балкан</h6>
+      Salgysy: город Хазар, дом 7, кв 34<br>
+      Telefon: +99364306286.<br>
+      Iş wagty: 9:00 - 21:00
+                        <h6>Балкан</h6>
+      Salgysy: город Берекет, коне базар<br>
+      Telefon: +99364305316.<br>
+      Iş wagty: 9:00 - 21:00
+    </div>
+    <h5>Mary</h5>
+    <div class="aozp">
+      <h6>Мары</h6>
+      Salgysy: г. Мары, перекресток улицы Скворцова Титова<br>
+      Telefon: +99361486213<br>
+      Iş wagty: 10:00-23:00
+      <h6>Мары</h6>
+      Salgysy: г. Мары, жилой комплекс Шапак<br>
+      Telefon: +99364300653<br>
+      Iş wagty: 9:00-21:00
+      <h6>Мары</h6>
+      Salgysy: г. Байрамали, ул. Алтын Асыр, магазин "Samsung".<br>
+      Telefon: +99361497183<br>
+      Iş wagty: 8:00-20:00
+      <h6>Мары</h6>
+      Salgysy: городок Мургап, магазин Мургап<br>
+      Telefon: +99364307332<br>
+      Iş wagty: 9:00-21:00
+    </div>
+    <h5>Lebap</h5>
+    <div class="aozp">
+      <h6>Лебап</h6>
+      Salgysy: Туркменабад, Дворец Химик, ул. Эсгер<br>
+      Telefon: +99364305593<br>
+      Iş wagty: 9:00 - 19:00
+      <h6>Лебап</h6>
+      Salgysy: Керки<br>
+      Telefon: +99361137980<br>
+      Iş wagty: 24/7
+    </div>
+    <h5>Daşoguz</h5>
+    <div class="aozp">
+      <h6>Дашогуз</h6>
+      Salgysy: г. Дашогуз, Меркез-1, мини маркет "Рахманым"<br>
+      Telefon:+99364301341.<br>
+      Iş wagty: 7/24
+    </div>
+  </div>
+</div>

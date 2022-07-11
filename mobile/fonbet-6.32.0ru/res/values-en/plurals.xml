@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="bets_number">
+        <item quantity="other">%d bets</item>
+        <item quantity="one">%d bet</item>
+    </plurals>
+    <plurals name="freebets.number">
+        <item quantity="other">%s free bets</item>
+        <item quantity="one">%s free bet</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="other">%d hours</item>
+        <item quantity="one">%d hour</item>
+    </plurals>
+    <plurals name="input_characters_left">
+        <item quantity="other">%s characters remaining</item>
+        <item quantity="one">%s character remaining</item>
+    </plurals>
+    <plurals name="limits">
+        <item quantity="other">from %1$s to %2$s</item>
+        <item quantity="one">from %s</item>
+    </plurals>
+    <plurals name="line.additional_quote_count">
+        <item quantity="other">+ %1$s odds</item>
+        <item quantity="one">+ %1$s odds</item>
+    </plurals>
+    <plurals name="minutes">
+        <item quantity="other">%d minutes</item>
+        <item quantity="one">%d minute</item>
+    </plurals>
+    <plurals name="no_input_characters_left">
+        <item quantity="other">Maximum number of characters: %s</item>
+        <item quantity="one">Maximum number of characters: %s</item>
+    </plurals>
+    <plurals name="quotes_max_requirement">
+        <item quantity="other">No more than %s odds</item>
+        <item quantity="one">No more than %s odds</item>
+    </plurals>
+    <plurals name="quotes_min_requirement">
+        <item quantity="other">Minimum of %s odds required</item>
+        <item quantity="one">Minimum of %s odds required</item>
+    </plurals>
+    <plurals name="self_exclusion_too_frequent_title">
+        <item quantity="other">You have used the self-exclusion feature %s times.</item>
+        <item quantity="one">You have used the self-exclusion feature once.</item>
+    </plurals>
+    <plurals name="time_left">
+        <item quantity="other">Remaining: %s seconds</item>
+        <item quantity="one">Remaining: %s second</item>
+    </plurals>
+</resources>

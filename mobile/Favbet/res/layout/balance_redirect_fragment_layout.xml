@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/balance_redirect_fragment_layout_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:tag="binding_1" android:background="?primary_white" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:id="@id/toolbar" layout="@layout/default_toolbar_panel_layout" />
+        <LinearLayout android:orientation="horizontal" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Button android:id="@id/test_btn_result_positive" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="positive" />
+            <Button android:id="@id/test_btn_result_neutral" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="neutral" />
+            <Button android:id="@id/test_btn_result_negative" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="negative" />
+        </LinearLayout>
+        <WebView android:id="@id/web_view" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+    <include android:id="@id/progress_panel" android:visibility="gone" layout="@layout/progress_panel_layout" />
+</FrameLayout>

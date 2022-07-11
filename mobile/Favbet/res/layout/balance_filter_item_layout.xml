@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/balance_filter_item_layout_0" android:background="@drawable/bet_history_filter_button_bg_selector" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:bind="http://schemas.android.com/apk/res-auto">
+    <com.betinvest.android.views.RobotoBoldTextView android:textStyle="bold" android:textColor="?btn_betslip_accent_txt" android:gravity="center" android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="38.0dip" />
+    <com.betinvest.android.views.RobotoRegularTextView android:textColor="?btn_betslip_txt_color" android:gravity="center" android:tag="binding_2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="38.0dip" />
+</LinearLayout>

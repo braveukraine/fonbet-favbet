@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/teaser_prematch_event_pager_item_layout_0" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginStart="8.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:bind="http://schemas.android.com/apk/res-auto" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/teaser_layout" android:tag="binding_1" android:background="?teaser_Bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="1.0dip" android:elevation="1.0dip">
+        <FrameLayout android:id="@id/image_container" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintDimensionRatio="H,510:275" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/teaser_image_view" android:tag="binding_2" android:background="@drawable/round_2_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:adjustViewBounds="true" />
+        </FrameLayout>
+        <include android:id="@id/event_panel" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="80.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.0" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_bias="1.0" layout="@layout/teaser_prematch_event_panel_layout" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

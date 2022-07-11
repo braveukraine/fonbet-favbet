@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:divider="@drawable/space_w_8" android:showDividers="middle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.textview.MaterialTextView android:textSize="14.0sp" android:textColor="?nav_primary_100" android:ellipsize="end" android:id="@id/monetary_balance_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" style="@style/Widget.Fonbet.Text.Medium" />
+    <com.google.android.material.textview.MaterialTextView android:textSize="14.0sp" android:textColor="?nav_secondary_lock" android:ellipsize="end" android:id="@id/hold_balance_tv" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:drawablePadding="4.0dip" android:drawableStart="@drawable/ic_blocked" style="@style/Widget.Fonbet.Text.Medium" />
+    <com.google.android.material.textview.MaterialTextView android:textSize="14.0sp" android:textColor="?nav_primary_40" android:ellipsize="end" android:id="@id/bonus_balance_tv" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:drawablePadding="4.0dip" android:drawableStart="@drawable/ic_bonus" style="@style/Widget.Fonbet.Text.Medium" />
+</LinearLayout>

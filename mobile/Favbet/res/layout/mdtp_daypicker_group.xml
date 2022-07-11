@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:id="@id/mdtp_previous_month_arrow" android:background="@drawable/mdtp_month_arrow_background" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/mdtp_ic_chevron_left_black_24dp" android:minWidth="48.0dip" android:minHeight="48.0dip" android:contentDescription="@string/mdtp_previous_month_arrow_description" android:nextFocusForward="@id/mdtp_next_month_arrow" />
+    <ImageButton android:id="@id/mdtp_next_month_arrow" android:background="@drawable/mdtp_month_arrow_background" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/mdtp_ic_chevron_right_black_24dp" android:minWidth="48.0dip" android:minHeight="48.0dip" android:contentDescription="@string/mdtp_next_month_arrow_description" />
+</FrameLayout>

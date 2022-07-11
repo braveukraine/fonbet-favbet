@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/promotions_item_completed_layout_0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="30.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.betinvest.favbet3.custom.view.FavbetBoldTextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="?casino_Title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/native_promos_completed" android:textAllCaps="true" android:layout_marginStart="18.0dip" />
+    <androidx.viewpager2.widget.ViewPager2 android:id="@id/completed_promotions_pager" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginStart="6.0dip" />
+</LinearLayout>

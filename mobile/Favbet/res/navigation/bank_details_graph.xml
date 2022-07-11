@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/bank_details_empty_page" app:startDestination="@id/bankDetailsFragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="BankDetailsFragment" android:name="com.betinvest.favbet3.menu.myprofile.bank_details.fragments.BankDetailsFragment" android:id="@id/bankDetailsFragment">
+        <action android:id="@id/to_bankDetailsCreateCredentialFragment" app:destination="@id/bankDetailsCreateCredentialFragment" />
+        <action android:id="@id/to_bankDetailsEditCredentialFragment" app:destination="@id/bankDetailsEditCredentialFragment" />
+    </fragment>
+    <fragment android:label="BankDetailsCreateCredentialFragment" android:name="com.betinvest.favbet3.menu.myprofile.bank_details.fragments.BankDetailsCreateCredentialFragment" android:id="@id/bankDetailsCreateCredentialFragment" />
+    <fragment android:label="BankDetailsEditCredentialFragment" android:name="com.betinvest.favbet3.menu.myprofile.bank_details.fragments.BankDetailsEditCredentialFragment" android:id="@id/bankDetailsEditCredentialFragment" />
+    <navigation android:id="@id/quick_deposit_navigation" app:startDestination="@id/quick_deposit_nested_graph">
+        <include app:graph="@navigation/quick_deposit_nested_graph" />
+    </navigation>
+    <action android:id="@id/toGlobalQuickDeposit" app:destination="@id/quick_deposit_navigation" />
+</navigation>

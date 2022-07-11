@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?color_150" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="44.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="?color_150" android:layout_width="fill_parent" android:layout_height="8.0dip" />
+    <com.fonbet.core.commons.ui.widget.epoxy.CustomEpoxyRecyclerView android:layout_gravity="center_vertical" android:id="@id/smart_filters_rcv" android:clipToPadding="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="40.0dip" android:paddingStart="16.0dip" android:paddingEnd="8.0dip" />
+    <View android:background="?color_150" android:layout_width="fill_parent" android:layout_height="8.0dip" />
+</LinearLayout>

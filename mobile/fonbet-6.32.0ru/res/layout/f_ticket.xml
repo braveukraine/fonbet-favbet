@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@drawable/divider_color_500_a20" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <com.fonbet.core.commons.ui.widget.epoxy.CustomEpoxyRecyclerView android:id="@id/recycler_view" android:paddingTop="8.0dip" android:paddingBottom="24.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" />
+</LinearLayout>

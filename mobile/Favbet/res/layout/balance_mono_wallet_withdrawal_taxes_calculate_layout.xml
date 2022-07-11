@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/balance_mono_wallet_withdrawal_taxes_calculate_layout_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.betinvest.android.views.RobotoRegularTextView android:textSize="@dimen/text_14sp" android:textColor="?profile_txt2" android:id="@id/taxes_calculate_block_income_tax_label" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <com.betinvest.android.views.RobotoRegularTextView android:textSize="@dimen/text_14sp" android:textColor="?profile_txt2" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/dist_5" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.betinvest.android.views.RobotoRegularTextView android:textSize="@dimen/text_14sp" android:textColor="?profile_txt2" android:id="@id/taxes_calculate_block_military_fee_label" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <com.betinvest.android.views.RobotoRegularTextView android:textSize="@dimen/text_14sp" android:textColor="?profile_txt2" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/dist_5" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.betinvest.android.views.RobotoRegularTextView android:textSize="@dimen/text_14sp" android:textColor="?profile_txt2" android:id="@id/taxes_calculate_block_fee2_label" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <com.betinvest.android.views.RobotoRegularTextView android:textSize="@dimen/text_14sp" android:textColor="?profile_txt2" android:tag="binding_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/dist_5" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.betinvest.android.views.RobotoRegularTextView android:textSize="@dimen/text_14sp" android:textColor="?profile_txt2" android:id="@id/taxes_calculate_block_total_after_taxes_label" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <com.betinvest.android.views.RobotoRegularTextView android:textSize="@dimen/text_14sp" android:textColor="?profile_txt2" android:tag="binding_4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/dist_5" />
+    </LinearLayout>
+</LinearLayout>

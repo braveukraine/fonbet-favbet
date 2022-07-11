@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/content_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.google.android.material.button.MaterialButton android:id="@id/button" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Widget.Fonbet.Button.Filled" />
+    </FrameLayout>
+</merge>

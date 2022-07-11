@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:tag="layout/view_document_info_panel_layout_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:bind="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatImageView android:tag="binding_1" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/ill_info" />
+    <com.betinvest.android.views.RobotoRegularTextView android:textColor="?profile_txt1" android:gravity="center" android:tag="binding_2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" />
+    <com.betinvest.android.views.RobotoBoldTextView android:textColor="?profile_txt1" android:gravity="center" android:autoLink="phone" android:tag="binding_3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="20.0dip" android:layout_marginVertical="20.0dip" />
+</LinearLayout>

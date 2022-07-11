@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@drawable/space_h_8" android:showDividers="middle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.textview.MaterialTextView android:textSize="14.0sp" android:textColor="?color_900" android:id="@id/v_app_update_version_not_supported_warning" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/update.version_not_supported" style="@style/Widget.Fonbet.Text.Medium" />
+    <com.google.android.material.textview.MaterialTextView android:textSize="14.0sp" android:textColor="?color_900" android:id="@id/v_app_update_version_header" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Widget.Fonbet.Text.Medium" />
+    <LinearLayout android:orientation="vertical" android:id="@id/v_app_update_release_notes" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.google.android.material.textview.MaterialTextView android:textSize="14.0sp" android:textColor="?color_900" android:id="@id/v_app_update_version_footer" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Widget.Fonbet.Text.Medium" />
+</LinearLayout>

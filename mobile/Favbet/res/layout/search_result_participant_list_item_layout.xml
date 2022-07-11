@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.betinvest.android.views.RobotoRegularTextView android:textColor="?Line_bS_participant" android:tag="layout/search_result_participant_list_item_layout_0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textAlignment="viewStart"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

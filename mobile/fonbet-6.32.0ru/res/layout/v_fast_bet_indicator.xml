@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.textview.MaterialTextView android:textSize="14.0sp" android:textColor="?color_100" android:gravity="center_vertical" android:id="@id/fast_bet_tv" android:layout_width="fill_parent" android:layout_height="24.0dip" android:paddingStart="16.0dip" android:paddingEnd="8.0dip" style="@style/Widget.Fonbet.Text.Bold" />
+</merge>

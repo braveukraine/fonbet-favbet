@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:tag="layout/upload_document_fail_info_panel_layout_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:layout_width="60.0dip" android:layout_height="60.0dip" android:src="@drawable/ill_trouble" />
+    <com.betinvest.android.views.RobotoBoldTextView android:textSize="14.0sp" android:textColor="?profile_txt1" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/native_verification_error" />
+</LinearLayout>

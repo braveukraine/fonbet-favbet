@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/help_item_layout_0" android:background="@drawable/round_2_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:backgroundTint="?profile_menu_item_bg"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/hel_section_icon" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginLeft="8.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="8.0dip" android:scaleType="fitXY" android:layout_marginHorizontal="8.0dip" app:tint="?profile_menu_item_txt" />
+        <com.betinvest.android.views.RobotoRegularTextView android:textSize="16.0sp" android:textColor="?profile_menu_item_txt" android:gravity="bottom" android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="8.0dip" android:minLines="2" android:layout_marginHorizontal="8.0dip" />
+    </LinearLayout>
+</FrameLayout>

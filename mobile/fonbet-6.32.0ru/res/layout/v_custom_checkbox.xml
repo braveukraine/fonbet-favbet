@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.AppCompatCheckBox android:theme="@style/AppTheme.Base.Checkbox" android:gravity="top" android:id="@id/agreement_cb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="-6.0dip" />
+    </FrameLayout>
+    <com.google.android.material.textview.MaterialTextView android:theme="@style/AppTheme.Base.CheckboxText" android:textSize="12.0sp" android:textColor="?color_500" android:id="@id/agreement_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintStart_toEndOf="@id/agreement_cb" style="@style/Widget.Fonbet.Text.Regular" />
+</merge>

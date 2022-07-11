@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="31" android:compileSdkVersionCodename="12" android:installLocation="auto" package="com.betinvest.favbet_3_sport_com_ua" platformBuildVersionCode="31" platformBuildVersionName="12">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:maxSdkVersion="28" android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="com.google.android.apps.photos.permission.GOOGLE_PHOTOS"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-feature android:name="android.hardware.camera" android:required="true"/>
+    <uses-feature android:name="android.hardware.camera.front" android:required="true"/>
+    <uses-feature android:name="android.hardware.fingerprint" android:required="false"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-feature android:name="android.hardware.camera.autofocus" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera.front.autofocus" android:required="false"/>
+    <uses-feature android:glEsVersion="0x00020000" android:required="true"/>
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID"/>
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"/>
+    <application android:allowBackup="false" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:configChanges="keyboardHidden|orientation|screenSize" android:extractNativeLibs="false" android:fullBackupContent="@xml/full_backup_content" android:hardwareAccelerated="true" android:icon="@drawable/launcher" android:label="@string/app_name" android:largeHeap="true" android:name="com.betinvest.android.UaApp" android:networkSecurityConfig="@xml/network_security_config" android:supportsRtl="true" android:theme="@style/Theme_Ua" android:usesCleartextTraffic="true">
+        <meta-data android:name="com.google.firebase.messaging.default_notification_icon" android:resource="@drawable/launcher_notify"/>
+        <meta-data android:name="firebase_performance_collection_enabled" android:value="true"/>
+        <provider android:authorities="com.betinvest.favbet_3_sport_com_ua.provider" android:exported="false" android:grantUriPermissions="true" android:name="androidx.core.content.FileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/provider_paths"/>
+        </provider>
+        <meta-data android:name="firebase_crashlytics_collection_enabled" android:value="true"/>
+        <meta-data android:name="com.google.android.geo.API_KEY" android:value="@string/google_maps_key"/>
+        <service android:exported="false" android:name="com.betinvest.favbet3.notifications.firebase.NotifyMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+        <activity android:name="com.betinvest.android.ui.presentation.splash.SplashMainActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <meta-data android:name="android.app.shortcuts" android:resource="@xml/shortcuts"/>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="@string/app_scheme"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="@string/intent_filter_scheme_http"/>
+                <data android:scheme="@string/intent_filter_scheme_https"/>
+                <data android:host="@string/intent_filter_host_main"/>
+                <data android:host="@string/intent_filter_host_main_with_www"/>
+                <data android:host="@string/intent_filter_host_mob"/>
+                <data android:host="@string/intent_filter_host_mob_with_www"/>
+                <data android:host="@string/intent_filter_host_fav_sport"/>
+                <data android:host="@string/intent_filter_host_newdroid_fav"/>
+                <data android:pathPattern="/bets"/>
+                <data android:pathPattern="/.*"/>
+                <data android:pathPattern="/.*/.*"/>
+                <data android:pathPattern="/.*/.*/.*"/>
+                <data android:pathPattern="/.*/.*/.*/.*"/>
+                <data android:pathPattern="/.*/.*/.*/.*/.*"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.optimove.sdk.optimove_sdk.DEEPLINK"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="@string/intent_filter_scheme_https"/>
+                <data android:host="com.betinvest.favbet_3_sport_com_ua"/>
+                <data android:pathPrefix="/PushOpenBetgames"/>
+                <data android:pathPrefix="/PushOpenTVBet"/>
+                <data android:pathPrefix="/PushOpenLottery"/>
+                <data android:pathPrefix="/PushOpenVFL"/>
+                <data android:pathPrefix="/PushOpenGameVermantia"/>
+                <data android:pathPrefix="/PushOpenGameInspired"/>
+                <data android:pathPrefix="/PushOpenMenu"/>
+                <data android:pathPrefix="/PushOpenPageDetails"/>
+                <data android:pathPrefix="/PushOpenPromo"/>
+                <data android:pathPrefix="/PushOpenPromoDetails"/>
+                <data android:pathPrefix="/PushOpenUserBetHistoryEventDetails"/>
+                <data android:pathPrefix="/PushOpenLiveCasino"/>
+                <data android:pathPrefix="/PushOpenLiveCasinoGame"/>
+                <data android:pathPrefix="/PushOpenLiveCasinoCategory"/>
+                <data android:pathPrefix="/PushOpenLiveCasinoService"/>
+                <data android:pathPrefix="/PushOpenCasino"/>
+                <data android:pathPrefix="/PushOpenCasinoGame"/>
+                <data android:pathPrefix="/PushOpenCasinoCategory"/>
+                <data android:pathPrefix="/PushOpenCasinoService"/>
+                <data android:pathPrefix="/PushOpenGamesSection"/>
+                <data android:pathPrefix="/PushOpenAviatorSection"/>
+                <data android:pathPrefix="/PageAddLiveEventOutcomesToBetslip"/>
+                <data android:pathPrefix="/PageAddPrematchEventOutcomesToBetslip"/>
+                <data android:pathPrefix="/PageAddVFLEventOutcomesToBetslip"/>
+                <data android:pathPrefix="/PushOpenPrematch"/>
+                <data android:pathPrefix="/PushOpenPrematchEventDetails"/>
+                <data android:pathPrefix="/PushOpenPrematchCategoryList"/>
+                <data android:pathPrefix="/PushOpenPrematchTournamentList"/>
+                <data android:pathPrefix="/PushOpenPrematchTournamentEventList"/>
+                <data android:pathPrefix="/PushOpenLive"/>
+                <data android:pathPrefix="/PushOpenLiveEventDetails"/>
+                <data android:pathPrefix="/PushOpenLiveSportEventList"/>
+                <data android:pathPrefix="/PushOpenBonusesPromocode"/>
+                <data android:pathPrefix="/PushOpenBonusesFunds"/>
+                <data android:pathPrefix="/PushOpenBonusesFundsDetails"/>
+                <data android:pathPrefix="/PushOpenBonusesFreespin"/>
+                <data android:pathPrefix="/PushOpenBonusesFreespinDetails"/>
+                <data android:pathPrefix="/PushOpenBonusesRiskFree"/>
+                <data android:pathPrefix="/PushOpenBonusesRiskFreeDetails"/>
+                <data android:pathPrefix="/PushOpenBonusesFundsDetailsByTemplate"/>
+                <data android:pathPrefix="/PushOpenBonusesFreespinDetailsByTemplate"/>
+                <data android:pathPrefix="/PushOpenBonusesRiskFreeDetailsByTemplate"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|layoutDirection|orientation|screenLayout|screenSize|uiMode" android:hardwareAccelerated="true" android:name="com.jumio.nv.NetverifyActivity" android:theme="@style/Theme.Netverify" android:windowSoftInputMode="adjustResize"/>
+        <meta-data android:name="com.optimove.sdk.custom-notification-icon" android:resource="@drawable/launcher_notify"/>
+        <activity android:launchMode="singleTask" android:name="com.betinvest.favbet3.stacks.MainLobbyStackActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:launchMode="singleTask" android:name="com.betinvest.favbet3.stacks.LiveStackActivity" android:resizeableActivity="true" android:screenOrientation="portrait" android:supportsPictureInPicture="true" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="orientation|screenSize" android:launchMode="singleTask" android:name="com.betinvest.favbet3.stacks.PreMatchStackActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan"/>
+        <activity android:launchMode="singleTask" android:name="com.betinvest.favbet3.stacks.BetslipStackActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="orientation|screenSize" android:launchMode="singleTask" android:name="com.betinvest.favbet3.stacks.GamesStackActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan"/>
+        <activity android:launchMode="singleTask" android:name="com.betinvest.favbet3.stacks.MenuStackActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan"/>
+        <activity android:launchMode="singleTask" android:name="com.betinvest.favbet3.updater.UpdaterActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan"/>
+        <activity android:launchMode="singleTask" android:name="com.betinvest.favbet3.updater.ForceUpdaterActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.betinvest.favbet3.menu.balance.deposits.BalanceRedirectActivity" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.betinvest.favbet3.casino.webview.legacy.CasinoGameActivity" android:windowSoftInputMode="stateHidden"/>
+        <activity android:configChanges="screenLayout|screenSize|smallestScreenSize" android:launchMode="singleTask" android:name="com.betinvest.favbet3.video.VideoActivity" android:resizeableActivity="true" android:supportsPictureInPicture="true" android:taskAffinity=".pip.video" android:theme="@style/Theme_Ua.FullScreen" android:windowSoftInputMode="adjustPan"/>
+        <provider android:authorities="com.betinvest.favbet_3_sport_com_ua.optimoveinitprovider" android:exported="false" android:initOrder="50" android:name="com.optimove.sdk.optimove_sdk.main.OptimoveInitProvider"/>
+        <service android:exported="false" android:name="com.optimove.sdk.optimove_sdk.optipush.messaging.OptipushMessagingService">
+            <intent-filter android:priority="-400">
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <service android:enabled="true" android:name="com.optimove.sdk.optimove_sdk.optipush.events_dispatch_service.NotificationOpenedEventDispatchService"/>
+        <service android:exported="false" android:name="com.optimove.sdk.optimove_sdk.main.app_update_listener.AppUpdateService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <receiver android:name="com.optimove.sdk.optimove_sdk.optipush.messaging.NotificationInteractionReceiver"/>
+        <receiver android:exported="false" android:name="com.optimove.sdk.optimove_sdk.main.app_update_listener.AppUpdateReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED"/>
+            </intent-filter>
+        </receiver>
+        <activity android:configChanges="locale|screenSize" android:hardwareAccelerated="true" android:keepScreenOn="true" android:name="com.iproov.sdk.ui.activity.IProovPortraitActivity" android:screenOrientation="portrait" android:theme="@style/iproov__AppTheme"/>
+        <activity android:configChanges="locale|screenSize" android:hardwareAccelerated="true" android:keepScreenOn="true" android:name="com.iproov.sdk.ui.activity.IProovLandscapeActivity" android:screenOrientation="landscape" android:theme="@style/iproov__AppTheme"/>
+        <activity android:configChanges="locale|screenSize" android:hardwareAccelerated="true" android:keepScreenOn="true" android:name="com.iproov.sdk.ui.activity.IProovReversePortraitActivity" android:screenOrientation="reversePortrait" android:theme="@style/iproov__AppTheme"/>
+        <activity android:configChanges="locale|screenSize" android:hardwareAccelerated="true" android:keepScreenOn="true" android:name="com.iproov.sdk.ui.activity.IProovReverseLandscapeActivity" android:screenOrientation="reverseLandscape" android:theme="@style/iproov__AppTheme"/>
+        <provider android:authorities="com.betinvest.favbet_3_sport_com_ua.firebaseperfprovider" android:exported="false" android:initOrder="101" android:name="com.google.firebase.perf.provider.FirebasePerfProvider"/>
+        <service android:directBootAware="true" android:exported="false" android:name="com.google.firebase.components.ComponentDiscoveryService">
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.perf.FirebasePerfRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.remoteconfig.RemoteConfigRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.iid.Registrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.abt.component.AbtRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.dynamicloading.DynamicLoadingRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+        </service>
+        <provider android:authorities="com.betinvest.favbet_3_sport_com_ua.FacebookInitProvider" android:exported="false" android:name="com.facebook.internal.FacebookInitProvider"/>
+        <receiver android:exported="false" android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver">
+            <intent-filter>
+                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="false" android:name="com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver">
+            <intent-filter>
+                <action android:name="com.facebook.sdk.ACTION_CURRENT_AUTHENTICATION_TOKEN_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <service android:directBootAware="true" android:exported="false" android:name="com.google.firebase.messaging.FirebaseMessagingService">
+            <intent-filter android:priority="-500">
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <receiver android:exported="true" android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver" android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+            </intent-filter>
+        </receiver>
+        <provider android:authorities="com.betinvest.favbet_3_sport_com_ua.firebaseinitprovider" android:directBootAware="true" android:exported="false" android:initOrder="100" android:name="com.google.firebase.provider.FirebaseInitProvider"/>
+        <activity android:exported="false" android:name="com.google.android.gms.common.api.GoogleApiActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <receiver android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementReceiver"/>
+        <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementService"/>
+        <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <provider android:authorities="com.betinvest.favbet_3_sport_com_ua.androidx-startup" android:exported="false" android:name="androidx.startup.InitializationProvider">
+            <meta-data android:name="androidx.emoji2.text.EmojiCompatInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="androidx.lifecycle.ProcessLifecycleInitializer" android:value="androidx.startup"/>
+        </provider>
+        <provider android:authorities="com.betinvest.favbet_3_sport_com_ua.com.squareup.picasso" android:exported="false" android:name="com.squareup.picasso.PicassoProvider"/>
+        <service android:directBootAware="true" android:exported="false" android:name="androidx.room.MultiInstanceInvalidationService"/>
+        <meta-data android:name="com.google.android.gms.vision.DEPENDENCIES" android:value="face"/>
+        <service android:exported="false" android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery">
+            <meta-data android:name="backend:com.google.android.datatransport.cct.CctBackendFactory" android:value="cct"/>
+        </service>
+        <service android:exported="false" android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <receiver android:exported="false" android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"/>
+    </application>
+</manifest>

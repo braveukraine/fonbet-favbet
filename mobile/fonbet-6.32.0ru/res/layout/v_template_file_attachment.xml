@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.fonbet.core.commons.ui.widget.epoxy.CustomEpoxyRecyclerView android:id="@id/attachments_rcv" android:background="?color_150" android:paddingBottom="12.0dip" android:visibility="gone" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="14.0dip" android:paddingEnd="14.0dip" />
+    <com.google.android.material.button.MaterialButton android:id="@id/attach_files_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/action.attach_files" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" app:icon="@drawable/ic_attachment" style="@style/Widget.Fonbet.Button.Outlined.Blue" />
+    <com.google.android.material.textview.MaterialTextView android:textSize="12.0sp" android:id="@id/attachments_description_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" style="@style/Widget.Fonbet.Text.Regular" />
+</merge>

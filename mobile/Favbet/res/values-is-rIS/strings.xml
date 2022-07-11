@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mdtp_date_v1_monthyear">MMMM yyyy</string>
+    <string name="mdtp_date_v2_daymonthyear">EEE, dd. MMM</string>
+    <string name="mdtp_day_picker_description">Mánaðartafla með dögum</string>
+    <string name="mdtp_deleted_key">%1$s eytt</string>
+    <string name="mdtp_done_label">Lokið</string>
+    <string name="mdtp_hour_picker_description">Valskífa fyrir klukkustundir</string>
+    <string name="mdtp_item_is_selected">%1$s valið</string>
+    <string name="mdtp_minute_picker_description">Valskífa fyrir mínútur</string>
+    <string name="mdtp_select_day">Velja mánuð og dag</string>
+    <string name="mdtp_select_hours">Velja klukkustundir</string>
+    <string name="mdtp_select_minutes">Velja mínútur</string>
+    <string name="mdtp_select_year">Velja ár</string>
+    <string name="mdtp_year_picker_description">Áralisti</string>
+</resources>

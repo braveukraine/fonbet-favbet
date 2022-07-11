@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/casino_global_jackpot_item_layout_0" android:layout_width="fill_parent" android:layout_height="240.0dip" android:layout_marginLeft="4.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="4.0dip" android:layout_marginBottom="4.0dip" android:layout_marginHorizontal="4.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.betinvest.favbet3.custom.view.FavbetBoldTextView android:textSize="32.0sp" android:textStyle="bold" android:textColor="?primary_white" android:layout_gravity="center_horizontal" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="108.0dip" android:inputType="none" />
+</FrameLayout>

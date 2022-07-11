@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/personal_details_email_verified_layout_0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="14.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.betinvest.android.views.RobotoRegularTextView android:textSize="16.0sp" android:textColor="?profile_txt2" android:id="@id/personal_details_email_text" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <com.betinvest.android.views.RobotoBoldTextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="?profile_txt1" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip">
+        <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:layout_width="12.0dip" android:layout_height="12.0dip" android:src="@drawable/ic_success" />
+        <com.betinvest.android.views.RobotoRegularTextView android:textSize="12.0sp" android:textColor="?profile_txt2" android:id="@id/personal_details_email_verified_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" />
+    </LinearLayout>
+</LinearLayout>

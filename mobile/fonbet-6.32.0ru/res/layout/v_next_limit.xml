@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.textview.MaterialTextView android:textSize="12.0sp" android:textColor="?color_900_a80" android:id="@id/limit_type" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Widget.Fonbet.Text.Medium" />
+    <com.google.android.material.textview.MaterialTextView android:id="@id/limit_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" style="@style/Widget.Fonbet.Text.Medium" />
+</merge>

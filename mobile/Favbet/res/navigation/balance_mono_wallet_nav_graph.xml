@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/balance_mono_wallet_nav_graph" app:startDestination="@id/balanceMonoWalletFragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <navigation android:id="@id/quick_deposit_navigation" app:startDestination="@id/quick_deposit_nested_graph">
+        <include app:graph="@navigation/quick_deposit_nested_graph" />
+    </navigation>
+    <action android:id="@id/toGlobalQuickDeposit" app:destination="@id/quick_deposit_navigation" />
+    <fragment android:label="BalanceMonoWalletFragment" android:name="com.betinvest.favbet3.menu.balance.deposits.mono_wallet.BalanceMonoWalletFragment" android:id="@id/balanceMonoWalletFragment">
+        <action android:id="@id/to_balanceFilterFragment" app:destination="@id/balanceFilterFragment" />
+    </fragment>
+    <fragment android:label="BalanceFilterFragment" android:name="com.betinvest.favbet3.menu.balance.filter.BalanceFilterFragment" android:id="@id/balanceFilterFragment">
+        <argument android:name="mode" app:argType="com.betinvest.favbet3.menu.balance.history.BalanceHistoryMode" />
+    </fragment>
+    <fragment android:label="GraphFragment" android:name="com.betinvest.favbet3.graph.GraphFragment" android:id="@id/graphFragment">
+        <argument android:name="graphType" app:argType="com.betinvest.favbet3.graph.GraphType" />
+        <argument android:name="title" android:defaultValue="" app:argType="string" app:nullable="true" />
+        <argument android:name="url" android:defaultValue="" app:argType="string" app:nullable="true" />
+        <argument android:name="relationIdt" android:defaultValue="" app:argType="string" app:nullable="true" />
+        <argument android:name="pageId" android:defaultValue="" app:argType="string" app:nullable="true" />
+        <argument android:name="graphParam" android:defaultValue="@null" app:argType="com.betinvest.favbet3.common.GraphParam" app:nullable="true" />
+    </fragment>
+    <action android:id="@id/toGlobalNestedGraph" app:destination="@id/graphFragment">
+        <argument android:name="graphType" app:argType="com.betinvest.favbet3.graph.GraphType" />
+        <argument android:name="title" android:defaultValue="" app:argType="string" app:nullable="true" />
+        <argument android:name="url" android:defaultValue="" app:argType="string" app:nullable="true" />
+        <argument android:name="relationIdt" android:defaultValue="" app:argType="string" app:nullable="true" />
+        <argument android:name="pageId" android:defaultValue="" app:argType="string" app:nullable="true" />
+        <argument android:name="graphParam" android:defaultValue="@null" app:argType="com.betinvest.favbet3.common.GraphParam" app:nullable="true" />
+    </action>
+    <fragment android:label="PersonalDetailShortFragment" android:name="com.betinvest.favbet3.menu.myprofile.personaldetailshort.PersonalDetailShortFragment" android:id="@id/personalDetailShortFragment">
+        <argument android:name="openDocumentVerificationOnSuccess" android:defaultValue="false" app:argType="boolean" />
+    </fragment>
+    <action android:id="@id/toGlobalPersonalDetailShortFragment" app:destination="@id/personalDetailShortFragment" />
+</navigation>

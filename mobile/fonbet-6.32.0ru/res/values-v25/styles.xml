@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ArticleCaption" parent="@style/Widget.Fonbet.Text.Regular">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">?color_900_a60</item>
+        <item name="android:fontFamily">@null</item>
+    </style>
+    <style name="ArticleHeading1" parent="@style/Widget.Fonbet.Text.Bold">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:textColor">?color_900</item>
+        <item name="android:fontFamily">@null</item>
+    </style>
+    <style name="ArticleHeading2" parent="@style/Widget.Fonbet.Text.Bold">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">?color_900</item>
+        <item name="android:fontFamily">@null</item>
+    </style>
+    <style name="ArticleHeading3" parent="@style/Widget.Fonbet.Text.Bold">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">?color_900</item>
+        <item name="android:fontFamily">@null</item>
+    </style>
+    <style name="ArticleHeadingOther" parent="@style/Widget.Fonbet.Text.Bold">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">?color_900</item>
+        <item name="android:fontFamily">@null</item>
+    </style>
+    <style name="ArticleList1Caption" parent="@style/Widget.Fonbet.Text.Bold">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">?color_500</item>
+        <item name="android:fontFamily">@null</item>
+    </style>
+    <style name="ArticleListOtherCaption" parent="@style/Widget.Fonbet.Text.Bold">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">?color_500</item>
+        <item name="android:fontFamily">@null</item>
+    </style>
+    <style name="ArticleQuote" parent="@style/Widget.Fonbet.Text.Regular">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">?color_700</item>
+        <item name="android:fontFamily">@null</item>
+    </style>
+    <style name="ArticleSmallText" parent="@style/Widget.Fonbet.Text.Regular">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">?color_500</item>
+        <item name="android:fontFamily">@null</item>
+    </style>
+    <style name="ArticleSpoiler1" parent="@style/Widget.Fonbet.Text.Bold">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">?color_900</item>
+        <item name="android:fontFamily">@null</item>
+    </style>
+    <style name="ArticleSpoiler2" parent="@style/Widget.Fonbet.Text.Medium">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">?color_900</item>
+        <item name="android:fontFamily">@null</item>
+    </style>
+    <style name="ArticleSpoilerOther" parent="@style/Widget.Fonbet.Text.Regular">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">?color_900</item>
+        <item name="android:fontFamily">@null</item>
+    </style>
+    <style name="ArticleTableHeaderCell" parent="@style/Widget.Fonbet.Text.Medium">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">?color_900</item>
+        <item name="android:fontFamily">@null</item>
+    </style>
+    <style name="ArticleTableNormalCell" parent="@style/Widget.Fonbet.Text.Regular">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">?color_900</item>
+        <item name="android:fontFamily">@null</item>
+    </style>
+    <style name="ArticleTerm" parent="@style/Widget.Fonbet.Text.Medium">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">?color_900</item>
+        <item name="android:fontFamily">@null</item>
+    </style>
+    <style name="ArticleText" parent="@style/Widget.Fonbet.Text.Regular">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">?color_900</item>
+        <item name="android:fontFamily">@null</item>
+    </style>
+    <style name="IdentPromoHeading1" parent="@style/Widget.Fonbet.Text.Bold">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:textColor">?color_blue</item>
+        <item name="android:fontFamily">@null</item>
+    </style>
+    <style name="IdentPromoHeading2" parent="@style/Widget.Fonbet.Text.Bold">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">?color_blue</item>
+        <item name="android:fontFamily">@null</item>
+    </style>
+    <style name="IdentPromoHeading3" parent="@style/Widget.Fonbet.Text.Bold">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">?color_blue</item>
+        <item name="android:fontFamily">@null</item>
+    </style>
+    <style name="IdentPromoHeadingOther" parent="@style/Widget.Fonbet.Text.Bold">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">?color_blue</item>
+        <item name="android:fontFamily">@null</item>
+    </style>
+    <style name="IdentPromoText" parent="@style/Widget.Fonbet.Text.Regular">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">?color_blue</item>
+        <item name="android:fontFamily">@null</item>
+    </style>
+    <style name="Platform.AppCompat" parent="@style/Platform.V25.AppCompat" />
+    <style name="Platform.AppCompat.Light" parent="@style/Platform.V25.AppCompat.Light" />
+    <style name="TicketMessagePlainText" parent="@style/Widget.Fonbet.Text.Medium">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">?color_900</item>
+        <item name="android:fontFamily">@null</item>
+    </style>
+    <style name="Platform.V25.AppCompat" parent="@android:style/Theme.Material.NoActionBar" />
+    <style name="Platform.V25.AppCompat.Light" parent="@android:style/Theme.Material.Light.NoActionBar" />
+</resources>

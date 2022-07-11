@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/casino_banners_panel_layout_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.viewpager2.widget.ViewPager2 android:id="@id/casino_banner_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.betinvest.android.core.recycler.infinite.IndicationLayout android:layout_gravity="center_horizontal" android:id="@id/indicator" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" app:indication_item_layout="@layout/casino_banner_indicator_layout" />
+</LinearLayout>

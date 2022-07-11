@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <WebView android:id="@id/web_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.fonbet.core.impl.fon.ui.widget.StyledLoader android:layout_gravity="center" android:id="@id/web_loader" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <com.google.android.material.button.MaterialButton android:id="@id/cancel_btn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/process_container_top_padding" android:layout_marginBottom="@dimen/process_container_bottom_padding" android:text="@string/ident.cancel_button_full_simple" android:layout_marginStart="@dimen/process_container_start_padding" android:layout_marginEnd="@dimen/process_container_end_padding" style="@style/Widget.Fonbet.Button.Outlined.Blue" />
+</LinearLayout>

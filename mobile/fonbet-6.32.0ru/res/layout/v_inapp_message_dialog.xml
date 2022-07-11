@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/main_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.google.android.material.textview.MaterialTextView android:textSize="14.0sp" android:textColor="?color_900_a80" android:id="@id/full_text_tv" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/DialogText" />
+    </FrameLayout>
+</merge>

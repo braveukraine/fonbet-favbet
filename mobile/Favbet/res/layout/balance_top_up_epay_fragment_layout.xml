@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:tag="layout/balance_top_up_epay_fragment_layout_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:tag="binding_2" android:background="?General_body_profile" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <include android:id="@id/toolbar" layout="@layout/default_toolbar_panel_layout" />
+            <include android:id="@id/top_up_epay_layout" layout="@layout/balance_top_up_epay_layout" />
+        </LinearLayout>
+        <include android:id="@id/progress_panel" android:visibility="gone" layout="@layout/progress_panel_layout" />
+    </FrameLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

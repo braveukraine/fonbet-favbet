@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/balance_filter_fragment_layout_0" android:background="?General_body_profile" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:bind="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/toolbar" layout="@layout/default_toolbar_panel_layout" />
+    <androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="32.0dip" android:layout_marginRight="32.0dip" android:layout_marginHorizontal="32.0dip">
+            <com.betinvest.android.views.RobotoBoldTextView android:textStyle="bold" android:textColor="?profile_txt2" android:id="@id/balance_by_state_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="8.0dip" android:textAllCaps="true" />
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_by_state" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <include android:id="@id/date_block" layout="@layout/date_filter_layout" />
+            <LinearLayout android:orientation="vertical" android:tag="binding_2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="30.0dip">
+                <com.betinvest.android.views.RobotoBoldTextView android:textStyle="bold" android:textColor="?input_label_txt" android:id="@id/balance_by_wallet_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:textAllCaps="true" />
+                <LinearLayout android:orientation="horizontal" android:id="@id/by_wallet_view" android:background="@drawable/bet_history_filter_button_bg_default" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="40.0dip">
+                    <com.betinvest.android.views.RobotoBoldTextView android:textStyle="bold" android:textColor="?input_txt" android:layout_gravity="center" android:tag="binding_3" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="8.0dip" />
+                    <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/ic_open_down" android:scaleType="fitXY" android:tint="?input_txt" android:layout_marginStart="4.0dip" android:layout_marginEnd="16.0dip" />
+                </LinearLayout>
+            </LinearLayout>
+            <com.betinvest.android.views.RobotoBoldTextView android:textStyle="bold" android:textColor="?input_label_txt" android:id="@id/balance_by_amount_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:layout_marginBottom="8.0dip" android:textAllCaps="true" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/by_amount_view" android:background="@drawable/bet_history_filter_button_bg_default" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="40.0dip">
+                <com.betinvest.android.views.RobotoBoldTextView android:textStyle="bold" android:textColor="?input_txt" android:layout_gravity="center" android:tag="binding_4" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="8.0dip" />
+                <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/ic_open_down" android:scaleType="fitXY" android:tint="?input_txt" android:layout_marginStart="4.0dip" android:layout_marginEnd="16.0dip" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <View android:background="?General_body_profile" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <FrameLayout android:background="?tabbar_background" android:paddingLeft="20.0dip" android:paddingTop="10.0dip" android:paddingRight="20.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:minHeight="65.0dip" android:elevation="2.0dip" android:paddingHorizontal="20.0dip" android:paddingVertical="10.0dip">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.betinvest.android.views.RobotoBoldTextView android:textStyle="bold" android:textColor="?Btn_Primary_txt_color_1" android:gravity="center" android:id="@id/apply_filter" android:tag="binding_5" android:background="@drawable/round_2_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="45.0dip" android:textAllCaps="true" android:backgroundTint="?Btn_Primary_bg_color_1" />
+            <com.betinvest.android.views.RobotoBoldTextView android:textStyle="bold" android:textColor="?Btn_Primary_txt_color_1" android:gravity="center" android:id="@id/reset_filter" android:background="@drawable/round_2_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="45.0dip" android:textAllCaps="true" android:backgroundTint="?Btn_Primary_bg_color_1" />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

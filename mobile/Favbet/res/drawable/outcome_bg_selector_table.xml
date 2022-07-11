@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <selector>
+            <item android:state_selected="true">
+                <shape android:shape="rectangle">
+                    <corners android:radius="@dimen/default_corned_radius" />
+                    <solid android:color="?Line_ButtonSelected" />
+                </shape>
+            </item>
+            <item>
+                <shape android:shape="rectangle">
+                    <corners android:radius="@dimen/default_corned_radius" />
+                    <solid android:color="?Line_outcomeButtonHasParamDefault" />
+                </shape>
+            </item>
+        </selector>
+    </item>
+    <item android:drawable="?selectableItemBackground" />
+</layer-list>

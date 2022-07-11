@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.SwitchCompat android:id="@id/switch_btn" android:saveEnabled="false" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/Widget.Fonbet.SwitchButton.Blue" />
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:layout_marginBottom="14.0dip" android:layout_marginEnd="4.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/switch_btn" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <com.google.android.material.textview.MaterialTextView android:id="@id/text_tv" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Widget.Fonbet.Text.Medium" />
+        <com.google.android.material.textview.MaterialTextView android:textColor="?color_900_a60" android:id="@id/subtext_tv" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" style="@style/Widget.Fonbet.Text.Regular" />
+    </LinearLayout>
+</merge>

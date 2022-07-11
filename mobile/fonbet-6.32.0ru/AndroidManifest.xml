@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="30" android:compileSdkVersionCodename="11" package="ru.bkfon" platformBuildVersionCode="30" platformBuildVersionName="11">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.USE_BIOMETRIC"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-feature android:name="android.hardware.camera"/>
+    <uses-feature android:name="android.hardware.camera.autofocus"/>
+    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"/>
+    <uses-feature android:glEsVersion="0x00020000" android:required="true"/>
+    <queries>
+        <package android:name="com.google.android.apps.maps"/>
+    </queries>
+    <uses-permission android:name="android.permission.USE_FINGERPRINT"/>
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+    <application android:allowBackup="false" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:fullBackupContent="@xml/appsflyer_backup_rules" android:icon="@mipmap/ic_launcher" android:label="@string/fonbet_app_label" android:name="com.betting.app.FonbetApplication" android:roundIcon="@mipmap/ic_launcher_round" android:supportsRtl="false" android:theme="@style/AppTheme" android:usesCleartextTraffic="false">
+        <uses-library android:name="org.apache.http.legacy" android:required="false"/>
+        <meta-data android:name="com.google.android.geo.API_KEY" android:value="AIzaSyCRTHM9GYj0l9a6t-0UNqTzkUVOTMamh40"/>
+        <receiver android:exported="true" android:name="com.adjust.sdk.AdjustReferrerReceiver" android:permission="android.permission.INSTALL_PACKAGES">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER"/>
+            </intent-filter>
+        </receiver>
+        <activity android:configChanges="orientation|screenSize" android:launchMode="singleTask" android:name="com.betting.navigator.ui.view.NavigatorActivity" android:screenOrientation="portrait" android:theme="@style/AppTheme.Base.Default" android:windowSoftInputMode="stateAlwaysHidden|adjustResize"/>
+        <activity android:launchMode="singleTask" android:name="com.betting.appaccessdenied.view.AppAccessDeniedActivity" android:screenOrientation="portrait" android:theme="@style/AppTheme.Base.Default" android:windowSoftInputMode="stateAlwaysHidden|adjustResize"/>
+        <activity android:launchMode="singleTask" android:name="com.betting.geoblock.impl.fon.ui.view.GeoAccessDeniedActivity" android:screenOrientation="portrait" android:theme="@style/AppTheme.Base.Default" android:windowSoftInputMode="stateAlwaysHidden|adjustResize"/>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:excludeFromRecents="true" android:name="com.betting.event.ui.view.PictureInPictureActivity" android:screenOrientation="portrait" android:supportsPictureInPicture="true" android:taskAffinity="com.fonbet.event.ui.view.PictureInPictureActivity" android:theme="@style/AppTheme.Base.Light.Pip"/>
+        <activity android:launchMode="singleTop" android:name="com.betting.photo.android.view.PhotoCaptureActivity" android:theme="@style/AppTheme.Base.Dark"/>
+        <activity android:name="com.betting.pinsettings.impl.ui.view.PinLockActivity" android:screenOrientation="behind" android:theme="@style/AppTheme.Base.Default"/>
+        <activity android:name="com.betting.pinsettings.impl.ui.view.PinCodeSetupActivity" android:screenOrientation="behind" android:theme="@style/AppTheme.Base.Default"/>
+        <service android:name="com.betting.service.FcmListener">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <service android:name="com.fonbet.navigation.commons.service.IntentHandlingService"/>
+        <service android:foregroundServiceType="mediaPlayback" android:name="com.betting.event.impl.ui.service.AudioTranslationService"/>
+        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_project_id"/>
+        <provider android:authorities="ru.bkfon" android:exported="false" android:grantUriPermissions="true" android:name="androidx.core.content.FileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/file_provider_paths"/>
+        </provider>
+        <activity android:name="com.fonbet.intro.impl.ui.view.IntroActivity" android:screenOrientation="locked" android:theme="@style/AppTheme.Base.Intro"/>
+        <activity android:name="com.fonbet.splash.commons.fon.ui.view.SplashActivity" android:screenOrientation="locked" android:theme="@style/AppTheme.Base.Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="fonbet.onelink.me" android:scheme="https"/>
+            </intent-filter>
+        </activity>
+        <activity android:excludeFromRecents="true" android:launchMode="singleInstance" android:name="com.fonbet.deeplinking.commons.fon.ui.view.IntentHandlingActivity" android:noHistory="true" android:screenOrientation="locked" android:theme="@style/AppTheme.Base.Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="@string/host" android:scheme="http"/>
+                <data android:host="@string/host2" android:scheme="http"/>
+                <data android:scheme="https"/>
+                <data android:pathPattern="/bets"/>
+                <data android:pathPattern="/.*/bets"/>
+                <data android:pathPattern="/bets/..*"/>
+                <data android:pathPattern="/.*/bets/..*"/>
+                <data android:pathPattern="/bets/..*/..*"/>
+                <data android:pathPattern="/.*/bets/..*/..*"/>
+                <data android:pathPattern="/bets/..*/..*/..*"/>
+                <data android:pathPattern="/.*/bets/..*/..*/..*"/>
+                <data android:pathPattern="/live"/>
+                <data android:pathPattern="/.*/live"/>
+                <data android:pathPattern="/live/..*"/>
+                <data android:pathPattern="/.*/live/..*"/>
+                <data android:pathPattern="/live/..*/..*"/>
+                <data android:pathPattern="/.*/live/..*/..*"/>
+                <data android:pathPattern="/live/..*/..*/..*"/>
+                <data android:pathPattern="/.*/live/..*/..*/..*"/>
+                <data android:pathPattern="/sport/event/..*"/>
+                <data android:pathPattern="/.*/sport/event/..*"/>
+                <data android:pathPattern="/sports"/>
+                <data android:pathPattern="/.*/sports"/>
+                <data android:pathPattern="/sports/..*/..*/..*"/>
+                <data android:pathPattern="/.*/sports/..*/..*/..*"/>
+                <data android:pathPattern="/profile/deposit"/>
+                <data android:pathPattern="/.*/profile/deposit"/>
+                <data android:pathPattern="/payments/deposit"/>
+                <data android:pathPattern="/.*/payments/deposit"/>
+                <data android:pathPattern="/profile/withdraw"/>
+                <data android:pathPattern="/.*/profile/withdraw"/>
+                <data android:pathPattern="/payments/withdraw"/>
+                <data android:pathPattern="/.*/payments/withdraw"/>
+                <data android:pathPattern="/"/>
+                <data android:pathPattern="/registration"/>
+                <data android:pathPattern="/.*/registration"/>
+                <data android:pathPattern="/registration/.*"/>
+                <data android:pathPattern="/.*/registration/.*"/>
+                <data android:pathPattern="/login"/>
+                <data android:pathPattern="/.*/login"/>
+                <data android:pathPattern="/cart/main"/>
+                <data android:pathPattern="/.*/cart/main"/>
+                <data android:pathPattern="/cart/history"/>
+                <data android:pathPattern="/.*/cart/history"/>
+                <data android:pathPattern="/cart/history/..*"/>
+                <data android:pathPattern="/.*/cart/history/..*"/>
+                <data android:pathPattern="/coupon/.*"/>
+                <data android:pathPattern="/coupon/.*/.*"/>
+                <data android:pathPattern="/account/requests/new"/>
+                <data android:pathPattern="/.*/account/requests/new"/>
+                <data android:pathPattern="/requests/new"/>
+                <data android:pathPattern="/account/requests/.*"/>
+                <data android:pathPattern="/.*/account/requests/.*"/>
+                <data android:pathPattern="/account/requests"/>
+                <data android:pathPattern="/.*/account/requests"/>
+                <data android:pathPattern="/tickets"/>
+                <data android:pathPattern="/.*/tickets"/>
+                <data android:pathPattern="/tickets/.*"/>
+                <data android:pathPattern="/.*/tickets/.*"/>
+                <data android:pathPattern="/ticket/new"/>
+                <data android:pathPattern="/.*/ticket/new"/>
+                <data android:pathPattern="/chat"/>
+                <data android:pathPattern="/account/bonuses"/>
+                <data android:pathPattern="/.*/account/bonuses"/>
+                <data android:pathPattern="/profile/bonuses"/>
+                <data android:pathPattern="/.*/profile/bonuses"/>
+                <data android:pathPattern="/account/restore-password"/>
+                <data android:pathPattern="/.*/account/restore-password"/>
+                <data android:pathPattern="/account/profile/change-password"/>
+                <data android:pathPattern="/.*/account/profile/change-password"/>
+                <data android:pathPrefix="/account/responsible"/>
+                <data android:pathPrefix="/.*/account/responsible"/>
+                <data android:pathPattern="/.*/verification"/>
+                <data android:pathPattern="/account/verification"/>
+                <data android:pathPattern="/.*/profile/verification-upgrade/"/>
+                <data android:pathPattern="/.*/.*/verification-upgrade/"/>
+                <data android:pathPattern="/statistic"/>
+                <data android:pathPattern="/.*/statistic"/>
+                <data android:pathPattern="/verification/initial"/>
+                <data android:pathPattern="/verification/initial/.*"/>
+                <data android:pathPattern="/.*/verification/initial"/>
+                <data android:pathPattern="/.*/verification/initial/.*"/>
+                <data android:pathPattern="/account/verification/simple"/>
+                <data android:pathPattern="/verification/remote"/>
+                <data android:pathPattern="/verification/remote/.*"/>
+                <data android:pathPattern="/.*/verification/remote"/>
+                <data android:pathPattern="/.*/verification/remote/.*"/>
+                <data android:pathPattern="/account/verification/remote"/>
+                <data android:pathPattern="/verification/fonbet"/>
+                <data android:pathPattern="/verification/fonbet/.*"/>
+                <data android:pathPattern="/.*/verification/fonbet"/>
+                <data android:pathPattern="/.*/verification/fonbet/.*"/>
+                <data android:pathPattern="/account/verification/bk"/>
+                <data android:pathPattern="/verification/qiwi"/>
+                <data android:pathPattern="/verification/qiwi/.*"/>
+                <data android:pathPattern="/.*/verification/qiwi"/>
+                <data android:pathPattern="/.*/verification/qiwi/.*"/>
+                <data android:pathPattern="/account/verification/qiwi"/>
+                <data android:pathPattern="/verification/gu"/>
+                <data android:pathPattern="/verification/gu/.*"/>
+                <data android:pathPattern="/.*/verification/gu"/>
+                <data android:pathPattern="/.*/verification/gu/.*"/>
+                <data android:pathPattern="/account/verification/gosident"/>
+                <data android:pathPattern="/news"/>
+                <data android:pathPattern="/news/..*"/>
+                <data android:pathPattern="/.*/news/..*"/>
+                <data android:pathPattern="/change-email"/>
+                <data android:pathPattern="/.*/change-email"/>
+                <data android:pathPattern="/change-phone"/>
+                <data android:pathPattern="/.*/change-phone"/>
+                <data android:pathPattern="/account"/>
+                <data android:pathPattern="/.*/account"/>
+                <data android:pathPattern="/profile"/>
+                <data android:pathPattern="/.*/profile"/>
+                <data android:pathPattern="/ext/addresses"/>
+                <data android:pathPattern="/.*/ext/addresses"/>
+                <data android:pathPattern="/pages/promo"/>
+                <data android:pathPattern="/.*/pages/promo"/>
+                <data android:pathPattern="/.*/.*/.*/landings/.*"/>
+                <data android:pathPattern="/.*/.*/landings/.*"/>
+                <data android:pathPattern="/.*/landings/.*"/>
+                <data android:pathPattern="/landings/.*"/>
+                <data android:pathPattern="/.*/.*/.*/promo/.*"/>
+                <data android:pathPattern="/.*/.*/promo/.*"/>
+                <data android:pathPattern="/.*/promo/.*"/>
+                <data android:pathPattern="/promo/.*"/>
+                <data android:pathPrefix="/help-center"/>
+                <data android:pathPrefix="/.*/help-center"/>
+                <data android:pathPattern="/casino"/>
+                <data android:pathPattern="/casino/.*"/>
+                <data android:pathPattern="/casino/.*/.*"/>
+                <data android:pathPattern="/.*/casino"/>
+                <data android:pathPattern="/.*/casino/.*"/>
+                <data android:pathPattern="/.*/casino/.*/.*"/>
+                <data android:pathPattern="/live-casino"/>
+                <data android:pathPattern="/live-casino/.*"/>
+                <data android:pathPattern="/live-casino/.*/.*"/>
+                <data android:pathPattern="/.*/live-casino"/>
+                <data android:pathPattern="/.*/live-casino/.*"/>
+                <data android:pathPattern="/.*/live-casino/.*/.*"/>
+                <data android:pathPattern="/virtual-games"/>
+                <data android:pathPattern="/virtual-games/.*"/>
+                <data android:pathPattern="/virtual-games/.*/.*"/>
+                <data android:pathPattern="/.*/virtual-games"/>
+                <data android:pathPattern="/.*/virtual-games/.*"/>
+                <data android:pathPattern="/.*/virtual-games/.*/.*"/>
+                <data android:pathPattern="/rules"/>
+                <data android:pathPattern="/pages/.*"/>
+                <data android:pathPattern="/.*/pages/.*"/>
+                <data android:pathPattern="/lobby"/>
+                <data android:pathPattern="/lobby/.*"/>
+                <data android:pathPattern="/lobby/.*/.*"/>
+                <data android:pathPattern="/.*/lobby"/>
+                <data android:pathPattern="/.*/lobby/.*"/>
+                <data android:pathPattern="/.*/lobby/.*/.*"/>
+                <data android:pathPattern="/quick-games/lobby"/>
+                <data android:pathPattern="/quick-games/lobby/.*"/>
+                <data android:pathPattern="/quick-games/lobby/.*/.*"/>
+                <data android:pathPattern="/.*/quick-games/lobby"/>
+                <data android:pathPattern="/.*/quick-games/lobby/.*"/>
+                <data android:pathPattern="/.*/quick-games/lobby/.*/.*"/>
+                <data android:pathPattern="/.*/.*/app-debug"/>
+                <data android:pathPattern="/.*/app-debug"/>
+                <data android:pathPattern="/app-debug"/>
+            </intent-filter>
+        </activity>
+        <meta-data android:name="CHANNEL" android:value="Android"/>
+        <meta-data android:name="AF_STORE" android:value="Internal"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="rx_activity_result2.HolderActivity" android:theme="@style/Theme.Transparent"/>
+        <service android:directBootAware="true" android:exported="false" android:name="com.google.firebase.components.ComponentDiscoveryService">
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.iid.Registrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+        </service>
+        <meta-data android:name="com.bumptech.glide.integration.okhttp3.OkHttpGlideModule" android:value="GlideModule"/>
+        <receiver android:enabled="true" android:exported="false" android:name="com.google.android.gms.analytics.AnalyticsReceiver"/>
+        <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.analytics.AnalyticsService"/>
+        <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.analytics.AnalyticsJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <provider android:authorities="ru.bkfon.FacebookInitProvider" android:exported="false" android:name="com.facebook.internal.FacebookInitProvider"/>
+        <receiver android:exported="false" android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver">
+            <intent-filter>
+                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <service android:directBootAware="true" android:exported="false" android:name="androidx.room.MultiInstanceInvalidationService"/>
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+        <service android:directBootAware="true" android:exported="false" android:name="com.google.firebase.messaging.FirebaseMessagingService">
+            <intent-filter android:priority="-500">
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <receiver android:exported="true" android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver" android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+            </intent-filter>
+        </receiver>
+        <activity android:exported="false" android:name="com.google.android.gms.common.api.GoogleApiActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <receiver android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementReceiver"/>
+        <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementService"/>
+        <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <provider android:authorities="ru.bkfon.firebaseinitprovider" android:exported="false" android:initOrder="100" android:name="com.google.firebase.provider.FirebaseInitProvider"/>
+        <provider android:authorities="ru.bkfon.androidx-startup" android:exported="false" android:name="androidx.startup.InitializationProvider">
+            <meta-data android:name="androidx.lifecycle.ProcessLifecycleInitializer" android:value="androidx.startup"/>
+        </provider>
+        <service android:exported="false" android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery">
+            <meta-data android:name="backend:com.google.android.datatransport.cct.CctBackendFactory" android:value="cct"/>
+        </service>
+        <service android:exported="false" android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <receiver android:exported="false" android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"/>
+    </application>
+</manifest>

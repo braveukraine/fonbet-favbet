@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <exclude domain="sharedpref" path="com.optimove.sdk.notification_events_queue.xml" />
+    <exclude domain="sharedpref" path="com.optimove.sdk.topics_preferences.xml" />
+    <exclude domain="sharedpref" path="com.optimove.sdk.user_ids.xml" />
+    <exclude domain="sharedpref" path="com.optimove.sdk.optipush_sp_name.xml" />
+    <exclude domain="sharedpref" path="com.optimove.sdk.optitrack_shared_pref.xml" />
+    <exclude domain="sharedpref" path="com.optimove.sdk.local_init.xml" />
+    <exclude domain="sharedpref" path="com.optimove.sdk.registration_preferences.xml" />
+    <exclude domain="sharedpref" path="appsflyer-data" />
+    <exclude domain="file" path="com_optimove_sdk_lastRegistrationRequestData.json" />
+    <exclude domain="file" path="com_optimove_sdk_lastUnregistrationRequestData.json" />
+    <exclude domain="file" path="com_optimove_sdk_lastOptRequestData.json" />
+</full-backup-content>

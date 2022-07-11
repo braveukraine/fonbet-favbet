@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/responsible_gambling_limit_item_layout_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.betinvest.android.views.RobotoBoldTextView android:textSize="16.0sp" android:textColor="?profile_txt1" android:id="@id/limit_title_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/native_responsible_gambling_limits_current_setting" android:includeFontPadding="true" />
+    <View android:background="?profile_border1" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="5.0dip" />
+    <com.betinvest.android.views.RobotoRegularTextView android:textSize="12.0sp" android:textColor="?profile_txt1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/native_responsible_gambling_limits_period" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/period_recycler_view" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" />
+    <com.betinvest.android.views.RobotoRegularTextView android:textSize="12.0sp" android:textColor="?profile_txt1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25.0dip" android:text="@string/native_responsible_gambling_limits_limit_sum" android:includeFontPadding="false" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/input_container" android:background="@drawable/input_layout_bg_selector" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:minHeight="40.0dip" android:layout_weight="1.0">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="8.0dip">
+                <com.betinvest.android.views.RobotoBoldEditText android:textSize="14.0sp" android:textColor="?input_txt" android:textColorHint="?input_txt_placeholder" android:ellipsize="end" android:gravity="start|center" android:id="@id/input_edit_text_view" android:tag="binding_2" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="Enter amount" android:maxLength="10" android:digits="\ 0123456789" android:inputType="numberDecimal" android:imeOptions="actionDone" android:paddingEnd="18.0dip" />
+            </LinearLayout>
+        </LinearLayout>
+        <com.betinvest.android.views.RobotoBoldTextView android:textSize="14.0sp" android:textColor="?profile_cardTxt2" android:gravity="center_vertical" android:tag="binding_3" android:padding="8.0dip" android:layout_width="75.0dip" android:layout_height="fill_parent" android:layout_marginTop="2.0dip" android:layout_weight="0.0" android:layout_marginStart="10.0dip" />
+    </LinearLayout>
+</LinearLayout>

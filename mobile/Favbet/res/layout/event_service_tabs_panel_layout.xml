@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/event_service_tabs_panel_layout_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/service_tabs_layout" android:background="?selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:tag="binding_1" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <include android:id="@id/scoreboard_button" android:visibility="gone" layout="@layout/event_service_button_layout" />
+            <include android:id="@id/match_tracker_button" android:visibility="gone" layout="@layout/event_service_button_layout" />
+            <include android:id="@id/statistics_button" android:visibility="gone" layout="@layout/event_service_button_layout" />
+            <include android:id="@id/web_stream_button" android:visibility="gone" layout="@layout/event_service_button_layout" />
+            <include android:id="@id/favbet_stream_button" android:visibility="gone" layout="@layout/event_favbet_stream_button_layout" />
+            <include android:id="@id/h2h_button" android:visibility="gone" layout="@layout/event_service_button_layout" />
+        </LinearLayout>
+        <FrameLayout android:id="@id/collapse_service_tabs_button" android:visibility="gone" android:layout_width="45.0dip" android:layout_height="fill_parent">
+            <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:id="@id/show_details_indicator_view" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/arrow_up_down_selector" app:tint="?line_categoryHeader_arrow" />
+        </FrameLayout>
+    </LinearLayout>
+    <View android:layout_gravity="bottom" android:background="@drawable/round_top_2_bg" android:layout_width="fill_parent" android:layout_height="4.0dip" android:backgroundTint="?line_eventHeader_Border" />
+</FrameLayout>

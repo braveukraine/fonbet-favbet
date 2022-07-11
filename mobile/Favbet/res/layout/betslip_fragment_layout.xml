@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/betslip_fragment_layout_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/toolbar_panel" android:visibility="gone" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" layout="@layout/default_toolbar_panel_layout" />
+    <androidx.core.widget.NestedScrollView android:id="@id/scroll_layout" android:background="?General_body_betslip" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toTopOf="@id/bottom_container" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/toolbar_panel">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:id="@id/active_layout" android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <include android:id="@id/bets_panel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" layout="@layout/betslip_bets_panel_layout" />
+                    <LinearLayout android:orientation="vertical" android:tag="binding_2" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <include android:id="@id/betslip_type_panel" android:visibility="gone" layout="@layout/betslip_type_change_panel_layout" />
+                        <include android:id="@id/simple_systems_panel" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" layout="@layout/betslip_systems_panel_layout" />
+                        <include android:id="@id/complex_systems_panel" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" layout="@layout/betslip_systems_panel_layout" />
+                        <include android:id="@id/stake_panel" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" layout="@layout/betslip_stake_panel_layout" />
+                    </LinearLayout>
+                </LinearLayout>
+                <FrameLayout android:id="@id/blocker_layout" android:background="?betslip_card_bg" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:alpha="0.6" />
+            </FrameLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <LinearLayout android:orientation="vertical" android:id="@id/bottom_container" android:tag="binding_3" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent">
+        <include android:id="@id/notices_panel" layout="@layout/betslip_notice_panel_layout" />
+        <include android:id="@id/vip_bet_options_panel" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="16.0dip" android:layout_marginHorizontal="16.0dip" layout="@layout/vip_bet_options_panel_layout" />
+        <include android:id="@id/vip_bet_timer_panel" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="16.0dip" android:layout_marginHorizontal="16.0dip" layout="@layout/vip_bet_timer_panel_layout" />
+        <include android:id="@id/buttons_panel" layout="@layout/betslip_button_panel_layout" />
+        <include android:id="@id/ticket_panel" android:visibility="gone" layout="@layout/betslip_pre_order_ticket_panel_layout" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/dismiss_keyboard_layout" android:layout_width="0.0dip" android:layout_height="fill_parent" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

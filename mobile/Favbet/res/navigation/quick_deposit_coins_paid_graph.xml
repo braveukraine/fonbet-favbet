@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/quick_deposit_coins_paid_graph.xml" app:startDestination="@id/balanceTopUpCoinsPaidQuickDepositFragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="BalanceTopUpCoinsPaidQuickDepositFragment" android:name="com.betinvest.favbet3.menu.balance.deposits.coins_paid.top_up.fragments.BalanceTopUpCoinsPaidQuickDepositFragment" android:id="@id/balanceTopUpCoinsPaidQuickDepositFragment">
+        <argument android:name="wallet_hash" app:argType="string" />
+    </fragment>
+</navigation>

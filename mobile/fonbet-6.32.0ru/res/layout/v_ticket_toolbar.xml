@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.textview.MaterialTextView android:textSize="20.0sp" android:textColor="?color_toolbar_primary" android:id="@id/title_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Widget.Fonbet.Text.Medium" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@drawable/space_w_4" android:showDividers="middle">
+        <com.google.android.material.textview.MaterialTextView android:textSize="14.0sp" android:textColor="?color_toolbar_primary" android:id="@id/ticket_id_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/AppTheme.ToolbarSubtitleAppearance" />
+        <com.google.android.material.textview.MaterialTextView android:textSize="14.0sp" android:textColor="?color_500_a60_base" android:id="@id/ticket_date_tv" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/AppTheme.ToolbarSubtitleAppearance" />
+        <com.google.android.material.textview.MaterialTextView android:textSize="14.0sp" android:textColor="?color_500_a60_base" android:id="@id/ticket_time_tv" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/AppTheme.ToolbarSubtitleAppearance" />
+        <Space android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <com.google.android.material.textview.MaterialTextView android:textSize="10.0sp" android:textColor="?color_900_a60" android:id="@id/text_status_indicator_tv" android:background="@drawable/bg_frame_rounded_2_s_900_a05" android:paddingLeft="4.0dip" android:paddingTop="2.0dip" android:paddingRight="4.0dip" android:paddingBottom="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAllCaps="true" style="@style/Widget.Fonbet.Text.Bold" />
+        <com.fonbet.core.commons.ui.widget.ConcentricCirclesWidget android:id="@id/circle_status_indicator" android:layout_width="16.0dip" android:layout_height="16.0dip" />
+    </LinearLayout>
+</merge>

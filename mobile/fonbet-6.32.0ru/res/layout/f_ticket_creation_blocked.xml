@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/iv_bottom_sheet_indicator" android:background="?color_150" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginBottom="8.0dip" android:src="@drawable/indicator_bottom_sheet" android:contentDescription="@null" />
+    <com.google.android.material.textview.MaterialTextView android:textSize="20.0sp" android:textColor="?color_900" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="48.0dip" android:text="@string/ticket_creation_disallowed.title" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" style="@style/Widget.Fonbet.Text.Bold" />
+    <com.google.android.material.textview.MaterialTextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="48.0dip" android:text="@string/ticket_creation_disallowed.description" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" style="@style/DialogText" />
+</LinearLayout>

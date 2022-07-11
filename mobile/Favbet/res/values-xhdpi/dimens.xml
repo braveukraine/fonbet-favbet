@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">16.0dip</dimen>
+    <dimen name="bam_additional_cc_number_text">18.0sp</dimen>
+    <dimen name="iproov_helpview_consent_text_max">13.0sp</dimen>
+    <dimen name="iproov_helpview_consent_text_min">9.0sp</dimen>
+    <dimen name="iproov_helpview_scan_instructions_text_max">16.0sp</dimen>
+    <dimen name="iproov_helpview_scan_instructions_text_min">11.0sp</dimen>
+    <dimen name="iproov_helpview_title_text_max">19.0sp</dimen>
+    <dimen name="iproov_helpview_title_text_min">12.0sp</dimen>
+    <item type="dimen" name="nv_helpview_animation_layout_height">0.7</item>
+    <dimen name="nv_helpview_container_padding_top">60.0dip</dimen>
+    <item type="dimen" name="nv_helpview_description_layout_height">0.3</item>
+    <dimen name="nv_helpview_fallback_button_text">12.0sp</dimen>
+    <dimen name="nv_helpview_full_description_margin_top">35.0dip</dimen>
+    <dimen name="nv_helpview_full_padding_top">60.0dip</dimen>
+    <item type="dimen" name="nv_helpview_liveness_bottom_height">0.14</item>
+    <item type="dimen" name="nv_helpview_liveness_cell_height">0.26</item>
+    <dimen name="nv_helpview_liveness_image_size">78.0dip</dimen>
+    <dimen name="nv_helpview_liveness_spacer">10.0dip</dimen>
+    <item type="dimen" name="nv_helpview_liveness_top_height">0.08</item>
+    <dimen name="nv_upload_container_padding_top">60.0dip</dimen>
+    <dimen name="nv_upload_description_text">16.0sp</dimen>
+    <dimen name="nv_upload_progress_info_text">14.0sp</dimen>
+    <dimen name="nv_upload_retry_button_landscape_text">14.0sp</dimen>
+    <dimen name="nv_upload_title_text">20.0sp</dimen>
+</resources>

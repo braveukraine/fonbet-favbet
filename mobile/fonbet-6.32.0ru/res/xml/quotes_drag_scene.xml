@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:motion="http://schemas.android.com/apk/res-auto">
+    <Transition motion:constraintSetEnd="@id/bottom_right" motion:constraintSetStart="@id/bottom_left" motion:duration="500">
+        <OnSwipe motion:dragDirection="dragRight" motion:touchAnchorId="@id/quotes_container" motion:touchAnchorSide="right" motion:touchRegionId="@id/quotes_container" />
+    </Transition>
+    <Transition motion:constraintSetEnd="@id/bottom_left" motion:constraintSetStart="@id/top_left" motion:duration="500">
+        <OnSwipe motion:dragDirection="dragDown" motion:touchAnchorId="@id/quotes_container" motion:touchAnchorSide="top" motion:touchRegionId="@id/quotes_container" />
+    </Transition>
+    <Transition motion:constraintSetEnd="@id/bottom_right" motion:constraintSetStart="@id/top_right" motion:duration="500">
+        <OnSwipe motion:dragDirection="dragDown" motion:touchAnchorId="@id/quotes_container" motion:touchAnchorSide="top" motion:touchRegionId="@id/quotes_container" />
+    </Transition>
+    <Transition motion:constraintSetEnd="@id/top_right" motion:constraintSetStart="@id/top_left" motion:duration="500">
+        <OnSwipe motion:dragDirection="dragRight" motion:touchAnchorId="@id/quotes_container" motion:touchAnchorSide="right" motion:touchRegionId="@id/quotes_container" />
+    </Transition>
+    <ConstraintSet android:id="@id/top_left">
+        <Constraint android:id="@id/quotes_container" android:paddingLeft="16.0dip" android:paddingTop="8.0dip" android:paddingRight="16.0dip" android:paddingBottom="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" motion:layout_constraintEnd_toEndOf="parent" motion:layout_constraintHorizontal_bias="0.0" motion:layout_constraintStart_toStartOf="parent" motion:layout_constraintTop_toTopOf="parent" motion:visibilityMode="ignore" />
+        <Constraint android:id="@id/stats_widget" android:paddingLeft="16.0dip" android:paddingTop="8.0dip" android:paddingRight="16.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="0.0dip" motion:layout_constraintBottom_toBottomOf="parent" motion:layout_constraintTop_toBottomOf="@id/quotes_container" motion:visibilityMode="ignore" />
+    </ConstraintSet>
+    <ConstraintSet android:id="@id/top_right">
+        <Constraint android:id="@id/quotes_container" android:paddingLeft="16.0dip" android:paddingTop="8.0dip" android:paddingRight="16.0dip" android:paddingBottom="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" motion:layout_constraintEnd_toEndOf="parent" motion:layout_constraintHorizontal_bias="1.0" motion:layout_constraintStart_toStartOf="parent" motion:layout_constraintTop_toTopOf="parent" motion:visibilityMode="ignore" />
+        <Constraint android:id="@id/stats_widget" android:paddingLeft="16.0dip" android:paddingTop="8.0dip" android:paddingRight="16.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="0.0dip" motion:layout_constraintBottom_toBottomOf="parent" motion:layout_constraintTop_toBottomOf="@id/quotes_container" motion:visibilityMode="ignore" />
+    </ConstraintSet>
+    <ConstraintSet android:id="@id/bottom_left">
+        <Constraint android:id="@id/quotes_container" android:paddingLeft="16.0dip" android:paddingTop="8.0dip" android:paddingRight="16.0dip" android:paddingBottom="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" motion:layout_constraintBottom_toBottomOf="parent" motion:layout_constraintEnd_toEndOf="parent" motion:layout_constraintHorizontal_bias="0.0" motion:layout_constraintStart_toStartOf="parent" motion:visibilityMode="ignore" />
+        <Constraint android:id="@id/stats_widget" android:paddingLeft="16.0dip" android:paddingTop="8.0dip" android:paddingRight="16.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="0.0dip" motion:layout_constraintBottom_toTopOf="@id/quotes_container" motion:layout_constraintTop_toTopOf="parent" motion:visibilityMode="ignore" />
+    </ConstraintSet>
+    <ConstraintSet android:id="@id/bottom_right">
+        <Constraint android:id="@id/quotes_container" android:paddingLeft="16.0dip" android:paddingTop="8.0dip" android:paddingRight="16.0dip" android:paddingBottom="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" motion:layout_constraintBottom_toBottomOf="parent" motion:layout_constraintEnd_toEndOf="parent" motion:layout_constraintHorizontal_bias="1.0" motion:layout_constraintStart_toStartOf="parent" motion:visibilityMode="ignore" />
+        <Constraint android:id="@id/stats_widget" android:paddingLeft="16.0dip" android:paddingTop="8.0dip" android:paddingRight="16.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="0.0dip" motion:layout_constraintBottom_toTopOf="@id/quotes_container" motion:layout_constraintTop_toTopOf="parent" motion:visibilityMode="ignore" />
+    </ConstraintSet>
+</MotionScene>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:tag="layout/menu_authorized_user_toolbar_layout_0" android:background="?navBar_defaultBg" android:layout_width="fill_parent" android:layout_height="56.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:bind="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginHorizontal="16.0dip">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/vip_cash_image" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_vip_client" android:scaleType="fitXY" android:tint="#ffff267e" android:layout_centerInParent="true" android:layout_marginEnd="@dimen/dist_8" android:layout_alignParentStart="true" />
+        <LinearLayout android:orientation="vertical" android:id="@id/email_and_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/vip_cash_image">
+            <com.betinvest.android.views.RobotoBoldTextView android:textSize="@dimen/text_14sp" android:textColor="?navBar_alternativeTitle" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <com.betinvest.android.views.RobotoRegularTextView android:textSize="@dimen/text_14sp" android:textColor="?navBar_alternativeTitle" android:tag="binding_3" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/my_profile" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:layout_alignParentEnd="true">
+            <com.betinvest.android.views.RobotoBoldTextView android:textSize="@dimen/text_14sp" android:textColor="?Btn_Tertiary_color_4" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/native_profile_title" android:textAllCaps="true" android:layout_marginEnd="11.0dip" />
+            <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:id="@id/profile_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_arrows_right" android:tint="?Btn_Tertiary_color_4" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

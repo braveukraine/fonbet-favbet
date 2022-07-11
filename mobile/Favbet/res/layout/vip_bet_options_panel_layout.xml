@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/vip_bet_options_panel_layout_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/round_2_bg" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="56.0dip" android:backgroundTint="?betslip_card_bg">
+        <androidx.appcompat.widget.AppCompatImageView android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_marginTop="3.0dip" android:layout_marginBottom="3.0dip" android:src="@drawable/ic_corona" android:tint="?betslip_txt" android:layout_marginVertical="3.0dip" />
+        <com.betinvest.android.views.RobotoRegularTextView android:textSize="14.0sp" android:textColor="?betslip_txt" android:id="@id/vip_bet_notice_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="10.0dip" />
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/vip_bet_action_recycler_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:overScrollMode="never" android:layout_marginVertical="5.0dip" />
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/bet_check_action_panel_layout_0" android:background="?betslip_swipeButton_bg" android:paddingLeft="10.0dip" android:paddingTop="10.0dip" android:paddingRight="10.0dip" android:paddingBottom="4.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:minWidth="85.0dip" android:paddingHorizontal="10.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.AppCompatImageView android:tag="binding_1" android:layout_width="27.0dip" android:layout_height="27.0dip" android:src="@drawable/ic_check_selector" android:tint="?betslip_swipeButton_txt" />
+        <TextView android:textColor="?betslip_swipeButton_txt" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" />
+    </LinearLayout>
+</FrameLayout>

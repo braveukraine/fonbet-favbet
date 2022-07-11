@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/balance_withdrawals_fragment_layout_0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginHorizontal="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:bind="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/progress_panel" android:visibility="gone" layout="@layout/progress_panel_layout" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/filter_block" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="11.0dip" android:layout_marginBottom="10.0dip">
+        <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:tag="binding_1" android:layout_width="15.0dip" android:layout_height="15.0dip" android:scaleType="fitXY" android:layout_marginStart="20.0dip" android:layout_marginEnd="7.0dip" />
+        <com.betinvest.android.views.RobotoBoldTextView android:textStyle="bold" android:textColor="?Btn_Tertiary_color_3" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/native_balance_filters" android:textAllCaps="true" />
+        <com.betinvest.android.views.RobotoBoldTextView android:textStyle="bold" android:textColor="?Btn_Tertiary_color_3" android:layout_gravity="center" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAllCaps="true" android:layout_marginStart="4.0dip" />
+    </LinearLayout>
+    <include android:id="@id/empty_result_panel" layout="@layout/balance_filter_not_found_layout" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recycle_items_view" android:tag="binding_3" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+</LinearLayout>

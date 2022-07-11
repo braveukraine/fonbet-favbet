@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingBottom="@dimen/dialog_content_bottom_margin" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.fonbet.core.impl.fon.ui.widget.submittable.SubmittableNoInputAreaLayout android:id="@id/submit_layout" android:layout_width="fill_parent" android:layout_height="@dimen/submittable_area_layout_height" style="@style/Widget.Fonbet.SubmittableAreaLayout">
+        <com.google.android.material.button.MaterialButton android:enabled="true" android:text="@string/action.send" style="@style/Widget.Fonbet.SubmittableAreaLayout_Button" />
+    </com.fonbet.core.impl.fon.ui.widget.submittable.SubmittableNoInputAreaLayout>
+</LinearLayout>

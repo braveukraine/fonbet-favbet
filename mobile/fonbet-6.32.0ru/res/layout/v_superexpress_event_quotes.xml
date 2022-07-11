@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:divider="@drawable/space_h_6" android:showDividers="middle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="12.0sp" android:textColor="?color_blue" android:gravity="center" android:id="@id/bookmakers_percentage_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Widget.Fonbet.Text.Medium" />
+    <TextView android:textSize="12.0sp" android:textColor="?color_900" android:id="@id/event_quote_name_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Widget.Fonbet.Text.Regular" />
+    <TextView android:textSize="12.0sp" android:textColor="?color_900_a60" android:id="@id/pool_percentage_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Widget.Fonbet.Text.Medium" />
+</LinearLayout>

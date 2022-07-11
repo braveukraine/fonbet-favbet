@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true" android:color="?stabs_VirtualsTxt_Selected" />
+    <item android:color="?stabs_txt_Default" />
+</selector>

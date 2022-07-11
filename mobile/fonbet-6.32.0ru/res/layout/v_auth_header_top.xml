@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.flexbox.FlexboxLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" app:dividerDrawableHorizontal="@drawable/space_h_8" app:flexWrap="wrap" app:showDivider="middle"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/balance_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="8.0dip">
+        <com.google.android.material.textview.MaterialTextView android:textSize="10.0sp" android:textColor="?nav_primary_80" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/drawer.balance" style="@style/Widget.Fonbet.Text.Medium" />
+        <com.google.android.material.textview.MaterialTextView android:textSize="14.0sp" android:textColor="?nav_primary_100" android:id="@id/balance_value" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Widget.Fonbet.Text.Bold" />
+    </LinearLayout>
+    <LinearLayout android:gravity="bottom" android:orientation="vertical" android:id="@id/balance_hold_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="8.0dip">
+        <com.google.android.material.textview.MaterialTextView android:textSize="14.0sp" android:textColor="?nav_secondary_lock" android:id="@id/balance_hold_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawablePadding="4.0dip" app:drawableStartCompat="@drawable/ic_balance_hold" style="@style/Widget.Fonbet.Text.Bold" />
+    </LinearLayout>
+    <LinearLayout android:gravity="bottom" android:orientation="vertical" android:id="@id/balance_bonus_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="8.0dip">
+        <com.google.android.material.textview.MaterialTextView android:textSize="14.0sp" android:textColor="?nav_primary_40" android:id="@id/balance_bonus_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawablePadding="4.0dip" app:drawableStartCompat="@drawable/ic_balance_bonus_nav_primary_40" style="@style/Widget.Fonbet.Text.Bold" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/funds_in_game_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.google.android.material.textview.MaterialTextView android:textSize="10.0sp" android:textColor="?nav_primary_40" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/drawer.funds_in_game" style="@style/Widget.Fonbet.Text.Medium" />
+        <com.google.android.material.textview.MaterialTextView android:textSize="14.0sp" android:textColor="?nav_primary_40" android:id="@id/funds_in_game_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawablePadding="4.0dip" style="@style/Widget.Fonbet.Text.Bold" />
+    </LinearLayout>
+</com.google.android.flexbox.FlexboxLayout>

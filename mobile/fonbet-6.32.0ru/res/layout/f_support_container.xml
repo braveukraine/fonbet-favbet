@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:background="?color_toolbar_bg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:layout_gravity="bottom" android:background="@drawable/divider_color_500_a20" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <com.google.android.material.tabs.TabLayout android:id="@id/tab_layout" android:background="@android:color/transparent" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Widget.Fonbet.TabLayout.Fixed" />
+    </FrameLayout>
+    <com.fonbet.core.commons.ui.viewgroup.NonSwipebleViewPager android:id="@id/view_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:background="@android:color/darker_gray" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <io.fotoapparat.view.CameraView android:id="@id/camera_view" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingTop="8.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.google.android.material.textview.MaterialTextView android:textSize="16.0sp" android:textColor="@android:color/white" android:gravity="center" android:id="@id/caption_tv" android:layout_width="280.0dip" android:layout_height="wrap_content" android:minHeight="64.0dip" style="@style/Widget.Fonbet.Text.Regular" />
+            <ImageView android:id="@id/mask_iv" android:paddingTop="25.0dip" android:paddingBottom="55.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" android:paddingStart="55.0dip" android:paddingEnd="55.0dip" />
+        </LinearLayout>
+    </FrameLayout>
+    <FrameLayout android:background="#ff2c2c2c" android:layout_width="fill_parent" android:layout_height="100.0dip">
+        <ImageView android:layout_gravity="start|center" android:id="@id/switch_camera_btn" android:layout_width="32.0dip" android:layout_height="32.0dip" android:src="@drawable/ic_switch_camera" android:layout_marginStart="16.0dip" />
+        <ImageView android:layout_gravity="center" android:id="@id/take_picture_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/camera_button_selector" />
+    </FrameLayout>
+</LinearLayout>

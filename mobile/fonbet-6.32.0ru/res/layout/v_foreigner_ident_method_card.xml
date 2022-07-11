@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.textview.MaterialTextView android:textSize="14.0sp" android:textColor="?color_negative" android:id="@id/notif_tv" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip" android:paddingStart="@dimen/dialog_margin_start" android:paddingEnd="@dimen/dialog_margin_start" style="@style/Widget.Fonbet.Text.Medium" />
+    <TextView android:id="@id/dialog_tv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/ident.foreigner_card_help_text" android:paddingStart="@dimen/dialog_margin_start" android:paddingEnd="@dimen/dialog_margin_start" style="@style/DialogText" />
+</LinearLayout>

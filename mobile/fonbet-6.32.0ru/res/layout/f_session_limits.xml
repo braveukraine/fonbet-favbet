@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.core.widget.NestedScrollView android:id="@id/scroll_view" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/content_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@drawable/divider_color_500_a20" android:showDividers="beginning|end|middle">
+            <com.fonbet.core.widget.SwitchButton android:id="@id/reminder_sb" android:background="?color_100" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" app:sb_text="@string/session_limits.reminder_finish_game" />
+            <View android:layout_width="fill_parent" android:layout_height="8.0dip" />
+            <LinearLayout android:orientation="vertical" android:background="?color_100" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.google.android.material.textview.MaterialTextView android:id="@id/limits_btn" android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/session_limits.title" android:drawablePadding="4.0dip" android:drawableEnd="@drawable/ic_info_filled" android:layout_marginStart="16.0dip" app:drawableTint="?color_500" style="@style/Widget.Fonbet.Text.Medium" />
+                <View android:id="@id/divider" android:background="?color_500_a20" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginStart="16.0dip" />
+                <com.fonbet.responsiblegaming.commons.fon.ui.widget.SessionLimitsAllProgressesWidget android:id="@id/limits_progresses" android:background="?color_150" android:paddingLeft="16.0dip" android:paddingTop="12.0dip" android:paddingRight="16.0dip" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <com.fonbet.responsiblegaming.commons.fon.ui.widget.SessionNextLimitsWidget android:id="@id/next_limits" android:background="?color_150" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <View android:background="?color_500_a20" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                <com.fonbet.core.widget.SwitchButton android:id="@id/daily_sb" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" app:sb_text="@string/session_limits.per_day" />
+                <View android:background="?color_500_a20" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginStart="16.0dip" />
+                <com.fonbet.core.widget.SwitchButton android:id="@id/weekly_sb" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" app:sb_text="@string/session_limits.per_week" />
+                <View android:background="?color_500_a20" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginStart="16.0dip" />
+                <com.fonbet.core.widget.SwitchButton android:id="@id/monthly_sb" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" app:sb_text="@string/session_limits.per_month" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <com.fonbet.restrictions.api.fon.ui.widget.RestrictionWidgetContainer android:layout_gravity="bottom" android:id="@id/restriction_widget" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip" />
+</FrameLayout>

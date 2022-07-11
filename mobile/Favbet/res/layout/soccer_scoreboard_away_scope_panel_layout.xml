@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:tag="layout/soccer_scoreboard_away_scope_panel_layout_0" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="9.0dip">
+        <androidx.appcompat.widget.AppCompatImageView android:layout_width="14.0dip" android:layout_height="14.0dip" android:src="@drawable/ic_penalty" android:scaleType="centerInside" />
+        <com.betinvest.android.views.RobotoRegularTextView android:textSize="12.0sp" android:textColor="?primary_white" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="9.0dip">
+        <androidx.appcompat.widget.AppCompatImageView android:layout_width="14.0dip" android:layout_height="14.0dip" android:src="@drawable/ic_yellow_card" android:scaleType="centerInside" />
+        <com.betinvest.android.views.RobotoRegularTextView android:textSize="12.0sp" android:textColor="?primary_white" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="9.0dip">
+        <androidx.appcompat.widget.AppCompatImageView android:layout_width="14.0dip" android:layout_height="14.0dip" android:src="@drawable/ic_red_card" android:scaleType="centerInside" />
+        <com.betinvest.android.views.RobotoRegularTextView android:textSize="12.0sp" android:textColor="?primary_white" android:tag="binding_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.AppCompatImageView android:layout_width="14.0dip" android:layout_height="14.0dip" android:src="@drawable/ic_corner" android:scaleType="centerInside" />
+        <com.betinvest.android.views.RobotoRegularTextView android:textSize="12.0sp" android:textColor="?primary_white" android:tag="binding_4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.textview.MaterialTextView android:textSize="16.0sp" android:textColor="?color_900" android:id="@id/notice_tv" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Widget.Fonbet.Text.Medium" />
+    <com.fonbet.core.commons.ui.widget.digitalcode.PinWidget android:textSize="24.0sp" android:textColor="?color_900" android:gravity="start" android:id="@id/pin_et" android:background="@android:color/transparent" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/form_field_vertical_space" android:cursorVisible="false" android:digits="\ 1234567890" android:inputType="number" app:itemHeight="56.0dip" app:itemRadius="4.0dip" app:itemSpacing="8.0dip" app:itemWidth="40.0dip" app:pinType="shape" style="@style/Widget.Fonbet.Text.Bold" />
+    <com.google.android.material.textview.MaterialTextView android:textSize="14.0sp" android:textStyle="normal" android:textColor="?color_900_a60" android:id="@id/code_resend_tv" android:paddingTop="4.0dip" android:paddingBottom="4.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingExtra="1.0sp" style="@style/Widget.Fonbet.Text.Regular" />
+</merge>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:tag="layout/balance_top_up_favorit_pay_fragment_layout_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:tag="binding_1" android:background="?General_body_profile" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:id="@id/toolbar" layout="@layout/default_toolbar_panel_layout" />
+        <include android:id="@id/top_up_favorit_pay_viewpager_layout" layout="@layout/balance_top_up_favorit_pay_viewpager_layout" />
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

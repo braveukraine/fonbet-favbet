@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/betslip_button_panel_layout_0" android:background="?tabbar_background" android:paddingLeft="20.0dip" android:paddingTop="10.0dip" android:paddingRight="20.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="20.0dip" android:paddingVertical="10.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:bind="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/risk_free_panel" layout="@layout/betslip_risk_free_panel_layout" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:id="@id/pre_order_panel" android:visibility="gone" layout="@layout/secondary_image_btn_layout" />
+        <include android:id="@id/place_bet_panel" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" layout="@layout/primary1_binding_btn_layout" />
+        <include android:id="@id/bet_confirmation_panel" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" layout="@layout/primary1_binding_btn_layout" />
+        <include android:id="@id/vip_bet_confirm_panel" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginEnd="5.0dip" layout="@layout/primary1_binding_btn_layout" />
+        <include android:id="@id/vip_bet_cancel_panel" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" layout="@layout/secondary1_binding_btn_layout" />
+        <include android:id="@id/login_panel" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" layout="@layout/primary1_binding_btn_layout" />
+        <include android:id="@id/deposit_panel" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" layout="@layout/primary1_binding_btn_layout" />
+        <include android:id="@id/accept_odds_panel" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" layout="@layout/secondary1_binding_btn_layout" />
+        <include android:id="@id/processing_panel" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" layout="@layout/secondary_progress_btn_layout" />
+        <include android:id="@id/personal_data_panel" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" layout="@layout/primary1_binding_btn_layout" />
+    </LinearLayout>
+    <include android:id="@id/fail_panel" layout="@layout/primary1_binding_btn_layout" />
+    <include android:id="@id/success_panel" layout="@layout/primary1_binding_btn_layout" />
+</LinearLayout>

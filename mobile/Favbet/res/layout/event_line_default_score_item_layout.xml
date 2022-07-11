@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="end" android:orientation="vertical" android:tag="layout/event_line_default_score_item_layout_0" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="end" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.betinvest.android.views.RobotoRegularTextView android:textSize="12.0sp" android:textColor="?Line_bS_resultTitle" android:gravity="end|center" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="@dimen/score_min_height" android:textAlignment="viewEnd" />
+        <com.betinvest.android.views.RobotoRegularTextView android:textSize="12.0sp" android:textColor="?Line_bS_resultTitle" android:gravity="end|center" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="@dimen/score_min_height" android:textAlignment="viewEnd" />
+    </LinearLayout>
+</LinearLayout>

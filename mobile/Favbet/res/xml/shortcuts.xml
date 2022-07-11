@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut android:icon="@drawable/launcher" android:enabled="true" android:shortcutId="pre_match" android:shortcutShortLabel="@string/native_sports" android:shortcutLongLabel="@string/native_sports">
+        <intent android:targetPackage="com.betinvest.favorit_sport_com_ua" android:action="com.betinvest.android.action.PRE_MATCH" android:targetClass="com.betinvest.android.ui.presentation.splash.SplashViewImpl" />
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+    <shortcut android:icon="@drawable/launcher" android:enabled="true" android:shortcutId="virtual" android:shortcutShortLabel="@string/virtual" android:shortcutLongLabel="@string/virtual">
+        <intent android:targetPackage="com.betinvest.favorit_sport_com_ua" android:action="com.betinvest.android.action.VIRTUAL" android:targetClass="com.betinvest.android.ui.presentation.splash.SplashViewImpl" />
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+    <shortcut android:icon="@drawable/launcher" android:enabled="true" android:shortcutId="bets_history" android:shortcutShortLabel="@string/bets" android:shortcutLongLabel="@string/bets_history">
+        <intent android:targetPackage="com.betinvest.favorit_sport_com_ua" android:action="com.betinvest.android.action.BETS_HISTORY" android:targetClass="com.betinvest.android.ui.presentation.splash.SplashViewImpl" />
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+    <shortcut android:icon="@drawable/launcher" android:enabled="true" android:shortcutId="deposit" android:shortcutShortLabel="@string/native_balance_deposit" android:shortcutLongLabel="@string/native_balance_deposit">
+        <intent android:targetPackage="com.betinvest.favorit_sport_com_ua" android:action="com.betinvest.android.action.DEPOSIT" android:targetClass="com.betinvest.android.ui.presentation.splash.SplashViewImpl" />
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+</shortcuts>

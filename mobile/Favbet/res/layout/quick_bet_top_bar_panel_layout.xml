@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:tag="layout/quick_bet_top_bar_panel_layout_0" android:background="?betslip_header_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="45.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:bind="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/settings_button" android:tag="binding_1" android:background="@drawable/settings_button_bg" android:layout_width="45.0dip" android:layout_height="45.0dip">
+        <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:layout_width="23.0dip" android:layout_height="23.0dip" android:src="@drawable/ic_betslip_settings" android:scaleType="fitXY" android:tint="?betslip_header_icon" />
+    </FrameLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/navigation_item_icon_view" android:duplicateParentState="true" android:layout_width="21.0dip" android:layout_height="21.0dip" android:layout_marginTop="2.0dip" android:src="@drawable/ic_nav_tab_betslip" android:scaleType="centerInside" android:tint="?betslip_header_txt" bind:layout_constraintEnd_toEndOf="parent" bind:layout_constraintStart_toStartOf="parent" bind:layout_constraintTop_toTopOf="parent" />
+        <FrameLayout android:layout_gravity="end" android:id="@id/counter_block" android:background="@drawable/bottom_navigation_badge_bg" android:visibility="gone" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="13.0dip" android:minHeight="13.0dip" android:translationX="-10.0dip" bind:layout_constraintStart_toEndOf="@id/navigation_item_icon_view" bind:layout_constraintTop_toTopOf="parent">
+            <com.betinvest.android.views.RobotoBoldTextView android:textSize="8.0dip" android:textColor="?tabbar_BadgeText" android:layout_gravity="center" android:id="@id/counter_view" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAlignment="center" />
+        </FrameLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.betinvest.android.views.RobotoBoldTextView android:textSize="16.0sp" android:textColor="?betslip_header_txt" android:ellipsize="end" android:id="@id/betslip_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:textAllCaps="true" android:textAlignment="viewStart" />
+    <FrameLayout android:id="@id/close_button" android:background="?selectableItemBackground" android:layout_width="45.0dip" android:layout_height="45.0dip">
+        <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@drawable/close_ic" android:scaleType="fitXY" android:tint="?betslip_header_icon" />
+    </FrameLayout>
+</LinearLayout>

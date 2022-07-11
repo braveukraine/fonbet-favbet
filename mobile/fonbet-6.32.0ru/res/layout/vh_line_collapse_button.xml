@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/bg_color_100" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="40.0dip" android:paddingStart="@dimen/form_margin_start" android:paddingEnd="@dimen/form_margin_end"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.textview.MaterialTextView android:textSize="14.0sp" android:textColor="?color_900" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/line.hide_sub_events" android:layout_weight="1.0" style="@style/Widget.Fonbet.Text.Medium" />
+    <ImageView android:id="@id/icon" android:layout_width="32.0dip" android:layout_height="20.0dip" android:src="@drawable/ic_option_chevron_down" android:scaleType="centerInside" android:rotation="180.0" />
+</LinearLayout>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme.Base" parent="@style/AppTheme">
+        <item name="android:listPopupWindowStyle">@style/Widget.Fonbet.PopupMenu</item>
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">?color_toolbar_bg</item>
+        <item name="android:windowLightStatusBar">?isFonLightTheme</item>
+        <item name="android:forceDarkAllowed">false</item>
+        <item name="cas_nav_secondary">#66ffffff</item>
+        <item name="casino_bg_page">#ff0a131f</item>
+        <item name="color_black">#ff000000</item>
+        <item name="color_black_a05">#0d000000</item>
+        <item name="color_black_a20">#33000000</item>
+        <item name="color_black_a40">#66000000</item>
+        <item name="color_black_a60">#99000000</item>
+        <item name="color_black_a80">#cc000000</item>
+        <item name="color_white">#ffffffff</item>
+        <item name="color_white_a05">#0dffffff</item>
+        <item name="color_white_a20">#33ffffff</item>
+        <item name="color_white_a40">#66ffffff</item>
+        <item name="color_white_a60">#99ffffff</item>
+        <item name="color_white_a80">#ccffffff</item>
+        <item name="listPopupWindowStyle">@style/Widget.Fonbet.PopupMenu</item>
+        <item name="nav_bg_tabbar_casino">#ff0a131f</item>
+        <item name="nav_primary_accent_tabbar_casino">#ffffffff</item>
+        <item name="nav_primary_casino_100">#ffffffff</item>
+        <item name="toolbarNavigationButtonStyle">@style/Widget.Fonbet.ToolbarNavButton</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Widget.ActionBar.Menu" parent="@android:style/TextAppearance.Material.Widget.ActionBar.Menu" />
+    <style name="Base.TextAppearance.AppCompat.Widget.Button.Inverse" parent="@android:style/TextAppearance.Material.Widget.Button.Inverse" />
+    <style name="Base.Theme.AppCompat" parent="@style/Base.V23.Theme.AppCompat" />
+    <style name="Base.Theme.AppCompat.Light" parent="@style/Base.V23.Theme.AppCompat.Light" />
+    <style name="Base.Widget.AppCompat.ActionButton.Overflow" parent="@android:style/Widget.Material.ActionButton.Overflow" />
+    <style name="Base.Widget.AppCompat.Button.Borderless.Colored" parent="@android:style/Widget.Material.Button.Borderless.Colored" />
+    <style name="Base.Widget.AppCompat.Button.Colored" parent="@android:style/Widget.Material.Button.Colored">
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Widget.Button.Colored</item>
+    </style>
+    <style name="Base.Widget.AppCompat.EditText" parent="@android:style/Widget.Material.EditText">
+        <item name="android:breakStrategy">simple</item>
+        <item name="android:hyphenationFrequency">none</item>
+    </style>
+    <style name="Base.Widget.AppCompat.RatingBar.Indicator" parent="@android:style/Widget.Material.RatingBar.Indicator" />
+    <style name="Base.Widget.AppCompat.RatingBar.Small" parent="@android:style/Widget.Material.RatingBar.Small" />
+    <style name="Base.Widget.AppCompat.Spinner.Underlined" parent="@android:style/Widget.Material.Spinner.Underlined" />
+    <style name="Base.Widget.AppCompat.TextView" parent="@android:style/Widget.Material.TextView">
+        <item name="android:breakStrategy">high_quality</item>
+        <item name="android:hyphenationFrequency">none</item>
+    </style>
+    <style name="CardView" parent="@style/Base.CardView">
+        <item name="cardBackgroundColor">?android:colorBackgroundFloating</item>
+    </style>
+    <style name="ModalContainerTheme" parent="@style/Theme.AppCompat.Light.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowSoftInputMode">adjustResize</item>
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:statusBarColor">?color_toolbar_bg</item>
+        <item name="android:navigationBarColor">?color_toolbar_bg</item>
+        <item name="android:windowLightStatusBar">?isFonLightTheme</item>
+    </style>
+    <style name="Widget.MaterialComponents.PopupMenu.ContextMenu" parent="@style/Base.Widget.MaterialComponents.PopupMenu.ContextMenu">
+        <item name="android:popupBackground">?popupMenuBackground</item>
+        <item name="android:popupElevation">8.0dip</item>
+    </style>
+    <style name="Widget.MaterialComponents.PopupMenu.ListPopupWindow" parent="@style/Base.Widget.MaterialComponents.PopupMenu.ListPopupWindow">
+        <item name="android:popupBackground">?popupMenuBackground</item>
+        <item name="android:popupElevation">8.0dip</item>
+    </style>
+    <style name="Base.V23.Theme.AppCompat" parent="@style/Base.V22.Theme.AppCompat">
+        <item name="actionBarItemBackground">?android:actionBarItemBackground</item>
+        <item name="actionMenuTextAppearance">?android:actionMenuTextAppearance</item>
+        <item name="actionMenuTextColor">?android:actionMenuTextColor</item>
+        <item name="actionOverflowButtonStyle">?android:actionOverflowButtonStyle</item>
+        <item name="controlBackground">@drawable/abc_control_background_material</item>
+        <item name="ratingBarStyleIndicator">?android:ratingBarStyleIndicator</item>
+        <item name="ratingBarStyleSmall">?android:ratingBarStyleSmall</item>
+    </style>
+    <style name="Base.V23.Theme.AppCompat.Light" parent="@style/Base.V22.Theme.AppCompat.Light">
+        <item name="actionBarItemBackground">?android:actionBarItemBackground</item>
+        <item name="actionMenuTextAppearance">?android:actionMenuTextAppearance</item>
+        <item name="actionMenuTextColor">?android:actionMenuTextColor</item>
+        <item name="actionOverflowButtonStyle">?android:actionOverflowButtonStyle</item>
+        <item name="controlBackground">@drawable/abc_control_background_material</item>
+        <item name="ratingBarStyleIndicator">?android:ratingBarStyleIndicator</item>
+        <item name="ratingBarStyleSmall">?android:ratingBarStyleSmall</item>
+    </style>
+</resources>

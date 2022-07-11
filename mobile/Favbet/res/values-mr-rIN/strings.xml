@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mdtp_date_v1_monthyear">MMMM yyyy</string>
+    <string name="mdtp_date_v2_daymonthyear">EEE, dd MMM</string>
+    <string name="mdtp_day_picker_description">दिवसांची महिना ग्रिड</string>
+    <string name="mdtp_deleted_key">%1$s हटविली</string>
+    <string name="mdtp_done_label">पूर्ण झाले</string>
+    <string name="mdtp_hour_picker_description">तास परिपत्रक स्लायडर</string>
+    <string name="mdtp_item_is_selected">%1$s निवडले</string>
+    <string name="mdtp_minute_picker_description">मिनिटे परिपत्रक स्लायडर</string>
+    <string name="mdtp_select_day">महिना आणि दिवस निवडा</string>
+    <string name="mdtp_select_hours">तास निवडा</string>
+    <string name="mdtp_select_minutes">मिनिटे निवडा</string>
+    <string name="mdtp_select_year">वर्ष निवडा</string>
+    <string name="mdtp_year_picker_description">वर्ष सूची</string>
+</resources>

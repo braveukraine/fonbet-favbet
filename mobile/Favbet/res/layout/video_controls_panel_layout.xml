@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/controls_layout" android:tag="layout/video_controls_panel_layout_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="end|center|top" android:id="@id/enter_pip_button" android:background="?selectableItemBackgroundBorderless" android:visibility="gone" android:layout_width="46.0dip" android:layout_height="46.0dip">
+        <androidx.appcompat.widget.AppCompatImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="13.0dip" android:src="@drawable/ic_arrow_down" android:scaleType="fitXY" android:adjustViewBounds="true" android:tint="?secondary_white1" />
+    </FrameLayout>
+    <FrameLayout android:layout_gravity="end|bottom|center" android:id="@id/enter_fs_button" android:background="?selectableItemBackgroundBorderless" android:visibility="gone" android:layout_width="46.0dip" android:layout_height="46.0dip">
+        <androidx.appcompat.widget.AppCompatImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="13.0dip" android:src="@drawable/ic_video_expand" android:scaleType="fitXY" android:adjustViewBounds="true" android:tint="?secondary_white1" />
+    </FrameLayout>
+    <FrameLayout android:layout_gravity="end|bottom|center" android:id="@id/exit_fs_button" android:background="?selectableItemBackgroundBorderless" android:visibility="gone" android:layout_width="46.0dip" android:layout_height="46.0dip">
+        <androidx.appcompat.widget.AppCompatImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="13.0dip" android:src="@drawable/ic_video_collapse" android:scaleType="fitXY" android:adjustViewBounds="true" android:tint="?secondary_white1" />
+    </FrameLayout>
+    <FrameLayout android:layout_gravity="center" android:id="@id/play_button" android:background="?selectableItemBackgroundBorderless" android:visibility="gone" android:layout_width="71.0dip" android:layout_height="71.0dip">
+        <androidx.appcompat.widget.AppCompatImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="13.0dip" android:src="@drawable/ic_video_play" android:scaleType="fitXY" android:adjustViewBounds="true" android:tint="?secondary_white1" />
+    </FrameLayout>
+    <FrameLayout android:layout_gravity="center" android:id="@id/pause_button" android:background="?selectableItemBackgroundBorderless" android:visibility="gone" android:layout_width="71.0dip" android:layout_height="71.0dip">
+        <androidx.appcompat.widget.AppCompatImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="13.0dip" android:src="@drawable/ic_video_pause" android:scaleType="fitXY" android:adjustViewBounds="true" android:tint="?secondary_white1" />
+    </FrameLayout>
+</FrameLayout>

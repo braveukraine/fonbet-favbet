@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:tag="layout/casino_game_aviator_how_to_play_layout_0" android:background="#ff0e0f0b" android:layout_width="fill_parent" android:layout_height="fill_parent" android:elevation="10.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:bind="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/instruction_block" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/aviator_game_image" android:tag="binding_1" android:background="@drawable/round_2_aviator_how_to_play_bg" android:layout_width="229.0dip" android:layout_height="126.0dip" android:layout_marginTop="@dimen/dist_16" android:layout_marginBottom="@dimen/dist_22" android:scaleType="fitCenter" android:adjustViewBounds="true" android:contentDescription="Instruction image" android:layout_marginStart="55.0dip" android:layout_marginEnd="59.0dip" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/dist_4" android:layout_marginBottom="@dimen/dist_10">
+            <com.betinvest.android.views.RobotoBoldTextView android:textSize="@dimen/text_32sp" android:textColor="?casino_cardTitle1" android:gravity="top" android:layout_gravity="top" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/dist_12" />
+            <ImageView android:layout_gravity="top" android:tag="binding_3" android:background="@drawable/aviator_how_to_play_circle_bg" android:padding="@dimen/dist_4" android:layout_width="@dimen/dist_36" android:layout_height="@dimen/dist_36" android:layout_marginTop="@dimen/dist_4" android:scaleType="fitCenter" android:adjustViewBounds="true" android:contentDescription="Game image" android:layout_marginStart="4.0dip" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/dist_12" android:layout_marginEnd="@dimen/dist_30">
+                <com.betinvest.android.views.RobotoRegularTextView android:textSize="@dimen/text_16sp" android:textColor="?casino_cardTitle1" android:gravity="top" android:layout_gravity="top" android:tag="binding_4" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="false" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

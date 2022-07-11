@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/html_page_nested_graph" app:startDestination="@id/htmlPageFragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="HtmlPageFragment" android:name="com.betinvest.favbet3.common.htmlpage.HtmlPageFragment" android:id="@id/htmlPageFragment">
+        <argument android:name="title" android:defaultValue="" app:argType="string" />
+        <argument android:name="url" android:defaultValue="" app:argType="string" />
+        <argument android:name="relationIdt" android:defaultValue="" app:argType="string" />
+        <argument android:name="pageId" android:defaultValue="" app:argType="string" />
+    </fragment>
+    <navigation android:id="@id/quick_deposit_navigation" app:startDestination="@id/quick_deposit_nested_graph">
+        <include app:graph="@navigation/quick_deposit_nested_graph" />
+    </navigation>
+    <action android:id="@id/toGlobalQuickDeposit" app:destination="@id/quick_deposit_navigation" />
+</navigation>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:motion="http://schemas.android.com/apk/res-auto">
+    <Transition motion:constraintSetEnd="@id/appear" motion:constraintSetStart="@id/start" motion:duration="1000" motion:motionInterpolator="easeInOut">
+        <KeyFrameSet>
+            <KeyAttribute android:alpha="1.0" android:scaleX="1.0" android:scaleY="1.0" motion:framePosition="20" motion:motionTarget="@id/iv_face_oval_mask" />
+            <KeyAttribute android:alpha="1.0" android:translationX="-15.0dip" android:translationY="20.0dip" android:scaleX="1.0" android:scaleY="1.0" motion:framePosition="40" motion:motionTarget="@id/iv_face" />
+            <KeyAttribute android:alpha="1.0" android:translationX="0.0dip" android:translationY="0.0dip" android:scaleX="1.0" android:scaleY="1.0" motion:framePosition="40" motion:motionTarget="@id/iv_crosshair_tl" />
+            <KeyAttribute android:alpha="1.0" android:translationX="0.0dip" android:translationY="0.0dip" android:scaleX="1.0" android:scaleY="1.0" motion:framePosition="40" motion:motionTarget="@id/iv_crosshair_tr" />
+            <KeyAttribute android:alpha="1.0" android:translationX="0.0dip" android:translationY="0.0dip" android:scaleX="1.0" android:scaleY="1.0" motion:framePosition="40" motion:motionTarget="@id/iv_crosshair_bl" />
+            <KeyAttribute android:alpha="1.0" android:translationX="0.0dip" android:translationY="0.0dip" android:scaleX="1.0" android:scaleY="1.0" motion:framePosition="40" motion:motionTarget="@id/iv_crosshair_br" />
+        </KeyFrameSet>
+    </Transition>
+    <ConstraintSet android:id="@id/start">
+        <Constraint android:id="@id/iv_face" android:layout_width="0.0dip" android:layout_height="0.0dip" android:alpha="0.0" android:translationX="-15.0dip" android:translationY="20.0dip" android:scaleX="0.0" android:scaleY="0.0" motion:layout_constraintBottom_toBottomOf="@id/iv_face_oval_mask" motion:layout_constraintEnd_toEndOf="@id/iv_face_oval_mask" motion:layout_constraintHeight_percent="0.7" motion:layout_constraintStart_toStartOf="@id/iv_face_oval_mask" motion:layout_constraintTop_toTopOf="@id/iv_face_oval_mask" motion:layout_constraintWidth_percent="0.7" />
+        <Constraint android:id="@id/iv_face_oval_mask" android:layout_width="wrap_content" android:layout_height="wrap_content" android:alpha="0.0" android:scaleX="0.0" android:scaleY="0.0" motion:layout_constraintBottom_toBottomOf="parent" motion:layout_constraintEnd_toEndOf="parent" motion:layout_constraintStart_toStartOf="parent" motion:layout_constraintTop_toTopOf="parent" />
+        <Constraint android:id="@id/iv_crosshair_tl" android:layout_width="wrap_content" android:layout_height="0.0dip" android:alpha="0.0" android:scaleX="0.0" android:scaleY="0.0" motion:layout_constraintHeight_percent="0.1" motion:layout_constraintStart_toStartOf="@id/animationGuidelineStart" motion:layout_constraintTop_toTopOf="@id/animationGuidelineTop" />
+        <Constraint android:id="@id/iv_crosshair_tr" android:layout_width="wrap_content" android:layout_height="0.0dip" android:alpha="0.0" android:scaleX="0.0" android:scaleY="0.0" android:rotationY="-180.0" motion:layout_constraintEnd_toEndOf="@id/animationGuidelineEnd" motion:layout_constraintHeight_percent="0.1" motion:layout_constraintTop_toTopOf="@id/animationGuidelineTop" />
+        <Constraint android:id="@id/iv_crosshair_bl" android:layout_width="wrap_content" android:layout_height="0.0dip" android:alpha="0.0" android:scaleX="0.0" android:scaleY="0.0" android:rotationX="-180.0" motion:layout_constraintBottom_toBottomOf="@id/animationGuidelineBottom" motion:layout_constraintHeight_percent="0.1" motion:layout_constraintStart_toStartOf="@id/animationGuidelineStart" />
+        <Constraint android:id="@id/iv_crosshair_br" android:layout_width="wrap_content" android:layout_height="0.0dip" android:alpha="0.0" android:scaleX="0.0" android:scaleY="0.0" android:rotationX="-180.0" android:rotationY="-180.0" motion:layout_constraintBottom_toBottomOf="@id/animationGuidelineBottom" motion:layout_constraintEnd_toEndOf="@id/animationGuidelineEnd" motion:layout_constraintHeight_percent="0.1" />
+        <Constraint android:id="@id/iv_checkmark" android:layout_width="0.0dip" android:layout_height="0.0dip" android:alpha="0.0" android:scaleX="0.0" android:scaleY="0.0" motion:layout_constraintBottom_toBottomOf="@id/iv_checkmark_circle" motion:layout_constraintEnd_toEndOf="@id/iv_checkmark_circle" motion:layout_constraintHeight_percent="0.25" motion:layout_constraintStart_toStartOf="@id/iv_checkmark_circle" motion:layout_constraintTop_toTopOf="@id/iv_checkmark_circle" motion:layout_constraintWidth_percent="0.25" />
+        <Constraint android:id="@id/iv_checkmark_circle" android:layout_width="0.0dip" android:layout_height="0.0dip" android:alpha="0.0" android:scaleX="0.0" android:scaleY="0.0" motion:layout_constraintBottom_toBottomOf="@id/iv_face_oval_mask" motion:layout_constraintEnd_toEndOf="@id/iv_face_oval_mask" motion:layout_constraintHeight_percent="0.5" motion:layout_constraintStart_toStartOf="@id/iv_face_oval_mask" motion:layout_constraintTop_toTopOf="@id/iv_face_oval_mask" motion:layout_constraintWidth_percent="0.5" motion:srcCompat="@drawable/ic_checkmark_circle" />
+        <Constraint android:id="@id/iv_progress_lane" android:layout_width="0.0dip" android:layout_height="0.0dip" android:scaleType="fitXY" android:alpha="0.0" android:scaleX="0.0" android:scaleY="0.0" motion:layout_constraintBottom_toTopOf="@id/animationGuidelineBottom" motion:layout_constraintEnd_toEndOf="@id/animationGuidelineEndOval" motion:layout_constraintHeight_percent="0.03" motion:layout_constraintStart_toStartOf="@id/animationGuidelineStartOval" motion:layout_constraintWidth_percent="0.58" motion:srcCompat="@drawable/ic_progress_lane" />
+        <Constraint android:id="@id/iv_progress_bar" android:layout_width="0.0dip" android:layout_height="0.0dip" android:scaleType="fitXY" android:alpha="0.0" android:transformPivotX="0.0dip" android:scaleX="0.0" android:scaleY="0.0" motion:layout_constraintBottom_toTopOf="@id/animationGuidelineBottom" motion:layout_constraintEnd_toEndOf="@id/animationGuidelineEndOval" motion:layout_constraintHeight_percent="0.03" motion:layout_constraintStart_toStartOf="@id/animationGuidelineStartOval" motion:layout_constraintWidth_percent="0.58" motion:srcCompat="@drawable/ic_progress_bar" />
+    </ConstraintSet>
+    <ConstraintSet android:id="@id/appear" motion:deriveConstraintsFrom="@id/start">
+        <Constraint android:id="@id/iv_face" android:layout_width="0.0dip" android:layout_height="0.0dip" android:alpha="1.0" android:translationX="-15.0dip" android:translationY="20.0dip" android:scaleX="1.0" android:scaleY="1.0" motion:layout_constraintBottom_toBottomOf="@id/iv_face_oval_mask" motion:layout_constraintEnd_toEndOf="@id/iv_face_oval_mask" motion:layout_constraintHeight_percent="0.7" motion:layout_constraintStart_toStartOf="@id/iv_face_oval_mask" motion:layout_constraintTop_toTopOf="@id/iv_face_oval_mask" motion:layout_constraintWidth_percent="0.7" />
+        <Constraint android:id="@id/iv_face_oval_mask" android:layout_width="wrap_content" android:layout_height="wrap_content" android:alpha="1.0" android:scaleX="1.0" android:scaleY="1.0" motion:layout_constraintEnd_toEndOf="parent" motion:layout_constraintStart_toStartOf="parent" />
+        <Constraint android:id="@id/iv_crosshair_tl" android:layout_width="wrap_content" android:layout_height="0.0dip" android:alpha="1.0" android:scaleX="1.0" android:scaleY="1.0" motion:layout_constraintHeight_percent="0.1" motion:layout_constraintStart_toStartOf="@id/animationGuidelineStart" motion:layout_constraintTop_toTopOf="@id/animationGuidelineTop" />
+        <Constraint android:id="@id/iv_crosshair_tr" android:layout_width="wrap_content" android:layout_height="0.0dip" android:alpha="1.0" android:scaleX="1.0" android:scaleY="1.0" android:rotationY="-180.0" motion:layout_constraintEnd_toEndOf="@id/animationGuidelineEnd" motion:layout_constraintHeight_percent="0.1" motion:layout_constraintTop_toTopOf="@id/animationGuidelineTop" />
+        <Constraint android:id="@id/iv_crosshair_bl" android:layout_width="wrap_content" android:layout_height="0.0dip" android:alpha="1.0" android:scaleX="1.0" android:scaleY="1.0" android:rotationX="-180.0" motion:layout_constraintBottom_toBottomOf="@id/animationGuidelineBottom" motion:layout_constraintHeight_percent="0.1" motion:layout_constraintStart_toStartOf="@id/animationGuidelineStart" />
+        <Constraint android:id="@id/iv_crosshair_br" android:layout_width="wrap_content" android:layout_height="0.0dip" android:alpha="1.0" android:scaleX="1.0" android:scaleY="1.0" android:rotationX="-180.0" android:rotationY="-180.0" motion:layout_constraintBottom_toBottomOf="@id/animationGuidelineBottom" motion:layout_constraintEnd_toEndOf="@id/animationGuidelineEnd" motion:layout_constraintHeight_percent="0.1" />
+    </ConstraintSet>
+    <ConstraintSet android:id="@id/align" motion:deriveConstraintsFrom="@id/appear">
+        <Constraint android:id="@id/iv_face" android:layout_width="0.0dip" android:layout_height="0.0dip" android:alpha="1.0" android:translationX="-2.0dip" android:scaleX="1.0" android:scaleY="1.0" motion:layout_constraintBottom_toBottomOf="@id/iv_face_oval_mask" motion:layout_constraintEnd_toEndOf="@id/iv_face_oval_mask" motion:layout_constraintHeight_percent="0.7" motion:layout_constraintStart_toStartOf="@id/iv_face_oval_mask" motion:layout_constraintTop_toTopOf="@id/iv_face_oval_mask" motion:layout_constraintWidth_percent="0.7" />
+    </ConstraintSet>
+    <ConstraintSet android:id="@id/focus" motion:deriveConstraintsFrom="@id/align">
+        <Constraint android:id="@id/iv_face" android:layout_width="0.0dip" android:layout_height="0.0dip" android:alpha="1.0" android:translationX="-2.0dip" android:scaleX="1.0" android:scaleY="1.0" motion:layout_constraintBottom_toBottomOf="@id/iv_face_oval_mask" motion:layout_constraintEnd_toEndOf="@id/iv_face_oval_mask" motion:layout_constraintHeight_percent="0.7" motion:layout_constraintStart_toStartOf="@id/iv_face_oval_mask" motion:layout_constraintTop_toTopOf="@id/iv_face_oval_mask" motion:layout_constraintWidth_percent="0.7" />
+        <Constraint android:id="@id/iv_crosshair_tl" android:layout_width="wrap_content" android:layout_height="0.0dip" motion:layout_constraintHeight_percent="0.1" motion:layout_constraintStart_toStartOf="@id/animationGuidelineStartOval" motion:layout_constraintTop_toBottomOf="@id/animationGuidelineTopOval" />
+        <Constraint android:id="@id/iv_crosshair_tr" android:layout_width="wrap_content" android:layout_height="0.0dip" android:rotationY="-180.0" motion:layout_constraintEnd_toEndOf="@id/animationGuidelineEndOval" motion:layout_constraintHeight_percent="0.1" motion:layout_constraintTop_toBottomOf="@id/animationGuidelineTopOval" />
+        <Constraint android:id="@id/iv_crosshair_bl" android:layout_width="wrap_content" android:layout_height="0.0dip" android:rotationX="-180.0" motion:layout_constraintBottom_toTopOf="@id/animationGuidelineBottomOval" motion:layout_constraintHeight_percent="0.1" motion:layout_constraintStart_toStartOf="@id/animationGuidelineStartOval" />
+        <Constraint android:id="@id/iv_crosshair_br" android:layout_width="wrap_content" android:layout_height="0.0dip" android:rotationX="-180.0" android:rotationY="-180.0" motion:layout_constraintBottom_toTopOf="@id/animationGuidelineBottomOval" motion:layout_constraintEnd_toEndOf="@id/animationGuidelineEndOval" motion:layout_constraintHeight_percent="0.1" />
+    </ConstraintSet>
+    <ConstraintSet android:id="@id/flash" motion:deriveConstraintsFrom="@id/focus">
+        <Constraint android:id="@id/iv_progress_lane" android:layout_width="0.0dip" android:layout_height="0.0dip" android:alpha="1.0" android:scaleX="1.0" android:scaleY="1.0" motion:layout_constraintBottom_toTopOf="@id/animationGuidelineBottom" motion:layout_constraintEnd_toEndOf="@id/animationGuidelineEndOval" motion:layout_constraintHeight_percent="0.03" motion:layout_constraintStart_toStartOf="@id/animationGuidelineStartOval" motion:layout_constraintWidth_percent="0.58" motion:srcCompat="@drawable/ic_progress_lane" />
+        <Constraint android:id="@id/iv_progress_bar" android:layout_width="0.0dip" android:layout_height="0.0dip" android:scaleType="fitXY" android:alpha="1.0" android:scaleX="1.0" android:scaleY="1.0" motion:layout_constraintBottom_toTopOf="@id/animationGuidelineBottom" motion:layout_constraintEnd_toEndOf="@id/animationGuidelineEndOval" motion:layout_constraintHeight_percent="0.03" motion:layout_constraintStart_toStartOf="@id/animationGuidelineStartOval" motion:layout_constraintWidth_percent="0.58" motion:srcCompat="@drawable/ic_progress_bar" />
+    </ConstraintSet>
+    <ConstraintSet android:id="@id/success" motion:deriveConstraintsFrom="@id/start">
+        <Constraint android:id="@id/iv_checkmark" android:layout_width="0.0dip" android:layout_height="0.0dip" android:alpha="1.0" android:scaleX="1.0" android:scaleY="1.0" motion:layout_constraintBottom_toBottomOf="@id/iv_checkmark_circle" motion:layout_constraintEnd_toEndOf="@id/iv_checkmark_circle" motion:layout_constraintHeight_percent="0.25" motion:layout_constraintStart_toStartOf="@id/iv_checkmark_circle" motion:layout_constraintTop_toTopOf="@id/iv_checkmark_circle" motion:layout_constraintWidth_percent="0.25" />
+        <Constraint android:id="@id/iv_checkmark_circle" android:layout_width="0.0dip" android:layout_height="0.0dip" android:alpha="1.0" android:scaleX="1.0" android:scaleY="1.0" motion:layout_constraintBottom_toBottomOf="@id/iv_face_oval_mask" motion:layout_constraintEnd_toEndOf="@id/iv_face_oval_mask" motion:layout_constraintHeight_percent="0.5" motion:layout_constraintStart_toStartOf="@id/iv_face_oval_mask" motion:layout_constraintTop_toTopOf="@id/iv_face_oval_mask" motion:layout_constraintWidth_percent="0.5" />
+    </ConstraintSet>
+    <Transition motion:constraintSetEnd="@id/align" motion:constraintSetStart="@id/appear" motion:duration="600" motion:motionInterpolator="easeInOut" />
+    <Transition motion:constraintSetEnd="@id/focus" motion:constraintSetStart="@id/align" motion:duration="700" motion:motionInterpolator="cubic(0,0,0,1)" motion:pathMotionArc="none" />
+    <Transition motion:constraintSetEnd="@id/flash" motion:constraintSetStart="@id/focus" motion:duration="2400" motion:motionInterpolator="linear">
+        <KeyFrameSet>
+            <KeyAttribute android:alpha="1.0" android:scaleX="1.0" android:scaleY="1.0" motion:framePosition="0" motion:motionTarget="@id/iv_progress_lane" />
+            <KeyAttribute android:alpha="1.0" android:transformPivotX="0.0dip" android:scaleX="0.0" android:scaleY="1.0" motion:framePosition="0" motion:motionTarget="@id/iv_progress_bar" />
+            <KeyAttribute android:alpha="0.2" motion:framePosition="12" motion:motionTarget="@id/iv_face" />
+            <KeyAttribute android:alpha="0.2" motion:framePosition="12" motion:motionTarget="@id/iv_face_oval_mask" />
+            <KeyAttribute android:alpha="1.0" motion:framePosition="25" motion:motionTarget="@id/iv_face" />
+            <KeyAttribute android:alpha="1.0" motion:framePosition="25" motion:motionTarget="@id/iv_face_oval_mask" />
+            <KeyAttribute android:alpha="0.2" motion:framePosition="38" motion:motionTarget="@id/iv_face" />
+            <KeyAttribute android:alpha="0.2" motion:framePosition="38" motion:motionTarget="@id/iv_face_oval_mask" />
+            <KeyAttribute android:alpha="1.0" motion:framePosition="50" motion:motionTarget="@id/iv_face" />
+            <KeyAttribute android:alpha="1.0" motion:framePosition="50" motion:motionTarget="@id/iv_face_oval_mask" />
+            <KeyAttribute android:alpha="0.2" motion:framePosition="62" motion:motionTarget="@id/iv_face" />
+            <KeyAttribute android:alpha="0.2" motion:framePosition="62" motion:motionTarget="@id/iv_face_oval_mask" />
+            <KeyAttribute android:alpha="1.0" motion:framePosition="75" motion:motionTarget="@id/iv_face" />
+            <KeyAttribute android:alpha="1.0" motion:framePosition="75" motion:motionTarget="@id/iv_face_oval_mask" />
+            <KeyAttribute android:alpha="0.2" motion:framePosition="88" motion:motionTarget="@id/iv_face" />
+            <KeyAttribute android:alpha="0.2" motion:framePosition="88" motion:motionTarget="@id/iv_face_oval_mask" />
+            <KeyAttribute android:alpha="1.0" android:scaleX="1.0" android:scaleY="1.0" motion:framePosition="99" motion:motionTarget="@id/iv_progress_lane" />
+            <KeyAttribute android:alpha="1.0" android:scaleX="1.0" android:scaleY="1.0" motion:framePosition="99" motion:motionTarget="@id/iv_progress_bar" />
+        </KeyFrameSet>
+    </Transition>
+    <Transition motion:constraintSetEnd="@id/success" motion:constraintSetStart="@id/flash" motion:duration="1200" motion:motionInterpolator="linear">
+        <KeyFrameSet>
+            <KeyAttribute android:alpha="0.0" android:scaleX="1.0" motion:framePosition="10" motion:motionTarget="@id/iv_progress_lane" />
+            <KeyAttribute android:alpha="0.0" android:scaleX="1.0" motion:framePosition="10" motion:motionTarget="@id/iv_progress_bar" />
+            <KeyAttribute android:alpha="0.0" android:scaleX="0.0" android:scaleY="0.0" motion:framePosition="25" motion:motionTarget="@id/iv_crosshair_tl" />
+            <KeyAttribute android:alpha="0.0" android:scaleX="0.0" android:scaleY="0.0" motion:framePosition="25" motion:motionTarget="@id/iv_crosshair_tr" />
+            <KeyAttribute android:alpha="0.0" android:scaleX="0.0" android:scaleY="0.0" motion:framePosition="25" motion:motionTarget="@id/iv_crosshair_bl" />
+            <KeyAttribute android:alpha="0.0" android:scaleX="0.0" android:scaleY="0.0" motion:framePosition="25" motion:motionTarget="@id/iv_crosshair_br" />
+            <KeyAttribute android:alpha="0.0" android:scaleX="0.0" android:scaleY="0.0" motion:framePosition="20" motion:motionTarget="@id/iv_face_oval_mask" />
+            <KeyAttribute android:alpha="0.0" android:scaleX="0.0" android:scaleY="0.0" motion:framePosition="15" motion:motionTarget="@id/iv_face" />
+            <KeyAttribute android:alpha="1.0" android:scaleX="1.0" android:scaleY="1.0" motion:framePosition="35" motion:motionTarget="@id/iv_checkmark_circle" />
+            <KeyAttribute android:alpha="1.0" android:scaleX="1.0" android:scaleY="1.0" motion:framePosition="45" motion:motionTarget="@id/iv_checkmark" />
+        </KeyFrameSet>
+    </Transition>
+    <Transition motion:constraintSetEnd="@id/success" motion:constraintSetStart="@id/focus" motion:duration="1200" motion:motionInterpolator="linear">
+        <KeyFrameSet>
+            <KeyAttribute android:alpha="0.0" android:scaleX="0.0" android:scaleY="0.0" motion:framePosition="25" motion:motionTarget="@id/iv_crosshair_tl" />
+            <KeyAttribute android:alpha="0.0" android:scaleX="0.0" android:scaleY="0.0" motion:framePosition="25" motion:motionTarget="@id/iv_crosshair_tr" />
+            <KeyAttribute android:alpha="0.0" android:scaleX="0.0" android:scaleY="0.0" motion:framePosition="25" motion:motionTarget="@id/iv_crosshair_bl" />
+            <KeyAttribute android:alpha="0.0" android:scaleX="0.0" android:scaleY="0.0" motion:framePosition="25" motion:motionTarget="@id/iv_crosshair_br" />
+            <KeyAttribute android:alpha="0.0" android:scaleX="0.0" android:scaleY="0.0" motion:framePosition="20" motion:motionTarget="@id/iv_face_oval_mask" />
+            <KeyAttribute android:alpha="0.0" android:scaleX="0.0" android:scaleY="0.0" motion:framePosition="15" motion:motionTarget="@id/iv_face" />
+            <KeyAttribute android:alpha="1.0" android:scaleX="1.0" android:scaleY="1.0" motion:framePosition="35" motion:motionTarget="@id/iv_checkmark_circle" />
+            <KeyAttribute android:alpha="1.0" android:scaleX="1.0" android:scaleY="1.0" motion:framePosition="45" motion:motionTarget="@id/iv_checkmark" />
+        </KeyFrameSet>
+    </Transition>
+    <Transition motion:constraintSetEnd="@id/start" motion:constraintSetStart="@id/success" motion:duration="300">
+        <KeyFrameSet>
+            <KeyAttribute android:alpha="0.0" android:scaleX="0.0" android:scaleY="0.0" motion:framePosition="20" motion:motionTarget="@id/iv_checkmark_circle" />
+            <KeyAttribute android:alpha="0.0" android:scaleX="0.0" android:scaleY="0.0" motion:framePosition="30" motion:motionTarget="@id/iv_checkmark" />
+        </KeyFrameSet>
+    </Transition>
+</MotionScene>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="accent_pay_enable_country" />
+    <string-array name="addresses">
+        <item>Bobruisk, st. Minskaya, 54v, room 1</item>
+        <item>Minsk, street Kulman, 9 (Monetka mall, sector 15, place 4.5)</item>
+    </string-array>
+    <string-array name="addresses_without_withdrawal">
+        <item>Minsk, st. Pritytskogo, 142 (Gaming club MaxBet) temporarily closed</item>
+        <item>Minsk, st. Zhilunovicha, d. 2D-1 (Gaming club MaxBet) temporarily closed</item>
+        <item>Minsk, st. Krasnoarmeyskaya, 36 (Casino OPERA) temporarily closed</item>
+        <item>Minsk, st. Bobruiskaya, 6 (Game club BOOK of RA)</item>
+        <item>Minsk, Dzerzhinsky avenue, 104 (Gaming club GRAND PRIX) temporarily closed</item>
+        <item>Minsk, Kirov st., 13 (Casino Diamond Princess) temporarily closed</item>
+        <item>Minsk, st. Yanka Kupala, 25-5a (Casino Princess Juravinka) temporarily closed</item>
+        <item>Brest, Moskovskaya st., 326A (Casino OLYMPUS)</item>
+    </string-array>
+    <array name="bpay_enable_country" />
+    <string-array name="european_countries">
+        <item>AT</item>
+        <item>BE</item>
+        <item>BG</item>
+        <item>GB</item>
+        <item>HU</item>
+        <item>DE</item>
+        <item>GR</item>
+        <item>DK</item>
+        <item>IE</item>
+        <item>ES</item>
+        <item>IT</item>
+        <item>CY</item>
+        <item>LV</item>
+        <item>LT</item>
+        <item>LU</item>
+        <item>MT</item>
+        <item>NL</item>
+        <item>PL</item>
+        <item>PT</item>
+        <item>RO</item>
+        <item>SK</item>
+        <item>SI</item>
+        <item>FI</item>
+        <item>FR</item>
+        <item>HR</item>
+        <item>CZ</item>
+        <item>SE</item>
+        <item>EE</item>
+    </string-array>
+</resources>

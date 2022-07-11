@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:tag="layout/serve_score_panel_layout_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.betinvest.android.views.RobotoBoldTextView android:textSize="12.0sp" android:textColor="?Scoreboards_infoTxt1" android:id="@id/description_view" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <com.betinvest.android.views.RobotoRegularTextView android:textColor="?Scoreboards_infoTxt1" android:id="@id/value_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="4.0dip" />
+</LinearLayout>

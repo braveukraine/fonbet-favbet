@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <WebView android:id="@id/f_web_view" android:focusable="true" android:focusableInTouchMode="true" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.fonbet.core.impl.fon.ui.widget.StyledLoader android:layout_gravity="center" android:id="@id/f_web_progress_bar" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="32.0dip" android:layout_marginBottom="32.0dip" />
+    <View android:layout_gravity="top" android:background="?color_500_a20" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+</FrameLayout>

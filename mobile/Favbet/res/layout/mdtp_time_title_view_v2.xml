@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="@dimen/mdtp_time_picker_header_text_size" android:textColor="@color/mdtp_white" android:gravity="center" android:id="@id/mdtp_time_picker_header" android:background="@color/mdtp_accent_color_dark" android:padding="8.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false" android:textAllCaps="@bool/mdtp_title_all_caps"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

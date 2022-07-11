@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:tag="layout/create_document_step_panel_layout_0" android:paddingLeft="48.0dip" android:paddingRight="48.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="48.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:enabled="false" android:id="@id/create_document_step_layout" android:tag="binding_1" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginEnd="10.0dip">
+        <include layout="@layout/verification_step_indicator_layout" />
+        <com.betinvest.android.views.RobotoBoldTextView android:textColor="@color/verification_step_color_selector" android:ellipsize="end" android:gravity="center" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="13.0dip" android:text="@string/native_verification_data_entry" android:maxLines="2" android:textAllCaps="true" />
+    </FrameLayout>
+    <FrameLayout android:enabled="false" android:id="@id/upload_document_step_layout" android:tag="binding_2" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <include layout="@layout/verification_step_indicator_layout" />
+        <com.betinvest.android.views.RobotoBoldTextView android:textColor="@color/verification_step_color_selector" android:ellipsize="end" android:gravity="center" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="13.0dip" android:text="@string/native_verification_photo_upload" android:maxLines="2" android:textAllCaps="true" />
+    </FrameLayout>
+</LinearLayout>

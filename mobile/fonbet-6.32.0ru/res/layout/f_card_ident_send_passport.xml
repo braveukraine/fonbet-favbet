@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:id="@id/scroll_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.fonbet.ident.impl.ru.ui.widget.SignUpCompleteWidget android:id="@id/sign_up_complete_widget" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <LinearLayout android:orientation="vertical" android:id="@id/content_container" android:paddingTop="@dimen/process_container_top_padding" android:paddingBottom="@dimen/process_container_bottom_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@drawable/space_h_16" android:showDividers="middle" android:paddingStart="@dimen/process_container_start_padding" android:paddingEnd="@dimen/process_container_end_padding">
+            <com.fonbet.core.impl.fon.ui.widget.inputlayout.optionpicker.OptionPickerTextInputLayout android:id="@id/doc_type_il" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Widget.Fonbet.OptionPickerTextInputLayout.Medium">
+                <com.fonbet.core.commons.ui.widget.inputlayout.edittext.CustomTextInputEditText android:id="@id/doc_type_et" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/sign_up.field.document_type" android:inputType="textMultiLine|textNoSuggestions" />
+            </com.fonbet.core.impl.fon.ui.widget.inputlayout.optionpicker.OptionPickerTextInputLayout>
+            <com.fonbet.core.impl.fon.ui.widget.inputlayout.CustomTextInputLayout android:id="@id/passport_num_il" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Widget.Fonbet.CustomTextInputLayout.Medium">
+                <com.fonbet.core.commons.ui.widget.inputlayout.edittext.CustomTextInputEditText android:id="@id/passport_num_et" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/sign_up.field.passport_number" android:inputType="number" />
+            </com.fonbet.core.impl.fon.ui.widget.inputlayout.CustomTextInputLayout>
+            <com.fonbet.core.impl.fon.ui.widget.inputlayout.DateTimePickerTextInputLayout android:id="@id/passport_issued_date_il" android:layout_width="fill_parent" android:layout_height="wrap_content" app:dtptil_mode="date" style="@style/Widget.Fonbet.DateTimePickerTextInputLayout.Medium">
+                <com.fonbet.core.commons.ui.widget.inputlayout.edittext.CustomTextInputEditText android:id="@id/passport_issued_date_et" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/sign_up.field.passport_date" android:inputType="textNoSuggestions" />
+            </com.fonbet.core.impl.fon.ui.widget.inputlayout.DateTimePickerTextInputLayout>
+            <com.fonbet.process.commons.fon.ui.widget.CustomCheckboxWidget android:id="@id/checkbox_widget" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginBottom="10.0dip" android:text="@string/user_agreement.default_ident" app:parseTextAsAction="true" />
+            <include layout="@layout/ident_bottom_buttons" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

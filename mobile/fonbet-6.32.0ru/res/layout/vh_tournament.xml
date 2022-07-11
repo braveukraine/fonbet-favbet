@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="?color_100" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/discipline_icon" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginTop="10.0dip" android:layout_marginBottom="12.0dip" android:layout_marginStart="16.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.google.android.material.textview.MaterialTextView android:textSize="14.0sp" android:id="@id/title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginStart="8.0dip" android:layout_marginEnd="16.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.0" app:layout_constraintStart_toEndOf="@id/discipline_icon" app:layout_constraintTop_toTopOf="parent" style="@style/Widget.Fonbet.Text.Medium" />
+    <View android:id="@id/bottom_line" android:layout_width="fill_parent" android:layout_height="2.0dip" app:layout_constraintBottom_toBottomOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

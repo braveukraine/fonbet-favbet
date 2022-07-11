@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/menu_nav_graph.xml" app:startDestination="@id/menuFragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="MenuFragment" android:name="com.betinvest.favbet3.menu.MenuFragment" android:id="@id/menuFragment">
+        <action android:id="@id/toHelpFragment" app:destination="@id/helpFragment" />
+        <action android:id="@id/toBetsHistoryFragment" app:destination="@id/betsHistoryFragment" />
+        <action android:id="@id/toRegistrationHomeFragment" app:destination="@id/registrationHomeFragment" />
+        <action android:id="@id/toResultsFragment" app:destination="@id/resultsFragment" />
+        <action android:id="@id/toInformationFragment" app:destination="@id/informationFragment" />
+        <action android:id="@id/toPromotionsLobbyFragment" app:destination="@id/promotionsLobbyFragment" />
+        <action android:id="@id/toMyProfileFragment" app:destination="@id/myProfileFragment" />
+        <action android:id="@id/toBonusesFragment" app:destination="@id/bonusesFragment" />
+        <action android:id="@id/toMessagesLobbyFragment" app:destination="@id/messagesLobbyFragment" />
+        <action android:id="@id/action_menuFragment_to_forgotPasswordHomeFragment2" app:destination="@id/forgotPasswordHomeFragment2" />
+        <action android:id="@id/to_balanceFragment" app:destination="@id/balanceFragment" />
+        <action android:id="@id/to_responsibleGamblingLobbyFragment" app:destination="@id/responsibleGamblingLobbyFragment" />
+        <action android:id="@id/toCashDesksFragment" app:destination="@id/cashDesksFragment" />
+        <action android:id="@id/toMySettingsFragment" app:destination="@id/mySettingsFragment" />
+        <action android:id="@id/toClubUnauthorizedFragment" app:destination="@id/clubUnauthorizedFragment" />
+        <action android:id="@id/toClubLobbyFragment" app:destination="@id/clubLobbyFragment" />
+        <action android:id="@id/toPermissionFragment" app:destination="@id/permissionFragment" />
+    </fragment>
+    <fragment android:label="BetsHistoryFragment" android:name="com.betinvest.favbet3.menu.bethistory.root.BetHistoryFragment" android:id="@id/betsHistoryFragment">
+        <action android:id="@id/toBetHistoryDetailFragment" app:destination="@id/betHistoryDetailFragment" />
+        <action android:id="@id/toBetHistorySportFilterFragment" app:destination="@id/betHistorySportFilterFragment" />
+        <action android:id="@id/toBetHistoryCasinoFilterFragment" app:destination="@id/betHistoryCasinoFilterFragment" />
+        <action android:id="@id/toBetHistoryOstaloFilterFragment" app:destination="@id/betHistoryOstaloFilterFragment" />
+    </fragment>
+    <fragment android:label="HelpFragment" android:name="com.betinvest.favbet3.menu.help.HelpFragment" android:id="@id/helpFragment">
+        <action android:id="@id/toHelpLiveChatWebViewFragment" app:destination="@id/helpLiveChatWebViewFragment" />
+    </fragment>
+    <fragment android:label="HelpLiveChatWebViewFragment" android:name="com.betinvest.favbet3.menu.help.livechat.HelpLiveChatWebViewFragment" android:id="@id/helpLiveChatWebViewFragment" />
+    <fragment android:label="InformationFragment" android:name="com.betinvest.favbet3.menu.information.InformationFragment" android:id="@id/informationFragment">
+        <action android:id="@id/toInformationWebViewFragment" app:destination="@id/informationWebViewFragment" />
+    </fragment>
+    <fragment android:label="InformationWebViewFragment" android:name="com.betinvest.favbet3.menu.information.webview.InformationWebViewFragment" android:id="@id/informationWebViewFragment">
+        <argument android:name="relationId" app:argType="string" />
+        <argument android:name="title" app:argType="string" />
+    </fragment>
+    <fragment android:label="PromotionsLobbyFragment" android:name="com.betinvest.favbet3.menu.promotions.lobby.PromotionsLobbyFragment" android:id="@id/promotionsLobbyFragment">
+        <action android:id="@id/toPromotionDescriptionFragment" app:destination="@id/promotionDescriptionFragment" />
+    </fragment>
+    <fragment android:label="PromotionDescriptionFragment" android:name="com.betinvest.favbet3.menu.promotions.description.PromotionDescriptionFragment" android:id="@id/promotionDescriptionFragment">
+        <argument android:name="promotionIdt" app:argType="string" />
+    </fragment>
+    <fragment android:label="RegistrationHomeFragment" android:name="com.betinvest.favbet3.registration.RegistrationHomeFragment" android:id="@id/registrationHomeFragment" />
+    <fragment android:label="BetHistoryDetailFragment" android:name="com.betinvest.favbet3.menu.bethistory.detail.BetHistoryDetailFragment" android:id="@id/betHistoryDetailFragment">
+        <argument android:name="betId" app:argType="string" />
+        <action android:id="@id/toCashOutConfirmationDialogFragment" app:destination="@id/cashOutConfirmationDialogFragment" />
+    </fragment>
+    <dialog android:label="CashOutConfirmationDialogFragment" android:name="com.betinvest.favbet3.menu.bethistory.detail.cashout.CashOutConfirmationDialogFragment" android:id="@id/cashOutConfirmationDialogFragment">
+        <argument android:name="cardId" app:argType="string" />
+    </dialog>
+    <navigation android:id="@id/event_navigation" app:startDestination="@id/event_details_nested_nav_graph">
+        <include app:graph="@navigation/event_details_nested_graph" />
+        <argument android:name="eventId" app:argType="integer" />
+        <argument android:name="serviceId" app:argType="integer" />
+        <argument android:name="category" android:defaultValue="@null" app:argType="string" app:nullable="true" />
+        <argument android:name="tournament" android:defaultValue="@null" app:argType="string" app:nullable="true" />
+    </navigation>
+    <action android:id="@id/toGlobalEventDetails" app:destination="@id/event_navigation" />
+    <fragment android:label="BetHistorySportFilterFragment" android:name="com.betinvest.favbet3.menu.bethistory.sportfilter.BetHistorySportFilterFragment" android:id="@id/betHistorySportFilterFragment" />
+    <fragment android:label="ResultsFragment" android:name="com.betinvest.favbet3.menu.results.root.ResultsFragment" android:id="@id/resultsFragment">
+        <action android:id="@id/toResultsSportFilterFragment" app:destination="@id/resultsSportFilterFragment" />
+        <action android:id="@id/toResultsVirtualFilterFragment" app:destination="@id/resultsVirtualFilterFragment" />
+    </fragment>
+    <fragment android:label="ResultsSportFilterFragment" android:name="com.betinvest.favbet3.menu.results.sportfilter.ResultsSportFilterFragment" android:id="@id/resultsSportFilterFragment" />
+    <fragment android:label="MyProfileFragment" android:name="com.betinvest.favbet3.menu.myprofile.root.MyProfileFragment" android:id="@id/myProfileFragment">
+        <action android:id="@id/toPersonalDetailFragment" app:destination="@id/personalDetailFragment" />
+        <action android:id="@id/toDocumentFragment" app:destination="@id/documentFragment" />
+        <action android:id="@id/toChangePasswordFragment" app:destination="@id/changePasswordFragment" />
+        <action android:id="@id/toSessionHistoryFragment" app:destination="@id/sessionHistoryFragment" />
+        <action android:id="@id/toNotificationsFragment" app:destination="@id/notificationsFragment" />
+    </fragment>
+    <fragment android:label="PersonalDetailFragment" android:name="com.betinvest.favbet3.menu.myprofile.personaldetail.PersonalDetailFragment" android:id="@id/personalDetailFragment" />
+    <fragment android:label="DocumentFragment" android:name="com.betinvest.favbet3.menu.myprofile.document.view.ViewDocumentFragment" android:id="@id/documentFragment" />
+    <fragment android:label="ChangePasswordFragment" android:name="com.betinvest.favbet3.menu.myprofile.changepassword.ChangePasswordFragment" android:id="@id/changePasswordFragment" />
+    <fragment android:label="BonusesFragment" android:name="com.betinvest.favbet3.menu.bonuses.BonusesFragment" android:id="@id/bonusesFragment">
+        <action android:id="@id/toBonusesHistoryFragment" app:destination="@id/bonusesHistoryFragment" />
+        <action android:id="@id/toBonusDescriptionFragment" app:destination="@id/bonusDescriptionFragment" />
+        <argument android:name="bonusTypeId" android:defaultValue="0" app:argType="integer" />
+        <argument android:name="itemId" android:defaultValue="" app:argType="string" />
+        <action android:id="@id/toCasinoGameWebView" app:destination="@id/casinoGameWebViewFragment" />
+    </fragment>
+    <fragment android:label="BonusesHistoryFragment" android:name="com.betinvest.favbet3.menu.bonuses.history.BonusesHistoryFragment" android:id="@id/bonusesHistoryFragment">
+        <action android:id="@id/toBonusDescriptionFragment" app:destination="@id/bonusDescriptionFragment" />
+    </fragment>
+    <fragment android:label="BonusDescriptionFragment" android:name="com.betinvest.favbet3.menu.bonuses.description.BonusDescriptionFragment" android:id="@id/bonusDescriptionFragment">
+        <argument android:name="bonusId" android:defaultValue="0" app:argType="integer" />
+        <argument android:name="bonusType" app:argType="integer" />
+        <argument android:name="bonusModelId" android:defaultValue="0" app:argType="integer" />
+        <argument android:name="isHistory" app:argType="boolean" />
+        <action android:id="@id/toCasinoGameWebView" app:destination="@id/casinoGameWebViewFragment" />
+    </fragment>
+    <fragment android:label="CasinoGameWebViewFragment" android:name="com.betinvest.favbet3.casino.webview.CasinoGameWebViewFragment" android:id="@id/casinoGameWebViewFragment">
+        <argument android:name="casinoType" app:argType="integer" />
+        <argument android:name="gameIdt" app:argType="string" />
+        <argument android:name="servicesIdt" app:argType="string" />
+        <argument android:name="demo" app:argType="boolean" />
+        <argument android:name="mode" app:argType="integer" />
+        <argument android:name="gameName" android:defaultValue="@null" app:argType="string" app:nullable="true" />
+    </fragment>
+    <fragment android:label="MessagesLobbyFragment" android:name="com.betinvest.favbet3.menu.messages.lobby.MessagesLobbyFragment" android:id="@id/messagesLobbyFragment">
+        <action android:id="@id/toMessageDescriptionFragment" app:destination="@id/messageDescriptionFragment" />
+        <action android:id="@id/toMessagesAllDeleteDialogFragment" app:destination="@id/messagesAllDeleteConfirmationFragment" />
+        <action android:id="@id/toMessageWriteFragment" app:destination="@id/messageWriteFragment" />
+    </fragment>
+    <fragment android:label="MessageDescriptionFragment" android:name="com.betinvest.favbet3.menu.messages.description.MessageDescriptionFragment" android:id="@id/messageDescriptionFragment">
+        <argument android:name="messageId" app:argType="long" />
+        <argument android:name="messageSubject" app:argType="string" />
+        <argument android:name="messageDate" app:argType="string" />
+        <argument android:name="message" app:argType="string" />
+        <argument android:name="isMessageRead" app:argType="boolean" />
+        <argument android:name="isOpenOutSide" app:argType="boolean" />
+        <action android:id="@id/toMessageDeleteConfirmationFragment" app:destination="@id/messageDeleteConfirmationFragment" />
+        <action android:id="@id/toMessageWriteFragment" app:destination="@id/messageWriteFragment" />
+    </fragment>
+    <dialog android:label="MessageDeleteConfirmationFragment" android:name="com.betinvest.favbet3.menu.messages.description.MessageDeleteDialogFragment" android:id="@id/messageDeleteConfirmationFragment" />
+    <dialog android:label="MessagesAllDeleteDialogFragment" android:name="com.betinvest.favbet3.menu.messages.lobby.view.MessagesAllDeleteDialogFragment" android:id="@id/messagesAllDeleteConfirmationFragment">
+        <argument android:name="messageType" app:argType="integer" />
+    </dialog>
+    <fragment android:label="MessageWriteFragment" android:name="com.betinvest.favbet3.menu.messages.write.MessageWriteFragment" android:id="@id/messageWriteFragment" />
+    <fragment android:label="ForgotPasswordHomeFragment" android:name="com.betinvest.favbet3.forgot_password.ForgotPasswordHomeFragment" android:id="@id/forgotPasswordHomeFragment2" />
+    <fragment android:label="BalanceFragment" android:name="com.betinvest.favbet3.menu.balance.BalanceFragment" android:id="@id/balanceFragment">
+        <action android:id="@id/toBalanceFilterFragment" app:destination="@id/balanceFilterFragment" />
+        <action android:id="@id/to_walletsCreationFragment" app:destination="@id/walletsCreationFragment" app:launchSingleTop="false" />
+        <action android:id="@id/to_balanceTopUpFavoritPayFragment" app:destination="@id/balanceTopUpFavoritPayFragment" />
+        <action android:id="@id/toBalanceTopUpEpayStandartFragment" app:destination="@id/balanceTopUpEpayStandartDepositFragment" />
+        <action android:id="@id/toBalanceTopUpVisaMcWalletOneFragment" app:destination="@id/balanceTopUpVisaMcWalletOneStandartDepositFragment" />
+        <action android:id="@id/action_balanceFragment_to_balanceTopUpWalletOneStandartDepositFragment" app:destination="@id/balanceTopUpWalletOneStandartDepositFragment" />
+        <action android:id="@id/action_balanceFragment_to_balanceTopUpBankCardStepStandardStandardDepositFragment" app:destination="@id/balanceTopUpBankCardStepStandardStandardDepositFragment" app:popUpTo="@id/balanceFragment" />
+        <action android:id="@id/to_balanceTopUpArtPayStandartDepositFragment" app:destination="@id/balanceTopUpArtPayStandartDepositFragment" />
+        <action android:id="@id/action_balanceFragment_to_balanceTopUpIpayStandardDepositFragment" app:destination="@id/balanceTopUpIpayStandardDepositFragment" />
+        <action android:id="@id/toDocumentStatusNotice" app:destination="@id/documentVerificationPendingFragment2" />
+        <action android:id="@id/action_balanceFragment_to_balanceTopUpPsWithOnlyAmountStandardDepositFragment" app:destination="@id/balanceTopUpPsWithOnlyAmountStandardDepositFragment" />
+        <action android:id="@id/to_balancePreWageringBonusFundsWithdrawalInfoFragment" app:destination="@id/balancePreWageringBonusFundsWithdrawalInfoFragment" />
+        <action android:id="@id/to_balanceWithdrawalEpayFragment" app:destination="@id/balanceWithdrawalEpayFragment" app:popUpTo="@id/balanceFragment" />
+        <action android:id="@id/to_balanceWithdrawalBankCardFragment" app:destination="@id/balanceWithdrawalBankCardFragment" app:popUpTo="@id/balanceFragment" />
+        <action android:id="@id/to_balanceWithdrawalVisaMcWalletOneFragment" app:destination="@id/balanceWithdrawalVisaMcWalletOneFragment" app:popUpTo="@id/balanceFragment" />
+        <action android:id="@id/to_balanceWithdrawalWalletOneFragment" app:destination="@id/balanceWithdrawalWalletOneFragment" app:popUpTo="@id/balanceFragment" />
+        <action android:id="@id/to_balanceWithdrawalFavoritPayFragment" app:destination="@id/balanceWithdrawalFavoritPayFragment" app:popUpTo="@id/balanceFragment" />
+        <action android:id="@id/to_balanceWithdrawalIpayFragment" app:destination="@id/balanceWithdrawalIpayFragment" app:popUpTo="@id/balanceFragment" />
+        <action android:id="@id/to_balanceWithdrawalArtPayOnCardFragment" app:destination="@id/balanceWithdrawalArtPayOnCardFragment2" app:popUpTo="@id/balanceFragment" />
+        <action android:id="@id/to_balanceWithdrawalPsWithOnlyAmountFragment" app:destination="@id/balanceWithdrawalPsWithOnlyAmountFragment" app:popUpTo="@id/balanceFragment" />
+        <action android:id="@id/to_balanceBitcoinWithdrawalFragment" app:destination="@id/balanceBitcoinWithdrawalFragment" app:popUpTo="@id/balanceFragment" />
+        <action android:id="@id/to_balanceTopUpYigimStandardDepositFragment" app:destination="@id/balanceTopUpYigimStandardDepositFragment" />
+        <action android:id="@id/to_balanceTopUpCoinsPaidStandardDepositFragment" app:destination="@id/balanceTopUpCoinsPaidStandardDepositFragment" />
+        <action android:id="@id/to_balanceWithdrawalCoinsPaidFragment" app:destination="@id/balanceWithdrawalCoinsPaidFragment" />
+    </fragment>
+    <fragment android:label="DepositsFragment" android:name="com.betinvest.favbet3.menu.balance.deposits.DepositsFragment" android:id="@id/depositsFragment" />
+    <fragment android:label="WithdrawalsFragment" android:name="com.betinvest.favbet3.menu.balance.withdrawals.WithdrawalsFragment" android:id="@id/withdrawalsFragment" />
+    <fragment android:label="BalanceFilterFragment" android:name="com.betinvest.favbet3.menu.balance.filter.BalanceFilterFragment" android:id="@id/balanceFilterFragment">
+        <argument android:name="mode" app:argType="com.betinvest.favbet3.menu.balance.history.BalanceHistoryMode" />
+    </fragment>
+    <fragment android:label="WalletsCreationFragment" android:name="com.betinvest.favbet3.menu.balance.wallets_creation.WalletsCreationFragment" android:id="@id/walletsCreationFragment">
+        <action android:id="@id/to_balanceTopUpEpayStandartFragment" app:destination="@id/balanceTopUpEpayStandartDepositFragment" app:launchSingleTop="false" app:popUpTo="@id/balanceFragment" app:popUpToInclusive="false" />
+        <action android:id="@id/action_walletsCreationFragment_to_balanceTopUpVisaMcWalletOneStandartDepositFragment" app:destination="@id/balanceTopUpVisaMcWalletOneStandartDepositFragment" app:launchSingleTop="false" app:popUpTo="@id/balanceFragment" app:popUpToInclusive="false" />
+        <action android:id="@id/action_walletsCreationFragment_to_balanceTopUpWalletOneStandartDepositFragment" app:destination="@id/balanceTopUpWalletOneStandartDepositFragment" app:launchSingleTop="false" app:popUpTo="@id/balanceFragment" app:popUpToInclusive="false" />
+        <action android:id="@id/action_walletsCreationFragment_to_balanceTopUpBankCardStepStandardStandardDepositFragment" app:destination="@id/balanceTopUpBankCardStepStandardStandardDepositFragment" app:popUpTo="@id/balanceFragment" />
+        <action android:id="@id/action_walletsCreationFragment_to_balanceTopUpArtPayStandartDepositFragment" app:destination="@id/balanceTopUpArtPayStandartDepositFragment" app:popUpTo="@id/balanceFragment" />
+        <action android:id="@id/to_balanceTopUpPsWithOnlyAmountStandardDepositFragment" app:destination="@id/balanceTopUpPsWithOnlyAmountStandardDepositFragment" app:popUpTo="@id/balanceFragment" />
+    </fragment>
+    <fragment android:label="BalanceWithdrawalEpayFragment" android:name="com.betinvest.favbet3.menu.balance.deposits.e_pay.withdrawal.BalanceWithdrawalEpayFragment" android:id="@id/balanceWithdrawalEpayFragment">
+        <argument android:name="wallet_hash" app:argType="string" />
+    </fragment>
+    <navigation android:id="@id/login_navigation" app:startDestination="@id/login_nested_graph.xml">
+        <include app:graph="@navigation/login_nested_graph" />
+    </navigation>
+    <action android:id="@id/toGlobalLogin" app:destination="@id/login_navigation" />
+    <navigation android:id="@id/quick_deposit_navigation" app:startDestination="@id/quick_deposit_nested_graph">
+        <include app:graph="@navigation/quick_deposit_nested_graph" />
+    </navigation>
+    <action android:id="@id/toGlobalQuickDeposit" app:destination="@id/quick_deposit_navigation" />
+    <fragment android:label="BalanceWithdrawalBankCardFragment" android:name="com.betinvest.favbet3.menu.balance.deposits.bank_card.withdrawal.BalanceWithdrawalBankCardFragment" android:id="@id/balanceWithdrawalBankCardFragment">
+        <argument android:name="wallet_hash" app:argType="string" />
+    </fragment>
+    <fragment android:label="BalanceWithdrawalVisaMcWalletOneFragment" android:name="com.betinvest.favbet3.menu.balance.deposits.visamcwalletone.withdrawal.BalanceWithdrawalVisaMcWalletOneFragment" android:id="@id/balanceWithdrawalVisaMcWalletOneFragment">
+        <argument android:name="wallet_hash" app:argType="string" />
+    </fragment>
+    <fragment android:label="BalanceWithdrawalWalletOneFragment" android:name="com.betinvest.favbet3.menu.balance.deposits.walletone.withdrawal.BalanceWithdrawalWalletOneFragment" android:id="@id/balanceWithdrawalWalletOneFragment">
+        <argument android:name="wallet_hash" app:argType="string" />
+    </fragment>
+    <fragment android:label="GraphFragment" android:name="com.betinvest.favbet3.graph.GraphFragment" android:id="@id/graphFragment">
+        <argument android:name="graphType" app:argType="com.betinvest.favbet3.graph.GraphType" />
+        <argument android:name="title" android:defaultValue="" app:argType="string" app:nullable="true" />
+        <argument android:name="url" android:defaultValue="" app:argType="string" app:nullable="true" />
+        <argument android:name="relationIdt" android:defaultValue="" app:argType="string" app:nullable="true" />
+        <argument android:name="pageId" android:defaultValue="" app:argType="string" app:nullable="true" />
+        <argument android:name="graphParam" android:defaultValue="@null" app:argType="com.betinvest.favbet3.common.GraphParam" app:nullable="true" />
+    </fragment>
+    <action android:id="@id/toGlobalNestedGraph" app:destination="@id/graphFragment">
+        <argument android:name="graphType" app:argType="com.betinvest.favbet3.graph.GraphType" />
+        <argument android:name="title" android:defaultValue="" app:argType="string" app:nullable="true" />
+        <argument android:name="url" android:defaultValue="" app:argType="string" app:nullable="true" />
+        <argument android:name="relationIdt" android:defaultValue="" app:argType="string" app:nullable="true" />
+        <argument android:name="pageId" android:defaultValue="" app:argType="string" app:nullable="true" />
+        <argument android:name="graphParam" android:defaultValue="@null" app:argType="com.betinvest.favbet3.common.GraphParam" app:nullable="true" />
+    </action>
+    <fragment android:label="BalanceWithdrawalFavoritPayFragment" android:name="com.betinvest.favbet3.menu.balance.deposits.favorit_pay.BalanceWithdrawalFavoritPayFragment" android:id="@id/balanceWithdrawalFavoritPayFragment">
+        <argument android:name="wallet_hash" app:argType="string" />
+    </fragment>
+    <fragment android:label="PersonalDetailShortFragment" android:name="com.betinvest.favbet3.menu.myprofile.personaldetailshort.PersonalDetailShortFragment" android:id="@id/personalDetailShortFragment">
+        <argument android:name="openDocumentVerificationOnSuccess" android:defaultValue="false" app:argType="boolean" />
+    </fragment>
+    <action android:id="@id/toGlobalPersonalDetailShortFragment" app:destination="@id/personalDetailShortFragment" />
+    <fragment android:label="BalanceTopUpFavoritPayFragment" android:name="com.betinvest.favbet3.menu.balance.deposits.favorit_pay.BalanceTopUpFavoritPayFragment" android:id="@id/balanceTopUpFavoritPayFragment">
+        <argument android:name="wallet_hash" app:argType="string" />
+    </fragment>
+    <fragment android:label="BalanceTopUpEpayStandartDepositFragment" android:name="com.betinvest.favbet3.menu.balance.deposits.e_pay.top_up.fragments.BalanceTopUpEpayStandartDepositFragment" android:id="@id/balanceTopUpEpayStandartDepositFragment">
+        <argument android:name="wallet_hash" app:argType="string" />
+        <argument android:name="amount" app:argType="string" app:nullable="true" />
+    </fragment>
+    <fragment android:label="BalanceTopUpVisaMcWalletOneStandartDepositFragment" android:name="com.betinvest.favbet3.menu.balance.deposits.visamcwalletone.top_up.fragments.BalanceTopUpVisaMcWalletOneStandartDepositFragment" android:id="@id/balanceTopUpVisaMcWalletOneStandartDepositFragment">
+        <argument android:name="wallet_hash" app:argType="string" />
+        <argument android:name="amount" app:argType="string" app:nullable="true" />
+    </fragment>
+    <fragment android:label="BalanceTopUpWalletOneStandartDepositFragment" android:name="com.betinvest.favbet3.menu.balance.deposits.walletone.top_up.fragments.BalanceTopUpWalletOneStandartDepositFragment" android:id="@id/balanceTopUpWalletOneStandartDepositFragment">
+        <argument android:name="wallet_hash" app:argType="string" />
+        <argument android:name="amount" app:argType="string" app:nullable="true" />
+    </fragment>
+    <fragment android:label="BalanceTopUpBankCardStepAddNewCardStandardDepositFragment" android:name="com.betinvest.favbet3.menu.balance.deposits.bank_card.top_up.step_add_new_card.fragments.BalanceTopUpBankCardStepAddNewCardStandardDepositFragment" android:id="@id/balanceTopUpBankCardStepAddNewCardStandardDepositFragment">
+        <argument android:name="wallet_hash" app:argType="string" />
+        <argument android:name="amount" app:argType="string" app:nullable="true" />
+    </fragment>
+    <fragment android:label="BalanceTopUpBankCardStepStandardStandardDepositFragment" android:name="com.betinvest.favbet3.menu.balance.deposits.bank_card.top_up.step_standart.fragments.BalanceTopUpBankCardStepStandardStandardDepositFragment" android:id="@id/balanceTopUpBankCardStepStandardStandardDepositFragment">
+        <action android:id="@id/action_balanceTopUpBankCardStepStandardStandardDepositFragment_to_balanceTopUpBankCardStepAddNewCardStandardDepositFragment" app:destination="@id/balanceTopUpBankCardStepAddNewCardStandardDepositFragment" app:popUpTo="@id/balanceFragment" />
+        <argument android:name="wallet_hash" app:argType="string" />
+        <argument android:name="amount" app:argType="string" app:nullable="true" />
+        <argument android:name="new_card" app:argType="com.betinvest.favbet3.menu.balance.deposits.bank_card.withdrawal.viewdata.BankCardEntityViewData" app:nullable="true" />
+        <argument android:name="use_master_pass_method" app:argType="boolean" />
+        <argument android:name="use_google_pay_method" app:argType="boolean" /> app:nullable="true" /> </fragment>
+    <fragment android:label="BalanceTopUpArtPayStandartDepositFragment" android:name="com.betinvest.favbet3.menu.balance.deposits.art_pay.top_up.fragments.BalanceTopUpArtPayStandardDepositFragment" android:id="@id/balanceTopUpArtPayStandartDepositFragment">
+        <argument android:name="wallet_hash" app:argType="string" />
+        <argument android:name="amount" app:argType="string" app:nullable="true" />
+    </fragment>
+    <fragment android:label="BalanceTopUpIpayStandardDepositFragment" android:name="com.betinvest.favbet3.menu.balance.deposits.i_pay.top_up.fragments.BalanceTopUpIpayStandardDepositFragment" android:id="@id/balanceTopUpIpayStandardDepositFragment">
+        <argument android:name="wallet_hash" app:argType="string" />
+        <argument android:name="amount" app:argType="string" app:nullable="true" />
+    </fragment>
+    <fragment android:label="BetHistoryCasinoFilterFragment" android:name="com.betinvest.favbet3.menu.bethistory.casinofilter.BetHistoryCasinoFilterFragment" android:id="@id/betHistoryCasinoFilterFragment" />
+    <fragment android:label="BetHistoryOstaloFilterFragment" android:name="com.betinvest.favbet3.menu.bethistory.ostalofilter.BetHistoryOstaloFilterFragment" android:id="@id/betHistoryOstaloFilterFragment" />
+    <fragment android:label="ResponsibleGamblingLobbyFragment" android:name="com.betinvest.favbet3.menu.responsiblegambling.lobby.ResponsibleGamblingLobbyFragment" android:id="@id/responsibleGamblingLobbyFragment">
+        <action android:id="@id/to_responsibleGamblingLimitsFragment" app:destination="@id/responsibleGamblingLimitsFragment" />
+        <action android:id="@id/toRealityCheckFragment" app:destination="@id/realityCheckFragment" />
+        <action android:id="@id/toResponsibleGamblingSelfExclusionFragment" app:destination="@id/responsibleGamblingSelfExclusionFragment" />
+    </fragment>
+    <fragment android:label="LimitsFragment" android:name="com.betinvest.favbet3.menu.responsiblegambling.limits.view.ResponsibleGamblingLimitsFragment" android:id="@id/responsibleGamblingLimitsFragment">
+        <action android:id="@id/toLimitConfirmDialogFragment" app:destination="@id/limitConfirmDialogFragment" />
+    </fragment>
+    <dialog android:label="LimitConfirmDialogFragment" android:name="com.betinvest.favbet3.menu.responsiblegambling.limits.view.confirmation.LimitConfirmDialogFragment" android:id="@id/limitConfirmDialogFragment">
+        <argument android:name="limitType" app:argType="integer" />
+        <argument android:name="amount" app:argType="integer" />
+        <argument android:name="period" app:argType="long" />
+    </dialog>
+    <fragment android:label="RealityCheckFragment" android:name="com.betinvest.favbet3.menu.responsiblegambling.reality.view.RealityCheckFragment" android:id="@id/realityCheckFragment">
+        <action android:id="@id/toRealityCheckConfirmDialogFragment" app:destination="@id/realityCheckConfirmDialogFragment" />
+    </fragment>
+    <dialog android:label="RealityCheckConfirmDialogFragment" android:name="com.betinvest.favbet3.menu.responsiblegambling.reality.view.confirmation.RealityCheckConfirmDialogFragment" android:id="@id/realityCheckConfirmDialogFragment">
+        <argument android:name="period" app:argType="long" />
+    </dialog>
+    <fragment android:label="SelfExclusionFragment" android:name="com.betinvest.favbet3.menu.responsiblegambling.selfexclusion.view.SelfExclusionFragment" android:id="@id/responsibleGamblingSelfExclusionFragment">
+        <action android:id="@id/toSelfExclusionConfirmDialogFragment" app:destination="@id/selfExclusionConfirmDialogFragment" />
+        <action android:id="@id/toMenuFragment" app:destination="@id/menuFragment" />
+    </fragment>
+    <dialog android:label="SelfExclusionConfirmDialogFragment" android:name="com.betinvest.favbet3.menu.responsiblegambling.selfexclusion.confirmation.SelfExclusionConfirmDialogFragment" android:id="@id/selfExclusionConfirmDialogFragment">
+        <argument android:name="advertising" app:argType="boolean" />
+        <argument android:name="period" app:argType="long" />
+    </dialog>
+    <dialog android:label="UploadDocumentReminderBottomSheetDialog" android:name="com.betinvest.favbet3.menu.myprofile.document.verification.reminder.UploadDocumentReminderDialog" android:id="@id/uploadDocumentReminderBottomSheetDialog" />
+    <action android:id="@id/toGlobalUploadDocumentReminder" app:destination="@id/uploadDocumentReminderBottomSheetDialog" />
+    <dialog android:label="RealityCheckLogOutDialogFragment" android:name="com.betinvest.favbet3.menu.responsiblegambling.reality.view.logout.RealityCheckLogOutDialogFragment" android:id="@id/realityCheckLogOutDialog" />
+    <action android:id="@id/toGlobalRealityCheckLogOutDialog" app:destination="@id/realityCheckLogOutDialog" />
+    <fragment android:label="NoInternetFragment" android:name="com.betinvest.favbet3.connection.NoInternetFragment" android:id="@id/noInternetFragment" />
+    <action android:id="@id/toGlobalNoInternetFragment" app:destination="@id/noInternetFragment" />
+    <fragment android:label="DocumentVerificationPendingFragment" android:name="com.betinvest.favbet3.menu.myprofile.document.verification.notice.DocumentStatusNoticeFragment" android:id="@id/documentVerificationPendingFragment2" />
+    <fragment android:label="SessionHistoryFragment" android:name="com.betinvest.favbet3.menu.myprofile.sessionhistory.history.SessionHistoryFragment" android:id="@id/sessionHistoryFragment">
+        <action android:id="@id/toSessionHistoryFilterFragment" app:destination="@id/sessionHistoryFilterFragment" />
+    </fragment>
+    <fragment android:label="NotificationsFragment" android:name="com.betinvest.favbet3.menu.myprofile.notifications.NotificationsFragment" android:id="@id/notificationsFragment" />
+    <fragment android:label="SessionHistoryFilterFragment" android:name="com.betinvest.favbet3.menu.myprofile.sessionhistory.filter.SessionHistoryFilterFragment" android:id="@id/sessionHistoryFilterFragment" />
+    <fragment android:label="CashDesksFragment" android:name="com.betinvest.favbet3.menu.cashdesks.CashDesksFragment" android:id="@id/cashDesksFragment" />
+    <fragment android:label="BalanceWithdrawalArtPayOnCardFragment" android:name="com.betinvest.favbet3.menu.balance.deposits.art_pay.withdrawal.BalanceWithdrawalArtPayOnCardFragment" android:id="@id/balanceWithdrawalArtPayOnCardFragment2">
+        <argument android:name="wallet_hash" app:argType="string" />
+    </fragment>
+    <fragment android:label="ResultsVirtualFilterFragment" android:name="com.betinvest.favbet3.menu.results.virtualfilter.ResultsVirtualFilterFragment" android:id="@id/resultsVirtualFilterFragment" />
+    <dialog android:label="SelfExclusionInformerDialog" android:name="com.betinvest.favbet3.selfexclusion.SelfExclusionInformerDialog" android:id="@id/selfExclusionInformerDialog" />
+    <action android:id="@id/toGlobalSelfExclusionInformer" app:destination="@id/selfExclusionInformerDialog" />
+    <fragment android:label="BalanceTopUpPsWithOnlyAmountStandardDepositFragment" android:name="com.betinvest.favbet3.menu.balance.deposits.ps_with_only_amount.top_up.fragments.BalanceTopUpPsWithOnlyAmountStandardDepositFragment" android:id="@id/balanceTopUpPsWithOnlyAmountStandardDepositFragment">
+        <argument android:name="wallet_hash" app:argType="string" />
+        <argument android:name="amount" app:argType="string" app:nullable="true" />
+    </fragment>
+    <fragment android:label="BalanceWithdrawalPsWithOnlyAmountFragment" android:name="com.betinvest.favbet3.menu.balance.deposits.ps_with_only_amount.withdrawal.BalanceWithdrawalPsWithOnlyAmountFragment" android:id="@id/balanceWithdrawalPsWithOnlyAmountFragment">
+        <argument android:name="wallet_hash" app:argType="string" />
+    </fragment>
+    <fragment android:label="BalanceBitcoinWithdrawalFragment" android:name="com.betinvest.favbet3.menu.balance.deposits.bitcoin.withdrawal.BalanceBitcoinWithdrawalFragment" android:id="@id/balanceBitcoinWithdrawalFragment">
+        <argument android:name="wallet_hash" app:argType="string" />
+    </fragment>
+    <fragment android:label="ClubUnauthorizedFragment" android:name="com.betinvest.favbet3.menu.club.unauthorized.ClubUnauthorizedFragment" android:id="@id/clubUnauthorizedFragment">
+        <action android:id="@id/toClubLobbyFragment" app:destination="@id/clubLobbyFragment" />
+    </fragment>
+    <fragment android:label="ClubLobbyFragment" android:name="com.betinvest.favbet3.menu.club.root.ClubLobbyFragment" android:id="@id/clubLobbyFragment">
+        <action android:id="@id/toClubHistoryFilterFragment" app:destination="@id/clubHistoryFilterFragment" />
+        <action android:id="@id/toClubPointsHistoryFilterFragment" app:destination="@id/clubPointsHistoryFilterFragment" />
+        <action android:id="@id/toMenuFragment" app:destination="@id/menuFragment" />
+    </fragment>
+    <fragment android:label="ClubHistoryFilterFragment" android:name="com.betinvest.favbet3.menu.club.history.purchase.filter.ClubHistoryFilterFragment" android:id="@id/clubHistoryFilterFragment" />
+    <fragment android:label="ClubPointsHistoryFilterFragment" android:name="com.betinvest.favbet3.menu.club.history.points.filter.ClubPointsHistoryFilterFragment" android:id="@id/clubPointsHistoryFilterFragment" />
+    <fragment android:label="BalancePreWageringBonusFundsWithdrawalInfoFragment" android:name="com.betinvest.favbet3.menu.balance.pre_wagering_bonus_unds.fragment.BalancePreWageringBonusFundsWithdrawalInfoFragment" android:id="@id/balancePreWageringBonusFundsWithdrawalInfoFragment">
+        <argument android:name="wallet_item" app:argType="com.betinvest.android.deep_links.dto.WalletItemWithdrawalDeepLinkDto" />
+    </fragment>
+    <fragment android:label="MySettingsFragment" android:name="com.betinvest.favbet3.menu.mysettings.MySettingsFragment" android:id="@id/mySettingsFragment" />
+    <include app:graph="@navigation/balance_success_deposit_page_quick_graph" />
+    <fragment android:label="PermissionFragment" android:name="com.betinvest.favbet3.menu.hidden.permission.PermissionFragment" android:id="@id/permissionFragment" />
+    <fragment android:label="BalanceTopUpYigimStandardDepositFragment" android:name="com.betinvest.favbet3.menu.balance.deposits.yigim.top_up.fragments.BalanceTopUpYigimStandardDepositFragment" android:id="@id/balanceTopUpYigimStandardDepositFragment">
+        <argument android:name="wallet_hash" app:argType="string" />
+    </fragment>
+    <fragment android:label="BalanceTopUpCoinsPaidStandardDepositFragment" android:name="com.betinvest.favbet3.menu.balance.deposits.coins_paid.top_up.fragments.BalanceTopUpCoinsPaidStandardDepositFragment" android:id="@id/balanceTopUpCoinsPaidStandardDepositFragment">
+        <argument android:name="wallet_hash" app:argType="string" />
+    </fragment>
+    <fragment android:label="BalanceWithdrawalCoinsPaidFragment" android:name="com.betinvest.favbet3.menu.balance.deposits.coins_paid.withdrawal.BalanceWithdrawalCoinsPaidFragment" android:id="@id/balanceWithdrawalCoinsPaidFragment">
+        <argument android:name="wallet_hash" app:argType="string" />
+    </fragment>
+    <dialog android:label="LudomanBottomSheetDialog" android:name="com.betinvest.favbet3.ludoman.LudomanDialog" android:id="@id/ludomanBottomSheetDialog" />
+    <action android:id="@id/toGlobalLudomanDialog" app:destination="@id/ludomanBottomSheetDialog" />
+</navigation>

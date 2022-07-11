@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/bank_details_empty_page" app:startDestination="@id/balanceSuccessDepositPageStandardFragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <navigation android:id="@id/quick_deposit_navigation" app:startDestination="@id/quick_deposit_nested_graph">
+        <include app:graph="@navigation/quick_deposit_nested_graph" />
+    </navigation>
+    <action android:id="@id/toGlobalQuickDeposit" app:destination="@id/quick_deposit_navigation" />
+    <fragment android:label="BalanceSuccessDepositPageStandardFragment" android:name="com.betinvest.favbet3.menu.balance.deposits.success_deposit_page.BalanceSuccessDepositPageStandardFragment" android:id="@id/balanceSuccessDepositPageStandardFragment">
+        <argument android:name="show_success_page" app:argType="boolean" />
+    </fragment>
+</navigation>

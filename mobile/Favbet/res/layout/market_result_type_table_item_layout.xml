@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/market_result_type_table_item_layout_0" android:background="?line_tS_matchPart_Bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.betinvest.android.views.RobotoRegularTextView android:textSize="14.0sp" android:textColor="?line_tS_matchPart_Title" android:id="@id/result_type_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/dist_20" android:textAlignment="center" />
+</FrameLayout>

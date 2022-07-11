@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="horizontal" android:tag="layout/event_web_stream_panel_layout_0" android:background="@color/gray" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="243.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gurudev.fullscreenvideowebview.FullScreenVideoWebView android:id="@id/web_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

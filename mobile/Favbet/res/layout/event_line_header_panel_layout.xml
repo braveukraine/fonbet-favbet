@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/event_line_header_panel_layout_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginHorizontal="16.0dip">
+        <com.betinvest.android.views.RobotoBoldTextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="?line_categoryHeader_Title" android:id="@id/accent_title_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAllCaps="true" />
+        <com.betinvest.android.views.RobotoRegularTextView android:textSize="16.0sp" android:textColor="?line_categoryHeader_Title" android:id="@id/secondary_title_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:textAllCaps="true" android:layout_marginStart="3.0dip" />
+    </LinearLayout>
+    <View android:background="?line_categoryHeader_Border" android:layout_width="fill_parent" android:layout_height="4.0dip" android:layout_marginTop="3.0dip" />
+</LinearLayout>

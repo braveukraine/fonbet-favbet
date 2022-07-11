@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:orientation="horizontal" android:id="@id/main_container" android:layout_width="wrap_content" android:layout_height="fill_parent" android:paddingStart="12.0dip" android:paddingEnd="12.0dip">
+        <com.google.android.material.textview.MaterialTextView android:textSize="14.0sp" android:textColor="?color_blue" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/stake_input_carousel_setup_fav_stakes" style="@style/Widget.Fonbet.Text.Bold" />
+    </FrameLayout>
+</merge>

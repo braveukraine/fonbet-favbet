@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:tag="layout/main_lobby_single_game_layout_0" android:background="@drawable/round_2_ripple_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:backgroundTint="?secondary_new2"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:bind="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dist_8" android:layout_marginTop="@dimen/dist_6" android:layout_weight="1.0">
+        <com.betinvest.android.views.RobotoBoldTextView android:textSize="@dimen/text_26sp" android:textStyle="bold" android:textColor="?secondary_white1" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAllCaps="true" />
+        <com.betinvest.android.views.RobotoRegularTextView android:textSize="@dimen/text_18sp" android:textStyle="normal" android:textColor="?secondary_white1" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dist_15" android:textAllCaps="true" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/dist_15" android:layout_weight="0.0">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/go_to" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/ic_aviator_normal" android:tint="?secondary_white1" />
+    </LinearLayout>
+</LinearLayout>

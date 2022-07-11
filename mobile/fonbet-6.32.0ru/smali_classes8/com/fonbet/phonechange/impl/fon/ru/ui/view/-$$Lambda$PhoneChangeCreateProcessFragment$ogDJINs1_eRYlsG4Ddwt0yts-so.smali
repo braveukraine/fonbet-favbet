@@ -1,0 +1,34 @@
+.class public final synthetic Lcom/fonbet/phonechange/impl/fon/ru/ui/view/-$$Lambda$PhoneChangeCreateProcessFragment$ogDJINs1_eRYlsG4Ddwt0yts-so;
+.super Ljava/lang/Object;
+.source "lambda"
+
+# interfaces
+.implements Landroid/view/View$OnClickListener;
+
+
+# instance fields
+.field public final synthetic f$0:Lcom/fonbet/phonechange/impl/fon/ru/ui/view/PhoneChangeCreateProcessFragment;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lcom/fonbet/phonechange/impl/fon/ru/ui/view/PhoneChangeCreateProcessFragment;)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lcom/fonbet/phonechange/impl/fon/ru/ui/view/-$$Lambda$PhoneChangeCreateProcessFragment$ogDJINs1_eRYlsG4Ddwt0yts-so;->f$0:Lcom/fonbet/phonechange/impl/fon/ru/ui/view/PhoneChangeCreateProcessFragment;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final onClick(Landroid/view/View;)V
+    .locals 1
+
+    iget-object v0, p0, Lcom/fonbet/phonechange/impl/fon/ru/ui/view/-$$Lambda$PhoneChangeCreateProcessFragment$ogDJINs1_eRYlsG4Ddwt0yts-so;->f$0:Lcom/fonbet/phonechange/impl/fon/ru/ui/view/PhoneChangeCreateProcessFragment;
+
+    invoke-static {v0, p1}, Lcom/fonbet/phonechange/impl/fon/ru/ui/view/PhoneChangeCreateProcessFragment;->lambda$ogDJINs1_eRYlsG4Ddwt0yts-so(Lcom/fonbet/phonechange/impl/fon/ru/ui/view/PhoneChangeCreateProcessFragment;Landroid/view/View;)V
+
+    return-void
+.end method

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/balance_wallets_creation_item_header_layout_0" android:background="?General_body_profile" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="15.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.betinvest.android.views.RobotoRegularTextView android:textSize="@dimen/text_12sp" android:textColor="?profile_txt2" android:id="@id/balance_info_text" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

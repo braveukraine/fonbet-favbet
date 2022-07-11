@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.textview.MaterialTextView android:textSize="12.0sp" android:textColor="?color_negative" android:layout_gravity="center_vertical" android:id="@id/error_text_tv" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:layout_weight="1.0" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip" style="@style/Widget.Fonbet.Text.Medium" />
+    <ImageView android:id="@id/remove_coupon_item_btn" android:background="?color_500_a20_base" android:layout_width="24.0dip" android:layout_height="wrap_content" android:src="@drawable/ic_close" android:minHeight="32.0dip" android:contentDescription="@string/action.delete" android:paddingStart="6.0dip" android:paddingEnd="6.0dip" app:tint="?color_500" />
+</merge>

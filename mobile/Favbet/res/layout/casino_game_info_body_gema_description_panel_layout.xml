@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:id="@id/scroll_view" android:tag="layout/casino_game_info_body_gema_description_panel_layout_0" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:bind="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:background="?secondary_white1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="5.0dip" android:elevation="10.0dip" bind:cardCornerRadius="2.0dip">
+            <com.betinvest.android.lobby.ui.custom.RatioImageView android:background="@drawable/ill_casino_game_item_placeholder" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:layout_width="130.0dip" android:layout_height="100.0dip" android:src="@drawable/ic_home" />
+            <com.betinvest.favbet3.custom.view.FavbetBoldTextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="?secondary_blue1" android:ellipsize="end" android:gravity="center" android:layout_gravity="bottom" android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="20.0dip" android:maxLines="2" android:inputType="none" android:layout_marginHorizontal="8.0dip" />
+            <com.betinvest.android.lobby.ui.custom.RatioImageView android:id="@id/game_info_image" android:tag="binding_2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="centerCrop" android:adjustViewBounds="true" />
+        </androidx.cardview.widget.CardView>
+        <com.betinvest.android.views.RobotoBoldTextView android:textSize="@dimen/text_14sp" android:textColor="?secondary_blue3" android:id="@id/games_description_text" android:tag="binding_3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dist_20" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

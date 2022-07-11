@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/image_container" android:tag="layout/teaser_image_item_layout_0" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginStart="8.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:bind="http://schemas.android.com/apk/res-auto">
+    <include android:layout_gravity="center" android:id="@id/progress_panel" android:layout_width="fill_parent" android:layout_height="183.0dip" layout="@layout/lobby_slider_progress_layout" />
+    <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:id="@id/casino_banner_image_view" android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="183.0dip" android:foreground="?selectableItemBackground" android:scaleType="centerCrop" android:adjustViewBounds="true" />
+</FrameLayout>

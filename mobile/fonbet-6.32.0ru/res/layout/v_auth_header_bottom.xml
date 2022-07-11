@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@drawable/space_w_8" android:showDividers="middle">
+        <com.google.android.material.button.MaterialButton android:id="@id/deposit_button" android:layout_width="0.0dip" android:layout_height="fill_parent" android:minHeight="40.0dip" android:text="@string/action.pay.short" android:layout_weight="1.0" style="@style/Widget.Fonbet.Button.Filled.Drawer" />
+        <com.google.android.material.button.MaterialButton android:id="@id/withdrawal_button" android:layout_width="0.0dip" android:layout_height="fill_parent" android:minHeight="40.0dip" android:text="@string/drawer.withdrawal" android:layout_weight="1.0" style="@style/Widget.Fonbet.Button.Outlined.Blue.Drawer" />
+    </LinearLayout>
+</merge>

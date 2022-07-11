@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/logo_image_view" android:layout_width="28.0dip" android:layout_height="28.0dip" android:layout_marginEnd="10.0dip" />
+    <com.fonbet.core.commons.ui.widget.inputlayout.edittext.CustomTextInputEditText android:textSize="14.0sp" android:textColor="?color_900" android:textColorHighlight="?color_500" android:textColorHint="?color_900_a40" android:gravity="center_vertical" android:id="@id/edit_text" android:background="@null" android:padding="0.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:singleLine="true" android:maxLength="32" android:layout_weight="1.0" android:inputType="text" android:imeOptions="actionDone" android:textCursorDrawable="@drawable/bg_edit_cursor_color_900" android:fontFamily="@font/ceraprobold" />
+    <ImageView android:id="@id/image_view" android:background="@drawable/ripple_unbound" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_cancel" android:scaleType="centerInside" android:scaleX="0.9" android:scaleY="0.9" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" app:tint="?color_900" />
+</merge>

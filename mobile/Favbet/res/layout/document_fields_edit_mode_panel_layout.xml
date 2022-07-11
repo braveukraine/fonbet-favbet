@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/document_fields_edit_mode_panel_layout_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/nationality_panel" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" layout="@layout/document_field_drop_down_list_item_layout" />
+    <include android:id="@id/pin_panel" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" layout="@layout/document_field_text_list_item_layout" />
+    <include android:id="@id/doc_type_panel" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" layout="@layout/document_field_drop_down_list_item_layout" />
+    <include android:id="@id/doc_number_panel" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" layout="@layout/document_field_text_list_item_layout" />
+    <include android:id="@id/doc_issue_date_panel" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" layout="@layout/document_field_date_list_item_layout" />
+    <include android:id="@id/doc_expiration_date_panel" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" layout="@layout/document_field_date_list_item_layout" />
+    <include android:id="@id/doc_place_panel" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" layout="@layout/document_field_text_list_item_layout" />
+</LinearLayout>

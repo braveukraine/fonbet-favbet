@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:tag="layout/permission_item_layout_0" android:background="@drawable/round_2_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="2.0dip" android:backgroundTint="?primary_white"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:bind="http://schemas.android.com/apk/res-auto">
+    <com.betinvest.android.views.RobotoRegularTextView android:textStyle="bold" android:textColor="?primary_blue" android:layout_gravity="center" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAllCaps="true" />
+    <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_success" android:layout_marginStart="10.0dip" />
+    <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:tag="binding_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_canceled" android:layout_marginStart="10.0dip" />
+</LinearLayout>

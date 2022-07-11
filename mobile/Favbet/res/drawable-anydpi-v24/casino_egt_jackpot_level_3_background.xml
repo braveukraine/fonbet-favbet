@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="41.0dip" android:width="161.0dip" android:viewportWidth="161.0" android:viewportHeight="41.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="@drawable/$casino_egt_jackpot_level_3_background__0" android:pathData="M8,0L156.774,0A4,4 0,0 1,160.774 4L160.774,32A4,4 0,0 1,156.774 36L8,36A4,4 0,0 1,4 32L4,4A4,4 0,0 1,8 0z" />
+    <path android:fillColor="#ffffffff" android:pathData="M19.009,6.04L29.894,17.273L19,28.511L8.395,17.194L19.009,6.04ZM10.387,17.2L19.02,8.129L27.88,17.272L19.02,26.413L10.387,17.2Z" android:fillType="evenOdd" />
+    <path android:fillColor="@drawable/$casino_egt_jackpot_level_3_background__1" android:pathData="M19.02,8.129L10.387,17.2L19.02,26.413L27.879,17.272L19.02,8.129Z" />
+    <path android:fillColor="#ff333333" android:pathData="M144.437,0h0.864v36h-0.864z" />
+    <path android:fillColor="#ff000000" android:pathData="M145.301,0h0.864v36h-0.864z" />
+</vector>

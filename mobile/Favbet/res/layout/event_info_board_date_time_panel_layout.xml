@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:tag="layout/event_info_board_date_time_panel_layout_0" android:background="@drawable/round_2_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="100.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.betinvest.android.views.RobotoRegularTextView android:textSize="12.0sp" android:textColor="?Line_bS_resultPrematchTimeTitle" android:gravity="center" android:tag="binding_1" android:background="?Line_bS_resultLeftPartPrematchBackground" android:layout_width="0.0dip" android:layout_height="wrap_content" android:minHeight="30.0dip" android:layout_weight="1.0" />
+    <com.betinvest.android.views.RobotoRegularTextView android:textSize="12.0sp" android:textColor="?Line_bS_resultPrematchTimeTitle" android:gravity="center" android:tag="binding_2" android:background="?Line_bS_resultRightPartLiveBackground" android:layout_width="0.0dip" android:layout_height="wrap_content" android:minHeight="30.0dip" android:layout_weight="1.0" />
+</LinearLayout>

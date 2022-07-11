@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/category_slider_bg" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <View android:background="@drawable/line_filter_gradient_bg" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="0.4" />
+        <View android:background="@drawable/line_filter_solid_bg" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="0.6" />
+    </LinearLayout>
+    <View android:layout_width="wrap_content" android:layout_height="82.0dip" app:layout_constraintBottom_toTopOf="@id/category_slider_picker" app:layout_constraintTop_toTopOf="parent" />
+    <com.constanta.categoryslidepicker.CategorySlidePicker android:layout_gravity="start|bottom|center" android:id="@id/category_slider_picker" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="24.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" app:csp_maxTextSize="16.0sp" app:csp_maxTextVerticalTranslation="10.0dip" app:csp_minTextSize="10.0sp" app:csp_textAppearance="@style/LineFilterSectionName" app:csp_textBottomMargin="8.0dip" app:csp_thumbSize="48.0dip" app:csp_trackDividerDrawable="@drawable/line_filter_section_divider" app:csp_trackDrawable="@drawable/line_filter_track_bg" app:csp_trackEarWidth="16.0dip" app:csp_trackHeight="24.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.0" app:layout_constraintStart_toStartOf="parent" />
+</merge>

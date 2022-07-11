@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0sp" android:textColor="?color_white" android:gravity="center" android:id="@id/text" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Widget.Fonbet.Text.Regular" />
+    <com.google.android.material.button.MaterialButton android:layout_gravity="center_horizontal" android:id="@id/action_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:minWidth="192.0dip" android:minHeight="32.0dip" android:paddingStart="12.0dip" android:paddingEnd="12.0dip" style="@style/Widget.Fonbet.Button.Filled.White.Transparent.Base" />
+</merge>

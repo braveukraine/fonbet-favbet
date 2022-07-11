@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.textview.MaterialTextView android:id="@id/caption_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginBottom="12.0dip" android:text="@string/session_limits.next_limits_title" android:layout_marginVertical="12.0dip" style="@style/Widget.Fonbet.Text.Bold" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+        <LinearLayout android:orientation="vertical" android:id="@id/next_daily_limit_container" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <com.google.android.material.textview.MaterialTextView android:textSize="12.0sp" android:textColor="?color_900_a80" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/session_limits.daily_limit" style="@style/Widget.Fonbet.Text.Medium" />
+            <com.google.android.material.textview.MaterialTextView android:id="@id/daily_next_limit_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" style="@style/Widget.Fonbet.Text.Medium" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/next_weekly_limit_container" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <com.google.android.material.textview.MaterialTextView android:textSize="12.0sp" android:textColor="?color_900_a80" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/session_limits.weekly_limit" style="@style/Widget.Fonbet.Text.Medium" />
+            <com.google.android.material.textview.MaterialTextView android:id="@id/weekly_next_limit_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" style="@style/Widget.Fonbet.Text.Medium" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/next_monthly_limit_container" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <com.google.android.material.textview.MaterialTextView android:textSize="12.0sp" android:textColor="?color_900_a80" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/session_limits.monthly_limit" style="@style/Widget.Fonbet.Text.Medium" />
+            <com.google.android.material.textview.MaterialTextView android:id="@id/monthly_next_limit_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" style="@style/Widget.Fonbet.Text.Medium" />
+        </LinearLayout>
+    </LinearLayout>
+</merge>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/coordinator_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:id="@id/app_bar_layout" android:background="?color_150" android:layout_width="fill_parent" android:layout_height="wrap_content" app:elevation="0.0dip" app:layout_behavior="com.fonbet.core.commons.ui.widget.behavior.CustomAppBarLayoutBehavior">
+        <View android:background="?color_500_a20" android:layout_width="fill_parent" android:layout_height="1.0dip" app:layout_scrollFlags="scroll" />
+        <com.fonbet.core.commons.ui.widget.epoxy.CustomEpoxyRecyclerView android:orientation="horizontal" android:id="@id/search_targets_rcv" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:visibility="gone" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="20.0dip" android:layout_marginTop="12.0dip" android:layout_marginBottom="12.0dip" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+        <View android:id="@id/search_targets_divider" android:background="@drawable/divider_color_500_a20" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </com.google.android.material.appbar.AppBarLayout>
+    <com.fonbet.core.commons.ui.widget.epoxy.stickyheader.StickyHeaderEpoxyRecyclerView android:id="@id/search_results_rcv" android:paddingBottom="88.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/bottom_sticky_container" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_insetEdge="bottom">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:divider="@drawable/space_w_16" android:showDividers="middle">
+            <com.fonbet.core.sportbook.impl.fon.filter.LiveOnlyFilterWidget android:id="@id/live_only_widget" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip" />
+            <com.fonbet.betting.impl.ui.widget.CouponModeBar android:id="@id/coupon_mode_bar" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="48.0dip" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip" android:layout_weight="1.0" />
+        </LinearLayout>
+        <com.fonbet.restrictions.api.fon.ui.widget.RestrictionWidgetContainer android:id="@id/restriction_widget" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" />
+        <com.fonbet.betting.impl.ui.widget.FastBetBarWidget android:id="@id/fast_bet_bar_widget" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <com.fonbet.betting.impl.ui.widget.BetBottomSheet android:id="@id/bet_bottom_sheet_widget" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_behavior="com.fonbet.betting.impl.ui.behavior.BettingBottomSheetBehavior" style="@style/Widget.Fonbet.BottomSheet" />
+    <com.fonbet.unauthorizedcontrols.impl.fon.ui.widget.UnauthorizedControlsWidget android:layout_gravity="bottom" android:id="@id/unauthorized_controls_widget" android:paddingLeft="16.0dip" android:paddingTop="16.0dip" android:paddingRight="16.0dip" android:paddingBottom="24.0dip" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="80.0dip" android:translationZ="1.0dip" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

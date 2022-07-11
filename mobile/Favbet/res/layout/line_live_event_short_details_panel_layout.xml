@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:tag="layout/line_live_event_short_details_panel_layout_0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="19.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:bind="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <include android:id="@id/min_bet_number_panel" android:visibility="gone" layout="@layout/event_group_panel_layout" />
+        <com.betinvest.android.views.RobotoRegularTextView android:textSize="10.0sp" android:textColor="?Line_bS_resultLiveTimeTitle" android:gravity="center" android:id="@id/timer_view" android:background="?Line_bS_resultLeftPartLiveBackground" android:paddingLeft="8.0dip" android:paddingTop="4.0dip" android:paddingRight="8.0dip" android:paddingBottom="4.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:minWidth="39.0dip" android:includeFontPadding="false" android:paddingHorizontal="8.0dip" android:paddingVertical="4.0dip" />
+        <com.betinvest.android.views.RobotoRegularTextView android:textSize="10.0sp" android:textColor="?Line_bS_resultTitle" android:gravity="center" android:tag="binding_2" android:background="?Line_bS_resultRightPartLiveBackground" android:paddingLeft="8.0dip" android:paddingTop="4.0dip" android:paddingRight="8.0dip" android:paddingBottom="4.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:minWidth="40.0dip" android:includeFontPadding="false" android:paddingHorizontal="8.0dip" android:paddingVertical="4.0dip" />
+    </LinearLayout>
+    <include android:id="@id/indicators_panel" layout="@layout/common_event_indicators_panel_layout" />
+</LinearLayout>

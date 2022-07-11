@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/root_layout" android:tag="layout/messages_fragment_layout_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/container_layout" android:tag="binding_1" android:background="?General_body_profile" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:tag="binding_2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/messages_recyclerview" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:visibility="visible" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingVertical="10.0dip" />
+            <com.betinvest.android.views.RobotoRegularTextView android:textSize="16.0sp" android:textColor="?General_txt_color2" android:layout_gravity="center_horizontal" android:id="@id/empty_inbox_messages_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="65.0dip" android:text="@string/native_messages_inbox_no_messages" />
+            <include android:id="@id/empty_outbox_messages_text" android:visibility="gone" layout="@layout/messages_outbox_empty_layout" />
+        </LinearLayout>
+        <include android:id="@id/message_button_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:elevation="1.0dip" layout="@layout/primary1_btn_layout_with_bg" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:id="@id/progress_bar" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ProgressBar android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</FrameLayout>

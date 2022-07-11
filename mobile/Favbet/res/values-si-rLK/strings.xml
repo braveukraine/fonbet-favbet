@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mdtp_date_v1_monthyear">yyyy MMMM</string>
+    <string name="mdtp_date_v2_daymonthyear">MMM dd EEE</string>
+    <string name="mdtp_day_picker_description">දින ජාලයකින් මාසය</string>
+    <string name="mdtp_deleted_key">%1$s මකා දමන ලදි</string>
+    <string name="mdtp_done_label">අවසන්</string>
+    <string name="mdtp_hour_picker_description">පැය කවාකාර සර්පනය</string>
+    <string name="mdtp_item_is_selected">%1$s තෝරාගෙන ඇත</string>
+    <string name="mdtp_minute_picker_description">මිනිත්තු කවාකාර සර්පනය</string>
+    <string name="mdtp_select_day">මාසය සහ දිනය තෝරන්න</string>
+    <string name="mdtp_select_hours">පැය තෝරන්න</string>
+    <string name="mdtp_select_minutes">මිනිත්තු තෝරන්න</string>
+    <string name="mdtp_select_year">වසර තෝරන්න</string>
+    <string name="mdtp_year_picker_description">වසර ලැයිස්තුව</string>
+</resources>

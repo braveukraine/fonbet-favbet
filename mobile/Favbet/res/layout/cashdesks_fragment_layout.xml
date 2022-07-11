@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/cashdesks_fragment_layout_0" android:background="?secondary_white1" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/toolbar_panel" layout="@layout/default_toolbar_panel_layout" />
+    <androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.betinvest.android.views.RobotoBoldTextView android:textSize="20.0sp" android:textColor="?secondary_blue2" android:layout_gravity="center_horizontal" android:id="@id/cashdesks_addresses_title_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:includeFontPadding="false" android:textAllCaps="true" />
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/addresses_recyclerview" android:paddingBottom="5.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="15.0dip" android:overScrollMode="never" />
+            <com.betinvest.android.views.RobotoBoldTextView android:textSize="20.0sp" android:textColor="?secondary_blue2" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/cashdesks_addresses_without_withdrawal_title_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:includeFontPadding="false" android:textAllCaps="true" />
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/addresses_without_withdrawal_recyclerview" android:paddingBottom="5.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="15.0dip" android:overScrollMode="never" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

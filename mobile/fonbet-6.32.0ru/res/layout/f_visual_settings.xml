@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/iv_bottom_sheet_indicator" android:background="?color_150" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginBottom="8.0dip" android:src="@drawable/indicator_bottom_sheet" android:contentDescription="@null" />
+    </FrameLayout>
+    <com.google.android.material.textview.MaterialTextView android:textSize="20.0sp" android:textColor="?color_900" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="48.0dip" android:text="@string/section.visual_settings" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" style="@style/Widget.Fonbet.Text.Bold" />
+    <com.fonbet.visualsettings.impl.fon.widget.DisciplineFilterWidget android:id="@id/discipline_filter_widget" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.fonbet.core.commons.ui.widget.epoxy.CustomEpoxyRecyclerView android:id="@id/recycler_view" android:descendantFocusability="beforeDescendants" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <LinearLayout android:orientation="vertical" android:paddingTop="16.0dip" android:paddingBottom="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="16.0dip" android:paddingEnd="16.0dip">
+        <com.google.android.material.button.MaterialButton android:id="@id/confirm_button" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Widget.Fonbet.Button.Filled" />
+        <com.google.android.material.button.MaterialButton android:id="@id/reset_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" style="@style/Widget.Fonbet.Button.Outlined.Blue" />
+    </LinearLayout>
+</LinearLayout>

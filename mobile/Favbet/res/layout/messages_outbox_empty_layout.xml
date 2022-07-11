@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:tag="layout/messages_outbox_empty_layout_0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="55.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="60.0dip" android:layout_height="60.0dip" android:src="@drawable/ill_info" />
+    <com.betinvest.android.views.RobotoRegularTextView android:textSize="16.0sp" android:textColor="?General_txt_color2" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="32.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="32.0dip" android:text="@string/native_messages_no_messages" android:layout_marginHorizontal="32.0dip" />
+</LinearLayout>

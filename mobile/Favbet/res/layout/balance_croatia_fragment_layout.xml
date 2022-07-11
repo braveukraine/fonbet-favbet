@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/balance_croatia_fragment_layout_0" android:background="?General_body_profile" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/toolbar" layout="@layout/default_toolbar_panel_layout" />
+    <include android:id="@id/viewpager_layout" layout="@layout/balance_croatia_viewpager_layout" />
+</LinearLayout>

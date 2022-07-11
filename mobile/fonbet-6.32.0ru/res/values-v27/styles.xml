@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme.Base" parent="@style/AppTheme">
+        <item name="android:listPopupWindowStyle">@style/Widget.Fonbet.PopupMenu</item>
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">?color_toolbar_bg</item>
+        <item name="android:windowLightStatusBar">?isFonLightTheme</item>
+        <item name="android:windowLightNavigationBar">?isFonLightTheme</item>
+        <item name="android:forceDarkAllowed">false</item>
+        <item name="cas_nav_secondary">#66ffffff</item>
+        <item name="casino_bg_page">#ff0a131f</item>
+        <item name="color_black">#ff000000</item>
+        <item name="color_black_a05">#0d000000</item>
+        <item name="color_black_a20">#33000000</item>
+        <item name="color_black_a40">#66000000</item>
+        <item name="color_black_a60">#99000000</item>
+        <item name="color_black_a80">#cc000000</item>
+        <item name="color_white">#ffffffff</item>
+        <item name="color_white_a05">#0dffffff</item>
+        <item name="color_white_a20">#33ffffff</item>
+        <item name="color_white_a40">#66ffffff</item>
+        <item name="color_white_a60">#99ffffff</item>
+        <item name="color_white_a80">#ccffffff</item>
+        <item name="listPopupWindowStyle">@style/Widget.Fonbet.PopupMenu</item>
+        <item name="nav_bg_tabbar_casino">#ff0a131f</item>
+        <item name="nav_primary_accent_tabbar_casino">#ffffffff</item>
+        <item name="nav_primary_casino_100">#ffffffff</item>
+        <item name="toolbarNavigationButtonStyle">@style/Widget.Fonbet.ToolbarNavButton</item>
+    </style>
+    <style name="ArticleCaption" parent="@style/Widget.Fonbet.Text.Regular">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">?color_900_a60</item>
+    </style>
+    <style name="ArticleHeading1" parent="@style/Widget.Fonbet.Text.Bold">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:textColor">?color_900</item>
+    </style>
+    <style name="ArticleHeading2" parent="@style/Widget.Fonbet.Text.Bold">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">?color_900</item>
+    </style>
+    <style name="ArticleHeading3" parent="@style/Widget.Fonbet.Text.Bold">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">?color_900</item>
+    </style>
+    <style name="ArticleHeadingOther" parent="@style/Widget.Fonbet.Text.Bold">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">?color_900</item>
+    </style>
+    <style name="ArticleList1Caption" parent="@style/Widget.Fonbet.Text.Bold">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">?color_500</item>
+    </style>
+    <style name="ArticleListOtherCaption" parent="@style/Widget.Fonbet.Text.Bold">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">?color_500</item>
+    </style>
+    <style name="ArticleQuote" parent="@style/Widget.Fonbet.Text.Regular">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">?color_700</item>
+    </style>
+    <style name="ArticleSmallText" parent="@style/Widget.Fonbet.Text.Regular">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">?color_500</item>
+    </style>
+    <style name="ArticleSpoiler1" parent="@style/Widget.Fonbet.Text.Bold">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">?color_900</item>
+    </style>
+    <style name="ArticleSpoiler2" parent="@style/Widget.Fonbet.Text.Medium">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">?color_900</item>
+    </style>
+    <style name="ArticleSpoilerOther" parent="@style/Widget.Fonbet.Text.Regular">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">?color_900</item>
+    </style>
+    <style name="ArticleTableHeaderCell" parent="@style/Widget.Fonbet.Text.Medium">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">?color_900</item>
+    </style>
+    <style name="ArticleTableNormalCell" parent="@style/Widget.Fonbet.Text.Regular">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">?color_900</item>
+    </style>
+    <style name="ArticleTerm" parent="@style/Widget.Fonbet.Text.Medium">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">?color_900</item>
+    </style>
+    <style name="ArticleText" parent="@style/Widget.Fonbet.Text.Regular">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">?color_900</item>
+    </style>
+    <style name="IdentPromoHeading1" parent="@style/Widget.Fonbet.Text.Bold">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:textColor">?color_blue</item>
+    </style>
+    <style name="IdentPromoHeading2" parent="@style/Widget.Fonbet.Text.Bold">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">?color_blue</item>
+    </style>
+    <style name="IdentPromoHeading3" parent="@style/Widget.Fonbet.Text.Bold">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">?color_blue</item>
+    </style>
+    <style name="IdentPromoHeadingOther" parent="@style/Widget.Fonbet.Text.Bold">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">?color_blue</item>
+    </style>
+    <style name="IdentPromoText" parent="@style/Widget.Fonbet.Text.Regular">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">?color_blue</item>
+    </style>
+    <style name="ModalContainerTheme" parent="@style/Theme.AppCompat.Light.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowSoftInputMode">adjustResize</item>
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:statusBarColor">?color_toolbar_bg</item>
+        <item name="android:navigationBarColor">?color_toolbar_bg</item>
+        <item name="android:windowLightStatusBar">?isFonLightTheme</item>
+        <item name="android:windowLightNavigationBar">?isFonLightTheme</item>
+    </style>
+    <style name="TicketMessagePlainText" parent="@style/Widget.Fonbet.Text.Medium">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">?color_900</item>
+    </style>
+</resources>

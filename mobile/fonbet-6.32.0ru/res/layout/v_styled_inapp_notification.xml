@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/main_container" android:background="@drawable/bg_frame_rounded_4_f_500_a40_s_100" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip">
+        <ImageView android:id="@id/logo_iv" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginTop="8.0dip" android:contentDescription="@null" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <com.google.android.material.textview.MaterialTextView android:textSize="12.0sp" android:textColor="?color_500" android:id="@id/caption_tv" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginStart="6.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/logo_iv" app:layout_constraintTop_toTopOf="@id/logo_iv" app:layout_goneMarginStart="12.0dip" style="@style/Widget.Fonbet.Text.Medium" />
+        <androidx.constraintlayout.widget.Barrier android:id="@id/barrier" android:layout_width="wrap_content" android:layout_height="wrap_content" app:barrierDirection="bottom" app:constraint_referenced_ids="logo_iv,caption_tv" />
+        <Space android:id="@id/space" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/barrier" />
+        <FrameLayout android:id="@id/content_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="12.0dip" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.0" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/space" app:layout_goneMarginTop="12.0dip" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</merge>

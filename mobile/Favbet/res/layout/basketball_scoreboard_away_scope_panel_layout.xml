@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:tag="layout/basketball_scoreboard_away_scope_panel_layout_0" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="9.0dip">
+        <com.betinvest.android.views.RobotoRegularTextView android:textSize="12.0sp" android:textColor="?secondary_accent3" android:ellipsize="end" android:id="@id/sportsbook_rebounds_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:textAllCaps="true" />
+        <com.betinvest.android.views.RobotoRegularTextView android:textSize="12.0sp" android:textColor="?primary_white" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="9.0dip">
+        <com.betinvest.android.views.RobotoRegularTextView android:textSize="12.0sp" android:textColor="?secondary_accent3" android:ellipsize="end" android:id="@id/sportsbook_fouls_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:textAllCaps="true" />
+        <com.betinvest.android.views.RobotoRegularTextView android:textSize="12.0sp" android:textColor="?primary_white" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" />
+    </LinearLayout>
+</LinearLayout>

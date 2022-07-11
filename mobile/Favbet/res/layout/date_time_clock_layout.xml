@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:tag="layout/date_time_clock_layout_0" android:background="?tabbar_background" android:layout_width="fill_parent" android:layout_height="22.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4.0dip" android:src="@drawable/ic_clock" android:tint="?General_txt_color2" />
+    <com.betinvest.android.views.RobotoRegularTextClock android:textSize="12.0sp" android:textColor="?General_txt_color2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:format12Hour="dd.MM.yyyy | kk:mm:ss " android:format24Hour="dd.MM.yyyy | kk:mm:ss " />
+    <com.betinvest.android.views.RobotoRegularTextView android:textSize="12.0sp" android:textColor="?General_txt_color2" android:id="@id/time_zone_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.textview.MaterialTextView android:textSize="16.0sp" android:textColor="?color_white" android:id="@id/event_score" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Widget.Fonbet.Text.Bold" />
+    <com.google.android.material.textview.MaterialTextView android:textSize="16.0sp" android:textColor="?color_white" android:ellipsize="end" android:gravity="start" android:id="@id/event_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" style="@style/Widget.Fonbet.Text.Bold" />
+    <com.google.android.material.textview.MaterialTextView android:textSize="14.0sp" android:textColor="?color_white" android:ellipsize="end" android:gravity="start" android:id="@id/event_comment" android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="1" android:layout_weight="1.0" style="@style/Widget.Fonbet.Text.Medium" />
+    <com.google.android.material.textview.MaterialTextView android:textSize="16.0sp" android:textColor="?color_white" android:ellipsize="none" android:id="@id/event_timer" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Widget.Fonbet.Text.Bold" />
+</merge>

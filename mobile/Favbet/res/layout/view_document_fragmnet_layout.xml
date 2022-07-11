@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/view_document_fragmnet_layout_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/toolbar_panel" layout="@layout/default_toolbar_panel_layout" />
+    <androidx.core.widget.NestedScrollView android:background="?General_body_profile" android:paddingLeft="16.0dip" android:paddingTop="20.0dip" android:paddingRight="16.0dip" android:paddingBottom="20.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" android:paddingHorizontal="16.0dip" android:paddingVertical="20.0dip">
+        <LinearLayout android:orientation="vertical" android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true">
+            <include android:id="@id/empty_panel" layout="@layout/view_document_empty_panel_layout" />
+            <include android:id="@id/empty_short_reg_panel" layout="@layout/view_document_short_reg_empty_panel_layout" />
+            <include android:id="@id/info_panel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" layout="@layout/view_document_info_panel_layout" />
+            <include android:id="@id/status_panel" layout="@layout/create_document_status_panel_layout" />
+            <include android:id="@id/view_mode_panel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" layout="@layout/document_fields_view_mode_panel_layout" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

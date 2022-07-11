@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/root_layout" android:tag="layout/responsible_gambling_limit_fragment_layout_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:bind="http://schemas.android.com/apk/res-auto">
+    <androidx.core.widget.NestedScrollView android:background="?General_body_profile" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:background="?General_body_profile" android:paddingLeft="16.0dip" android:paddingTop="10.0dip" android:paddingRight="16.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingHorizontal="16.0dip" android:paddingVertical="10.0dip">
+            <com.betinvest.android.views.RobotoRegularTextView android:textSize="12.0sp" android:textColor="?profile_txt2" android:id="@id/limit_description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/native_responsible_gambling_limits_bet_info" />
+            <LinearLayout android:orientation="vertical" android:id="@id/limit_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:minHeight="24.0dip">
+                <androidx.appcompat.widget.AppCompatImageView android:tag="binding_1" android:background="@drawable/ic_toggle_on" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <androidx.appcompat.widget.AppCompatImageView android:tag="binding_2" android:background="@drawable/ic_toggle_off" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/limits_recycler_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" />
+            <FrameLayout android:id="@id/edit_button" android:background="@drawable/round_2_ripple_bg" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="22.0dip" android:layout_marginBottom="10.0dip" android:minHeight="45.0dip" android:backgroundTint="?Btn_Primary_bg_color_1">
+                <com.betinvest.android.views.RobotoBoldTextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="?Btn_Primary_txt_color_1" android:gravity="center" android:layout_gravity="center" android:tag="binding_3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/native_responsible_gambling_limits_edit" android:textAllCaps="true" />
+            </FrameLayout>
+            <FrameLayout android:id="@id/save_button" android:background="@drawable/round_2_ripple_bg" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="22.0dip" android:layout_marginBottom="10.0dip" android:minHeight="45.0dip" android:backgroundTint="?Btn_Primary_bg_color_1">
+                <com.betinvest.android.views.RobotoBoldTextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="?Btn_Primary_txt_color_1" android:gravity="center" android:layout_gravity="center" android:tag="binding_4" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/native_profile_personal_data_save" android:textAllCaps="true" />
+            </FrameLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</FrameLayout>

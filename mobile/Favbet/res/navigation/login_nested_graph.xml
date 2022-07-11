@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/login_nested_graph.xml" app:startDestination="@id/loginFragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <dialog android:label="LoginFragment" android:name="com.betinvest.favbet3.menu.login.LoginFragment" android:id="@id/loginFragment">
+        <action android:id="@id/toForgotPassword" app:destination="@id/forgotPasswordHomeFragment" />
+        <action android:id="@id/toRegistration" app:destination="@id/registrationHomeFragment3" />
+    </dialog>
+    <action android:id="@id/toLogin" app:destination="@id/loginFragment" />
+    <fragment android:label="ForgotPasswordHomeFragment" android:name="com.betinvest.favbet3.forgot_password.ForgotPasswordHomeFragment" android:id="@id/forgotPasswordHomeFragment" />
+    <fragment android:label="RegistrationHomeFragment" android:name="com.betinvest.favbet3.registration.RegistrationHomeFragment" android:id="@id/registrationHomeFragment3" />
+</navigation>

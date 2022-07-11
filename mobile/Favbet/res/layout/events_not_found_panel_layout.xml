@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/events_not_found_panel_layout_0" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_bias="0.2">
+        <androidx.appcompat.widget.AppCompatImageView android:layout_width="60.0dip" android:layout_height="60.0dip" android:src="@drawable/ill_looking_for" android:adjustViewBounds="true" />
+        <com.betinvest.android.views.RobotoBoldTextView android:textSize="14.0sp" android:textColor="?secondary_blue3" android:id="@id/sportsbook_no_events_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:textAllCaps="true" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

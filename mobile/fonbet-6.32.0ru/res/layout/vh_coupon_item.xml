@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="1.0dip" android:showDividers="middle">
+        <LinearLayout android:orientation="vertical" android:padding="8.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:divider="@drawable/space_h_4" android:layout_weight="1.0" android:showDividers="middle">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip">
+                <com.google.android.material.textview.MaterialTextView android:textSize="16.0sp" android:textColor="?color_900" android:id="@id/quote_name_tv" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/Widget.Fonbet.Text.Bold" />
+                <com.fonbet.coupon.impl.ui.widget.QuoteChangeWidget android:textSize="16.0sp" android:gravity="end" android:id="@id/quote_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="96.0dip" app:qcw_isInCouponItem="true" style="@style/Widget.Fonbet.Text.Bold" />
+            </LinearLayout>
+            <com.google.android.material.textview.MaterialTextView android:textSize="12.0sp" android:id="@id/event_name_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Widget.Fonbet.Text.Medium" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@drawable/space_w_8" android:showDividers="middle">
+                <com.google.android.material.textview.MaterialTextView android:textSize="12.0sp" android:textColor="?color_900" android:id="@id/event_score_tv" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Widget.Fonbet.Text.Bold" />
+                <com.google.android.material.textview.MaterialTextView android:textSize="12.0sp" android:textColor="?color_900_a60_base" android:id="@id/event_time_tv" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Widget.Fonbet.Text.Regular" />
+                <com.google.android.material.textview.MaterialTextView android:textSize="12.0sp" android:textColor="?color_negative" android:id="@id/important_info" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Widget.Fonbet.Text.Medium" />
+                <Space android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+                <ImageView android:id="@id/discipline_icon_iv" android:layout_width="16.0dip" android:layout_height="16.0dip" />
+            </LinearLayout>
+            <com.google.android.material.textview.MaterialTextView android:textSize="14.0sp" android:textColor="?color_negative" android:id="@id/debug_info_tv" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="2.0dip" style="@style/Widget.Fonbet.Text.Regular" />
+        </LinearLayout>
+        <ImageView android:id="@id/remove_coupon_item_btn" android:background="?color_500_a20_base" android:layout_width="24.0dip" android:layout_height="fill_parent" android:src="@drawable/ic_close" android:contentDescription="@string/action.delete" android:paddingStart="6.0dip" android:paddingEnd="6.0dip" app:tint="?color_500" />
+    </LinearLayout>
+    <com.google.android.material.button.MaterialButton android:id="@id/accept_changes_btn" android:layout_width="fill_parent" android:layout_height="32.0dip" android:layout_marginTop="-1.0dip" android:layout_marginBottom="1.0dip" android:text="@string/action.accept" android:layout_marginStart="1.0dip" android:layout_marginEnd="1.0dip" app:cornerRadius="0.0dip" style="@style/Widget.Fonbet.Button.Filled.Grey" />
+</merge>

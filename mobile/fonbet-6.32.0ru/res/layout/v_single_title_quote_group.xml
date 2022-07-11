@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.textview.MaterialTextView android:textSize="12.0sp" android:textColor="?color_900" android:gravity="center_vertical" android:id="@id/title_tv" android:layout_width="wrap_content" android:layout_height="18.0dip" android:minWidth="@dimen/quote_min_width" android:lines="1" android:paddingStart="8.0dip" android:paddingEnd="8.0dip" style="@style/Widget.Fonbet.Text.Medium" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</merge>

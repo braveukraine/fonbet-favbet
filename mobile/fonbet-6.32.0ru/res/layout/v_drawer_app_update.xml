@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/item_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@drawable/divider_color_500_a20" android:showDividers="middle" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip">
+        <com.fonbet.appupdate.api.ui.widget.internal.AppUpdateDebugInfoWidget android:id="@id/debug_info" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.google.android.material.switchmaterial.SwitchMaterial android:layout_gravity="center_vertical" android:id="@id/wifi_toggle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/setting_app_update_over_wifi" android:layout_marginStart="16.0dip" style="@style/Widget.Fonbet.SwitchButton.Blue" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/update_action_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="32.0dip" android:paddingStart="16.0dip" android:paddingEnd="16.0dip">
+            <com.google.android.material.textview.MaterialTextView android:textSize="14.0sp" android:textColor="?color_900" android:layout_gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/setting_app_update" android:layout_weight="1.0" style="@style/Widget.Fonbet.Text.Medium" />
+            <com.google.android.material.textview.MaterialTextView android:textSize="14.0sp" android:textColor="?color_blue" android:layout_gravity="center_vertical" android:id="@id/update_action_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Widget.Fonbet.Text.Medium" />
+        </LinearLayout>
+    </LinearLayout>
+</merge>

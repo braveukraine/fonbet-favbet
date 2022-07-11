@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/bank_icon_iv" android:visibility="invisible" android:layout_width="28.0dip" android:layout_height="28.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="12.0dip" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/container" android:layout_width="0.0dip" android:layout_height="fill_parent" android:divider="@drawable/space_h_4" android:layout_weight="1.0" android:showDividers="middle">
+        <com.google.android.material.textview.MaterialTextView android:textSize="14.0sp" android:textColor="?color_900" android:id="@id/card_name" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Widget.Fonbet.Text.Bold" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.google.android.material.textview.MaterialTextView android:textSize="12.0sp" android:textColor="?color_900_a60" android:id="@id/card_last_number" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Widget.Fonbet.Text.Regular" />
+            <ImageView android:id="@id/service_iv" android:layout_width="26.0dip" android:layout_height="8.0dip" android:layout_marginTop="0.5dip" android:scaleType="fitStart" android:layout_marginStart="4.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView android:id="@id/action_icon_iv" android:padding="16.0dip" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="2.0dip" app:tint="?color_500_a80" />
+</merge>

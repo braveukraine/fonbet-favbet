@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mdtp_date_v1_monthyear">yyyyթ. LLLL</string>
+    <string name="mdtp_date_v2_daymonthyear">dd MMM, EEE</string>
+    <string name="mdtp_day_picker_description">Ամսաթվի ընտրության պատուհան</string>
+    <string name="mdtp_deleted_key">%1$s ջնջված</string>
+    <string name="mdtp_done_label">Կատարված է</string>
+    <string name="mdtp_hour_picker_description">Ժամերի ընտրություն թվատախտակից</string>
+    <string name="mdtp_item_is_selected">%1$s ընտրված</string>
+    <string name="mdtp_minute_picker_description">Րոպեների ընտրություն թվատախտակից</string>
+    <string name="mdtp_select_day">Ընտրեք ամիսն ու օրը</string>
+    <string name="mdtp_select_hours">Ընտրեք ժամերը</string>
+    <string name="mdtp_select_minutes">Ընտրեք րոպեները</string>
+    <string name="mdtp_select_year">Ընտրեք տարին</string>
+    <string name="mdtp_year_picker_description">Տարիների ցանկը</string>
+</resources>

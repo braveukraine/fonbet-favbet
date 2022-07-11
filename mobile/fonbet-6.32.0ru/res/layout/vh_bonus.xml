@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@drawable/space_h_8" android:showDividers="middle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@drawable/space_w_12" android:showDividers="middle">
+        <com.google.android.material.textview.MaterialTextView android:textSize="16.0sp" android:textColor="?color_900" android:id="@id/bonus_type_tv" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/Widget.Fonbet.Text.Bold" />
+        <com.google.android.material.textview.MaterialTextView android:textSize="16.0sp" android:textColor="?color_900" android:id="@id/bonus_amount_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Widget.Fonbet.Text.Bold" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@drawable/space_w_8" android:showDividers="middle">
+        <com.google.android.material.textview.MaterialTextView android:textSize="12.0sp" android:textColor="?color_900_a80" android:id="@id/bonus_id_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Widget.Fonbet.Text.Medium" />
+        <com.google.android.material.textview.MaterialTextView android:textSize="12.0sp" android:textColor="?color_900_a60" android:id="@id/bonus_date_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Widget.Fonbet.Text.Regular" />
+        <com.google.android.material.textview.MaterialTextView android:textSize="12.0sp" android:textColor="?color_900_a60" android:id="@id/bonus_time_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Widget.Fonbet.Text.Regular" />
+    </LinearLayout>
+</LinearLayout>

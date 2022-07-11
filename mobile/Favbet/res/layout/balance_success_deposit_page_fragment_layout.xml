@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:tag="layout/balance_success_deposit_page_fragment_layout_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:bind="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:tag="binding_1" android:background="?General_body_profile" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:id="@id/toolbar" layout="@layout/default_toolbar_panel_layout" />
+        <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="right" android:id="@id/close_img" android:tag="binding_2" android:layout_width="@dimen/dist_20" android:layout_height="@dimen/dist_20" android:layout_marginTop="@dimen/dist_15" android:src="@drawable/close_ic" android:scaleType="fitXY" android:tint="?profile_border1" android:layout_marginEnd="@dimen/dist_15" />
+        <include android:id="@id/success_deposit_page_success_layout" layout="@layout/balance_success_deposit_page_success_layout" />
+        <include android:id="@id/success_deposit_page_fail_layout" layout="@layout/balance_success_deposit_page_fail_layout" />
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

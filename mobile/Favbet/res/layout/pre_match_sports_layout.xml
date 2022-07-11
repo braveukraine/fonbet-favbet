@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/pre_match_sports_layout_0" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.betinvest.android.views.RobotoBoldTextView android:textStyle="bold" android:textColor="?lobby_header_allSportsHeaderTitle" android:id="@id/sports_header_view" android:background="@drawable/round_top_2_bg" android:paddingLeft="16.0dip" android:paddingTop="9.0dip" android:paddingRight="16.0dip" android:paddingBottom="9.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" android:textAllCaps="true" android:backgroundTint="?lobby_allSportsHeaderBg" android:paddingHorizontal="16.0dip" android:paddingVertical="9.0dip" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/sports_recycler_view" android:paddingTop="2.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="never" />
+</LinearLayout>

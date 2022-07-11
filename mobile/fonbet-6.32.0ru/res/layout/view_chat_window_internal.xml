@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <WebView android:id="@id/chat_window_web_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ProgressBar android:layout_gravity="center" android:id="@id/chat_window_progress" android:layout_width="40.0dip" android:layout_height="40.0dip" android:indeterminate="true" />
+    <WebView android:id="@id/chat_window_web_view_popup" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/chat_window_status_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:id="@id/chat_window_status_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/failed_to_load_chat" />
+        <Button android:id="@id/chat_window_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/reload_chat" />
+    </LinearLayout>
+</merge>

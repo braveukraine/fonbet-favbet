@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.Theme.Jumio" parent="@style/Theme.MaterialComponents.Light.DialogWhenLarge">
+        <item name="android:textColorPrimary">@color/jumio_primary_text</item>
+        <item name="android:textColorSecondary">@color/jumio_secondary_text</item>
+        <item name="android:textColorPrimaryInverse">@color/jumio_primary_inverse_text</item>
+        <item name="android:textColorSecondaryInverse">@color/jumio_secondary_inverse_text</item>
+        <item name="android:windowBackground">@color/jumio_white</item>
+        <item name="android:editTextColor">@color/jumio_white</item>
+        <item name="colorAccent">@color/jumio_primary</item>
+        <item name="colorButtonNormal">@color/jumio_white</item>
+        <item name="colorControlActivated">@color/jumio_white</item>
+        <item name="colorControlNormal">@color/jumio_icons</item>
+        <item name="colorOnPrimary">@color/jumio_grey200</item>
+        <item name="colorPrimary">@color/jumio_primary</item>
+        <item name="colorPrimaryDark">@color/jumio_primary_dark</item>
+        <item name="editTextColor">@color/jumio_white</item>
+        <item name="jumio_colorDisabled">@color/jumio_grey450</item>
+        <item name="jumio_dialogNegativeButtonTextColor">@color/jumio_grey400</item>
+        <item name="jumio_dialogPositiveButtonTextColor">@color/jumio_primary</item>
+        <item name="jumio_shutterbutton_background">@color/jumio_white</item>
+        <item name="jumio_shutterbutton_default">@color/jumio_black_alpha12</item>
+        <item name="jumio_shutterbutton_pressed">@color/jumio_primary</item>
+        <item name="jumio_toolbarStyle">@style/Base.ThemeOverlay.Jumio</item>
+        <item name="jumio_toolbarSubStyle">@style/Jumio.Subtitle.TextAppearance</item>
+        <item name="materialAlertDialogTheme">@style/JumioAlertDialog</item>
+        <item name="textAppearanceBody1">@style/TextAppearance.MaterialComponents.Body1</item>
+        <item name="textAppearanceBody2">@style/TextAppearance.MaterialComponents.Body2</item>
+        <item name="textAppearanceButton">@style/TextAppearance.MaterialComponents.Button</item>
+        <item name="textAppearanceCaption">@style/TextAppearance.MaterialComponents.Caption</item>
+        <item name="textAppearanceHeadline1">@style/TextAppearance.MaterialComponents.Headline1</item>
+        <item name="textAppearanceHeadline2">@style/TextAppearance.MaterialComponents.Headline2</item>
+        <item name="textAppearanceHeadline3">@style/TextAppearance.MaterialComponents.Headline3</item>
+        <item name="textAppearanceHeadline4">@style/TextAppearance.MaterialComponents.Headline4</item>
+        <item name="textAppearanceHeadline5">@style/TextAppearance.MaterialComponents.Headline5</item>
+        <item name="textAppearanceHeadline6">@style/TextAppearance.MaterialComponents.Headline6</item>
+        <item name="textAppearanceOverline">@style/TextAppearance.MaterialComponents.Overline</item>
+        <item name="textAppearanceSubtitle1">@style/TextAppearance.MaterialComponents.Subtitle1</item>
+        <item name="textAppearanceSubtitle2">@style/TextAppearance.MaterialComponents.Subtitle2</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Widget.Design.TabLayout" parent="@style/Base.Widget.Design.TabLayout">
+        <item name="tabGravity">center</item>
+        <item name="tabMode">fixed</item>
+    </style>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@id/m_subscription" android:title="@string/action.add_to_favourites" app:actionViewClass="com.fonbet.event.impl.ui.widget.eventheader.EventSubscriptionMenuView" app:showAsAction="always|withText" />
+    <item android:icon="@drawable/ic_bet_settings" android:id="@id/m_bet_settings" android:title="@string/section.settings" app:showAsAction="ifRoom" />
+</menu>

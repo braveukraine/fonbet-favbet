@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mdtp_date_v1_monthyear">yyyy MMMM</string>
+    <string name="mdtp_date_v2_daymonthyear">MMM dd, EEE</string>
+    <string name="mdtp_day_picker_description">മാസപ്രകാരമുള്ള ദിവസ ഗ്രിഡ്</string>
+    <string name="mdtp_deleted_key">%1$s ഇല്ലാതാക്കി</string>
+    <string name="mdtp_done_label">പൂർത്തിയായി</string>
+    <string name="mdtp_hour_picker_description">ചാക്രികമായി മണിക്കൂറുകൾ ദൃശ്യമാകുന്ന സ്ലൈഡർ</string>
+    <string name="mdtp_item_is_selected">%1$s തിരഞ്ഞെടുത്തു</string>
+    <string name="mdtp_minute_picker_description">ചാക്രികമായി മിനിറ്റുകൾ ദൃശ്യമാകുന്ന സ്ലൈഡർ</string>
+    <string name="mdtp_select_day">മാസവും ദിവസവും തിരഞ്ഞെടുക്കുക</string>
+    <string name="mdtp_select_hours">മണിക്കൂർ തിരഞ്ഞെടുക്കുക</string>
+    <string name="mdtp_select_minutes">മിനിറ്റ് തിരഞ്ഞെടുക്കുക</string>
+    <string name="mdtp_select_year">വർഷം തിരഞ്ഞെടുക്കുക</string>
+    <string name="mdtp_year_picker_description">വർഷങ്ങളുടെ ലിസ്റ്റ്</string>
+</resources>

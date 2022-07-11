@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zerobranch.layout.SwipeLayout android:id="@id/swipe_layout" android:tag="layout/betslip_bet_list_item_layout_0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:layout_marginBottom="1.0dip" android:elevation="1.0dip" app:draggedItem="@id/content_view" app:leftItem="@id/check_action_panel" app:rightItem="@id/delete_action_panel" app:swipeDirection="left|right"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:bind="http://schemas.android.com/apk/res-auto" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:layout_gravity="start" android:id="@id/check_action_panel" android:layout_width="wrap_content" android:layout_height="fill_parent" layout="@layout/bet_check_action_panel_layout" />
+    <include android:layout_gravity="end" android:id="@id/delete_action_panel" android:layout_width="wrap_content" android:layout_height="fill_parent" layout="@layout/bet_delete_action_panel_layout" />
+    <FrameLayout android:id="@id/content_view" android:tag="binding_1" android:background="?primary_white" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:id="@id/details_panel" layout="@layout/bet_details_panel_layout" />
+        <include android:layout_gravity="bottom" android:id="@id/status_panel" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/bet_status_panel_layout" />
+    </FrameLayout>
+</com.zerobranch.layout.SwipeLayout>

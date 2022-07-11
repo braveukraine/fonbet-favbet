@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:tag="layout/my_profile_section_item_layout_0" android:background="?profile_listBg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="48.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.betinvest.android.views.RobotoRegularTextView android:textSize="16.0sp" android:textColor="?profile_listTitle" android:layout_gravity="center" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="16.0dip" />
+    <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/ic_go_to" android:tint="?profile_listIcon" android:layout_marginEnd="22.0dip" />
+</LinearLayout>

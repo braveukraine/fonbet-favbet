@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.textview.MaterialTextView android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="40.0dip" android:text="@string/settings.favourite_bets" style="@style/Widget.Fonbet.Text.Medium" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/tabs_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip">
+        <com.google.android.material.textview.MaterialTextView android:textSize="14.0sp" android:textColor="@color/tab_text_color" android:gravity="center" android:id="@id/absolute_btn" android:background="@drawable/bg_favorite_bet_tab" android:layout_width="wrap_content" android:layout_height="32.0dip" android:text="@string/bet_settings_favorite_bet_absolute_title_2" android:paddingStart="8.0dip" android:paddingEnd="8.0dip" style="@style/Widget.Fonbet.Text.Bold" />
+        <com.google.android.material.textview.MaterialTextView android:textSize="14.0sp" android:textColor="@color/tab_text_color" android:gravity="center" android:id="@id/percent_btn" android:background="@drawable/bg_favorite_bet_tab" android:layout_width="wrap_content" android:layout_height="32.0dip" android:text="@string/bet_settings_favorite_bet_percent_title" android:paddingStart="8.0dip" android:paddingEnd="8.0dip" android:layout_marginStart="8.0dip" style="@style/Widget.Fonbet.Text.Bold" />
+    </LinearLayout>
+    <ViewFlipper android:id="@id/viewFlipper" android:layout_width="fill_parent" android:layout_height="wrap_content" android:measureAllChildren="false">
+        <com.fonbet.betting.impl.ui.widget.internal.betsettings.FavoriteBetAbsoluteInputContainer android:id="@id/absoluteInputContainer" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.fonbet.betting.impl.ui.widget.internal.betsettings.FavoriteBetPercentInputContainer android:id="@id/percentInputContainer" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </ViewFlipper>
+    <com.google.android.material.textview.MaterialTextView android:textSize="12.0sp" android:textColor="?color_900_a60" android:id="@id/limits_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Widget.Fonbet.Text.Regular" />
+</merge>

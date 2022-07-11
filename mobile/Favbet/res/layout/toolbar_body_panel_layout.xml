@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:tag="layout/toolbar_body_panel_layout_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:bind="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/back_view" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="45.0dip" android:paddingEnd="16.0dip">
+        <FrameLayout android:background="?selectableItemBackgroundBorderless" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="45.0dip">
+            <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:duplicateParentState="true" android:layout_width="17.0dip" android:layout_height="17.0dip" android:src="@drawable/ic_back" android:tint="?navBar_defaultIcon" />
+        </FrameLayout>
+    </FrameLayout>
+    <FrameLayout android:id="@id/logo_view" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="45.0dip" android:paddingEnd="8.0dip">
+        <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:duplicateParentState="true" android:layout_width="174.0dip" android:layout_height="20.0dip" android:src="@drawable/logo_favbet_magenta" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/search_view" android:tag="binding_3" android:layout_width="wrap_content" android:layout_height="45.0dip" android:paddingEnd="16.0dip">
+        <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:background="?selectableItemBackgroundBorderless" android:duplicateParentState="true" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/ic_search" android:tint="?navBar_defaultIcon" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/settings_view" android:tag="binding_4" android:background="?selectableItemBackgroundBorderless" android:layout_width="wrap_content" android:layout_height="45.0dip" android:paddingEnd="16.0dip">
+        <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:background="?selectableItemBackgroundBorderless" android:duplicateParentState="true" android:layout_width="18.0dip" android:layout_height="18.0dip" android:src="@drawable/ic_betslip_settings" android:tint="?navBar_defaultIcon" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/favorite_view" android:tag="binding_5" android:background="?selectableItemBackgroundBorderless" android:layout_width="wrap_content" android:layout_height="45.0dip" android:paddingEnd="16.0dip">
+        <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:background="?selectableItemBackgroundBorderless" android:duplicateParentState="true" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/ic_favorite_selector" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/pin_view" android:tag="binding_6" android:background="?selectableItemBackgroundBorderless" android:layout_width="wrap_content" android:layout_height="45.0dip" android:paddingEnd="16.0dip">
+        <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:background="?selectableItemBackgroundBorderless" android:duplicateParentState="true" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/pin_selector" />
+    </FrameLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:gravity="center_vertical" android:orientation="horizontal" android:tag="binding_7" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:paddingEnd="4.0dip">
+        <LinearLayout android:orientation="vertical" android:id="@id/title_container" android:tag="binding_8" android:layout_width="0.0dip" android:layout_height="wrap_content" bind:layout_constraintBottom_toBottomOf="parent" bind:layout_constraintEnd_toStartOf="@id/frameLayout" bind:layout_constraintHorizontal_bias="0.0" bind:layout_constraintHorizontal_chainStyle="packed" bind:layout_constraintStart_toStartOf="parent" bind:layout_constraintTop_toTopOf="parent" bind:layout_constraintWidth_default="wrap">
+            <com.betinvest.android.views.RobotoBoldTextView android:textColor="?navBar_alternativeTitle" android:ellipsize="end" android:id="@id/title_view" android:tag="binding_9" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:textAllCaps="true" />
+            <com.betinvest.android.views.RobotoRegularTextView android:textSize="14.0dip" android:textColor="?navBar_alternativeTitle" android:ellipsize="end" android:id="@id/sub_title_view" android:tag="binding_10" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:textAllCaps="true" />
+        </LinearLayout>
+        <FrameLayout android:id="@id/frameLayout" android:tag="binding_11" android:background="?selectableItemBackgroundBorderless" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="7.0dip" android:paddingEnd="7.0dip" bind:layout_constraintBottom_toBottomOf="@id/title_container" bind:layout_constraintEnd_toEndOf="parent" bind:layout_constraintHorizontal_bias="1.0" bind:layout_constraintStart_toEndOf="@id/title_container" bind:layout_constraintTop_toTopOf="@id/title_container">
+            <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:id="@id/dropdown_image_view" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/ic_open_down" android:scaleType="fitXY" android:adjustViewBounds="true" android:tint="?navBar_defaultIcon" />
+        </FrameLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

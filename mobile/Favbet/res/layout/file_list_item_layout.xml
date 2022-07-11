@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:tag="layout/file_list_item_layout_0" android:background="?selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="40.0dip" android:paddingStart="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:bind="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.betinvest.android.views.RobotoBoldTextView android:textSize="14.0sp" android:textColor="?profile_txt1" android:ellipsize="end" android:tag="binding_1" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="1" android:layout_weight="1.0" />
+            <com.betinvest.android.views.RobotoBoldTextView android:textSize="14.0sp" android:textColor="?profile_txt1" android:ellipsize="end" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+        </LinearLayout>
+        <com.betinvest.android.views.RobotoBoldTextView android:textSize="10.0sp" android:textColor="?input_error_txt" android:ellipsize="end" android:tag="binding_3" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" />
+    </LinearLayout>
+    <FrameLayout android:tag="binding_4" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:paddingHorizontal="16.0dip">
+        <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:id="@id/remove_button" android:background="?selectableItemBackgroundBorderless" android:duplicateParentState="true" android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@drawable/close_ic" android:adjustViewBounds="true" />
+    </FrameLayout>
+</LinearLayout>

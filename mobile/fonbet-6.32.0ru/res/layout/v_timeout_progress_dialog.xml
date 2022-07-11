@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@drawable/space_h_8" android:showDividers="middle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.textview.MaterialTextView android:textSize="14.0sp" android:textColor="?color_900_a80" android:id="@id/finish_time_tv" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Widget.Fonbet.Text.Medium" />
+    <com.fonbet.responsiblegaming.commons.fon.ui.widget.TimeoutProgressWidget android:id="@id/timeout_progress" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

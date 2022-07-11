@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:tag="layout/message_delete_all_item_layout_0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="34.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="center_vertical" android:layout_width="@dimen/dist_20" android:layout_height="@dimen/dist_20" android:src="@drawable/ic_delete" android:layout_marginEnd="5.0dip" app:tint="?Btn_Tertiary_color_3" />
+    <com.betinvest.favbet3.custom.view.FavbetBoldTextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="?Btn_Tertiary_color_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/native_messages_delete_all" android:textAllCaps="true" />
+</LinearLayout>

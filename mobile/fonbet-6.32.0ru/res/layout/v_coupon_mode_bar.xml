@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.facebook.shimmer.ShimmerFrameLayout android:id="@id/shimmer_background_view" android:layout_width="fill_parent" android:layout_height="fill_parent" app:shimmer_auto_start="false" app:shimmer_base_color="?color_700_a20_base" app:shimmer_colored="true" app:shimmer_direction="left_to_right" app:shimmer_duration="1750" app:shimmer_fixed_width="192.0dip" app:shimmer_highlight_color="?color_red" app:shimmer_repeat_count="0" app:shimmer_tilt="15.0">
+        <FrameLayout android:background="?color_700_a20_base" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.facebook.shimmer.ShimmerFrameLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/content_container" android:background="?color_500_a10_base" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="1.0dip">
+        <ImageView android:id="@id/logo_iv" android:layout_width="76.0dip" android:layout_height="fill_parent" android:src="@drawable/logo" android:paddingStart="12.0dip" android:paddingEnd="12.0dip" app:layout_constraintStart_toStartOf="parent" />
+        <com.google.android.material.textview.MaterialTextView android:textSize="12.0sp" android:textColor="?color_900" android:id="@id/coupon_item_count_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="8.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toEndOf="@id/logo_iv" app:layout_constraintTop_toTopOf="parent" style="@style/Widget.Fonbet.Text.Medium" />
+        <com.fonbet.coupon.impl.ui.widget.QuoteChangeWidget android:gravity="end|center" android:id="@id/quote_tv" android:layout_width="0.0dip" android:layout_height="fill_parent" android:minWidth="96.0dip" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip" app:astv_maxTextSize="20.0sp" app:astv_minTextSize="10.0sp" app:astv_sizeStep="1.0sp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/coupon_item_count_tv" app:qcw_isInCouponItem="false" app:qcw_showChange="true" style="@style/Widget.Fonbet.Text.Bold" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</merge>

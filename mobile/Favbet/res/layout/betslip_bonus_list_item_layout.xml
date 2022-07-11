@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/content_view" android:tag="layout/betslip_bonus_list_item_layout_0" android:background="?betslip_card_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:bind="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/details_panel" layout="@layout/bet_details_panel_layout" />
+    <include android:layout_gravity="bottom" android:id="@id/status_panel" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/bet_status_panel_layout" />
+</FrameLayout>

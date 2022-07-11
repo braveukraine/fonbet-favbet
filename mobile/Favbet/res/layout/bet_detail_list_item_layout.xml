@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:tag="layout/bet_detail_list_item_layout_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.betinvest.android.views.RobotoRegularTextView android:textSize="12.0sp" android:textColor="@color/bet_details_text_color_selector" android:ellipsize="end" android:tag="binding_1" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="1" android:layout_weight="1.0" />
+    <com.betinvest.android.views.RobotoBoldTextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/bet_details_text_color_selector" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+    <com.betinvest.android.views.RobotoRegularTextView android:textSize="12.0sp" android:textColor="@color/bet_details_text_color_selector" android:ellipsize="end" android:tag="binding_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:textAllCaps="true" android:layout_marginStart="3.0dip" />
+</LinearLayout>

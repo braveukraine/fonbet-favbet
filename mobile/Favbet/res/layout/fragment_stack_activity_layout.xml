@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/fragment_stack_activity_layout_0" android:background="?General_body_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:layout_above="@id/navigation_list_view">
+        <fragment android:name="androidx.navigation.fragment.NavHostFragment" android:id="@id/host_fragment" android:layout_width="fill_parent" android:layout_height="fill_parent" app:defaultNavHost="true" />
+        <include android:layout_gravity="bottom" android:id="@id/critical_messages_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="8.0dip" layout="@layout/critical_messages_layout" />
+    </FrameLayout>
+    <include android:id="@id/date_time_clock_panel" android:visibility="gone" layout="@layout/date_time_clock_layout" />
+    <FrameLayout android:tag="binding_2" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:id="@id/navigation_panel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="@dimen/dist_4" layout="@layout/bottom_navigation_panel_layout" />
+        <FrameLayout android:id="@id/navigation_panel_lock" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:elevation="@dimen/dist_4" />
+    </FrameLayout>
+</LinearLayout>

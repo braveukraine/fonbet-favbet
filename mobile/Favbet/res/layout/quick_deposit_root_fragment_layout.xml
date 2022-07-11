@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/quick_deposit_root_fragment_layout_0" android:background="?General_body_profile" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.fragment.app.FragmentContainerView android:name="androidx.navigation.fragment.NavHostFragment" android:id="@id/quick_deposit_nested_host_fragment" android:layout_width="fill_parent" android:layout_height="fill_parent" app:defaultNavHost="true" />
+    <com.betinvest.android.views.RobotoBoldTextView android:textSize="@dimen/text_18sp" android:textStyle="bold" android:textColor="?General_accent_color_3" android:gravity="center" android:id="@id/not_support_text" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</FrameLayout>

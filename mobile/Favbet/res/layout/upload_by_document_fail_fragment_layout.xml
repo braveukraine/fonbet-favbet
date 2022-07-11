@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/upload_by_document_fail_fragment_layout_0" android:background="?secondary_white1" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/toolbar_panel" layout="@layout/default_toolbar_panel_layout" />
+    <LinearLayout android:orientation="vertical" android:tag="binding_1" android:paddingLeft="16.0dip" android:paddingTop="20.0dip" android:paddingRight="16.0dip" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingHorizontal="16.0dip" android:paddingVertical="20.0dip">
+        <androidx.core.widget.NestedScrollView android:tag="binding_2" android:paddingTop="60.0dip" android:paddingBottom="60.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:overScrollMode="never" android:paddingVertical="60.0dip">
+            <include layout="@layout/upload_document_fail_info_panel_layout" />
+        </androidx.core.widget.NestedScrollView>
+        <include android:id="@id/button_panel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" layout="@layout/primary1_btn_layout" />
+    </LinearLayout>
+</LinearLayout>

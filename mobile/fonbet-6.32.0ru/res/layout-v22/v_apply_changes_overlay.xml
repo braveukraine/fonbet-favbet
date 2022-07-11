@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <View android:background="@drawable/line_filter_gradient_bg" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="0.4" />
+        <View android:background="@drawable/line_filter_solid_bg" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="0.6" />
+    </LinearLayout>
+    <LinearLayout android:gravity="bottom" android:orientation="vertical" android:id="@id/content_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.google.android.material.textview.MaterialTextView android:textSize="14.0sp" android:textColor="?color_900" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="14.0dip" android:text="@string/settings.bet_change.quotes" android:layout_marginHorizontal="16.0dip" style="@style/Widget.Fonbet.Text.Bold" />
+        <com.google.android.material.textview.MaterialTextView android:textSize="14.0sp" android:textColor="?color_900_a60" android:id="@id/setting_hint_tv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="4.0dip" android:minHeight="56.0dip" android:layout_marginHorizontal="16.0dip" style="@style/Widget.Fonbet.Text.Regular" />
+        <com.constanta.categoryslidepicker.CategorySlidePicker android:layout_gravity="end|bottom|center" android:id="@id/category_slider_picker" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="8.0dip" android:layout_marginEnd="-8.0dip" app:csp_defaultToEndPosition="true" app:csp_maxTextSize="16.0sp" app:csp_maxTextVerticalTranslation="10.0dip" app:csp_minTextSize="10.0sp" app:csp_textAppearance="@style/LineFilterSectionName" app:csp_textBottomMargin="8.0dip" app:csp_textHorizontalMargins="6.0dip" app:csp_thumbShouldDetectSingleTap="false" app:csp_thumbSize="48.0dip" app:csp_trackDividerDrawable="@drawable/line_filter_section_divider" app:csp_trackDrawable="@drawable/line_filter_track_bg" app:csp_trackEarWidth="16.0dip" app:csp_trackHeight="24.0dip" />
+    </LinearLayout>
+</merge>

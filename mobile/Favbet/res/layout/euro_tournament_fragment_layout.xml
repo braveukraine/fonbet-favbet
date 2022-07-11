@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/euro_tournament_fragment_layout_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/toolbar_panel" layout="@layout/default_toolbar_panel_layout" />
+    <androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true">
+            <include android:id="@id/teasers_panel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:layout_marginVertical="5.0dip" layout="@layout/teaser_panel_layout" />
+            <include android:id="@id/live_soccer_banner_panel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:layout_marginVertical="5.0dip" layout="@layout/deep_link_sport_banner_panel_layout" />
+            <include android:id="@id/soccer_events_panel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:layout_marginVertical="5.0dip" layout="@layout/sport_lobby_event_line_panel_layout" />
+            <include android:id="@id/euro_tournament_banner_panel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:layout_marginVertical="5.0dip" layout="@layout/deep_link_sport_banner_panel_layout" />
+            <include android:id="@id/special_events_panel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:layout_marginVertical="5.0dip" layout="@layout/sport_lobby_event_line_panel_layout" />
+            <include android:id="@id/bet_of_day_panel" layout="@layout/bet_of_day_panel_layout" />
+            <include android:id="@id/banner_panel" layout="@layout/euro_tournament_banner_panel_layout" />
+            <include android:id="@id/all_promos_panel" layout="@layout/see_all_promo_panel_layout" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

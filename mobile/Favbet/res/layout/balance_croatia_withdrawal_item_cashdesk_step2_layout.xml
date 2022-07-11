@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/balance_croatia_withdrawal_item_cashdesk_step2_layout_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.core.widget.NestedScrollView android:background="?General_body_profile" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/info_block" android:background="?General_body_profile" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center_horizontal" android:layout_width="@dimen/dist_60" android:layout_height="@dimen/dist_60" android:src="@drawable/ill_success" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dist_20" android:weightSum="100.0">
+                <com.betinvest.android.views.RobotoRegularTextView android:textSize="@dimen/text_14sp" android:textColor="?profile_txt2" android:gravity="right" android:id="@id/balance_city_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="50.0" android:layout_marginEnd="@dimen/dist_4" />
+                <com.betinvest.android.views.RobotoBoldTextView android:textSize="@dimen/text_14sp" android:textColor="?profile_txt1" android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="50.0" android:layout_marginStart="@dimen/dist_4" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dist_15" android:weightSum="100.0">
+                <com.betinvest.android.views.RobotoRegularTextView android:textSize="@dimen/text_14sp" android:textColor="?profile_txt2" android:gravity="right" android:id="@id/balance_address_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="50.0" android:layout_marginEnd="@dimen/dist_4" />
+                <com.betinvest.android.views.RobotoBoldTextView android:textSize="@dimen/text_14sp" android:textColor="?profile_txt1" android:tag="binding_2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="50.0" android:layout_marginStart="@dimen/dist_4" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dist_15" android:weightSum="100.0">
+                <com.betinvest.android.views.RobotoRegularTextView android:textSize="@dimen/text_14sp" android:textColor="?profile_txt2" android:gravity="right" android:id="@id/request_number_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="50.0" android:layout_marginEnd="@dimen/dist_4" />
+                <com.betinvest.android.views.RobotoBoldTextView android:textSize="@dimen/text_14sp" android:textColor="?profile_txt1" android:tag="binding_3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="50.0" android:layout_marginStart="@dimen/dist_4" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dist_15" android:weightSum="100.0">
+                <com.betinvest.android.views.RobotoRegularTextView android:textSize="@dimen/text_14sp" android:textColor="?profile_txt2" android:gravity="right" android:id="@id/secretquestions_mysecretcode_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="50.0" android:layout_marginEnd="@dimen/dist_4" />
+                <com.betinvest.android.views.RobotoBoldTextView android:textSize="@dimen/text_14sp" android:textColor="?profile_txt1" android:tag="binding_4" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="50.0" android:layout_marginStart="@dimen/dist_4" />
+            </LinearLayout>
+            <com.betinvest.android.views.RobotoBoldTextView android:textSize="@dimen/text_14sp" android:textColor="?profile_txt1" android:gravity="center_horizontal" android:id="@id/withdrawal_success_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dist_15" />
+            <com.betinvest.android.views.RobotoBoldTextView android:textSize="@dimen/text_14sp" android:textColor="?profile_txt1" android:gravity="center_horizontal" android:tag="binding_5" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <com.betinvest.android.views.RobotoBoldButton android:textSize="@dimen/text_14sp" android:textColor="?Btn_Primary_txt_color_1" android:id="@id/ok_btn" android:background="@drawable/registration_step_4_5_blue_button_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dist_20" android:textAllCaps="true" android:textAlignment="center" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <FrameLayout android:id="@id/shield_keyboard_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include android:id="@id/progress_panel" android:visibility="gone" layout="@layout/progress_panel_layout" />
+</FrameLayout>

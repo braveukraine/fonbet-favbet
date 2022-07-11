@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <com.google.android.material.appbar.MaterialToolbar android:theme="@style/ThemeOverlay.Widget.Toolbar.NavButtonEvent" android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:title="">
+            <TextView android:textSize="12.0sp" android:textColor="?color_toolbar_tablo_primary" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/portrait_toolbar_title" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" style="@style/Widget.Fonbet.Text.Medium" />
+        </com.google.android.material.appbar.MaterialToolbar>
+        <LinearLayout android:gravity="right" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.fonbet.event.impl.ui.widget.eventheader.translationpicker.TranslationPickerWidget android:id="@id/translation_picker_widget" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:visibility="gone" android:scrollbars="none" android:clipToPadding="false" android:layout_width="0.0dip" android:layout_height="32.0dip" android:layout_weight="1.0" android:paddingHorizontal="16.0dip" />
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/new_feature_audio" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_new_feature" android:layout_marginStart="8.0dip" app:tint="?color_white" />
+            <com.fonbet.event.impl.ui.widget.audio.AudioTranslationActionWidget android:layout_gravity="center_vertical" android:id="@id/audio_translation_widget" android:padding="6.0dip" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginRight="10.0dip" android:layout_marginStart="2.0dip" />
+        </LinearLayout>
+        <com.fonbet.event.impl.ui.widget.audio.LineAudioTranslationWidget android:id="@id/line_audio_translation_widget" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginHorizontal="16.0dip" />
+        <com.fonbet.core.commons.ui.widget.epoxy.CustomEpoxyRecyclerView android:id="@id/translation_recycler_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <FrameLayout android:background="?color_150" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.fonbet.core.commons.ui.widget.epoxy.CustomEpoxyRecyclerView android:id="@id/event_tabs_recycler_view" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="38.0dip" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" />
+            <View android:layout_gravity="bottom" android:background="@drawable/divider_color_500_a20" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        </FrameLayout>
+        <FrameLayout android:background="?color_100" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.fonbet.core.commons.ui.widget.epoxy.CustomEpoxyRecyclerView android:id="@id/anchors_recycler_view" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" />
+            <View android:layout_gravity="bottom" android:background="@drawable/divider_color_500_a20" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        </FrameLayout>
+    </LinearLayout>
+    <com.fonbet.event.impl.ui.widget.audio.NoiseWidget android:id="@id/noiseWidget" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:nf_circleColor="?color_white_a05" app:nf_secondCircleBackSpedCoef="2.0" app:nf_secondCircleRadiusCoef="1.4" app:nw_circleMaxRadius="210.0dip" app:nw_circleMinRadius="23.0dip" />
+</merge>

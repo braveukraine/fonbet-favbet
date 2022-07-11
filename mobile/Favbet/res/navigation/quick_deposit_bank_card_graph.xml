@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/quick_deposit_bank_card_graph.xml" app:startDestination="@id/balanceTopUpBankCardStepStandardQuickDepositFragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="BalanceTopUpBankCardStepStandardQuickDepositFragment" android:name="com.betinvest.favbet3.menu.balance.deposits.bank_card.top_up.step_standart.fragments.BalanceTopUpBankCardStepStandardQuickDepositFragment" android:id="@id/balanceTopUpBankCardStepStandardQuickDepositFragment">
+        <argument android:name="wallet_hash" app:argType="string" />
+        <action android:id="@id/action_balanceTopUpBankCardStepStandardQuickDepositFragment_to_balanceTopUpBankCardStepAddNewCardQuickDepositFragment" app:destination="@id/balanceTopUpBankCardStepAddNewCardQuickDepositFragment" />
+    </fragment>
+    <fragment android:label="BalanceTopUpBankCardStepAddNewCardQuickDepositFragment" android:name="com.betinvest.favbet3.menu.balance.deposits.bank_card.top_up.step_add_new_card.fragments.BalanceTopUpBankCardStepAddNewCardQuickDepositFragment" android:id="@id/balanceTopUpBankCardStepAddNewCardQuickDepositFragment">
+        <argument android:name="wallet_hash" app:argType="string" />
+    </fragment>
+</navigation>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.betinvest.android.views.RobotoRegularTextView android:textSize="12.0sp" android:textColor="?Line_CoefSelected" android:gravity="center" android:id="@id/param_text_view" android:tag="layout/market_empty_table_item_layout_0" android:background="?Line_ButtonDefault" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

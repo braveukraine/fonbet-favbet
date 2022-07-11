@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.constanta.categoryseekbar.CategorySeekBar android:id="@id/seekBar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:csb_textAppearance="@style/BetSettingsCategorySeekBarTitle" app:csb_textHorizontalMargins="2.0dip" app:csb_textSize="12.0sp" app:csb_textTopMargin="8.0dip" app:csb_thumbDrawable="@drawable/category_seek_bar_thumb" app:csb_thumbSize="20.0dip" app:csb_trackDrawable="@drawable/category_seek_bar_track" app:csb_trackHeight="24.0dip" app:csb_trackPointDrawable="@drawable/category_seek_bar_track_point" />
+    <com.google.android.material.textview.MaterialTextView android:textSize="12.0sp" android:textColor="?color_900_a60" android:gravity="center_vertical" android:id="@id/chooseHint" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/settings.bet_change.quotes.none.desc" style="@style/Widget.Fonbet.Text.Regular" />
+</merge>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/cash_out_confirmation_dialog_fragment_layout_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/message_delete_layout_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="48.0dip">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="10.0dip" android:layout_marginHorizontal="20.0dip" android:layout_marginVertical="10.0dip">
+            <include android:id="@id/accept_button_layout" android:layout_width="fill_parent" android:layout_height="45.0dip" android:layout_weight="1.0" android:layout_marginEnd="5.0dip" layout="@layout/primary1_btn_layout" />
+            <com.betinvest.android.views.RobotoBoldButton android:textSize="14.0sp" android:textColor="?Btn_Secondary_color_1" android:id="@id/dismiss_button" android:background="@drawable/message_delete_no_button_bg" android:layout_width="fill_parent" android:layout_height="45.0dip" android:layout_weight="1.0" android:textAllCaps="true" android:layout_marginStart="5.0dip" android:stateListAnimator="@null" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

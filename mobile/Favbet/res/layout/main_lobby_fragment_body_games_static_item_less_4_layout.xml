@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/main_lobby_fragment_body_games_static_item_less_4_layout_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:bind="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:tag="binding_1" android:background="@drawable/round_2_ripple_bg" android:paddingTop="@dimen/dist_6" android:paddingBottom="@dimen/dist_6" android:layout_width="0.0dip" android:layout_height="0.0dip" android:paddingStart="@dimen/dist_6" android:paddingEnd="@dimen/dist_6" android:backgroundTint="?mainLobby_tabBg" bind:layout_constraintEnd_toEndOf="parent" bind:layout_constraintStart_toStartOf="parent" bind:layout_constraintTop_toTopOf="parent">
+        <LinearLayout android:layout_gravity="center|left" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <com.betinvest.android.views.RobotoBoldTextView android:textSize="@dimen/text_28sp" android:textStyle="bold" android:textColor="?mainLobby_tabTitle" android:layout_gravity="center|left" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAllCaps="true" />
+            <com.betinvest.android.views.RobotoRegularTextView android:textSize="@dimen/text_18sp" android:textStyle="normal" android:textColor="?mainLobby_tabTitle" android:layout_gravity="left" android:tag="binding_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAllCaps="true" />
+        </LinearLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="end|center" android:id="@id/go_to" android:tag="binding_4" android:layout_width="0.0dip" android:layout_height="fill_parent" android:scaleType="fitXY" android:tint="?mainLobby_tabTitle" bind:layout_constraintBottom_toBottomOf="parent" bind:layout_constraintDimensionRatio="1:1" bind:layout_constraintLeft_toLeftOf="parent" bind:layout_constraintRight_toRightOf="parent" bind:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

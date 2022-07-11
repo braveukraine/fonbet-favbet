@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.viewpager.widget.ViewPager android:id="@id/balance_croatia_viewpager" android:tag="layout/balance_croatia_viewpager_layout_0" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.betinvest.favbet3.custom.view.CustomTabLayout android:id="@id/balance_croatia_viewpager_tab" android:background="?text_tab2_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" app:tabIndicatorColor="?text_tab2_border" app:tabIndicatorHeight="3.0dip" app:tabSelectedTextColor="?text_tab2_Selected" app:tabTextColor="?text_tab2_Default">
+        <com.google.android.material.tabs.TabItem android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/native_balance_deposits" />
+        <com.google.android.material.tabs.TabItem android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/native_balance_withdrawals" />
+    </com.betinvest.favbet3.custom.view.CustomTabLayout>
+</androidx.viewpager.widget.ViewPager>

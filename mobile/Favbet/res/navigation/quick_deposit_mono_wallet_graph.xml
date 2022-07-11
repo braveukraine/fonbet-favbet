@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/quick_deposit_mono_wallet_graph.xml" app:startDestination="@id/balanceMonoWalletDepositQuickDepositFragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="BalanceMonoWalletDepositQuickDepositFragment" android:name="com.betinvest.favbet3.menu.balance.deposits.mono_wallet.deposit.fragments.BalanceMonoWalletDepositQuickDepositFragment" android:id="@id/balanceMonoWalletDepositQuickDepositFragment" />
+    <fragment android:label="GraphFragment" android:name="com.betinvest.favbet3.graph.GraphFragment" android:id="@id/graphFragment">
+        <argument android:name="graphType" app:argType="com.betinvest.favbet3.graph.GraphType" />
+        <argument android:name="title" android:defaultValue="" app:argType="string" app:nullable="true" />
+        <argument android:name="url" android:defaultValue="" app:argType="string" app:nullable="true" />
+        <argument android:name="relationIdt" android:defaultValue="" app:argType="string" app:nullable="true" />
+        <argument android:name="pageId" android:defaultValue="" app:argType="string" app:nullable="true" />
+        <argument android:name="graphParam" android:defaultValue="@null" app:argType="com.betinvest.favbet3.common.GraphParam" app:nullable="true" />
+    </fragment>
+    <action android:id="@id/toGlobalNestedGraph" app:destination="@id/graphFragment">
+        <argument android:name="graphType" app:argType="com.betinvest.favbet3.graph.GraphType" />
+        <argument android:name="title" android:defaultValue="" app:argType="string" app:nullable="true" />
+        <argument android:name="url" android:defaultValue="" app:argType="string" app:nullable="true" />
+        <argument android:name="relationIdt" android:defaultValue="" app:argType="string" app:nullable="true" />
+        <argument android:name="pageId" android:defaultValue="" app:argType="string" app:nullable="true" />
+        <argument android:name="graphParam" android:defaultValue="@null" app:argType="com.betinvest.favbet3.common.GraphParam" app:nullable="true" />
+    </action>
+</navigation>

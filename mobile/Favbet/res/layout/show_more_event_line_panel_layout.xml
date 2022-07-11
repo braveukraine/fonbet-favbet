@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/show_more_button" android:tag="layout/show_more_event_line_panel_layout_0" android:background="@drawable/rect_ripple_bg" android:padding="14.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="45.0dip" android:backgroundTint="?btn_crossPage_bg_color"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:bind="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.betinvest.android.views.RobotoRegularTextView android:textColor="?btn_crossPage_Titel" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <androidx.appcompat.widget.AppCompatImageView android:tag="binding_2" android:layout_width="14.0dip" android:layout_height="14.0dip" android:tint="?btn_crossPage_Titel" android:layout_marginStart="5.0dip" />
+    </LinearLayout>
+</FrameLayout>

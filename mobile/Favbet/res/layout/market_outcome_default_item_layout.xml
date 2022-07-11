@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/market_outcome_default_item_layout_0" android:background="?line_bS_matchPart_Bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:bind="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/outcome_layout" android:tag="binding_1" android:background="@drawable/sports_teaser_outcome_bg_selector" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="3.0dip" android:layout_marginRight="5.0dip" android:layout_marginBottom="3.0dip" android:layout_marginHorizontal="5.0dip" android:layout_marginVertical="3.0dip">
+        <FrameLayout android:id="@id/market_outcome_default_item_layout_id" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="40.0sp">
+            <LinearLayout android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="center_vertical" android:layout_gravity="center" android:id="@id/details_layout" android:paddingLeft="8.0dip" android:paddingTop="1.0dip" android:paddingRight="8.0dip" android:paddingBottom="2.0dip" android:duplicateParentState="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:weightSum="1.0" android:layout_weight="1.0" android:paddingHorizontal="8.0dip">
+                    <com.betinvest.android.views.RobotoMediumTextView android:textSize="12.0sp" android:textColor="@color/sports_teaser_outcome_short_name_text_color_selector" android:ellipsize="end" android:id="@id/outcome_short_name_view" android:tag="binding_2" android:duplicateParentState="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="2" android:includeFontPadding="false" android:layout_weight="1.0" />
+                    <com.betinvest.android.views.RobotoBoldTextView android:textSize="@dimen/text_14sp" android:textColor="@color/sports_teaser_outcome_coef_text_color_selector" android:gravity="end" android:id="@id/outcome_coef_view" android:tag="binding_3" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAlignment="viewEnd" android:layout_marginStart="5.0dip" />
+                </LinearLayout>
+                <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:tag="binding_4" android:visibility="gone" android:layout_width="22.0dip" android:layout_height="22.0dip" android:src="@drawable/ic_lock" android:scaleType="centerInside" android:tint="?Line_StateButtonStyleText" android:layout_centerInParent="true" android:layout_marginEnd="10.0dip" />
+                <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:tag="binding_5" android:visibility="gone" android:layout_width="22.0dip" android:layout_height="22.0dip" android:src="@drawable/ic_corona" android:scaleType="centerInside" android:tint="?Line_StateButtonStyleText" android:layout_centerInParent="true" android:layout_marginEnd="10.0dip" />
+            </LinearLayout>
+            <View android:id="@id/coefficient_up_indicator" style="@style/CoefficientUp" />
+            <View android:id="@id/coefficient_down_indicator" style="@style/CoefficientDown" />
+        </FrameLayout>
+    </FrameLayout>
+</FrameLayout>

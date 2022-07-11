@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/secondary1_binding_btn_layout_0" android:background="@drawable/secondary1_btn_bg" android:paddingLeft="6.0dip" android:paddingRight="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="45.0dip" android:paddingHorizontal="6.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:bind="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.betinvest.android.views.RobotoBoldTextView android:textSize="14.0sp" android:textColor="?Btn_Secondary_color_1" android:ellipsize="end" android:gravity="center" android:id="@id/first_line_text_view" android:tag="binding_1" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false" android:textAllCaps="true" />
+        <com.betinvest.android.views.RobotoRegularTextView android:textSize="12.0sp" android:textColor="?Btn_Secondary_color_1" android:ellipsize="end" android:gravity="center" android:id="@id/second_line_text_view" android:tag="binding_2" android:visibility="gone" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:maxLines="1" android:includeFontPadding="false" />
+    </LinearLayout>
+</FrameLayout>

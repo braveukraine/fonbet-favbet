@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/bet_history_item_layout_0" android:background="@drawable/round_2_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="2.0dip" android:elevation="2.0dip" android:backgroundTint="?profile_cardBg"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:bind="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="12.0dip" android:layout_marginBottom="8.0dip" android:layout_marginHorizontal="12.0dip">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/result_icon" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" />
+        <com.betinvest.android.views.RobotoBoldTextView android:textStyle="bold" android:textColor="?profile_cardTitel" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAllCaps="true" android:layout_marginStart="10.0dip" android:layout_toEndOf="@id/result_icon" />
+        <com.betinvest.android.views.RobotoRegularTextView android:textColor="?profile_cardTxt2" android:tag="binding_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <View android:background="?profile_cardBorder1" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="12.0dip" android:layout_marginBottom="8.0dip" android:layout_marginHorizontal="12.0dip">
+        <com.betinvest.android.views.RobotoBoldTextView android:textStyle="bold" android:textColor="?profile_cardTxt2" android:tag="binding_4" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <androidx.appcompat.widget.AppCompatImageView android:tag="binding_5" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_go_to" android:tint="?profile_cardTxt2" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <View android:background="?profile_cardBorder1" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="12.0dip" android:layout_marginBottom="8.0dip" android:layout_marginHorizontal="12.0dip">
+        <com.betinvest.android.views.RobotoRegularTextView android:textColor="?profile_cardTxt2" android:tag="binding_6" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentEnd="true">
+            <com.betinvest.android.views.RobotoBoldTextView android:textStyle="bold" android:textColor="?profile_cardTxt1" android:tag="binding_7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="2.0dip" />
+            <com.betinvest.android.views.RobotoRegularTextView android:textColor="?profile_cardTxt1" android:tag="binding_8" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

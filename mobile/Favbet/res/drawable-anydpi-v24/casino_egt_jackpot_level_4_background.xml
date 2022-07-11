@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="39.0dip" android:width="159.0dip" android:autoMirrored="true" android:viewportWidth="159.0" android:viewportHeight="39.0" xmlns:aapt="http://schemas.android.com/aapt"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@drawable/$casino_egt_jackpot_level_4_background__0" android:pathData="M5.774,0L154.548,0A4,4 0,0 1,158.548 4L158.548,32A4,4 0,0 1,154.548 36L5.774,36A4,4 0,0 1,1.774 32L1.774,4A4,4 0,0 1,5.774 0z" />
+    <path android:fillColor="#ffffffff" android:pathData="M23.709,15.052C21.711,12.965 19.39,10.928 18.42,9.857C17.689,9.055 17.12,8.382 16.908,8.129C16.695,8.382 16.123,9.059 15.396,9.86C14.426,10.928 12.105,12.965 10.106,15.055C8.107,17.141 7.946,19.231 8.323,20.959C8.7,22.691 10.785,24.403 13.558,24.281L11.222,26.413H22.155C21.103,25.289 20.257,24.281 20.257,24.281C23.03,24.403 25.115,22.691 25.492,20.959C25.869,19.228 25.705,17.138 23.709,15.052Z" />
+    <path android:fillColor="@drawable/$casino_egt_jackpot_level_4_background__1" android:pathData="M22.69,15.78C20.991,14.08 19.018,12.42 18.193,11.547C17.573,10.893 17.089,10.344 16.908,10.138C16.728,10.344 16.241,10.896 15.623,11.549C14.799,12.42 12.826,14.08 11.127,15.783C9.428,17.483 9.291,19.186 9.612,20.594C9.932,22.005 11.538,23.333 14.061,23.042C14.854,22.951 15.434,22.603 15.856,22.166C15.574,24.164 14.399,25.202 14.399,25.202H19.295C18.4,24.287 18.086,22.985 17.972,22.177C18.394,22.608 18.968,22.951 19.755,23.042C22.279,23.331 23.884,22.005 24.205,20.594C24.525,19.183 24.385,17.48 22.69,15.78Z" />
+    <path android:fillColor="#ff333333" android:pathData="M142.211,0h0.864v36h-0.864z" />
+    <path android:fillColor="#ff000000" android:pathData="M143.075,0h0.864v36h-0.864z" />
+</vector>

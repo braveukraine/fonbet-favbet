@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.fonbet.core.impl.fon.ui.widget.inputlayout.CustomTextInputLayout android:id="@id/phone_number_il" android:layout_width="fill_parent" android:layout_height="wrap_content" app:helperTextTextColor="?color_900" style="@style/Widget.Fonbet.CustomTextInputLayout.Medium">
+        <com.fonbet.core.commons.ui.widget.inputlayout.edittext.CustomTextInputEditText android:id="@id/phone_number_edit_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="-8.0dip" android:hint="@string/field.phone_number" android:inputType="phone" android:autofillHints="phone" android:importantForAutofill="yes" />
+    </com.fonbet.core.impl.fon.ui.widget.inputlayout.CustomTextInputLayout>
+</merge>

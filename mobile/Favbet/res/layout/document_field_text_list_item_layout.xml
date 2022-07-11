@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/document_field_text_list_item_layout_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:bind="http://schemas.android.com/apk/res-auto">
+    <com.betinvest.android.views.RobotoRegularTextView android:textSize="12.0sp" android:textColor="?input_label_txt" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <LinearLayout android:gravity="center_vertical" android:background="@drawable/document_filed_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:minHeight="40.0dip">
+        <com.betinvest.android.views.RobotoBoldEditText android:textSize="14.0sp" android:textColor="?input_txt" android:textColorHint="?input_txt_placeholder" android:id="@id/text_view" android:tag="binding_2" android:background="@color/transparent" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="8.0dip" />
+    </LinearLayout>
+    <com.betinvest.android.views.RobotoRegularTextView android:textSize="10.0sp" android:textColor="?input_error_txt" android:id="@id/error_view" android:tag="binding_3" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

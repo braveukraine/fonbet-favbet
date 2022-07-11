@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/results_team_item_layout_0" android:background="?profile_cardBg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip" android:layout_marginHorizontal="2.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="30.0dip">
+        <com.betinvest.android.views.RobotoBoldTextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="?profile_txt1" android:layout_gravity="center" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <com.betinvest.android.views.RobotoRegularTextView android:textSize="14.0sp" android:textColor="?profile_txt1" android:layout_gravity="center" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="3.0dip" />
+    </LinearLayout>
+    <View android:background="?profile_cardBorder1" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+</LinearLayout>

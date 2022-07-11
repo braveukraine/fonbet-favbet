@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/virtual_sport_lobby_fragment_layout_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/toolbar_panel" layout="@layout/default_toolbar_panel_layout" />
+    <include android:id="@id/progress_panel" android:visibility="gone" layout="@layout/progress_panel_layout" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/games_panel_recycler_view" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:clipToPadding="false" android:descendantFocusability="beforeDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never" android:paddingHorizontal="12.0dip" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+</LinearLayout>

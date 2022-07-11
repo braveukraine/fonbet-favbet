@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/balance_croatia_nav_graph" app:startDestination="@id/balanceCroatiaFragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="BalanceCroatiaFragment" android:name="com.betinvest.favbet3.menu.balance.deposits.croatia.BalanceCroatiaFragment" android:id="@id/balanceCroatiaFragment">
+        <action android:id="@id/to_balanceCroatiaHistoryTopUpFragment" app:destination="@id/balanceCroatiaHistoryTopUpFragment" />
+        <action android:id="@id/to_balanceCroatiaHistoryWithdrawalsFragment" app:destination="@id/balanceCroatiaHistoryWithdrawalsFragment" />
+    </fragment>
+    <fragment android:label="BalanceCroatiaHistoryTopUpFragment" android:name="com.betinvest.favbet3.menu.balance.deposits.croatia.history.top_up.BalanceCroatiaHistoryTopUpFragment" android:id="@id/balanceCroatiaHistoryTopUpFragment">
+        <action android:id="@id/to_balanceCroatiaFilterFragment" app:destination="@id/balanceCroatiaFilterFragment" />
+    </fragment>
+    <fragment android:label="BalanceCroatiaHistoryWithdrawalsFragment" android:name="com.betinvest.favbet3.menu.balance.deposits.croatia.history.withdrawal.BalanceCroatiaHistoryWithdrawalsFragment" android:id="@id/balanceCroatiaHistoryWithdrawalsFragment">
+        <action android:id="@id/to_balanceCroatiaFilterFragment2" app:destination="@id/balanceCroatiaFilterFragment" />
+    </fragment>
+    <fragment android:label="BalanceCroatiaFilterFragment" android:name="com.betinvest.favbet3.menu.balance.deposits.croatia.history.filter.BalanceCroatiaFilterFragment" android:id="@id/balanceCroatiaFilterFragment">
+        <argument android:name="mode" app:argType="com.betinvest.favbet3.menu.balance.history.BalanceHistoryMode" />
+    </fragment>
+    <navigation android:id="@id/quick_deposit_navigation" app:startDestination="@id/quick_deposit_nested_graph">
+        <include app:graph="@navigation/quick_deposit_nested_graph" />
+    </navigation>
+    <action android:id="@id/toGlobalQuickDeposit" app:destination="@id/quick_deposit_navigation" />
+</navigation>

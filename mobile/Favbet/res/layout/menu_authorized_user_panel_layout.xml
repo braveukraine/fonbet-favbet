@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/menu_authorized_user_panel_layout_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:bind="http://schemas.android.com/apk/res-auto">
+    <com.betinvest.android.views.RobotoBoldTextView android:textSize="@dimen/text_16sp" android:textStyle="bold" android:textColor="?profile_txt2" android:gravity="center|top" android:layout_gravity="center" android:id="@id/user_wallets_state_text" android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="35.0dip" android:layout_marginTop="10.0dip" android:textAllCaps="true" />
+    <LinearLayout android:orientation="vertical" android:tag="binding_2" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:tag="binding_3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="18.0dip">
+            <com.betinvest.android.views.RobotoRegularTextView android:textSize="14.0sp" android:textColor="?profile_txt2" android:id="@id/active_wallet_text_label" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/active_wallet_view" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <com.betinvest.android.views.RobotoRegularTextView android:textSize="14.0sp" android:textColor="?input_txt" android:ellipsize="end" android:layout_gravity="center" android:id="@id/wallet_name_view" android:tag="binding_4" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="1" android:layout_marginEnd="4.0dip" bind:layout_constraintBottom_toBottomOf="parent" bind:layout_constraintEnd_toStartOf="@id/wallet_change_icon_view" bind:layout_constraintHorizontal_bias="0.0" bind:layout_constraintHorizontal_chainStyle="packed" bind:layout_constraintStart_toStartOf="parent" bind:layout_constraintTop_toTopOf="parent" bind:layout_constraintWidth_default="wrap" />
+                <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:id="@id/wallet_change_icon_view" android:tag="binding_5" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/ic_open_down" android:scaleType="fitXY" android:tint="?input_txt" bind:layout_constraintBottom_toBottomOf="@id/wallet_name_view" bind:layout_constraintEnd_toEndOf="parent" bind:layout_constraintHorizontal_bias="1.0" bind:layout_constraintStart_toEndOf="@id/wallet_name_view" bind:layout_constraintTop_toTopOf="@id/wallet_name_view" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <com.betinvest.android.views.RobotoBoldTextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="?profile_txt1" android:tag="binding_6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="8.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:tag="binding_7" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.betinvest.android.views.RobotoRegularTextView android:textSize="16.0sp" android:textColor="?profile_txt2" android:layout_gravity="center" android:id="@id/balance_text_view_label" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginEnd="4.0dip" />
+        <com.betinvest.android.views.RobotoBoldTextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="?profile_txt1" android:tag="binding_8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="8.0dip" />
+    </LinearLayout>
+    <include android:id="@id/deposit_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="22.0dip" android:layout_marginBottom="10.0dip" layout="@layout/primary1_binding_btn_layout" />
+</LinearLayout>

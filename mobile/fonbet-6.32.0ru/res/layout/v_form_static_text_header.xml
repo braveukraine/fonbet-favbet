@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.fonbet.form.impl.fon.ui.widget.FormStaticText android:id="@id/il" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Widget.Fonbet.CustomTextInputLayout.Bold"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.fonbet.core.commons.ui.widget.inputlayout.edittext.CustomTextInputEditText android:textSize="18.0sp" android:id="@id/et" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</com.fonbet.form.impl.fon.ui.widget.FormStaticText>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/balance_wallets_item_not_found_layout_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:layout_width="60.0dip" android:layout_height="60.0dip" android:src="@drawable/ill_wallet" android:scaleType="fitXY" />
+    <com.betinvest.android.views.RobotoBoldTextView android:textSize="@dimen/text_14sp" android:textStyle="bold" android:textColor="?General_txt_color2" android:gravity="center" android:layout_gravity="center" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:textAllCaps="true" />
+</LinearLayout>

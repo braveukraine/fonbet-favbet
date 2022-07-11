@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/pre_match_nav_graph.xml" app:startDestination="@id/preMatchLobbyFragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="PreMatchLobbyFragment" android:name="com.betinvest.favbet3.sportsbook.prematch.PreMatchLobbyFragment" android:id="@id/preMatchLobbyFragment">
+        <action android:id="@id/toSportLobby" app:destination="@id/sportLobbyFragment" />
+        <action android:id="@id/toSearch" app:destination="@id/sportEventsSearchFragment" />
+        <action android:id="@id/toMultipleOfDay" app:destination="@id/multipleOfDayFragment" app:enterAnim="@anim/slide_horizontal_enter_anim" app:exitAnim="@anim/slide_horizontal_exit_anim" app:popEnterAnim="@anim/slide_horizontal_pop_enter_anim" app:popExitAnim="@anim/slide_horizontal_pop_exit_anim" />
+        <action android:id="@id/toFavorites" app:destination="@id/preMatchFavoritesFragment" />
+    </fragment>
+    <fragment android:label="SportLobbyFragment" android:name="com.betinvest.favbet3.sportsbook.prematch.lobby.SportLobbyFragment" android:id="@id/sportLobbyFragment">
+        <argument android:name="sportId" app:argType="integer" />
+        <action android:id="@id/toCategoryLobby" app:destination="@id/categoryLobbyFragment" />
+    </fragment>
+    <fragment android:label="CategoryLobbyFragment" android:name="com.betinvest.favbet3.sportsbook.prematch.categories.CategoryLobbyFragment" android:id="@id/categoryLobbyFragment">
+        <argument android:name="sportId" app:argType="integer" />
+        <argument android:name="categoryId" app:argType="integer" />
+    </fragment>
+    <fragment android:label="SportEventsSearchFragment" android:name="com.betinvest.favbet3.search.EventSearchFragment" android:id="@id/sportEventsSearchFragment" />
+    <dialog android:label="QuickBetFragment" android:name="com.betinvest.favbet3.betslip.quick.QuickBetFragment" android:id="@id/quickBetFragment" />
+    <action android:id="@id/toGlobalQuickBet" app:destination="@id/quickBetFragment" />
+    <navigation android:id="@id/event_navigation" app:startDestination="@id/event_details_nested_nav_graph">
+        <include app:graph="@navigation/event_details_nested_graph" />
+        <argument android:name="eventId" app:argType="integer" />
+        <argument android:name="serviceId" app:argType="integer" />
+        <argument android:name="category" android:defaultValue="@null" app:argType="string" app:nullable="true" />
+        <argument android:name="tournament" android:defaultValue="@null" app:argType="string" app:nullable="true" />
+    </navigation>
+    <action android:id="@id/toGlobalEventDetails" app:destination="@id/event_navigation">
+        <argument android:name="eventId" app:argType="integer" />
+        <argument android:name="serviceId" app:argType="integer" />
+    </action>
+    <navigation android:id="@id/login_navigation" app:startDestination="@id/login_nested_graph.xml">
+        <include app:graph="@navigation/login_nested_graph" />
+    </navigation>
+    <action android:id="@id/toGlobalLogin" app:destination="@id/login_navigation" />
+    <navigation android:id="@id/quick_deposit_navigation" app:startDestination="@id/quick_deposit_nested_graph">
+        <include app:graph="@navigation/quick_deposit_nested_graph" />
+    </navigation>
+    <action android:id="@id/toGlobalQuickDeposit" app:destination="@id/quick_deposit_navigation" />
+    <fragment android:label="MultipleOfDayFragment" android:name="com.betinvest.favbet3.expressday.ExpressDayFragment" android:id="@id/multipleOfDayFragment" />
+    <fragment android:label="PersonalDetailShortFragment" android:name="com.betinvest.favbet3.menu.myprofile.personaldetailshort.PersonalDetailShortFragment" android:id="@id/personalDetailShortFragment">
+        <argument android:name="openDocumentVerificationOnSuccess" android:defaultValue="false" app:argType="boolean" />
+    </fragment>
+    <action android:id="@id/toGlobalPersonalDetailShortFragment" app:destination="@id/personalDetailShortFragment" />
+    <dialog android:label="UploadDocumentReminderBottomSheetDialog" android:name="com.betinvest.favbet3.menu.myprofile.document.verification.reminder.UploadDocumentReminderDialog" android:id="@id/uploadDocumentReminderBottomSheetDialog" />
+    <action android:id="@id/toGlobalUploadDocumentReminder" app:destination="@id/uploadDocumentReminderBottomSheetDialog" />
+    <dialog android:label="RealityCheckLogOutDialogFragment" android:name="com.betinvest.favbet3.menu.responsiblegambling.reality.view.logout.RealityCheckLogOutDialogFragment" android:id="@id/realityCheckLogOutDialog" />
+    <action android:id="@id/toGlobalRealityCheckLogOutDialog" app:destination="@id/realityCheckLogOutDialog" />
+    <fragment android:label="NoInternetFragment" android:name="com.betinvest.favbet3.connection.NoInternetFragment" android:id="@id/noInternetFragment" />
+    <action android:id="@id/toGlobalNoInternetFragment" app:destination="@id/noInternetFragment" />
+    <fragment android:label="GraphFragment" android:name="com.betinvest.favbet3.graph.GraphFragment" android:id="@id/graphFragment">
+        <argument android:name="graphType" app:argType="com.betinvest.favbet3.graph.GraphType" />
+        <argument android:name="title" android:defaultValue="" app:argType="string" app:nullable="true" />
+        <argument android:name="url" android:defaultValue="" app:argType="string" app:nullable="true" />
+        <argument android:name="relationIdt" android:defaultValue="" app:argType="string" app:nullable="true" />
+        <argument android:name="pageId" android:defaultValue="" app:argType="string" app:nullable="true" />
+        <argument android:name="graphParam" android:defaultValue="@null" app:argType="com.betinvest.favbet3.common.GraphParam" app:nullable="true" />
+    </fragment>
+    <action android:id="@id/toGlobalNestedGraph" app:destination="@id/graphFragment">
+        <argument android:name="graphType" app:argType="com.betinvest.favbet3.graph.GraphType" />
+        <argument android:name="title" android:defaultValue="" app:argType="string" app:nullable="true" />
+        <argument android:name="url" android:defaultValue="" app:argType="string" app:nullable="true" />
+        <argument android:name="relationIdt" android:defaultValue="" app:argType="string" app:nullable="true" />
+        <argument android:name="pageId" android:defaultValue="" app:argType="string" app:nullable="true" />
+        <argument android:name="graphParam" android:defaultValue="@null" app:argType="com.betinvest.favbet3.common.GraphParam" app:nullable="true" />
+    </action>
+    <fragment android:label="PreMatchFavoritesFragment" android:name="com.betinvest.favbet3.sportsbook.prematch.favorites.PreMatchFavoritesFragment" android:id="@id/preMatchFavoritesFragment" />
+    <dialog android:label="SelfExclusionInformerDialog" android:name="com.betinvest.favbet3.selfexclusion.SelfExclusionInformerDialog" android:id="@id/selfExclusionInformerDialog" />
+    <action android:id="@id/toGlobalSelfExclusionInformer" app:destination="@id/selfExclusionInformerDialog" />
+    <include app:graph="@navigation/balance_success_deposit_page_quick_graph" />
+    <dialog android:label="LudomanBottomSheetDialog" android:name="com.betinvest.favbet3.ludoman.LudomanDialog" android:id="@id/ludomanBottomSheetDialog" />
+    <action android:id="@id/toGlobalLudomanDialog" app:destination="@id/ludomanBottomSheetDialog" />
+</navigation>

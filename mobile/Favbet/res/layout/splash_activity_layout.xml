@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="?navBar_defaultBg" android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:padding="55.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/splash_logo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/logo_favbet_magenta_splash" android:scaleType="fitCenter" android:adjustViewBounds="true" />
+        <include android:id="@id/progress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="75.0dip" layout="@layout/progress_dot_layout" />
+    </LinearLayout>
+    <ImageView android:id="@id/imageView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="55.0dip" android:scaleType="fitXY" android:layout_alignParentBottom="true" app:srcCompat="@drawable/ua_flag_splash" />
+    <WebView android:id="@id/splash_web_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</RelativeLayout>

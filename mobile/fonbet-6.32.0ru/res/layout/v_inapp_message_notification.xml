@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/main_container" android:background="@drawable/bg_frame_rounded_4_f_500_a40_s_100" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@drawable/space_h_8" android:showDividers="beginning|middle" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@drawable/space_w_4" android:showDividers="middle" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip">
+            <com.google.android.material.textview.MaterialTextView android:textSize="16.0sp" android:textColor="?color_900" android:id="@id/title_tv" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/Widget.Fonbet.Text.Bold" />
+            <ImageView android:layout_gravity="top" android:id="@id/close_btn" android:layout_width="10.0dip" android:layout_height="10.0dip" android:src="@drawable/ic_close" android:tint="?color_900_a80" android:contentDescription="@string/general_close" />
+        </LinearLayout>
+        <com.google.android.material.textview.MaterialTextView android:textSize="14.0sp" android:textColor="?color_900_a80" android:id="@id/short_text_tv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip" style="@style/Widget.Fonbet.Text.Medium" />
+        <com.google.android.material.button.MaterialButton android:id="@id/shrunk_btn" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip" style="@style/Widget.Fonbet.Button.Filled.ExtraShrunk" />
+        <com.fonbet.core.impl.fon.ui.widget.submittable.SubmittableNoInputAreaLayout android:id="@id/submittable_et_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="32.0dip" app:sal_cornerRadius="0.0dip" style="@style/Widget.Fonbet.SubmittableAreaLayout">
+            <com.google.android.material.button.MaterialButton app:backgroundTint="@drawable/bg_btn_700_a80_filled" style="@style/Widget.Fonbet.SubmittableAreaLayout_Button" />
+        </com.fonbet.core.impl.fon.ui.widget.submittable.SubmittableNoInputAreaLayout>
+    </LinearLayout>
+</merge>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/container" android:tag="layout/sport_lobby_event_line_panel_layout_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/header_panel" layout="@layout/event_line_header_panel_layout" />
+    <FrameLayout android:tag="binding_1" android:background="?line_filterBg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:id="@id/filters_panel" layout="@layout/pre_match_event_line_filters_panel_layout" />
+    </FrameLayout>
+    <include android:id="@id/data_not_found_panel" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginTop="30.0dip" android:layout_marginRight="30.0dip" android:layout_marginBottom="20.0dip" android:minHeight="150.0dip" android:layout_marginHorizontal="30.0dip" layout="@layout/data_not_found_panel_layout" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/event_line_recycler_view" android:visibility="gone" android:descendantFocusability="beforeDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <include android:id="@id/show_more_panel" layout="@layout/show_more_event_line_panel_layout" />
+</LinearLayout>

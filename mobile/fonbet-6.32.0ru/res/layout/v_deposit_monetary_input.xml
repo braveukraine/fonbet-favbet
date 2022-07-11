@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.fonbet.core.impl.fon.ui.widget.submittable.SubmittableMonetaryInputAreaLayout android:id="@id/deposit_submittable_et_layout" android:layout_width="fill_parent" android:layout_height="@dimen/submittable_area_layout_height" style="@style/Widget.Fonbet.SubmittableAreaLayout">
+        <view android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" class="com.fonbet.core.impl.fon.ui.widget.submittable.SubmittableInputAreaLayout$InputAreaHorizontalScrollView">
+            <com.fonbet.core.commons.ui.widget.AutoFocusClearEditText android:id="@id/et_deposit_input" android:inputType="number" android:imeOptions="actionDone" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip" style="@style/Widget.Fonbet.SubmittableAreaLayout_EditText" />
+        </view>
+        <com.google.android.material.button.MaterialButton android:enabled="false" android:text="@string/action.pay.short" style="@style/Widget.Fonbet.SubmittableAreaLayout_Button" />
+    </com.fonbet.core.impl.fon.ui.widget.submittable.SubmittableMonetaryInputAreaLayout>
+    <com.google.android.material.textview.MaterialTextView android:textSize="12.0sp" android:textColor="?color_900" android:gravity="center_vertical" android:id="@id/tv_info" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_marginStart="8.0dip" style="@style/Widget.Fonbet.Text.Regular" />
+    <com.google.android.material.textview.MaterialTextView android:textSize="12.0sp" android:textColor="?color_negative" android:id="@id/error_tv" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginStart="8.0dip" style="@style/Widget.Fonbet.Text.Medium" />
+    <com.google.android.material.textview.MaterialTextView android:textSize="12.0sp" android:textColor="?color_900_a80" android:id="@id/helper_tv" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginStart="8.0dip" style="@style/Widget.Fonbet.Text.Medium" />
+</LinearLayout>

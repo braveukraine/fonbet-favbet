@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:tag="layout/event_page_default_participant_list_item_layout_0" android:paddingLeft="4.0dip" android:paddingRight="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="1.0" android:minHeight="24.0dip" android:paddingHorizontal="4.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:bind="http://schemas.android.com/apk/res-auto">
+    <com.betinvest.android.views.RobotoRegularTextView android:textSize="14.0sp" android:textColor="?Scoreboards_participant" android:ellipsize="end" android:tag="binding_1" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="1" android:layout_weight="1.0" android:lineSpacingExtra="0.0dip" />
+    <androidx.appcompat.widget.AppCompatImageView android:tag="binding_2" android:layout_width="5.0dip" android:layout_height="5.0dip" android:src="@drawable/pitch_circle_drawable" android:scaleType="fitXY" android:tint="?state_favorite" android:layout_marginStart="4.0dip" />
+</LinearLayout>

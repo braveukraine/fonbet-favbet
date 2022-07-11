@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/permission_list_fragment_layout_0" android:background="?General_body_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/toolbar_panel" layout="@layout/default_toolbar_panel_layout" />
+    <com.betinvest.android.views.RobotoBoldTextView android:textSize="18.0sp" android:textColor="?text_tab2_Selected" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Notify token" />
+    <com.betinvest.android.views.RobotoRegularEditText android:textColor="?text_tab2_Selected" android:gravity="top" android:id="@id/token_field" android:background="@drawable/result_filter_field_bg_enable" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="100.0dip" android:inputType="textMultiLine" />
+    <com.betinvest.android.views.RobotoBoldTextView android:textSize="18.0sp" android:textColor="?text_tab2_Selected" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="Device ID" />
+    <com.betinvest.android.views.RobotoRegularEditText android:textColor="?text_tab2_Selected" android:gravity="top" android:id="@id/device_id_field" android:background="@drawable/result_filter_field_bg_enable" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="100.0dip" android:inputType="textMultiLine" />
+    <com.betinvest.android.views.RobotoBoldTextView android:textSize="18.0sp" android:textColor="?text_tab2_Selected" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="Permissions" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/permission_recycler_view" android:paddingTop="20.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:overScrollMode="never" android:layout_marginHorizontal="16.0dip" />
+</LinearLayout>

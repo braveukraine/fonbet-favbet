@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/container_layout" android:tag="layout/bonus_history_item_layout_0" android:background="?profile_cardBg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="2.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:bind="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/bonus_image_view" android:tag="binding_2" android:layout_width="130.0dip" android:layout_height="130.0dip" android:scaleType="fitXY" android:adjustViewBounds="true" android:minHeight="167.0dip" android:alpha="0.3" />
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip">
+                <com.betinvest.favbet3.custom.view.FavbetBoldTextView android:textSize="16.0sp" android:textColor="?profile_cardTxt1" android:ellipsize="end" android:tag="binding_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip" android:maxLines="2" android:alpha="0.3" />
+                <LinearLayout android:orientation="horizontal" android:tag="binding_4" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:textSize="12.0sp" android:textColor="?profile_cardTxt3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/native_bonuses_amount" android:alpha="0.3" />
+                    <com.betinvest.favbet3.custom.view.FavbetBoldTextView android:textSize="12.0sp" android:textColor="?profile_txt1" android:tag="binding_5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:alpha="0.3" android:layout_marginStart="4.0dip" />
+                    <com.betinvest.favbet3.custom.view.FavbetBoldTextView android:textSize="12.0sp" android:textColor="?profile_txt1" android:tag="binding_6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:alpha="0.3" android:textAllCaps="true" android:layout_marginStart="4.0dip" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:tag="binding_7" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:textSize="12.0sp" android:textColor="?profile_cardTxt3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/native_bonuses_game" android:alpha="0.3" />
+                    <com.betinvest.favbet3.custom.view.FavbetBoldTextView android:textSize="12.0sp" android:textColor="?profile_cardTxt1" android:tag="binding_8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:alpha="0.3" android:layout_marginStart="4.0dip" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:tag="binding_9" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:textSize="12.0sp" android:textColor="?profile_cardTxt3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/native_bonuses_bonus" android:alpha="0.3" />
+                    <com.betinvest.favbet3.custom.view.FavbetBoldTextView android:textSize="12.0sp" android:textColor="?profile_cardTxt1" android:tag="binding_10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:alpha="0.3" android:layout_marginStart="4.0dip" />
+                    <com.betinvest.favbet3.custom.view.FavbetBoldTextView android:textSize="12.0sp" android:textColor="?profile_cardTxt1" android:tag="binding_11" android:layout_width="wrap_content" android:layout_height="wrap_content" android:alpha="0.3" android:textAllCaps="true" android:layout_marginStart="4.0dip" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:tag="binding_12" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip">
+                    <TextView android:textSize="12.0sp" android:textColor="?profile_cardTxt3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/native_bonuses_required_wager" android:alpha="0.3" />
+                    <com.betinvest.favbet3.custom.view.FavbetBoldTextView android:textSize="12.0sp" android:textColor="?profile_txt1" android:tag="binding_13" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:alpha="0.3" android:layout_marginStart="4.0dip" />
+                    <com.betinvest.favbet3.custom.view.FavbetBoldTextView android:textSize="12.0sp" android:textColor="?profile_txt1" android:ellipsize="end" android:tag="binding_14" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:alpha="0.3" android:textAllCaps="true" android:layout_marginStart="4.0dip" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:tag="binding_15" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip">
+                    <com.betinvest.android.views.RobotoRegularTextView android:textSize="12.0sp" android:textColor="?profile_cardTxt3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/native_bonuses_expiry_date" android:alpha="0.3" />
+                    <com.betinvest.favbet3.custom.view.FavbetBoldTextView android:textSize="12.0sp" android:textColor="?profile_txt1" android:tag="binding_16" android:layout_width="wrap_content" android:layout_height="wrap_content" android:alpha="0.3" android:layout_marginStart="4.0dip" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:tag="binding_17" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip">
+                    <com.betinvest.android.views.RobotoRegularTextView android:textSize="12.0sp" android:textColor="?profile_cardTxt3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/native_bonuses_completed_date" android:alpha="0.3" />
+                    <com.betinvest.favbet3.custom.view.FavbetBoldTextView android:textSize="12.0sp" android:textColor="?profile_txt1" android:tag="binding_18" android:layout_width="wrap_content" android:layout_height="wrap_content" android:alpha="0.3" android:layout_marginStart="4.0dip" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:tag="binding_19" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip">
+                    <com.betinvest.android.views.RobotoRegularTextView android:textSize="12.0sp" android:textColor="?profile_cardTxt3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/native_bonuses_expired_date" android:alpha="0.3" />
+                    <com.betinvest.favbet3.custom.view.FavbetBoldTextView android:textSize="12.0sp" android:textColor="?profile_txt1" android:tag="binding_20" android:layout_width="wrap_content" android:layout_height="wrap_content" android:alpha="0.3" android:layout_marginStart="4.0dip" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip">
+                    <TextView android:textSize="12.0sp" android:textColor="?profile_cardTxt1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/native_bonuses_bonus_details" />
+                    <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:layout_width="8.0dip" android:layout_height="11.0dip" android:src="@drawable/ic_arrows_right" android:tint="?profile_cardTxt1" android:layout_marginStart="5.0dip" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <com.betinvest.favbet3.custom.view.FavbetBoldTextView android:textSize="14.0sp" android:textColor="?profile_txt1" android:layout_gravity="center_horizontal" android:id="@id/time_over_text_view" android:tag="binding_21" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/native_bonuses_time_over" />
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/progress_panel" android:tag="binding_22" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginBottom="12.0dip" android:layout_marginVertical="12.0dip">
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="12.0sp" android:textColor="?profile_txt2" android:id="@id/progressTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/native_bonuses_wagered_percent" />
+                <com.betinvest.favbet3.custom.view.FavbetBoldTextView android:textSize="12.0sp" android:textColor="?profile_txt1" android:id="@id/progressTitleBetAmount" android:tag="binding_23" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="4.0dip" />
+            </LinearLayout>
+            <ProgressBar android:id="@id/progress" android:tag="binding_24" android:layout_width="fill_parent" android:layout_height="8.0dip" android:layout_marginLeft="16.0dip" android:layout_marginTop="2.0dip" android:layout_marginRight="16.0dip" android:progressDrawable="@drawable/bonus_inactive_progress_bar_bg" android:layout_marginHorizontal="16.0dip" style="@style/Widget.AppCompat.ProgressBar.Horizontal" />
+        </LinearLayout>
+    </LinearLayout>
+    <FrameLayout android:id="@id/casino_game_placeholder" android:visibility="gone" android:layout_width="130.0dip" android:layout_height="130.0dip" android:alpha="0.3">
+        <androidx.appcompat.widget.AppCompatImageView android:background="@drawable/ill_casino_game_item_placeholder" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:layout_width="65.0dip" android:layout_height="50.0dip" android:src="@drawable/ic_home" />
+        <com.betinvest.favbet3.custom.view.FavbetBoldTextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="?profile_cardTxt1" android:ellipsize="end" android:gravity="center" android:layout_gravity="bottom" android:tag="binding_25" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="6.0dip" android:maxLines="2" android:inputType="none" android:layout_marginHorizontal="8.0dip" />
+    </FrameLayout>
+    <com.betinvest.favbet3.custom.view.FavbetLinearLayout android:orientation="horizontal" android:id="@id/tags_panel" android:layout_width="wrap_content" android:layout_height="20.0dip" android:layout_marginTop="@dimen/dist_8" android:paddingEnd="@dimen/default_path_bottom_x_offset">
+        <com.betinvest.favbet3.custom.view.FavbetBoldTextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="?Badges_Account_txt" android:gravity="center" android:id="@id/primary_tag" android:tag="binding_26" android:paddingTop="4.0dip" android:paddingBottom="4.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:includeFontPadding="false" android:textAllCaps="true" android:paddingStart="8.0dip" android:paddingVertical="4.0dip" />
+    </com.betinvest.favbet3.custom.view.FavbetLinearLayout>
+</FrameLayout>

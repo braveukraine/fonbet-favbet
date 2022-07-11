@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/layout" android:tag="layout/lobby_slider_progress_layout_0" android:background="@drawable/round_2_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:backgroundTint="?secondary_accent4"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:layout_gravity="center" android:background="@color/transparent" android:layout_width="@dimen/lobby_slider_spinner_size" android:layout_height="@dimen/lobby_slider_spinner_size" android:indeterminateDrawable="@anim/lobby_image_load_animation_light" />
+</FrameLayout>

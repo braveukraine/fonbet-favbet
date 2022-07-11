@@ -1,0 +1,114 @@
+Using USB device `iPhone`
+Agent injected and responds ok!
+Determining environment...
+Running command... `ios plist cat Info.plist`
+{
+    BuildMachineOSBuild = 21F79;
+    CFBundleDevelopmentRegion = en;
+    CFBundleDisplayName = "\U0424\U0430\U0432\U043e\U0440\U0438\U0442";
+    CFBundleExecutable = FavoritSport;
+    CFBundleIcons =     {
+        CFBundlePrimaryIcon =         {
+            CFBundleIconFiles =             (
+                AppIcon60x60
+            );
+            CFBundleIconName = AppIcon;
+        };
+    };
+    "CFBundleIcons~ipad" =     {
+        CFBundlePrimaryIcon =         {
+            CFBundleIconFiles =             (
+                AppIcon60x60,
+                AppIcon76x76
+            );
+            CFBundleIconName = AppIcon;
+        };
+    };
+    CFBundleIdentifier = "com.Favorit-Sport";
+    CFBundleInfoDictionaryVersion = "6.0";
+    CFBundleName = FavoritSport;
+    CFBundlePackageType = APPL;
+    CFBundleShortVersionString = "3.41.4";
+    CFBundleSupportedPlatforms =     (
+        iPhoneOS
+    );
+    CFBundleURLTypes =     (
+                {
+            CFBundleURLName = "com.Favorit-Sport";
+            CFBundleURLSchemes =             (
+                mappfavoritcomua
+            );
+        }
+    );
+    CFBundleVersion = 040722;
+    DTAppStoreToolsBuild = 13F100;
+    DTCompiler = "com.apple.compilers.llvm.clang.1_0";
+    DTPlatformBuild = 19F64;
+    DTPlatformName = iphoneos;
+    DTPlatformVersion = "15.5";
+    DTSDKBuild = 19F64;
+    DTSDKName = "iphoneos15.5";
+    DTXcode = 1341;
+    DTXcodeBuild = 13F100;
+    EBEnvironmentName = production;
+    FirebaseAppDelegateProxyEnabled = 0;
+    LSApplicationQueriesSchemes =     (
+        tg,
+        skype,
+        viber
+    );
+    LSHasLocalizedDisplayName = 1;
+    LSRequiresIPhoneOS = 1;
+    MinimumOSVersion = "11.0";
+    NSAppTransportSecurity =     {
+        NSAllowsArbitraryLoads = 1;
+        NSAllowsArbitraryLoadsForMedia = 1;
+        NSAllowsArbitraryLoadsInWebContent = 1;
+    };
+    NSCameraUsageDescription = "This app requires access to the camera.";
+    NSPhotoLibraryUsageDescription = "This app requires access to the photo library.";
+    NSUserTrackingUsageDescription = "Favbet wants to send you current bonuses and exclusive offers.";
+    PHPhotoLibraryPreventAutomaticLimitedAccessAlert = 1;
+    UIAppFonts =     (
+        "RobotoCondensed-Bold.ttf",
+        "RobotoCondensed-Regular.ttf",
+        "RobotoCondensed-Light.ttf",
+        "favorit_icons.ttf",
+        "Roboto-Bold.ttf",
+        "Roboto-Medium.ttf",
+        "Roboto-Regular.ttf"
+    );
+    UIBackgroundModes =     (
+        fetch,
+        "remote-notification"
+    );
+    UIDeviceFamily =     (
+        1,
+        2
+    );
+    UILaunchStoryboardName = LaunchScreen;
+    UIMainStoryboardFile = Main;
+    UIRequiredDeviceCapabilities =     (
+        arm64
+    );
+    UIRequiresFullScreen = 1;
+    UIStatusBarStyle = UIStatusBarStyleLightContent;
+    UIStatusBarTintParameters =     {
+        UINavigationBar =         {
+            Style = UIBarStyleDefault;
+            Translucent = 0;
+        };
+    };
+    UISupportedInterfaceOrientations =     (
+        UIInterfaceOrientationPortrait
+    );
+    "UISupportedInterfaceOrientations~ipad" =     (
+        UIInterfaceOrientationPortrait,
+        UIInterfaceOrientationPortraitUpsideDown,
+        UIInterfaceOrientationLandscapeLeft,
+        UIInterfaceOrientationLandscapeRight
+    );
+    UIViewControllerBasedStatusBarAppearance = 0;
+}
+Asking jobs to stop...
+Unloading objection agent...

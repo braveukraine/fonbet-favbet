@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/subscription_indicator" android:background="?actionBarItemBackground" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginEnd="8.0dip" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:divider="@drawable/space_w_8" android:layout_weight="1.0" android:showDividers="middle">
+        <com.google.android.material.textview.MaterialTextView android:textSize="14.0sp" android:textColor="?color_900_a80_base" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Widget.Fonbet.Text.Bold" />
+        <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center_vertical" android:id="@id/info_icon" android:background="?actionBarItemBackground" android:layout_width="12.0dip" android:layout_height="12.0dip" android:src="@drawable/ic_info_stroke" app:tint="?color_500" />
+    </LinearLayout>
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/table_widget_switcher" android:background="?actionBarItemBackground" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/ic_event_catalog_table" android:scaleType="center" android:tint="?color_500_a80" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/expanded_indicator" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/ic_app_chevron_down" android:scaleType="center" android:tint="?color_500_a80" />
+</merge>

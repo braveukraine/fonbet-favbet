@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/bg_blue_toast" android:paddingLeft="@dimen/dist_8" android:paddingTop="@dimen/dist_12" android:paddingRight="@dimen/dist_8" android:paddingBottom="@dimen/dist_12" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/dist_6"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.betinvest.android.views.RobotoMediumTextView android:textColor="?primary_white" android:id="@id/toast_text" style="@style/TextPrimary" />
+</RelativeLayout>

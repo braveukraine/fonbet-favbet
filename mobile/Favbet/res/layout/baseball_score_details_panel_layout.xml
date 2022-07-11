@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:tag="layout/baseball_score_details_panel_layout_0" android:paddingLeft="18.0dip" android:paddingTop="4.0dip" android:paddingRight="18.0dip" android:paddingBottom="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="26.0dip" android:paddingHorizontal="18.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/bases_container" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <com.betinvest.android.views.RobotoBoldTextView android:textSize="12.0sp" android:textColor="?secondary_blue2" android:id="@id/bases_description_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="10.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <ImageView android:id="@id/bases_image_view" android:layout_width="20.0dip" android:layout_height="20.0dip" android:scaleType="centerInside" android:adjustViewBounds="true" />
+    </LinearLayout>
+    <View android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_weight="1.0" />
+    <com.betinvest.android.views.RobotoBoldTextView android:textSize="12.0sp" android:textColor="?secondary_blue2" android:gravity="center" android:id="@id/direction_value_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAlignment="center" />
+    <View android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_weight="1.0" />
+    <include android:id="@id/balls_panel" layout="@layout/score_description_value_panel_layout" />
+    <View android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_weight="1.0" />
+    <include android:id="@id/strikes_panel" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/outs_panel" app:layout_constraintTop_toTopOf="parent" layout="@layout/score_description_value_panel_layout" />
+    <View android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_weight="1.0" />
+    <include android:id="@id/outs_panel" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" layout="@layout/score_description_value_panel_layout" />
+</LinearLayout>

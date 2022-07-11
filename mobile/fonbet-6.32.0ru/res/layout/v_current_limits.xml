@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.textview.MaterialTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="13.0dip" android:layout_marginBottom="13.0dip" android:text="@string/session_limits.current_limits_title" style="@style/Widget.Fonbet.Text.Bold" />
+    <LinearLayout android:orientation="vertical" android:id="@id/limits_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:divider="@drawable/space_h_10" android:showDividers="middle" />
+    <com.fonbet.responsiblegaming.commons.fon.ui.widget.CurrentLimitProgressWidget android:id="@id/daily_progress" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.fonbet.responsiblegaming.commons.fon.ui.widget.CurrentLimitProgressWidget android:id="@id/weekly_progress" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" />
+    <com.fonbet.responsiblegaming.commons.fon.ui.widget.CurrentLimitProgressWidget android:id="@id/monthly_progress" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" />
+</merge>

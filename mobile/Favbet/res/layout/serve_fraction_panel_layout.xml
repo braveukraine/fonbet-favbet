@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:tag="layout/serve_fraction_panel_layout_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.betinvest.android.views.RobotoBoldTextView android:textSize="12.0sp" android:textColor="?Scoreboards_infoTxt1" android:id="@id/description_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.betinvest.android.views.RobotoRegularTextView android:textSize="12.0sp" android:textColor="?Scoreboards_infoTxt1" android:id="@id/home_fraction_value_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="18.0dip" />
+        <include android:id="@id/home_diagram_panel" android:layout_width="100.0dip" android:layout_height="6.0dip" android:layout_marginEnd="18.0dip" layout="@layout/fraction_diagram_panel_layout" />
+        <include android:id="@id/away_diagram_panel" android:layout_width="100.0dip" android:layout_height="6.0dip" android:layout_marginEnd="18.0dip" layout="@layout/fraction_diagram_panel_layout" />
+        <com.betinvest.android.views.RobotoRegularTextView android:textSize="12.0sp" android:textColor="?Scoreboards_infoTxt1" android:id="@id/away_fraction_value_view" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

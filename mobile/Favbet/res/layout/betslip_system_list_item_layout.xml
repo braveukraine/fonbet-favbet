@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/betslip_system_list_item_layout_0" android:background="@drawable/system_bg_selector" android:paddingLeft="4.0dip" android:paddingTop="10.0dip" android:paddingRight="4.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:paddingHorizontal="4.0dip" android:paddingVertical="10.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.betinvest.android.views.RobotoBoldTextView android:textColor="@color/system_text_color_selector" android:ellipsize="end" android:layout_gravity="center" android:tag="binding_1" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:textAllCaps="true" />
+</FrameLayout>

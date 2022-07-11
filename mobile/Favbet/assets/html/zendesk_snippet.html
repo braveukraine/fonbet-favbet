@@ -1,0 +1,30 @@
+<html>
+<head>
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+</head>
+<body>
+    <script id="ze-snippet"
+        src="https://static.zdassets.com/ekr/snippet.js?key=28bd156b-8595-4d14-8130-8df2978d525b"></script>
+    <script type="text/javascript">
+
+        zE('webWidget', 'hide');
+
+        zendeskLaucherInterval = setInterval(zendeskLauncher, 50);
+        function zendeskLauncher(locale) {
+            androidCallbacks.onLoadStart();
+            if (zE.activate) {
+                clearInterval(zendeskLaucherInterval);
+                androidCallbacks.onLoadFinish();
+                setup(locale);
+            }
+        }
+
+        function setup(locale) {
+            zE('webWidget', 'open');
+            zE('webWidget', 'setLocale', locale);
+            zE.activate();
+        }
+
+    </script>
+</body>
+</html>

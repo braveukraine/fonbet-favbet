@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?color_black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.viewpager2.widget.ViewPager2 android:id="@id/view_pager" android:background="?color_black" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.tbuonomo.viewpagerdotsindicator.DotsIndicator android:layout_gravity="center_horizontal" android:id="@id/dots_indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" app:dotsColor="?color_white_a80" app:dotsCornerRadius="32.0dip" app:dotsSize="8.0dip" app:dotsSpacing="4.0dip" app:dotsWidthFactor="2.5" app:progressMode="false" app:selectedDotColor="?bg_button_normal" />
+        <com.google.android.material.button.MaterialButton android:id="@id/next_btn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="32.0dip" android:minHeight="40.0dip" android:text="@string/general.proceed" style="@style/Widget.Fonbet.Button.Filled" />
+    </LinearLayout>
+</LinearLayout>

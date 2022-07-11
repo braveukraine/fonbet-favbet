@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mdtp_date_v1_monthyear">MMMM yyyy</string>
+    <string name="mdtp_date_v2_daymonthyear">EEE, dd MMM</string>
+    <string name="mdtp_day_picker_description">Күндердің айлық торы</string>
+    <string name="mdtp_deleted_key">%1$s жойылды</string>
+    <string name="mdtp_done_label">Орындалды</string>
+    <string name="mdtp_hour_picker_description">Сағаттардың дөңгелек жүгірткісі</string>
+    <string name="mdtp_item_is_selected">%1$s таңдалды</string>
+    <string name="mdtp_minute_picker_description">Минуттардың дөңгелек жүгірткісі</string>
+    <string name="mdtp_select_day">Ай мен күнді таңдау</string>
+    <string name="mdtp_select_hours">Сағат таңдау</string>
+    <string name="mdtp_select_minutes">Минут таңдау</string>
+    <string name="mdtp_select_year">Жыл таңдау</string>
+    <string name="mdtp_year_picker_description">Жылдар тізімі</string>
+</resources>

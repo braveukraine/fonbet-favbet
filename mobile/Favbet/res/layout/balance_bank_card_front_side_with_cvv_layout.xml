@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:tag="layout/balance_bank_card_front_side_with_cvv_layout_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.card.MaterialCardView android:background="?input_border_color_1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" app:cardElevation="@dimen/dist_2">
+        <LinearLayout android:orientation="vertical" android:id="@id/front_side_block" android:background="?input_border_color_1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:id="@id/bank_card_title_block" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dist_12" android:layout_marginStart="@dimen/dist_12">
+                <LinearLayout android:background="?profile_txt2" android:layout_width="@dimen/dist_20" android:layout_height="@dimen/dist_20" />
+                <com.betinvest.android.views.RobotoBoldTextView android:textSize="@dimen/text_12sp" android:textColor="?profile_txt2" android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Bank card" android:layout_marginStart="@dimen/dist_5" />
+            </LinearLayout>
+            <com.betinvest.android.views.RobotoBoldTextView android:textSize="@dimen/text_16sp" android:textColor="?profile_txt1" android:gravity="center_horizontal" android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dist_24" android:letterSpacing="0.25" />
+            <com.betinvest.android.views.RobotoRegularTextView android:textSize="@dimen/text_12sp" android:textColor="?profile_txt2" android:gravity="right" android:id="@id/balance_valid_until_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dist_28" android:layout_marginEnd="@dimen/dist_20" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dist_10" android:layout_marginBottom="@dimen/dist_20">
+                <com.betinvest.android.views.RobotoBoldTextView android:textSize="@dimen/text_14sp" android:textColor="?profile_txt1" android:gravity="left" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAllCaps="true" android:layout_marginStart="@dimen/dist_20" android:letterSpacing="0.15" />
+                <com.betinvest.android.views.RobotoBoldTextView android:textSize="@dimen/text_14sp" android:textColor="?profile_txt1" android:gravity="right" android:tag="binding_3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/dist_20" android:letterSpacing="0.15" />
+            </LinearLayout>
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+    <com.google.android.material.card.MaterialCardView android:background="?input_border_color_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="0.0" app:cardElevation="@dimen/dist_2">
+        <LinearLayout android:orientation="vertical" android:background="?input_border_color_1" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="@dimen/dist_10" android:layout_marginBottom="@dimen/dist_10">
+            <LinearLayout android:background="?input_help_txt" android:layout_width="fill_parent" android:layout_height="@dimen/dist_24" android:layout_marginTop="@dimen/dist_12" android:layout_marginEnd="@dimen/dist_1" />
+            <com.betinvest.android.views.RobotoRegularTextView android:textSize="@dimen/text_12sp" android:textColor="?input_label_txt" android:gravity="right" android:id="@id/balance_cvv_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dist_44" android:layout_marginEnd="@dimen/dist_12" />
+            <com.betinvest.android.views.RobotoBoldEditText android:textSize="@dimen/text_14sp" android:textColor="?input_txt" android:textColorHint="?input_txt_placeholder" android:gravity="center" android:id="@id/bank_card_cvv" android:tag="binding_4" android:background="@drawable/balance_deposit_fp_mobile_money_input_text_background_selector" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dist_12" android:minWidth="@dimen/dist_50" android:minHeight="@dimen/dist_30" android:maxLength="3" android:inputType="numberPassword" android:imeOptions="actionNext" android:layout_marginStart="@dimen/dist_12" android:layout_marginEnd="@dimen/dist_12" />
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+</LinearLayout>

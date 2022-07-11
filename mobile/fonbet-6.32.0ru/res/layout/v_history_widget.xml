@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="12.0dip" android:layout_marginBottom="6.0dip" android:divider="@drawable/space_w_12" android:showDividers="middle">
+        <com.google.android.material.textview.MaterialTextView android:textSize="12.0sp" android:textColor="?color_900" android:layout_gravity="top" android:id="@id/title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:textAllCaps="true" style="@style/Widget.Fonbet.Text.Bold" />
+        <LinearLayout android:gravity="end" android:layout_gravity="top" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:divider="@drawable/space_h_2" android:showDividers="middle">
+            <com.fonbet.core.quotes.impl.fon.ui.widget.CouponAmountChangeWidget android:id="@id/monetary_amount_change" android:layout_width="wrap_content" android:layout_height="wrap_content" app:cacw_textSize="14.0sp" app:cacw_textStyle="@style/Widget.Fonbet.Text.Bold" />
+            <com.fonbet.core.quotes.impl.fon.ui.widget.CouponAmountChangeWidget android:id="@id/bonus_amount_change" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:cacw_textSize="12.0sp" app:cacw_textStyle="@style/Widget.Fonbet.Text.Medium" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:layout_marginBottom="12.0dip">
+        <com.google.android.material.textview.MaterialTextView android:textSize="12.0sp" android:textColor="?color_900_a60" android:id="@id/marker" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Widget.Fonbet.Text.Bold" />
+        <com.google.android.material.textview.MaterialTextView android:textSize="12.0sp" android:textColor="?color_900_a60" android:id="@id/date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="6.0dip" style="@style/Widget.Fonbet.Text.Regular" />
+        <com.google.android.material.textview.MaterialTextView android:textSize="12.0sp" android:textColor="?color_900_a60" android:id="@id/time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="6.0dip" style="@style/Widget.Fonbet.Text.Regular" />
+        <com.google.android.material.textview.MaterialTextView android:textSize="12.0sp" android:textColor="?color_900_a60" android:ellipsize="end" android:gravity="end" android:id="@id/type" android:layout_width="0.0dip" android:layout_height="wrap_content" android:lines="1" android:layout_weight="1.0" android:layout_marginStart="6.0dip" style="@style/Widget.Fonbet.Text.Regular" />
+    </LinearLayout>
+</merge>

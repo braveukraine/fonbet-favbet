@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mdtp_date_v1_monthyear">MMMM yyyy</string>
+    <string name="mdtp_date_v2_daymonthyear">EEE, dd MMM</string>
+    <string name="mdtp_day_picker_description">ದಿನಗಳ ತಿಂಗಳಿನ ಗ್ರಿಡ್</string>
+    <string name="mdtp_deleted_key">%1$s ಅಳಿಸಲಾಗಿದೆ</string>
+    <string name="mdtp_done_label">ಮುಗಿದಿದೆ</string>
+    <string name="mdtp_hour_picker_description">ಗಂಟೆಗಳ ವೃತ್ತಾಕಾರ ಸ್ಲೈಡರ್</string>
+    <string name="mdtp_item_is_selected">%1$s ಆಯ್ಕೆ ಮಾಡಲಾಗಿದೆ</string>
+    <string name="mdtp_minute_picker_description">ನಿಮಿಷಗಳ ವೃತ್ತಾಕಾರ ಸ್ಲೈಡರ್</string>
+    <string name="mdtp_select_day">ತಿಂಗಳು ಮತ್ತು ದಿನವನ್ನು ಆಯ್ಕೆಮಾಡಿ</string>
+    <string name="mdtp_select_hours">ಗಂಟೆಗಳನ್ನು ಆಯ್ಕೆಮಾಡಿ</string>
+    <string name="mdtp_select_minutes">ನಿಮಿಷಗಳನ್ನು ಆಯ್ಕೆಮಾಡಿ</string>
+    <string name="mdtp_select_year">ವರ್ಷವನ್ನು ಆಯ್ಕೆಮಾಡಿ</string>
+    <string name="mdtp_year_picker_description">ವರ್ಷದ ಪಟ್ಟಿ</string>
+</resources>

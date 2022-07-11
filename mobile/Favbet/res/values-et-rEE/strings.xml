@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mdtp_cancel" />
+    <string name="mdtp_date_v1_monthyear">MMMM yyyy</string>
+    <string name="mdtp_date_v2_daymonthyear">EEE, dd. MMM</string>
+    <string name="mdtp_day_picker_description">Päevad kuu ruudustikus</string>
+    <string name="mdtp_deleted_key">%1$s on kustutatud</string>
+    <string name="mdtp_done_label">Valmis</string>
+    <string name="mdtp_hour_picker_description">Ringikujuline tunniliugur</string>
+    <string name="mdtp_item_is_selected">%1$s on valitud</string>
+    <string name="mdtp_minute_picker_description">Ringikujuline minutiliugur</string>
+    <string name="mdtp_select_day">Valige kuu ja päev</string>
+    <string name="mdtp_select_hours">Tundide valimine</string>
+    <string name="mdtp_select_minutes">Minutite valimine</string>
+    <string name="mdtp_select_year">Valige aasta</string>
+    <string name="mdtp_year_picker_description">Aastate loend</string>
+</resources>

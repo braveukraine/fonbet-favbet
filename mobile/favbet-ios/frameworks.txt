@@ -1,0 +1,35 @@
+Using USB device `iPhone`
+Agent injected and responds ok!
+Determining environment...
+Running command... `ios bundles list_frameworks --full-path`
+Executable                            Bundle                                              Version    Path
+------------------------------------  --------------------------------------------------  ---------  --------------------------------------------------------------------------------------------------------------------------------------------------
+FirebaseCrashlytics                   org.cocoapods.FirebaseCrashlytics                   9.1.0      /var/containers/Bundle/Application/D294453F-263F-4534-BBA7-F4D9C135E42A/FavoritSport.app/Frameworks/FirebaseCrashlytics.framework
+JumioIProov                           com.jumio.JumioIProov                               3.9.5      /var/containers/Bundle/Application/D294453F-263F-4534-BBA7-F4D9C135E42A/FavoritSport.app/Frameworks/JumioIProov.framework
+OptimoveCore                          org.cocoapods.OptimoveCore                          3.5.4      /var/containers/Bundle/Application/D294453F-263F-4534-BBA7-F4D9C135E42A/FavoritSport.app/Frameworks/OptimoveCore.framework
+FirebaseRemoteConfig                  org.cocoapods.FirebaseRemoteConfig                  9.1.0      /var/containers/Bundle/Application/D294453F-263F-4534-BBA7-F4D9C135E42A/FavoritSport.app/Frameworks/FirebaseRemoteConfig.framework
+FirebaseMessaging                     org.cocoapods.FirebaseMessaging                     9.1.0      /var/containers/Bundle/Application/D294453F-263F-4534-BBA7-F4D9C135E42A/FavoritSport.app/Frameworks/FirebaseMessaging.framework
+FirebaseCoreDiagnostics               org.cocoapods.FirebaseCoreDiagnostics               9.1.0      /var/containers/Bundle/Application/D294453F-263F-4534-BBA7-F4D9C135E42A/FavoritSport.app/Frameworks/FirebaseCoreDiagnostics.framework
+OptimoveSDK                           org.cocoapods.OptimoveSDK                           3.5.4      /var/containers/Bundle/Application/D294453F-263F-4534-BBA7-F4D9C135E42A/FavoritSport.app/Frameworks/OptimoveSDK.framework
+                                                                                                     /System/Library/PrivateFrameworks/CoreDuetContext.framework
+iProov                                org.cocoapods.iProov                                9.0.1      /var/containers/Bundle/Application/D294453F-263F-4534-BBA7-F4D9C135E42A/FavoritSport.app/Frameworks/iProov.framework
+SDWebImage                            org.cocoapods.SDWebImage                            4.4.8      /var/containers/Bundle/Application/D294453F-263F-4534-BBA7-F4D9C135E42A/FavoritSport.app/Frameworks/SDWebImage.framework
+JumioCore                             com.jumio.JumioCore                                 3.9.5      /var/containers/Bundle/Application/D294453F-263F-4534-BBA7-F4D9C135E42A/FavoritSport.app/Frameworks/JumioCore.framework
+FirebaseCoreInternal                  org.cocoapods.FirebaseCoreInternal                  9.1.0      /var/containers/Bundle/Application/D294453F-263F-4534-BBA7-F4D9C135E42A/FavoritSport.app/Frameworks/FirebaseCoreInternal.framework
+Starscream                            org.cocoapods.Starscream                            4.0.4      /var/containers/Bundle/Application/D294453F-263F-4534-BBA7-F4D9C135E42A/FavoritSport.app/Frameworks/Starscream.framework
+OptimoveNotificationServiceExtension  org.cocoapods.OptimoveNotificationServiceExtension  3.5.4      /var/containers/Bundle/Application/D294453F-263F-4534-BBA7-F4D9C135E42A/FavoritSport.app/Frameworks/OptimoveNotificationServiceExtension.framework
+SocketIO                              org.cocoapods.SocketIO                              16.0.1     /var/containers/Bundle/Application/D294453F-263F-4534-BBA7-F4D9C135E42A/FavoritSport.app/Frameworks/SocketIO.framework
+Reachability                          org.cocoapods.Reachability                          3.2.0      /var/containers/Bundle/Application/D294453F-263F-4534-BBA7-F4D9C135E42A/FavoritSport.app/Frameworks/Reachability.framework
+Netverify                             com.jumio.Netverify                                 3.9.5      /var/containers/Bundle/Application/D294453F-263F-4534-BBA7-F4D9C135E42A/FavoritSport.app/Frameworks/Netverify.framework
+GoogleDataTransport                   org.cocoapods.GoogleDataTransport                   9.1.4      /var/containers/Bundle/Application/D294453F-263F-4534-BBA7-F4D9C135E42A/FavoritSport.app/Frameworks/GoogleDataTransport.framework
+GoogleUtilities                       org.cocoapods.GoogleUtilities                       7.7.0      /var/containers/Bundle/Application/D294453F-263F-4534-BBA7-F4D9C135E42A/FavoritSport.app/Frameworks/GoogleUtilities.framework
+FirebaseABTesting                     org.cocoapods.FirebaseABTesting                     9.1.0      /var/containers/Bundle/Application/D294453F-263F-4534-BBA7-F4D9C135E42A/FavoritSport.app/Frameworks/FirebaseABTesting.framework
+SocketRocket                          org.cocoapods.SocketRocket                          0.6.0      /var/containers/Bundle/Application/D294453F-263F-4534-BBA7-F4D9C135E42A/FavoritSport.app/Frameworks/SocketRocket.framework
+nanopb                                org.cocoapods.nanopb                                2.30909.0  /var/containers/Bundle/Application/D294453F-263F-4534-BBA7-F4D9C135E42A/FavoritSport.app/Frameworks/nanopb.framework
+FirebasePerformance                   org.cocoapods.FirebasePerformance                   9.1.0      /var/containers/Bundle/Application/D294453F-263F-4534-BBA7-F4D9C135E42A/FavoritSport.app/Frameworks/FirebasePerformance.framework
+FBLPromises                           org.cocoapods.FBLPromises                           2.1.0      /var/containers/Bundle/Application/D294453F-263F-4534-BBA7-F4D9C135E42A/FavoritSport.app/Frameworks/FBLPromises.framework
+                                                                                                     /System/Library/PrivateFrameworks/CoreLocationProtobuf.framework
+FirebaseCore                          org.cocoapods.FirebaseCore                          9.1.0      /var/containers/Bundle/Application/D294453F-263F-4534-BBA7-F4D9C135E42A/FavoritSport.app/Frameworks/FirebaseCore.framework
+FirebaseInstallations                 org.cocoapods.FirebaseInstallations                 9.1.0      /var/containers/Bundle/Application/D294453F-263F-4534-BBA7-F4D9C135E42A/FavoritSport.app/Frameworks/FirebaseInstallations.framework
+Asking jobs to stop...
+Unloading objection agent...

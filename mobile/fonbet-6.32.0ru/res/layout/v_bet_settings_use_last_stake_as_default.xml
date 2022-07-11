@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.SwitchCompat android:textSize="14.0sp" android:id="@id/switcher" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/bet_settings_save_last_stake" style="@style/Widget.Fonbet.SwitchButton.Blue"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

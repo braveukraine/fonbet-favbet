@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/casino_game_aviator_layout_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:bind="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:background="?General_body_profile" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@id/aviator_play_now_block" android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/aviator_play_now_image_block" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <VideoView android:layout_gravity="center" android:id="@id/aviator_play_now_video_view" android:tag="binding_2" android:layout_width="0.0dip" android:layout_height="0.0dip" bind:layout_constraintDimensionRatio="H,750:750" bind:layout_constraintEnd_toEndOf="parent" bind:layout_constraintStart_toStartOf="parent" bind:layout_constraintTop_toTopOf="parent" />
+                    <FrameLayout android:id="@id/aviator_play_now_image_frame" android:layout_width="fill_parent" android:layout_height="wrap_content" bind:layout_constraintBottom_toBottomOf="parent" bind:layout_constraintEnd_toEndOf="parent" bind:layout_constraintStart_toStartOf="parent">
+                        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dist_10">
+                            <com.betinvest.android.views.RobotoBoldButton android:textSize="@dimen/text_14sp" android:textColor="?Btn_Primary_txt_color_2" android:id="@id/aviator_play_now_button" android:tag="binding_3" android:background="@drawable/round_2_bg" android:layout_width="fill_parent" android:layout_height="45.0dip" android:layout_marginLeft="@dimen/dist_16" android:layout_marginRight="@dimen/dist_16" android:text="@string/native_aviator_play_now" android:backgroundTint="?Btn_Primary_bg_color_2" android:layout_marginHorizontal="@dimen/dist_16" />
+                            <com.betinvest.android.views.RobotoBoldButton android:textSize="@dimen/text_14sp" android:textColor="?Btn_Secondary_color_2" android:id="@id/aviator_play_now_demo_button" android:tag="binding_4" android:background="@drawable/aviator_play_now_demo_button_bg" android:layout_width="fill_parent" android:layout_height="45.0dip" android:layout_marginLeft="@dimen/dist_16" android:layout_marginTop="@dimen/dist_8" android:layout_marginRight="@dimen/dist_16" android:text="@string/native_aviator_demo" android:layout_marginHorizontal="@dimen/dist_16" />
+                        </LinearLayout>
+                    </FrameLayout>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/aviator_how_to_play_block" android:tag="binding_5" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dist_40">
+                <com.betinvest.android.views.RobotoBoldTextView android:textSize="@dimen/text_16sp" android:textColor="?casino_Title" android:layout_gravity="center" android:id="@id/how_to_play_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/native_aviator_how_to_play" android:textAllCaps="true" />
+                <androidx.viewpager2.widget.ViewPager2 android:id="@id/how_to_play_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/dist_10" />
+                <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/pagination_block" android:background="?General_body_profile" android:paddingTop="@dimen/dist_5" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <View android:id="@id/pagination_view" android:layout_width="@dimen/dist_50" android:layout_height="5.0dip" />
+                </LinearLayout>
+            </LinearLayout>
+            <com.betinvest.android.views.RobotoBoldTextView android:textSize="@dimen/text_16sp" android:textStyle="normal" android:textColor="?Btn_Tertiary_color_4" android:layout_gravity="center" android:id="@id/see_video_instruction_text" android:tag="binding_6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dist_30" android:textAllCaps="true" />
+            <LinearLayout android:orientation="vertical" android:id="@id/turbo_games_block" android:tag="binding_7" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dist_50" android:layout_marginBottom="@dimen/dist_20" android:layout_marginStart="@dimen/dist_16" android:layout_marginEnd="@dimen/dist_16">
+                <com.betinvest.android.views.RobotoBoldTextView android:textSize="@dimen/text_16sp" android:textColor="?casino_Title" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/turbo_games_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/lobby_border_distance" android:text="@string/native_aviator_try_turbo_games" android:textAllCaps="true" />
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <androidx.recyclerview.widget.RecyclerView android:id="@id/turbo_games_recycler_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dist_10" android:bottom="@id/turbo_games_title" android:nestedScrollingEnabled="false" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/aviator_how_to_play_instruction_block" android:tag="binding_8" android:background="@drawable/aviator_how_to_play_instruction_bg" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <VideoView android:id="@id/video_web_view" android:tag="binding_9" android:layout_width="0.0dip" android:layout_height="0.0dip" bind:layout_constraintBottom_toBottomOf="parent" bind:layout_constraintDimensionRatio="H,1280:720" bind:layout_constraintEnd_toEndOf="parent" bind:layout_constraintStart_toStartOf="parent" bind:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

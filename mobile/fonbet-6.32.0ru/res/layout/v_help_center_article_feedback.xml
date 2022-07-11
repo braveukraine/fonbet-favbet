@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.textview.MaterialTextView android:textSize="18.0sp" android:textColor="?color_900" android:id="@id/caption_tv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/help_center.article_feedback_caption" style="@style/Widget.Fonbet.Text.Bold" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/buttons_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@drawable/space_w_8" android:showDividers="middle">
+        <com.google.android.material.button.MaterialButton android:id="@id/option_yes_btn" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/help_center.article_feedback_option_yes" android:layout_weight="1.0" style="@style/Widget.Fonbet.Button.Outlined.Blue" />
+        <com.google.android.material.button.MaterialButton android:id="@id/option_no_btn" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/help_center.article_feedback_option_no" android:layout_weight="1.0" style="@style/Widget.Fonbet.Button.Outlined.Blue" />
+    </LinearLayout>
+</merge>

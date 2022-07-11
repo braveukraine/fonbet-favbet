@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="190.0dip" android:width="300.0dip" android:viewportWidth="300.0" android:viewportHeight="190.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:name="overlayEmpty" android:fillColor="?netverify_helpImage" android:pathData="M5,8.957 L5,181.043 A3.959,3.959,0,0,0,8.958,185 L291.042,185 A3.96,3.96,0,0,0,295,181.043 L295,8.957 A3.959,3.959,0,0,0,291.042,5 L8.958,5 A3.96,3.96,0,0,0,5,8.957 Z M0,8.957 C0,4.01,4.014,0,8.958,0 L291.042,0 A8.959,8.959,0,0,1,300,8.957 L300,181.043 C300,185.99,295.986,190,291.042,190 L8.958,190 A8.959,8.959,0,0,1,0,181.043 L0,8.957 Z" />
+    <path android:name="circleEmpty" android:fillColor="?netverify_helpImage" android:pathData="M150,150.5 C119.348,150.5,94.5,125.652,94.5,95 S119.348,39.5,150,39.5 S205.5,64.348,205.5,95 S180.652,150.5,150,150.5 Z M150,145.5 C177.89,145.5,200.5,122.89,200.5,95 S177.89,44.5,150,44.5 S99.5,67.11,99.5,95 S122.11,145.5,150,145.5 Z" android:fillAlpha="0.0" android:fillType="evenOdd" />
+    <path android:name="circle4" android:fillColor="?netverify_helpImage" android:pathData="M97,95 C97,65.729,120.729,42,150,42 L150,95.115 L97,95 Z" android:fillAlpha="0.0" android:fillType="evenOdd" />
+    <path android:name="circle3" android:fillColor="?netverify_helpImage" android:pathData="M97,94.115 C97,123.387,120.729,147.115,150,147.115 L150,94 L97,94.115 Z M203,94.115 C203,123.387,179.271,147.115,150,147.115 L150,94 L203,94.115 Z" android:fillAlpha="0.0" android:fillType="evenOdd" />
+    <path android:name="circle2" android:fillColor="?netverify_helpImage" android:pathData="M203,94.115 C203,123.387,179.271,147.115,150,147.115 L150,94 L203,94.115 Z" android:fillAlpha="0.0" android:fillType="evenOdd" />
+    <path android:name="circle1" android:fillColor="?netverify_helpImage" android:pathData="M203,95 C203,65.729,179.271,42,150,42 L150,95.115 L203,95 Z" android:fillAlpha="0.0" android:fillType="evenOdd" />
+</vector>

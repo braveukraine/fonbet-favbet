@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.fonbet.core.commons.ui.widget.epoxy.CustomEpoxyRecyclerView android:id="@id/recycler" android:paddingBottom="72.0dip" android:clipToPadding="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.google.android.material.button.MaterialButton android:textSize="12.0sp" android:layout_gravity="bottom|center" android:id="@id/select_all" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" android:text="@string/action.select_all" style="@style/Widget.Fonbet.Button.Filled.Shrunk" />
+    <View android:background="?color_500_a20" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+</FrameLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:filterTouchesWhenObscured="true" android:importantForAccessibility="no"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/help_background" android:background="?netverify_helpBackground" android:layout_width="fill_parent" android:layout_height="fill_parent" android:importantForAccessibility="no" />
+    <ImageView android:id="@id/ic_toggle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="4.0dip" android:layout_centerHorizontal="true" app:srcCompat="@drawable/nv_slide_up" />
+    <LinearLayout android:orientation="vertical" android:id="@id/smallHelpView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/ic_toggle">
+        <TextView android:textSize="22.0sp" android:textStyle="bold" android:textColor="?netverify_helpTitle" android:gravity="center_horizontal" android:id="@id/help_tv_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" />
+        <TextView android:textSize="15.0sp" android:textColor="?netverify_helpProgressString" android:gravity="center_horizontal" android:id="@id/help_tv_steps" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip" />
+        <TextView android:textSize="16.0sp" android:textColor="?netverify_helpInstructions" android:gravity="center_horizontal" android:id="@id/help_tv_description" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/fullHelpView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false" android:weightSum="1.0" android:layout_below="@id/ic_toggle" android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:importantForAccessibility="no" android:paddingStart="@dimen/nv_helpview_full_padding_side" android:paddingEnd="@dimen/nv_helpview_full_padding_side">
+        <include android:paddingRight="@dimen/nv_helpview_full_padding_side" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.5" layout="@layout/nv_helpanimation" />
+        <RelativeLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.5">
+            <androidx.appcompat.widget.AppCompatTextView android:textColor="?netverify_helpInstructions" android:gravity="start" android:id="@id/help_tv_description_long" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textDirection="locale" app:autoSizeMaxTextSize="@dimen/nv_helpview_scan_instructions_text_max" app:autoSizeMinTextSize="@dimen/nv_helpview_scan_instructions_text_min" app:autoSizeTextType="uniform" />
+            <com.google.android.material.button.MaterialButton android:textSize="@dimen/nv_helpview_fallback_button_text" android:layout_gravity="center_horizontal" android:id="@id/helpview_fallback_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_below="@id/help_tv_description_long" android:elevation="4.0dip" style="@style/Netverify.Helpview.Button" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

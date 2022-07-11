@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/market_list_item_layout_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.betinvest.android.views.RobotoRegularTextView android:textColor="?secondary_blue3" android:id="@id/result_type_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textAlignment="center" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/outcomes_list" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

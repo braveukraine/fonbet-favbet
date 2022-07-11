@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:orientation="vertical" android:id="@id/club_id_container" android:background="@drawable/bg_frame_rounded_4_f_500_a40_s_100" android:paddingLeft="12.0dip" android:paddingTop="16.0dip" android:paddingRight="12.0dip" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.google.android.material.textview.MaterialTextView android:textSize="14.0sp" android:textColor="?color_900" android:layout_gravity="center_vertical" android:id="@id/club_id_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Widget.Fonbet.Text.Bold" />
+    </FrameLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/club_container" android:background="@drawable/bg_frame_rounded_4_f_500_a40_s_100" android:paddingLeft="12.0dip" android:paddingTop="16.0dip" android:paddingRight="12.0dip" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.google.android.material.textview.MaterialTextView android:textSize="12.0sp" android:textColor="?color_900_a80" android:layout_gravity="center_vertical" android:id="@id/address_tv" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/Widget.Fonbet.Text.Medium" />
+        <ImageView android:id="@id/map_iv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_map" app:tint="?color_900_a80" />
+    </LinearLayout>
+</FrameLayout>

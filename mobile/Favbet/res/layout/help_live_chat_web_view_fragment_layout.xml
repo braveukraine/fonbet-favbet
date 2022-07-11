@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/help_live_chat_web_view_fragment_layout_0" android:background="?General_body_profile" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:tag="binding_1" android:background="?General_body_profile" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:id="@id/toolbar_panel" layout="@layout/default_toolbar_panel_layout" />
+        <WebView android:id="@id/web_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+    <include android:id="@id/progress_panel" android:visibility="gone" layout="@layout/progress_panel_layout" />
+</FrameLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/coordinator_layout" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <com.fonbet.core.commons.ui.widget.epoxy.stickyheader.StickyHeaderEpoxyRecyclerView android:id="@id/items_rv" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/bottom_sticky_container" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_insetEdge="bottom">
+            <com.fonbet.restrictions.api.fon.ui.widget.RestrictionWidgetContainer android:id="@id/restriction_widget_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" />
+            <com.fonbet.unauthorizedcontrols.impl.fon.ui.widget.UnauthorizedControlsWidget android:layout_gravity="bottom" android:id="@id/unauthorized_controls_widget" android:paddingLeft="16.0dip" android:paddingTop="16.0dip" android:paddingRight="16.0dip" android:paddingBottom="24.0dip" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="80.0dip" android:translationZ="1.0dip" />
+        </LinearLayout>
+        <com.fonbet.superexpress.impl.fon.ui.widget.SuperexpressBetBottomSheet android:id="@id/bet_bottom_sheet_widget" android:layout_width="fill_parent" android:layout_height="wrap_content" android:translationZ="100.0dip" app:layout_behavior="com.fonbet.betting.impl.ui.behavior.BettingBottomSheetBehavior" style="@style/Widget.Fonbet.BottomSheet" />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    <com.fonbet.core.commons.ui.widget.tabbar.TabbarWidget android:layout_gravity="bottom" android:id="@id/tabbar" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Widget.Fonbet.Tabbar" />
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/fav_tv_panel_layout_0" android:background="@color/transparent" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="204.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/video_panel" android:visibility="gone" layout="@layout/stream_video_panel_layout" />
+    <include android:id="@id/error_panel" android:visibility="gone" layout="@layout/stream_error_panel_layout" />
+</LinearLayout>

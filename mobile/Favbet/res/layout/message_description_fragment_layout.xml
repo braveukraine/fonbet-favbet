@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/root_layout" android:tag="layout/message_description_fragment_layout_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:tag="binding_1" android:background="?General_body_profile" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:id="@id/toolbar_panel" layout="@layout/default_toolbar_panel_layout" />
+        <androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <LinearLayout android:orientation="vertical" android:background="?General_body_profile" android:paddingLeft="32.0dip" android:paddingTop="10.0dip" android:paddingRight="32.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="40.0dip" android:paddingHorizontal="32.0dip" android:paddingVertical="10.0dip">
+                    <com.betinvest.android.views.RobotoBoldTextView android:textSize="16.0sp" android:textColor="?profile_txt1" android:tag="binding_2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textAllCaps="true" />
+                    <com.betinvest.android.views.RobotoRegularTextView android:textSize="14.0sp" android:textColor="?profile_txt2" android:tag="binding_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" />
+                </LinearLayout>
+                <WebView android:textSize="14.0sp" android:id="@id/web_view_message_text" android:background="?General_body_profile" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="32.0dip" android:layout_marginTop="14.0dip" android:layout_marginRight="32.0dip" android:backgroundTint="?General_body_profile" android:layout_marginHorizontal="32.0dip" />
+                <View android:background="?profile_border1" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="16.0dip" android:layout_marginTop="40.0dip" android:layout_marginRight="16.0dip" android:layout_marginHorizontal="16.0dip" />
+                <LinearLayout android:gravity="end" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="27.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="27.0dip" android:layout_marginBottom="20.0dip" android:layout_marginHorizontal="27.0dip" android:layout_marginVertical="20.0dip">
+                    <LinearLayout android:orientation="horizontal" android:id="@id/reply_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="26.0dip">
+                        <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center_vertical" android:layout_width="@dimen/dist_12" android:layout_height="@dimen/dist_12" android:src="@drawable/ic_reply" android:layout_marginEnd="5.0dip" app:tint="?Btn_Tertiary_color_3" />
+                        <com.betinvest.favbet3.custom.view.FavbetBoldTextView android:textSize="@dimen/text_12sp" android:textStyle="bold" android:textColor="?Btn_Tertiary_color_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/native_messages_reply" android:textAllCaps="true" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:id="@id/remove_button" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center_vertical" android:layout_width="@dimen/dist_12" android:layout_height="@dimen/dist_12" android:src="@drawable/ic_delete" android:layout_marginEnd="5.0dip" app:tint="?Btn_Tertiary_color_3" />
+                        <com.betinvest.favbet3.custom.view.FavbetBoldTextView android:textSize="@dimen/text_12sp" android:textStyle="bold" android:textColor="?Btn_Tertiary_color_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/native_messages_delete" android:textAllCaps="true" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/container_layout" android:tag="layout/main_lobby_live_sport_type_list_item_layout_0" android:background="@drawable/round_2_ripple_bg" android:padding="@dimen/dist_1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/dist_1" android:minHeight="@dimen/sportsbook_live_sport_height" android:elevation="@dimen/dist_1" android:backgroundTint="?stabs_bg_Default"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:bind="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/sport_image_view" android:tag="binding_1" android:duplicateParentState="true" android:layout_width="@dimen/sportsbook_live_sport_icon_size" android:layout_height="@dimen/sportsbook_live_sport_icon_size" android:scaleType="fitXY" android:tint="?stabs_txt_Default" />
+        <com.betinvest.android.views.RobotoBoldTextView android:textSize="10.0sp" android:textColor="?stabs_txt_Default" android:ellipsize="end" android:id="@id/sport_name_text_view" android:tag="binding_2" android:paddingLeft="2.0dip" android:paddingRight="2.0dip" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:maxLines="1" android:includeFontPadding="false" android:textAllCaps="true" android:paddingHorizontal="2.0dip" />
+    </LinearLayout>
+</FrameLayout>

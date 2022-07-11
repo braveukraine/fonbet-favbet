@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/by_document_verification_nested_graph.xml" app:startDestination="@id/uploadByDocumentFragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="UploadByDocumentFragment" android:name="com.betinvest.favbet3.menu.myprofile.document.verification.by.UploadByDocumentFragment" android:id="@id/uploadByDocumentFragment">
+        <action android:id="@id/toDocumentTypeBottomSheet" app:destination="@id/byDocumentTypeDialogFragment" />
+        <action android:id="@id/toUploadByDocumentSuccess" app:destination="@id/uploadByDocumentSuccessFragment" />
+        <action android:id="@id/toUploadByDocumentFail" app:destination="@id/uploadByDocumentFailFragment" />
+        <action android:id="@id/toDocumentVerificationPending" app:destination="@id/documentVerificationPendingFragment" />
+    </fragment>
+    <dialog android:label="ByDocumentTypeDialogFragment" android:name="com.betinvest.favbet3.menu.myprofile.document.verification.by.upload.dropdown.ByDocumentTypeBottomSheet" android:id="@id/byDocumentTypeDialogFragment" />
+    <fragment android:label="UploadByDocumentSuccessFragment" android:name="com.betinvest.favbet3.menu.myprofile.document.verification.by.UploadByDocumentSuccessFragment" android:id="@id/uploadByDocumentSuccessFragment" />
+    <fragment android:label="UploadByDocumentFailFragment" android:name="com.betinvest.favbet3.menu.myprofile.document.verification.by.UploadByDocumentFailFragment" android:id="@id/uploadByDocumentFailFragment" />
+    <fragment android:label="UploadByDocumentPendingFragment" android:name="com.betinvest.favbet3.menu.myprofile.document.verification.notice.DocumentStatusNoticeFragment" android:id="@id/documentVerificationPendingFragment" />
+</navigation>

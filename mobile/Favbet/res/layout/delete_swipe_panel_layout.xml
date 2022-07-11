@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/delete_swipe_panel_layout_0" android:background="?selectableItemBackground" android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:background="?betslip_deleteButton_bg" android:padding="7.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <androidx.appcompat.widget.AppCompatImageView android:layout_width="@dimen/dist_24" android:layout_height="@dimen/dist_24" android:src="@drawable/ic_delete" android:scaleType="fitXY" android:tint="?betslip_deleteButton_txt" />
+        <com.betinvest.android.views.RobotoRegularTextView android:textSize="12.0dip" android:textColor="?betslip_deleteButton_txt" android:id="@id/messages_delete_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" />
+    </LinearLayout>
+</FrameLayout>

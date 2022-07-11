@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/iv_bottom_sheet_indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginBottom="8.0dip" android:src="@drawable/indicator_bottom_sheet" android:contentDescription="@null" />
+    <androidx.core.widget.NestedScrollView android:id="@id/nested_scroll_view" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:id="@id/title_tv" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/DialogTitle" />
+            <View android:id="@id/divider_top" android:background="?color_500_a20" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <FrameLayout android:id="@id/content_container" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/DialogContainer" />
+            <View android:id="@id/divider_bottom" android:background="?color_500_a20" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <LinearLayout android:orientation="vertical" android:id="@id/buttons_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@drawable/space_h_12" android:showDividers="middle" style="@style/DialogButtonsContainer" />
+</merge>

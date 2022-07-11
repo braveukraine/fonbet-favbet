@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:paddingLeft="16.0dip" android:paddingTop="12.0dip" android:paddingRight="16.0dip" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@drawable/space_w_12" android:showDividers="middle" android:paddingHorizontal="16.0dip" android:paddingVertical="12.0dip">
+        <com.google.android.material.textview.MaterialTextView android:textSize="14.0sp" android:textColor="?color_900" android:id="@id/title_tv" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/Widget.Fonbet.Text.Medium" />
+        <com.google.android.material.textview.MaterialTextView android:textSize="14.0sp" android:textColor="?color_900_a60" android:layout_gravity="center_vertical" android:id="@id/info_tv" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Widget.Fonbet.Text.Regular" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/copy_iv" android:layout_width="12.0dip" android:layout_height="12.0dip" android:src="@drawable/ic_copy" app:tint="?color_blue" />
+    </LinearLayout>
+</merge>

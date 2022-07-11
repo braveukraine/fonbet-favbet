@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?color_150" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:background="?color_500_a20" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <com.fonbet.visualsettings.impl.fon.widget.DisciplineFilterWidget android:id="@id/discipline_filter_widget" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <com.fonbet.core.commons.ui.widget.epoxy.CustomEpoxyRecyclerView android:orientation="vertical" android:id="@id/items_rv" android:scrollbars="none" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+        <com.fonbet.restrictions.api.fon.ui.widget.RestrictionWidgetContainer android:layout_gravity="bottom" android:id="@id/restriction_widget" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip" android:layout_marginVertical="16.0dip" />
+    </FrameLayout>
+    <com.google.android.material.button.MaterialButton android:id="@id/confirm_button" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="16.0dip" android:layout_marginHorizontal="16.0dip" style="@style/Widget.Fonbet.Button.Filled" />
+    <com.google.android.material.button.MaterialButton android:id="@id/reset_button" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="7.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="24.0dip" android:layout_marginHorizontal="16.0dip" style="@style/Widget.Fonbet.Button.Outlined.Blue" />
+</LinearLayout>

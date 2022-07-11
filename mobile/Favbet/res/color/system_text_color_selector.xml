@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true" android:color="?btn_betslip_accent_txt" />
+    <item android:color="?btn_betslip_txt_color" />
+</selector>

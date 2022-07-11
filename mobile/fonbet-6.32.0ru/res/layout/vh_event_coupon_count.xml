@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.fonbet.event.impl.ui.widget.quotelist.EventCouponCountWidget android:gravity="center_vertical" android:id="@id/widget" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@drawable/space_w_8" android:minHeight="40.0dip" android:showDividers="middle" android:paddingStart="16.0dip" android:paddingEnd="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

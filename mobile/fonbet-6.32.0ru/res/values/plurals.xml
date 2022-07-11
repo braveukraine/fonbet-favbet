@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="Lokalise_plurals">
+        <item quantity="other">other</item>
+        <item quantity="zero">zero</item>
+        <item quantity="one">one</item>
+        <item quantity="two">two</item>
+        <item quantity="few">few</item>
+        <item quantity="many">many</item>
+    </plurals>
+    <plurals name="bets_number">
+        <item quantity="other">%d Пари</item>
+        <item quantity="one">%d Пари</item>
+        <item quantity="few">%d Пари</item>
+        <item quantity="many">%d Пари</item>
+    </plurals>
+    <plurals name="extra_bets">
+        <item quantity="other">+%s пари</item>
+    </plurals>
+    <plurals name="freebets.number">
+        <item quantity="other">%s фрибетов</item>
+        <item quantity="one">%s фрибет</item>
+        <item quantity="few">%s фрибета</item>
+        <item quantity="many">%s фрибетов</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="other">%d часа</item>
+        <item quantity="one">%d час</item>
+        <item quantity="few">%d часа</item>
+        <item quantity="many">%d часов</item>
+    </plurals>
+    <plurals name="input_characters_left">
+        <item quantity="other">Осталось %s символов</item>
+        <item quantity="one">Остался %s символ</item>
+        <item quantity="few">Осталось %s символа</item>
+        <item quantity="many">Осталось %s символов</item>
+    </plurals>
+    <plurals name="limits">
+        <item quantity="other">от %1$s до %2$s</item>
+        <item quantity="one">от %s</item>
+        <item quantity="few">от %1$s до %2$s</item>
+        <item quantity="many">от %1$s до %2$s</item>
+    </plurals>
+    <plurals name="line.additional_quote_count">
+        <item quantity="other">+ %1$s котировок</item>
+        <item quantity="one">+ %1$s котировка</item>
+        <item quantity="few">+ %1$s котировки</item>
+        <item quantity="many">+ %1$s котировок</item>
+    </plurals>
+    <plurals name="minutes">
+        <item quantity="other">%d минуты</item>
+        <item quantity="one">%d минута</item>
+        <item quantity="few">%d минуты</item>
+        <item quantity="many">%d минут</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d new notifications</item>
+        <item quantity="one">%d new notification</item>
+    </plurals>
+    <plurals name="no_input_characters_left">
+        <item quantity="other">Максимальное количество символов: %s</item>
+        <item quantity="one">Максимальное количество символов: %s</item>
+        <item quantity="few">Максимальное количество символов: %s</item>
+        <item quantity="many">Максимальное количество символов: %s</item>
+    </plurals>
+    <plurals name="quotes_max_requirement">
+        <item quantity="other">Не более %s котировок</item>
+        <item quantity="one">Не более %s котировки</item>
+        <item quantity="few">Не более %s котировок</item>
+        <item quantity="many">Не более %s котировок</item>
+    </plurals>
+    <plurals name="quotes_min_requirement">
+        <item quantity="other">Нужно минимум %s котировок</item>
+        <item quantity="one">Нужна минимум %s котировка</item>
+        <item quantity="few">Нужно минимум %s котировки</item>
+        <item quantity="many">Нужно минимум %s котировок</item>
+    </plurals>
+    <plurals name="self_exclusion_too_frequent_title">
+        <item quantity="other">Вы использовали функцию самоисключения %s раз.</item>
+        <item quantity="one">Вы использовали функцию самоисключения %s раз.</item>
+        <item quantity="few">Вы использовали функцию самоисключения %s раза.</item>
+        <item quantity="many">Вы использовали функцию самоисключения %s раз.</item>
+    </plurals>
+    <plurals name="time_left">
+        <item quantity="other">Осталось: %s секунд</item>
+        <item quantity="one">Осталось: %s секунда</item>
+        <item quantity="few">Осталось: %s секунд</item>
+        <item quantity="many">Осталось: %s секунд</item>
+    </plurals>
+</resources>

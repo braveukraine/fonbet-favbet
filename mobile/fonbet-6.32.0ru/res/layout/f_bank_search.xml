@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/toolbar_divider" android:background="?color_500_a20" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/process_container_top_padding" android:paddingBottom="@dimen/process_container_bottom_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.fonbet.core.impl.fon.ui.widget.inputlayout.CustomTextInputLayout android:id="@id/bank_name_il" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginStart="@dimen/process_container_start_padding" android:layout_marginEnd="@dimen/process_container_end_padding" app:endIconMode="custom" style="@style/Widget.Fonbet.CustomTextInputLayout.Medium">
+            <com.fonbet.core.commons.ui.widget.inputlayout.edittext.CustomTextInputEditText android:id="@id/bank_name_et" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="textCapWords" />
+        </com.fonbet.core.impl.fon.ui.widget.inputlayout.CustomTextInputLayout>
+        <com.fonbet.core.commons.ui.widget.epoxy.CustomEpoxyRecyclerView android:id="@id/bank_name_rcv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" />
+        <com.fonbet.core.impl.fon.ui.widget.inputlayout.CustomTextInputLayout android:id="@id/bank_facility_il" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginStart="@dimen/process_container_start_padding" android:layout_marginEnd="@dimen/process_container_end_padding" app:endIconMode="custom" style="@style/Widget.Fonbet.CustomTextInputLayout.Medium">
+            <com.fonbet.core.commons.ui.widget.inputlayout.edittext.CustomTextInputEditText android:id="@id/bank_facility_et" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="textCapCharacters|textMultiLine" />
+        </com.fonbet.core.impl.fon.ui.widget.inputlayout.CustomTextInputLayout>
+        <com.fonbet.core.commons.ui.widget.epoxy.CustomEpoxyRecyclerView android:id="@id/bank_facility_rcv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" />
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginStart="@dimen/process_container_start_padding" android:layout_marginEnd="@dimen/process_container_end_padding">
+            <include android:id="@id/submit_btn" layout="@layout/btn_next" />
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

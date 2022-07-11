@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/container" android:background="@drawable/bg_web_games" android:padding="12.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.google.android.material.textview.MaterialTextView android:textSize="16.0sp" android:textColor="?color_900" android:layout_gravity="bottom" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Widget.Fonbet.Text.Bold" />
+    </FrameLayout>
+</merge>

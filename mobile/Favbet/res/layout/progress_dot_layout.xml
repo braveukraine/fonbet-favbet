@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto">
+    <com.betinvest.android.views.preloader.dot.PreloaderDotsView android:layout_gravity="center_horizontal" android:id="@id/progress_dot_view" android:layout_width="wrap_content" android:layout_height="wrap_content" custom:dv_filled="false" custom:pdv_delayAfterFullCycle="1400" custom:pdv_delayAnimations="200" custom:pdv_dotCount="3" custom:pdv_dotNeutralColor="?toggle" custom:pdv_dotRadius="6.0dip" custom:pdv_durationDiff="100" custom:pdv_leftMarginBeetwenDots="80" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

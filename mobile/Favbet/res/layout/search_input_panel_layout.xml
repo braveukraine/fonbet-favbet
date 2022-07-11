@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/search_input_panel_layout_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/rect_input_field_with_radius" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="8.0dip">
+        <com.betinvest.android.views.RobotoRegularEditText android:textColor="?input_txt" android:gravity="center_vertical" android:id="@id/search_field" android:background="@null" android:paddingLeft="8.0dip" android:layout_width="0.0dip" android:layout_height="40.0dip" android:layout_weight="1.0" android:inputType="text" android:imeOptions="actionDone" />
+        <FrameLayout android:id="@id/clear_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <androidx.appcompat.widget.AppCompatImageView android:background="?selectableItemBackgroundBorderless" android:layout_width="17.0dip" android:layout_height="17.0dip" android:layout_marginLeft="18.0dip" android:layout_marginTop="11.0dip" android:layout_marginRight="18.0dip" android:layout_marginBottom="11.0dip" android:src="@drawable/ic_input_clear" android:scaleType="fitXY" android:adjustViewBounds="true" android:tint="?input_txt_placeholder" android:layout_marginHorizontal="18.0dip" android:layout_marginVertical="11.0dip" />
+        </FrameLayout>
+    </LinearLayout>
+    <View android:layout_gravity="bottom" android:background="@drawable/round_bottom_2_bg" android:layout_width="fill_parent" android:layout_height="2.0dip" android:backgroundTint="?input_border_focus" />
+</LinearLayout>

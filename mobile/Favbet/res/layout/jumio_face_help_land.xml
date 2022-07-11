@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/overall_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:importantForAccessibility="no" android:paddingStart="70.0dip" android:paddingEnd="70.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/doctype_container" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.5" android:paddingEnd="20.0dip" />
+    <RelativeLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.5">
+        <androidx.appcompat.widget.AppCompatTextView android:gravity="start" android:id="@id/helpview_doctype_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textDirection="locale" app:autoSizeMaxTextSize="@dimen/face_helpview_doctype_title_text_max" app:autoSizeMinTextSize="@dimen/face_helpview_doctype_title_text_min" app:autoSizeTextType="uniform" />
+        <View android:id="@id/separator" android:layout_width="fill_parent" android:layout_height="@dimen/face_separator_height" android:layout_marginTop="@dimen/face_separator_margin_top" android:layout_marginBottom="@dimen/face_separator_margin_bottom" android:layout_below="@id/helpview_doctype_title" />
+        <androidx.appcompat.widget.AppCompatTextView android:gravity="start" android:id="@id/helpview_scan_instructions" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="4" android:layout_below="@id/separator" android:textDirection="locale" app:autoSizeMaxTextSize="@dimen/face_helpview_scan_instructions_text_max" app:autoSizeMinTextSize="@dimen/face_helpview_scan_instructions_text_min" app:autoSizeTextType="uniform" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/root_layout" android:tag="layout/club_player_stats_fragment_layout_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/progress_panel" android:visibility="gone" layout="@layout/progress_panel_layout" />
+    <androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:tag="binding_1" android:background="?General_body_profile" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="18.0dip">
+                <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="2.0">
+                    <com.betinvest.android.views.RobotoRegularTextView android:textSize="14.0sp" android:textColor="?profile_txt2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/native_club_player_stats_status" />
+                    <com.betinvest.android.views.RobotoRegularTextView android:textSize="14.0sp" android:textColor="?profile_txt2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/native_club_player_stats_status_points" />
+                    <com.betinvest.android.views.RobotoRegularTextView android:textSize="14.0sp" android:textColor="?profile_txt2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/native_club_player_stats_available_bonuses" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <com.betinvest.android.views.RobotoRegularTextView android:textSize="14.0sp" android:textColor="?profile_txt1" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <com.betinvest.android.views.RobotoRegularTextView android:textSize="14.0sp" android:textColor="?profile_txt1" android:tag="binding_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" />
+                    <com.betinvest.android.views.RobotoRegularTextView android:textSize="14.0sp" android:textColor="?profile_txt1" android:tag="binding_4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" />
+                </LinearLayout>
+            </LinearLayout>
+            <com.betinvest.android.views.RobotoBoldTextView android:textSize="14.0sp" android:textColor="?Btn_Tertiary_color_3" android:layout_gravity="center_horizontal" android:id="@id/loyalty_program_terms_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="35.0dip" android:text="@string/native_club_unuathorized_user_loyalty_program_terms" android:textAllCaps="true" />
+            <com.betinvest.android.views.RobotoRegularTextView android:textSize="14.0sp" android:textColor="?profile_txt1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="35.0dip" android:layout_marginRight="16.0dip" android:text="@string/native_club_player_stats_info_text_1" android:layout_marginHorizontal="16.0dip" />
+            <com.betinvest.android.views.RobotoRegularTextView android:textSize="14.0sp" android:textColor="?profile_txt1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="10.0dip" android:text="@string/native_club_player_stats_info_text_2" android:layout_marginHorizontal="16.0dip" />
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/club_player_stats_recycler_view" android:paddingLeft="16.0dip" android:paddingTop="10.0dip" android:paddingRight="16.0dip" android:paddingBottom="10.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="64.0dip" android:overScrollMode="never" android:paddingHorizontal="16.0dip" android:paddingVertical="10.0dip" />
+            <include android:id="@id/club_player_stats_empty_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" layout="@layout/club_player_stats_empty_layout" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <FrameLayout android:layout_gravity="bottom" android:background="?tabbar_background" android:layout_width="fill_parent" android:layout_height="65.0dip" android:elevation="1.0dip">
+        <com.betinvest.android.views.RobotoBoldButton android:textSize="14.0sp" android:textStyle="bold" android:textColor="?Btn_Primary_txt_color_1" android:id="@id/go_to_store_button" android:background="?Btn_Primary_bg_color_1" android:layout_width="fill_parent" android:layout_height="45.0dip" android:layout_marginLeft="16.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="16.0dip" android:text="@string/native_club_player_stats_go_to_store" android:textAllCaps="true" android:stateListAnimator="@null" android:layout_marginHorizontal="16.0dip" />
+    </FrameLayout>
+    <LinearLayout android:gravity="center" android:id="@id/progress_bar" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ProgressBar android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/upload_by_document_fragment_layout_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/toolbar_panel" layout="@layout/default_toolbar_panel_layout" />
+    <FrameLayout android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.core.widget.NestedScrollView android:background="?secondary_white1" android:paddingLeft="16.0dip" android:paddingTop="20.0dip" android:paddingRight="16.0dip" android:paddingBottom="25.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" android:paddingHorizontal="16.0dip">
+            <LinearLayout android:orientation="vertical" android:tag="binding_2" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <include android:id="@id/document_info_panel" layout="@layout/by_document_info_panel_layout" />
+                <include android:id="@id/document_type_panel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" layout="@layout/document_field_drop_down_list_item_layout" />
+                <include android:id="@id/document_attachments_panel" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" layout="@layout/by_document_attachments_panel_layout" />
+                <include android:id="@id/upload_button_panel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" layout="@layout/primary4_binding_btn_layout" />
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+        <include android:id="@id/progress_panel" android:visibility="gone" layout="@layout/progress_panel_layout" />
+    </FrameLayout>
+</LinearLayout>

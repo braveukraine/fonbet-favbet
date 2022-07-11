@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:divider="@drawable/space_h_8" android:showDividers="middle" android:layout_marginStart="8.0dip">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@drawable/space_w_4" android:showDividers="middle">
+                <com.google.android.material.textview.MaterialTextView android:textSize="14.0sp" android:textColor="?color_900" android:id="@id/coupon_state_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Widget.Fonbet.Text.Bold" />
+                <com.google.android.material.textview.MaterialTextView android:textSize="14.0sp" android:textColor="?color_500" android:ellipsize="end" android:id="@id/coupon_kind_tv" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" style="@style/Widget.Fonbet.Text.Medium" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@drawable/space_w_8" android:showDividers="middle">
+                <com.google.android.material.textview.MaterialTextView android:textSize="12.0sp" android:textColor="?color_900" android:id="@id/coupon_marker_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_wrapBefore="true" style="@style/Widget.Fonbet.Text.Medium" />
+                <com.google.android.material.textview.MaterialTextView android:textSize="12.0sp" android:textColor="?color_900_a60" android:id="@id/coupon_bet_date_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Widget.Fonbet.Text.Regular" />
+                <com.google.android.material.textview.MaterialTextView android:textSize="12.0sp" android:textColor="?color_900_a60" android:id="@id/coupon_bet_time_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Widget.Fonbet.Text.Regular" />
+            </LinearLayout>
+        </LinearLayout>
+        <View android:background="?color_500_a20" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip" />
+        <LinearLayout android:orientation="vertical" android:id="@id/fixed_bets_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <LinearLayout android:orientation="vertical" android:id="@id/expandable_bets_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <LinearLayout android:orientation="vertical" android:id="@id/expand_bets_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:paddingLeft="8.0dip" android:paddingTop="8.0dip" android:paddingRight="8.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.google.android.material.textview.MaterialTextView android:textSize="16.0sp" android:textColor="?color_900" android:layout_gravity="center_vertical" android:id="@id/bet_count" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/Widget.Fonbet.Text.Bold" />
+                <ImageView android:id="@id/expand_bets_button" android:background="@drawable/bg_frame_rounded_4_f_700_a05_s_700_a10" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="12.0dip" android:paddingEnd="12.0dip" app:srcCompat="@drawable/arrow_down" app:tint="?color_900" />
+            </LinearLayout>
+            <View android:layout_gravity="bottom" android:background="@drawable/divider_color_500_a20" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@drawable/space_w_16" android:showDividers="middle" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip">
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:divider="@drawable/space_h_4" android:showDividers="middle">
+                <com.fonbet.core.quotes.impl.fon.ui.widget.CouponAmountChangeWidget android:id="@id/monetary_amount_change" android:layout_width="wrap_content" android:layout_height="wrap_content" app:cacw_textSize="14.0sp" app:cacw_textStyle="@style/Widget.Fonbet.Text.Bold" />
+                <com.fonbet.core.quotes.impl.fon.ui.widget.CouponAmountChangeWidget android:id="@id/bonus_amount_change" android:layout_width="wrap_content" android:layout_height="wrap_content" app:cacw_textSize="14.0sp" app:cacw_textStyle="@style/Widget.Fonbet.Text.Medium" />
+            </LinearLayout>
+            <Space android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+            <com.google.android.material.textview.MaterialTextView android:textSize="16.0sp" android:textColor="?color_900" android:id="@id/quote_value_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Widget.Fonbet.Text.Bold" />
+        </LinearLayout>
+        <com.fonbet.core.impl.fon.ui.widget.submittable.SubmittableNoInputAreaLayout android:id="@id/sell_bet_submittable_et_layout" android:layout_width="fill_parent" android:layout_height="32.0dip" app:sal_cornerRadius="0.0dip" style="@style/Widget.Fonbet.SubmittableAreaLayout">
+            <com.google.android.material.button.MaterialButton app:backgroundTint="@drawable/bg_btn_700_a80_filled" style="@style/Widget.Fonbet.SubmittableAreaLayout_Button" />
+        </com.fonbet.core.impl.fon.ui.widget.submittable.SubmittableNoInputAreaLayout>
+    </LinearLayout>
+    <FrameLayout android:layout_gravity="end|center|top" android:id="@id/action_container" android:background="@drawable/bg_frame_rounded_4_f_500_a40_s_transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginEnd="8.0dip">
+        <ImageView android:layout_gravity="center" android:id="@id/subscription_icon_iv" android:padding="8.0dip" android:layout_width="36.0dip" android:layout_height="36.0dip" android:src="@drawable/ic_bell" app:tint="?color_500" />
+        <ImageView android:layout_gravity="center" android:id="@id/create_ticket_icon_iv" android:padding="8.0dip" android:layout_width="36.0dip" android:layout_height="36.0dip" android:src="@drawable/ic_create_ticket" app:tint="?color_700" />
+        <com.constanta.fancyprogressbar.FancyProgressBar android:layout_gravity="center" android:id="@id/subscription_progress_bar" android:layout_width="20.0dip" android:layout_height="20.0dip" app:fpb_color="?color_blue" />
+    </FrameLayout>
+</merge>

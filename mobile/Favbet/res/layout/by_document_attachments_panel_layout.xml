@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/by_document_attachments_panel_layout_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.betinvest.android.views.RobotoRegularTextView android:textSize="14.0sp" android:textColor="?secondary_blue2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/native_by_documents_photo_needed" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/docs_recycler_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:overScrollMode="never" />
+    <com.betinvest.android.views.RobotoRegularTextView android:textSize="12.0sp" android:textColor="?accent_red" android:id="@id/error_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" />
+</LinearLayout>

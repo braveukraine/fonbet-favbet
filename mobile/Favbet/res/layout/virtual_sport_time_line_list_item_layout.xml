@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:tag="layout/virtual_sport_time_line_list_item_layout_0" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:bind="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:tag="binding_1" android:background="@drawable/round_2_ripple_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/dist_1" android:minWidth="62.0dip" android:minHeight="40.0dip" android:elevation="2.0dip" android:backgroundTint="?General_accent_color_3">
+        <com.betinvest.android.views.RobotoBoldTextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="?text_tab3_SelectedTitle" android:layout_gravity="center" android:id="@id/virtual_sport_live_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAllCaps="true" />
+    </FrameLayout>
+    <FrameLayout android:tag="binding_2" android:background="@drawable/virtual_sport_list_time_bg_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/dist_1" android:minWidth="62.0dip" android:minHeight="40.0dip" android:elevation="2.0dip">
+        <com.betinvest.android.views.RobotoBoldTextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@drawable/virtual_time_line_color_selector" android:layout_gravity="center" android:tag="binding_3" android:paddingLeft="4.0dip" android:paddingRight="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:textAllCaps="true" android:paddingHorizontal="4.0dip" />
+    </FrameLayout>
+</LinearLayout>

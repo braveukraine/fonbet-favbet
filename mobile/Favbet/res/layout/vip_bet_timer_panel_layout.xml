@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:tag="layout/vip_bet_timer_panel_layout_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/round_2_bg" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="56.0dip" android:backgroundTint="?betslip_card_bg">
+        <com.betinvest.android.views.RobotoBoldTextView android:textSize="14.0sp" android:textColor="?betslip_txt" android:gravity="center" android:id="@id/wait_message_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="33.0dip" android:layout_marginBottom="33.0dip" android:layout_marginVertical="33.0dip">
+        <ProgressBar android:layout_gravity="center" android:background="@color/transparent" android:layout_width="110.0dip" android:layout_height="110.0dip" android:indeterminateDrawable="@anim/vip_bet_processing_anim" />
+        <com.betinvest.android.views.RobotoBoldTextView android:textSize="32.0dip" android:textColor="?betslip_txt" android:gravity="center" android:layout_gravity="center" android:id="@id/time_view" android:layout_width="85.0dip" android:layout_height="37.0dip" android:layout_marginBottom="4.0dip" android:text="01:45" />
+    </FrameLayout>
+</LinearLayout>

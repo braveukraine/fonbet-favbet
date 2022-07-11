@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.exoplayer2.ui.AspectRatioFrameLayout android:id="@id/widget" android:layout_width="fill_parent" android:layout_height="fill_parent" android:keepScreenOn="true" app:resize_mode="fixed_width"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.fonbet.event.impl.ui.widget.matchcenter.MatchCenterWebView android:id="@id/web_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.constanta.fancyprogressbar.FancyProgressBar android:layout_gravity="center" android:id="@id/progress_bar" android:layout_width="16.0dip" android:layout_height="16.0dip" app:fpb_color="?color_100" />
+</com.google.android.exoplayer2.ui.AspectRatioFrameLayout>

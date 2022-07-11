@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@drawable/space_w_8" android:showDividers="middle">
+            <ImageView android:id="@id/team1_logo" android:layout_width="20.0dip" android:layout_height="20.0dip" />
+            <TextView android:textColor="?color_900" android:id="@id/team1" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:layout_weight="1.0" app:layout_goneMarginStart="0.0dip" style="@style/Widget.Fonbet.Text.Medium" />
+            <com.google.android.material.textview.MaterialTextView android:textSize="10.0sp" android:textColor="?color_100" android:id="@id/red_card_team1" android:background="@drawable/bg_frame_rounded_2_f_red" android:paddingTop="1.0dip" android:paddingBottom="1.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:paddingStart="2.0dip" android:paddingEnd="2.0dip" style="@style/Widget.Fonbet.Text.Regular" />
+            <TextView android:textColor="?color_900_a80" android:id="@id/score3_team1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" style="@style/Widget.Fonbet.Text.Regular" />
+            <TextView android:textColor="?color_900_a80" android:id="@id/score2_team1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" style="@style/Widget.Fonbet.Text.Bold" />
+            <TextView android:textColor="?color_red" android:id="@id/score1_team1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" style="@style/Widget.Fonbet.Text.Bold" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/team2_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@drawable/space_w_8" android:showDividers="middle">
+            <ImageView android:id="@id/team2_logo" android:layout_width="20.0dip" android:layout_height="20.0dip" />
+            <TextView android:textColor="?color_900" android:id="@id/team2" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:layout_weight="1.0" app:layout_goneMarginStart="0.0dip" style="@style/Widget.Fonbet.Text.Medium" />
+            <com.google.android.material.textview.MaterialTextView android:textSize="10.0sp" android:textColor="?color_100" android:id="@id/red_card_team2" android:background="@drawable/bg_frame_rounded_2_f_red" android:paddingTop="1.0dip" android:paddingBottom="1.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:paddingStart="2.0dip" android:paddingEnd="2.0dip" style="@style/Widget.Fonbet.Text.Regular" />
+            <TextView android:textColor="?color_900_a80" android:id="@id/score3_team2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" style="@style/Widget.Fonbet.Text.Regular" />
+            <TextView android:textColor="?color_900_a80" android:id="@id/score2_team2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" style="@style/Widget.Fonbet.Text.Bold" />
+            <TextView android:textColor="?color_red" android:id="@id/score1_team2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" style="@style/Widget.Fonbet.Text.Bold" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:divider="@drawable/space_w_8" android:showDividers="middle">
+            <com.google.android.flexbox.FlexboxLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" app:dividerDrawableHorizontal="@drawable/space_h_4" app:dividerDrawableVertical="@drawable/space_w_8" app:flexWrap="wrap" app:showDividerHorizontal="middle" app:showDividerVertical="middle">
+                <androidx.appcompat.widget.AppCompatImageView android:id="@id/icon_event_blocked" android:layout_width="20.0dip" android:layout_height="wrap_content" android:src="@drawable/ic_event_blocked" android:scaleType="centerInside" app:tint="?color_900" />
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ImageView android:id="@id/icon_event_paused" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_event_paused" android:layout_marginEnd="4.0dip" app:tint="?color_red" />
+                    <TextView android:textSize="12.0sp" android:textColor="?color_900_a80" android:id="@id/date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="42.0dip" style="@style/Widget.Fonbet.Text.Bold" />
+                </LinearLayout>
+                <TextView android:textSize="12.0sp" android:textColor="?color_900" android:id="@id/name_prefix" android:background="@drawable/bg_frame_rounded_2_s_500_a20" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Widget.Fonbet.Text.Regular" />
+                <TextView android:textSize="12.0sp" android:textColor="?color_900_a80" android:id="@id/comment" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Widget.Fonbet.Text.Regular" />
+            </com.google.android.flexbox.FlexboxLayout>
+            <com.fonbet.subscription.impl.ui.widget.EventSubscriptionCouponHistoryStatusesWidget android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/statuses_widget" android:layout_width="wrap_content" android:layout_height="wrap_content" android:divider="@drawable/space_w_4" android:showDividers="middle" />
+        </LinearLayout>
+    </LinearLayout>
+    <FrameLayout android:id="@id/subscription_container" android:layout_width="32.0dip" android:layout_height="fill_parent">
+        <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:id="@id/subscription_icon" android:layout_width="12.0dip" android:layout_height="12.0dip" app:tint="?color_100_a80" />
+    </FrameLayout>
+</merge>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/root_layout" android:tag="layout/create_document_fragment_layout_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:bind="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:id="@id/toolbar_panel" layout="@layout/default_toolbar_panel_layout" />
+        <include android:id="@id/empty_panel" layout="@layout/view_document_empty_panel_layout" />
+        <androidx.core.widget.NestedScrollView android:tag="binding_2" android:background="?General_body_profile" android:paddingLeft="16.0dip" android:paddingTop="20.0dip" android:paddingRight="16.0dip" android:paddingBottom="20.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:paddingHorizontal="16.0dip" android:paddingVertical="20.0dip">
+            <LinearLayout android:orientation="vertical" android:tag="binding_3" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <include android:id="@id/step_panel" layout="@layout/create_document_step_panel_layout" />
+                <include android:id="@id/notice_panel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" layout="@layout/create_document_notice_panel_layout" />
+                <include android:id="@id/status_panel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" layout="@layout/create_document_status_panel_layout" />
+                <include android:id="@id/edit_mode_panel" android:visibility="gone" layout="@layout/document_fields_edit_mode_panel_layout" />
+                <include android:id="@id/view_mode_panel" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" layout="@layout/document_fields_view_mode_panel_layout" />
+                <include android:id="@id/button_panel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" layout="@layout/primary1_btn_layout" />
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </LinearLayout>
+    <View android:id="@id/dismiss_keyboard_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include android:id="@id/progress_panel" android:visibility="gone" layout="@layout/progress_panel_layout" />
+</FrameLayout>

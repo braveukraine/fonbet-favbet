@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mdtp_date_v1_monthyear">MMMM yyyy</string>
+    <string name="mdtp_date_v2_daymonthyear">MMM dd, EEE</string>
+    <string name="mdtp_day_picker_description">நாட்களின் மாதக் கட்டம்</string>
+    <string name="mdtp_deleted_key">%1$s நீக்கப்பட்டது</string>
+    <string name="mdtp_done_label">முடிந்தது</string>
+    <string name="mdtp_hour_picker_description">மணிநேர வட்ட வடிவ ஸ்லைடர்</string>
+    <string name="mdtp_item_is_selected">%1$s தேர்ந்தெடுக்கப்பட்டது</string>
+    <string name="mdtp_minute_picker_description">நிமிடத்திற்கான வட்டவடிவ ஸ்லைடர்</string>
+    <string name="mdtp_select_day">மாதம் மற்றும் தேதியைத் தேர்ந்தெடுக்கவும்</string>
+    <string name="mdtp_select_hours">மணிநேரத்தைத் தேர்ந்தெடுக்கவும்</string>
+    <string name="mdtp_select_minutes">நிமிடத்தைத் தேர்ந்தெடுக்கவும்</string>
+    <string name="mdtp_select_year">ஆண்டைத் தேர்ந்தெடுக்கவும்</string>
+    <string name="mdtp_year_picker_description">ஆண்டு பட்டியல்</string>
+</resources>

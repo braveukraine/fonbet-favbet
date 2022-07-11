@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.fonbet.core.commons.ui.widget.epoxy.CustomEpoxyRecyclerView android:id="@id/chat_widget" android:paddingTop="16.0dip" android:paddingBottom="24.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" />
+        <View android:id="@id/divider" android:background="@drawable/divider_color_500_a20" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <com.fonbet.core.commons.ui.widget.epoxy.CustomEpoxyRecyclerView android:id="@id/attachment_widget" android:background="?color_100" android:paddingTop="10.0dip" android:paddingBottom="12.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="104.0dip" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" />
+        <com.fonbet.core.support.impl.fon.ui.widget.NewMessageWidget android:gravity="center_vertical" android:id="@id/new_message_widget" android:background="?color_700_a10" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" />
+    </LinearLayout>
+    <com.fonbet.core.commons.ui.widget.alert.AlertWidget android:layout_gravity="top" android:id="@id/support_alert_widget" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="16.0dip" android:layout_marginHorizontal="16.0dip" style="@style/Widget.Fonbet.Alert.Service" />
+</FrameLayout>

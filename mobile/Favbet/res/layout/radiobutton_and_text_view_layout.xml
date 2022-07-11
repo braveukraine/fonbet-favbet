@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:tag="layout/radiobutton_and_text_view_layout_0" android:background="?General_body_profile" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="2.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:tint="?radiobtn" />
+    <com.betinvest.android.views.RobotoRegularTextView android:textColor="?profile_txt2" android:tag="binding_2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="8.0dip" />
+</LinearLayout>

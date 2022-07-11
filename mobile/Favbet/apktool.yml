@@ -1,0 +1,156 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: Favbet.apk
+compressionType: false
+doNotCompress:
+- resources.arsc
+- lib/arm64-v8a/libJVImgJava.so
+- lib/arm64-v8a/libJVCore.so
+- lib/arm64-v8a/libgnustl_shared.so
+- lib/arm64-v8a/libJVCoreJava.so
+- lib/arm64-v8a/libJVMrzJava.so
+- lib/arm64-v8a/libaleJwtInterface.so
+- lib/arm64-v8a/libcpuinfo.so
+- lib/arm64-v8a/libJVCardFindJava.so
+- lib/arm64-v8a/libJVCardOcrJava.so
+- lib/armeabi-v7a/libJVCore.so
+- lib/armeabi-v7a/libJVImgJava.so
+- lib/armeabi-v7a/libJVCardFindJava.so
+- lib/armeabi-v7a/libcpuinfo.so
+- lib/armeabi-v7a/libgnustl_shared.so
+- lib/armeabi-v7a/libaleJwtInterface.so
+- lib/armeabi-v7a/libJVMrzJava.so
+- lib/armeabi-v7a/libJVCoreJava.so
+- lib/armeabi-v7a/libJVCardOcrJava.so
+- lib/x86/libcpuinfo.so
+- lib/x86_64/libcpuinfo.so
+- png
+- jpg
+- jpeg
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '23'
+  targetSdkVersion: '30'
+sharedLibrary: false
+sparseResources: false
+unknownFiles:
+  DebugProbesKt.bin: '8'
+  firebase-abt.properties: '8'
+  firebase-analytics.properties: '8'
+  firebase-annotations.properties: '8'
+  firebase-common.properties: '8'
+  firebase-components.properties: '8'
+  firebase-config.properties: '8'
+  firebase-core.properties: '8'
+  firebase-crashlytics.properties: '8'
+  firebase-datatransport.properties: '8'
+  firebase-encoders-json.properties: '8'
+  firebase-encoders.properties: '8'
+  firebase-iid-interop.properties: '8'
+  firebase-iid.properties: '8'
+  firebase-installations-interop.properties: '8'
+  firebase-installations.properties: '8'
+  firebase-measurement-connector.properties: '8'
+  firebase-messaging.properties: '8'
+  firebase-perf.properties: '8'
+  play-services-ads-identifier.properties: '8'
+  play-services-base.properties: '8'
+  play-services-basement.properties: '8'
+  play-services-cloud-messaging.properties: '8'
+  play-services-measurement-api.properties: '8'
+  play-services-measurement-base.properties: '8'
+  play-services-measurement-impl.properties: '8'
+  play-services-measurement-sdk-api.properties: '8'
+  play-services-measurement-sdk.properties: '8'
+  play-services-measurement.properties: '8'
+  play-services-stats.properties: '8'
+  play-services-tasks.properties: '8'
+  protolite-well-known-types.properties: '8'
+  transport-api.properties: '8'
+  transport-backend-cct.properties: '8'
+  transport-runtime.properties: '8'
+  com/appsflyer/internal/a-: '8'
+  com/appsflyer/internal/b-: '8'
+  com/jumio/bam/environment/ocrastd: '8'
+  com/jumio/bam/environment/card_ocr_models/card_detection_engine-by_jumio: '8'
+  com/jumio/bam/environment/card_ocr_models/fcaengine: '8'
+  com/jumio/bam/environment/card_ocr_models/mrzapi_engine: '8'
+  com/jumio/bam/environment/card_ocr_models/mrzapi_engine_server: '8'
+  com/jumio/bam/environment/card_ocr_models/ocrengine-fcaocr: '8'
+  com/jumio/bam/environment/card_ocr_models/ocrengine-full-fast: '8'
+  com/jumio/bam/environment/card_ocr_models/ocrengine-full-server: '8'
+  com/jumio/bam/environment/card_ocr_models/retr_alphabet: '8'
+  com/jumio/bam/environment/card_ocr_models/retr_sampling: '8'
+  com/jumio/bam/environment/card_ocr_models/retriever_settings: '8'
+  com/jumio/bam/environment/card_ocr_models/retriever_settings_sym: '8'
+  com/jumio/bam/environment/card_ocr_models/retriever_settings_sym_1: '8'
+  com/jumio/bam/environment/card_ocr_models/card_detector/card_detection_engine: '8'
+  com/jumio/bam/environment/card_ocr_models/card_detector/fast_findcard_config: '8'
+  com/jumio/bam/environment/card_ocr_models/detectors/dc_75x21: '8'
+  com/jumio/bam/environment/card_ocr_models/detectors/discover1a_101x19: '8'
+  com/jumio/bam/environment/card_ocr_models/detectors/discover1b_117x21: '8'
+  com/jumio/bam/environment/card_ocr_models/detectors/discover2_37x23: '8'
+  com/jumio/bam/environment/card_ocr_models/detectors/mc_41x25: '8'
+  com/jumio/bam/environment/card_ocr_models/detectors/visa1_41x21: '8'
+  com/jumio/bam/environment/card_ocr_models/detectors/visa2_41x21: '8'
+  com/jumio/bam/environment/card_ocr_models/dictionaries/name: '8'
+  com/jumio/bam/environment/card_ocr_models/dictionaries/sc_an_rules: '8'
+  com/jumio/bam/environment/card_ocr_models/dictionaries/six_digits: '8'
+  com/jumio/bam/environment/card_ocr_models/dictionaries/surname: '8'
+  com/jumio/bam/environment/card_ocr_models/ic-cfg/indent_card_config: '8'
+  com/jumio/bam/environment/card_ocr_models/ic-cfg/print-type: '8'
+  com/jumio/bam/environment/card_ocr_models/ic-cfg/refinder_config: '8'
+  com/jumio/bam/environment/card_ocr_models/ic-cfg/recognizers/bigdig_highlight: '8'
+  com/jumio/bam/environment/card_ocr_models/ic-cfg/recognizers/emb_nonemb_sel: '8'
+  com/jumio/bam/environment/card_ocr_models/ic-cfg/recognizers/indent_dig_intpacked: '8'
+  com/jumio/bam/environment/card_ocr_models/ic-cfg/recognizers/indent_sym: '8'
+  com/jumio/bam/environment/card_ocr_models/ic-cfg/recognizers/smalldig_highlight: '8'
+  com/jumio/bam/environment/card_ocr_models/ic-cfg/recognizers/smallsym_highlight: '8'
+  com/jumio/bam/environment/card_ocr_models/ic-cfg/recognizers/type: '8'
+  com/jumio/bam/environment/card_ocr_models/ocrengine/bigdig_highlight: '8'
+  com/jumio/bam/environment/card_ocr_models/ocrengine/bigdig_recognizer_packed: '8'
+  com/jumio/bam/environment/card_ocr_models/ocrengine/bigdig_rescaler: '8'
+  com/jumio/bam/environment/card_ocr_models/ocrengine/cvv_digits_intpacked: '8'
+  com/jumio/bam/environment/card_ocr_models/ocrengine/double_sym_recognizer_intpacked: '8'
+  com/jumio/bam/environment/card_ocr_models/ocrengine/smalldig_highlight: '8'
+  com/jumio/bam/environment/card_ocr_models/ocrengine/smalldig_recognizer_3_packed: '8'
+  com/jumio/bam/environment/card_ocr_models/ocrengine/smalldig_recognizer_packed: '8'
+  com/jumio/bam/environment/card_ocr_models/ocrengine/smallsym_highlight: '8'
+  com/jumio/bam/environment/card_ocr_models/ocrengine/smallsym_recognizer_fp_intpacked: '8'
+  com/jumio/bam/environment/card_ocr_models/ocrengine/smallsym_recognizer_intpacked: '8'
+  com/jumio/bam/environment/card_ocr_models/ocrengine/smallsym_rescaler: '8'
+  com/jumio/bam/environment/card_ocr_models/ocrengine/smallsymdig_recognizer_packed: '8'
+  com/jumio/bam/environment/card_ocr_models/ocrengine/ump_digits_recognizer_intpacked: '8'
+  com/jumio/bam/environment/card_ocr_models/ocrengine/ump_sgm_recognizer_intpacked: '8'
+  com/jumio/bam/environment/card_ocr_models/ocrengine/ump_symbols_recognizer_intpacked: '8'
+  com/jumio/bam/environment/card_ocr_models/triadonaries/name.trigrams: '8'
+  com/jumio/nv/environment/card_detector/card_detection_engine: '8'
+  com/jumio/nv/environment/card_detector/fast_findcard_config: '8'
+  com/jumio/nv/mrz/environment/mrz/mrzapi_engine: '8'
+  com/jumio/nv/mrz/environment/mrz/dictionaries/name: '8'
+  com/jumio/nv/mrz/environment/mrz/dictionaries/sc_an_rules: '8'
+  com/jumio/nv/mrz/environment/mrz/dictionaries/six_digits: '8'
+  com/jumio/nv/mrz/environment/mrz/dictionaries/surname: '8'
+  com/jumio/nv/mrz/environment/mrz/mrzcontexts/field_syntax_restrictions: '8'
+  com/jumio/nv/mrz/environment/mrz/mrzocr/network_6_packed: '8'
+  google/protobuf/any.proto: '8'
+  google/protobuf/api.proto: '8'
+  google/protobuf/duration.proto: '8'
+  google/protobuf/empty.proto: '8'
+  google/protobuf/field_mask.proto: '8'
+  google/protobuf/source_context.proto: '8'
+  google/protobuf/struct.proto: '8'
+  google/protobuf/timestamp.proto: '8'
+  google/protobuf/type.proto: '8'
+  google/protobuf/wrappers.proto: '8'
+  okhttp3/internal/publicsuffix/publicsuffixes.gz: '8'
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.6.1
+versionInfo:
+  versionCode: '34105'
+  versionName: 3.41.5 HF

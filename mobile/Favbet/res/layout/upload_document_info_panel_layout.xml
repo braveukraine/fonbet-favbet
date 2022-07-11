@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/upload_document_info_panel_layout_0" android:layout_width="fill_parent" android:layout_height="fill_parent" android:animateLayoutChanges="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:bind="http://schemas.android.com/apk/res-auto">
+    <com.betinvest.android.views.RobotoRegularTextView android:textSize="12.0sp" android:textColor="?profile_txt2" android:id="@id/name_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <com.betinvest.android.views.RobotoRegularTextView android:textSize="12.0sp" android:textColor="?profile_txt2" android:textColorLink="?profile_txt2" android:autoLink="email" android:id="@id/info_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingExtra="3.0dip" />
+</LinearLayout>

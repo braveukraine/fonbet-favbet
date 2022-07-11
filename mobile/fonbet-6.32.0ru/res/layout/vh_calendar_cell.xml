@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.textview.MaterialTextView android:textSize="16.0sp" android:textColor="?color_toolbar_active_text" android:id="@id/vh_calendar_cell_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="16.0dip" style="@style/Widget.Fonbet.Text.Bold" />
+    <com.google.android.material.textview.MaterialTextView android:textSize="12.0sp" android:textColor="?color_toolbar_active_text" android:layout_gravity="center" android:id="@id/vh_calendar_cell_day" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:textAllCaps="true" style="@style/Widget.Fonbet.Text.Regular" />
+    <View android:layout_gravity="bottom" android:id="@id/vh_calendar_cell_indicator" android:background="?color_toolbar_primary" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_marginLeft="12.0dip" android:layout_marginTop="6.0dip" android:layout_marginRight="12.0dip" />
+</LinearLayout>

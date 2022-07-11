@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/live_lobby_fragment_layout_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/toolbar_panel" layout="@layout/default_toolbar_panel_layout" />
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:animateLayoutChanges="true">
+        <com.google.android.material.appbar.AppBarLayout android:gravity="end" android:id="@id/app_bar" android:tag="binding_1" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" app:elevation="0.0dip">
+            <include android:id="@id/top_live_panel" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_scrollFlags="scroll" layout="@layout/top_live_panel_layout" />
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/sports_rv" android:paddingLeft="8.0dip" android:paddingTop="5.0dip" android:paddingRight="8.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_scrollFlags="enterAlways" />
+            <FrameLayout android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="10.0dip" app:layout_scrollFlags="enterAlways">
+                <include android:id="@id/head_group_panel" layout="@layout/head_group_panel_layout" />
+            </FrameLayout>
+        </com.google.android.material.appbar.AppBarLayout>
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/event_line_rv" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</LinearLayout>

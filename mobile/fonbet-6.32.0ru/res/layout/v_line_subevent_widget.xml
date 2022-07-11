@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center_vertical" android:id="@id/blocked_indicator" android:layout_width="8.0dip" android:layout_height="11.0dip" android:src="@drawable/ic_event_blocked" app:tint="?color_900" />
+    <com.google.android.material.textview.MaterialTextView android:textSize="12.0sp" android:textColor="?color_900_a80" android:layout_gravity="center_vertical" android:id="@id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Widget.Fonbet.Text.Bold" />
+    <com.google.android.flexbox.FlexboxLayout android:layout_gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" app:dividerDrawableHorizontal="@drawable/space_h_2" app:dividerDrawableVertical="@drawable/space_w_8" app:flexWrap="wrap" app:justifyContent="flex_end" app:showDividerHorizontal="middle" app:showDividerVertical="middle">
+        <com.google.android.material.textview.MaterialTextView android:textSize="12.0sp" android:textColor="?color_900_a80" android:id="@id/comment" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Widget.Fonbet.Text.Regular" />
+        <com.google.android.material.textview.MaterialTextView android:textSize="12.0sp" android:textColor="?color_900" android:id="@id/score" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Widget.Fonbet.Text.Medium" />
+    </com.google.android.flexbox.FlexboxLayout>
+</merge>

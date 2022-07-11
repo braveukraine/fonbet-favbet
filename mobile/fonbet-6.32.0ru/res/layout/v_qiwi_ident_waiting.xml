@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.textview.MaterialTextView android:orientation="vertical" android:id="@id/qiwi_content_tv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/remote_ident.complete.content_with_qiwi" style="@style/DialogText" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:divider="@drawable/space_w_8" android:showDividers="middle">
+        <ImageView android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginTop="1.0dip" android:src="@drawable/ic_input_help" app:tint="?color_500" />
+        <com.google.android.material.textview.MaterialTextView android:textSize="12.0sp" android:textColor="?color_500" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/remote_ident.complete.footer" android:layout_weight="1.0" style="@style/Widget.Fonbet.Text.Regular" />
+    </LinearLayout>
+</LinearLayout>

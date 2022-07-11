@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/balance_top_up_yigim_layout_0" android:background="?primary_white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dist_10" android:layout_marginBottom="@dimen/dist_20" android:layout_marginStart="@dimen/dist_16" android:layout_marginEnd="@dimen/dist_16"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:bind="http://schemas.android.com/apk/res-auto">
+    <com.betinvest.android.views.RobotoRegularTextView android:textSize="@dimen/text_12sp" android:textColor="?secondary_blue3" android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/yigim_items_recycler_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dist_6" android:layout_marginBottom="@dimen/dist_20" android:nestedScrollingEnabled="false" />
+</LinearLayout>

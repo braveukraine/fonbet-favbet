@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/container_layout" android:tag="layout/casino_providers_panel_item_layout_0" android:background="@drawable/casino_provider_item_bg" android:layout_width="fill_parent" android:layout_height="60.0dip" android:foreground="?selectableItemBackground"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.betinvest.android.views.RobotoBoldTextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="?casino_Title" android:gravity="center" android:layout_gravity="center" android:id="@id/provider_text_view" android:tag="binding_1" android:visibility="visible" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textAllCaps="true" />
+    <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:id="@id/image_color" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginHorizontal="10.0dip" />
+</FrameLayout>

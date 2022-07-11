@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/casino_categories_panel_layout_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:background="?text_tab2_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="@dimen/dist_1">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/categories_recycler_view" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="5.0dip" android:paddingEnd="45.0dip" />
+        <FrameLayout android:layout_gravity="end" android:id="@id/providers_button" android:background="?casino_filterBg" android:layout_width="40.0dip" android:layout_height="fill_parent">
+            <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_settings_default" android:tint="?casino_filterIcon" />
+        </FrameLayout>
+    </FrameLayout>
+    <View android:background="?text_tab_border" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+</LinearLayout>

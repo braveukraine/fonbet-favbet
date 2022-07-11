@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:tag="layout/bottom_sheet_fragment_layout_0" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_behavior="android.support.design.widget.BottomSheetBehavior" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/list_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="15.0dip" />
+    <LinearLayout android:gravity="center_horizontal" android:id="@id/scroll_bottom_panel" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="90.0dip">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="19.0dip" android:src="@drawable/ic_open_down" />
+    </LinearLayout>
+</LinearLayout>

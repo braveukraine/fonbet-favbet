@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.textview.MaterialTextView android:textColor="?color_900_a80" android:id="@id/legal_notice_tv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" style="@style/Widget.Fonbet.Text.Medium" />
+</FrameLayout>

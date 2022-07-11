@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/pre_match_lobby_fragment_layout_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/toolbar_panel" layout="@layout/default_toolbar_panel_layout" />
+    <androidx.core.widget.NestedScrollView android:id="@id/scroll_view" android:background="?General_body_lobby" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:gravity="end" android:orientation="vertical" android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true">
+            <LinearLayout android:orientation="vertical" android:id="@id/blocks_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:animateLayoutChanges="true" />
+            <include android:id="@id/sports_panel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="10.0dip" android:layout_marginHorizontal="8.0dip" layout="@layout/pre_match_sports_layout" />
+            <include android:id="@id/multiple_of_day_panel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="20.0dip" android:layout_marginHorizontal="8.0dip" layout="@layout/multiple_of_day_panel_layout" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

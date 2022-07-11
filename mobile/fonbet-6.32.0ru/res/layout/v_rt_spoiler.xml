@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/content_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:layout_gravity="top" android:background="?color_500_a20" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/spoiler_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.google.android.material.textview.MaterialTextView android:id="@id/content_tv" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginBottom="12.0dip" android:layout_weight="1.0" style="@style/Widget.Fonbet.Text.Regular" />
+            <ImageView android:id="@id/expanded_indicator_iv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="16.0dip" android:src="@drawable/ic_app_chevron_down" app:tint="?color_500" />
+        </LinearLayout>
+        <View android:layout_gravity="top" android:id="@id/lower_border_view" android:background="?color_500_a20" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    </LinearLayout>
+</merge>

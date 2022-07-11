@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/balance_success_deposit_page_quick_graph" app:startDestination="@id/balanceSuccessDepositPageQuickFragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <dialog android:label="BalanceSuccessDepositPageQuickFragment" android:name="com.betinvest.favbet3.menu.balance.deposits.success_deposit_page.BalanceSuccessDepositPageQuickFragment" android:id="@id/balanceSuccessDepositPageQuickFragment" />
+    <action android:id="@id/toSuccessDepositPageQuick" app:destination="@id/balanceSuccessDepositPageQuickFragment" />
+</navigation>

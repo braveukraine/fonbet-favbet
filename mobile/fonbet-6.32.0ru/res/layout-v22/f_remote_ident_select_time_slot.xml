@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/process_container_top_padding" android:paddingBottom="@dimen/process_container_bottom_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:id="@id/f_remote_ident_select_time_slot_comment_container" android:paddingBottom="16.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <View android:background="?color_blue" android:layout_width="2.0dip" android:layout_height="44.0dip" />
+            <com.google.android.material.textview.MaterialTextView android:textSize="12.0sp" android:textColor="?color_blue" android:layout_gravity="center_vertical" android:id="@id/f_remote_ident_select_time_slot_comment_tv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="14.0dip" android:paddingEnd="16.0sp" style="@style/Widget.Fonbet.Text.Regular" />
+        </LinearLayout>
+        <com.google.android.material.textview.MaterialTextView android:textSize="16.0sp" android:textColor="?color_900_a80" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/remote_ident.notice.pick_messenger" android:paddingHorizontal="16.0dip" style="@style/Widget.Fonbet.Text.Medium" />
+        <HorizontalScrollView android:paddingTop="6.0dip" android:paddingBottom="6.0dip" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="never" android:paddingVertical="6.0dip">
+            <com.fonbet.core.commons.ui.widget.chip.ChipGroupWidget android:id="@id/f_remote_ident_select_time_slot_msg" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingHorizontal="16.0dip" />
+        </HorizontalScrollView>
+        <com.fonbet.core.impl.fon.ui.widget.inputlayout.CustomTextInputLayout android:id="@id/f_remote_ident_select_time_slot_login_il" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="16.0dip" style="@style/Widget.Fonbet.CustomTextInputLayout.Medium">
+            <com.fonbet.core.commons.ui.widget.inputlayout.edittext.CustomTextInputEditText android:textSize="16.0sp" android:id="@id/f_remote_ident_select_time_slot_login_et" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/field.messenger_login" />
+        </com.fonbet.core.impl.fon.ui.widget.inputlayout.CustomTextInputLayout>
+        <LinearLayout android:orientation="vertical" android:background="?color_100" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <View android:background="@drawable/divider_color_500_a20" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <com.google.android.material.textview.MaterialTextView android:textColor="?color_900_a80" android:paddingLeft="16.0dip" android:paddingTop="12.0dip" android:paddingRight="16.0dip" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/remote_ident.notice.pick_time_slot" android:paddingHorizontal="16.0dip" android:paddingVertical="12.0dip" style="@style/Widget.Fonbet.Text.Medium" />
+            <View android:background="@drawable/divider_color_500_a20" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginStart="16.0dip" />
+            <com.google.android.material.textview.MaterialTextView android:textSize="16.0sp" android:textColor="?color_900" android:id="@id/empty_container" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/remote_ident.operators_busy" style="@style/Widget.Fonbet.Text.Medium" />
+            <LinearLayout android:orientation="vertical" android:id="@id/normal_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <HorizontalScrollView android:paddingTop="6.0dip" android:paddingBottom="6.0dip" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="never" android:paddingVertical="6.0dip">
+                    <com.fonbet.core.commons.ui.widget.chip.ChipGroupWidget android:id="@id/f_remote_ident_select_time_slot_day" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingHorizontal="16.0dip" />
+                </HorizontalScrollView>
+                <View android:background="@drawable/divider_color_500_a20" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginStart="16.0dip" />
+                <HorizontalScrollView android:paddingTop="6.0dip" android:paddingBottom="6.0dip" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="never" android:paddingVertical="6.0dip">
+                    <com.fonbet.core.commons.ui.widget.chip.ChipGroupWidget android:id="@id/f_remote_ident_select_time_slot_time" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingHorizontal="16.0dip" />
+                </HorizontalScrollView>
+            </LinearLayout>
+            <View android:background="@drawable/divider_color_500_a20" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        </LinearLayout>
+        <FrameLayout android:paddingLeft="16.0dip" android:paddingTop="8.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="16.0dip">
+            <include layout="@layout/ident_bottom_buttons" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/empty_slots_buttons_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:divider="@drawable/space_w_8" android:showDividers="middle">
+                <com.google.android.material.button.MaterialButton android:id="@id/cancel_btn" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/general.cancel" android:layout_weight="1.0" style="@style/Widget.Fonbet.Button.Outlined.Blue" />
+                <com.google.android.material.button.MaterialButton android:id="@id/submit_btn" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/general_close" android:layout_weight="1.0" style="@style/Widget.Fonbet.Button.Filled" />
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+</ScrollView>

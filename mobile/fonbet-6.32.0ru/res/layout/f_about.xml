@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:id="@id/scroll_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:background="?color_100" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@drawable/divider_color_500_a20" android:showDividers="beginning|end|middle">
+            <com.google.android.material.textview.MaterialTextView android:textSize="14.0sp" android:textColor="?color_900" android:id="@id/contacts" android:background="?selectableItemBackground" android:padding="16.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/about.contacts" style="@style/Widget.Fonbet.Text.Medium" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/items_container" android:background="?color_100" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:divider="@drawable/divider_color_500_a20" android:showDividers="beginning|end|middle" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

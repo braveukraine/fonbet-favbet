@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/balance_withdrawal_bank_card_layout_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:bind="http://schemas.android.com/apk/res-auto">
+    <androidx.core.widget.NestedScrollView android:background="?General_body_profile" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:tag="binding_1" android:background="?General_body_profile" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <include android:id="@id/balance_withdrawal_bank_card_withdrawal_mode" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/balance_withdrawal_bank_card_withdrawal_mode_layout" />
+            <include android:id="@id/balance_withdrawal_bank_card_add_new_card_mode" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dist_20" android:layout_marginBottom="@dimen/dist_20" android:layout_marginStart="@dimen/dist_16" android:layout_marginEnd="@dimen/dist_16" layout="@layout/balance_withdrawal_bank_card_add_new_card_mode_layout" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <FrameLayout android:id="@id/shield_keyboard_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

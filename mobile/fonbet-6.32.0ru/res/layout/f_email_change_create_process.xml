@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:id="@id/scroll_view" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/process_container_top_padding" android:paddingBottom="@dimen/process_container_bottom_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@drawable/space_h_8" android:showDividers="middle" android:paddingStart="@dimen/process_container_start_padding" android:paddingEnd="@dimen/process_container_end_padding">
+        <com.google.android.material.textview.MaterialTextView android:textSize="14.0sp" android:textColor="?color_900_a80" android:id="@id/information_tv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip" style="@style/Widget.Fonbet.Text.Regular" />
+        <com.fonbet.core.impl.fon.ui.widget.inputlayout.CustomTextInputLayout android:id="@id/current_email_il" android:layout_width="fill_parent" android:layout_height="wrap_content" app:ctil_isStaticText="true" style="@style/Widget.Fonbet.CustomTextInputLayout.Bold">
+            <com.fonbet.core.commons.ui.widget.inputlayout.edittext.CustomTextInputEditText android:textSize="16.0sp" android:id="@id/current_email_et" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/email_change.field.old_email" android:inputType="textEmailAddress" />
+        </com.fonbet.core.impl.fon.ui.widget.inputlayout.CustomTextInputLayout>
+        <com.fonbet.core.impl.fon.ui.widget.inputlayout.CustomTextInputLayout android:id="@id/email_il" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Widget.Fonbet.CustomTextInputLayout.Medium">
+            <com.fonbet.core.commons.ui.widget.inputlayout.edittext.CustomTextInputEditText android:id="@id/email_et" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="-3.0dip" android:hint="@string/field.email" android:inputType="textEmailAddress" />
+        </com.fonbet.core.impl.fon.ui.widget.inputlayout.CustomTextInputLayout>
+        <com.google.android.material.button.MaterialButton android:id="@id/send_code_btn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/action.send_confirmation_code" style="@style/Widget.Fonbet.Button.Filled" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

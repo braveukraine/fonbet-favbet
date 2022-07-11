@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/club_purchase_item_layout_0" android:background="@drawable/club_player_stats_item_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="2.0dip" android:elevation="2.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:bind="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="12.0dip" android:layout_marginBottom="9.0dip" android:layout_marginHorizontal="12.0dip">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/result_icon" android:tag="binding_1" android:layout_width="@dimen/dist_16" android:layout_height="@dimen/dist_16" android:layout_centerVertical="true" />
+        <com.betinvest.android.views.RobotoBoldTextView android:textStyle="bold" android:textColor="?profile_txt2" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/native_club_purchase_history_completed" android:textAllCaps="true" android:layout_marginStart="10.0dip" android:layout_toEndOf="@id/result_icon" />
+        <com.betinvest.android.views.RobotoRegularTextView android:textColor="?profile_txt2" android:tag="binding_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <View android:background="?profile_border1" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="12.0dip" android:layout_marginHorizontal="12.0dip">
+        <com.betinvest.android.views.RobotoRegularTextView android:textColor="?profile_txt1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/native_club_purchase_history_cost_bonuses" android:layout_marginEnd="4.0dip" />
+        <com.betinvest.android.views.RobotoBoldTextView android:textStyle="bold" android:textColor="?profile_txt1" android:tag="binding_4" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:layout_marginHorizontal="12.0dip">
+        <com.betinvest.android.views.RobotoRegularTextView android:textColor="?profile_txt1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/native_club_purchase_history_name" android:layout_marginEnd="4.0dip" />
+        <com.betinvest.android.views.RobotoBoldTextView android:textStyle="bold" android:textColor="?profile_txt1" android:tag="binding_5" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:layout_marginBottom="8.0dip" android:layout_marginHorizontal="12.0dip">
+        <com.betinvest.android.views.RobotoRegularTextView android:textColor="?profile_txt1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/native_club_purchase_history_quantity_pcs" android:layout_marginEnd="4.0dip" />
+        <com.betinvest.android.views.RobotoBoldTextView android:textStyle="bold" android:textColor="?profile_txt1" android:tag="binding_6" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <View android:background="?profile_border1" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <com.betinvest.android.views.RobotoBoldTextView android:textColor="?profile_txt1" android:tag="binding_7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="12.0dip" android:layout_marginBottom="15.0dip" android:layout_marginHorizontal="12.0dip" android:layout_marginVertical="15.0dip" />
+</LinearLayout>

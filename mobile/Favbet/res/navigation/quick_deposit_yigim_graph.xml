@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/quick_deposit_wallet_one_graph.xml" app:startDestination="@id/balanceTopUpYigimQuickDepositFragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="BalanceTopUpYigimQuickDepositFragment" android:name="com.betinvest.favbet3.menu.balance.deposits.yigim.top_up.fragments.BalanceTopUpYigimQuickDepositFragment" android:id="@id/balanceTopUpYigimQuickDepositFragment">
+        <argument android:name="wallet_hash" app:argType="string" />
+    </fragment>
+</navigation>

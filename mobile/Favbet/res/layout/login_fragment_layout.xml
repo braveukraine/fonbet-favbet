@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/login_fragment_layout_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="?General_body_profile" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.core.widget.NestedScrollView android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fillViewport="true" android:overScrollMode="never">
+            <include android:id="@id/login_user_panel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="20.0dip" android:layout_marginHorizontal="16.0dip" android:layout_marginVertical="20.0dip" layout="@layout/login_user_panel_layout" />
+        </androidx.core.widget.NestedScrollView>
+    </LinearLayout>
+    <include android:id="@id/progress_panel" android:visibility="gone" layout="@layout/progress_panel_layout" />
+</FrameLayout>

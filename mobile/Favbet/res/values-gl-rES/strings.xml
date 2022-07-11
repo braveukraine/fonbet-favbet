@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mdtp_date_v1_monthyear">MMMM yyyy</string>
+    <string name="mdtp_date_v2_daymonthyear">EEE dd MMM</string>
+    <string name="mdtp_day_picker_description">Grade mensual de días</string>
+    <string name="mdtp_deleted_key">Eliminouse %1$s</string>
+    <string name="mdtp_done_label">Feito</string>
+    <string name="mdtp_hour_picker_description">Control de desprazamento circular das horas</string>
+    <string name="mdtp_item_is_selected">Seleccionouse %1$s</string>
+    <string name="mdtp_minute_picker_description">Control de desprazamento circular dos minutos</string>
+    <string name="mdtp_select_day">Seleccionar mes e día</string>
+    <string name="mdtp_select_hours">Seleccionar horas</string>
+    <string name="mdtp_select_minutes">Seleccionar minutos</string>
+    <string name="mdtp_select_year">Seleccionar ano</string>
+    <string name="mdtp_year_picker_description">Lista de anos</string>
+</resources>

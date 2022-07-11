@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mdtp_date_v1_monthyear">MMMM yyyy</string>
+    <string name="mdtp_date_v2_daymonthyear">EEE، dd MMM</string>
+    <string name="mdtp_day_picker_description">دنوں کا ماہ کا گرڈ</string>
+    <string name="mdtp_deleted_key">%1$s حذف ہوگیا</string>
+    <string name="mdtp_done_label">ہوگیا</string>
+    <string name="mdtp_hour_picker_description">گھنٹوں کا سرکلر سلائیڈر</string>
+    <string name="mdtp_item_is_selected">%1$s منتخب ہوگیا</string>
+    <string name="mdtp_minute_picker_description">منٹ کا سرکلر سلائیڈر</string>
+    <string name="mdtp_select_day">مہینہ اور دن منتخب کریں</string>
+    <string name="mdtp_select_hours">گھنٹے منتخب کریں</string>
+    <string name="mdtp_select_minutes">منٹ منتخب کریں</string>
+    <string name="mdtp_select_year">سال منتخب کریں</string>
+    <string name="mdtp_year_picker_description">سال کی فہرست</string>
+</resources>

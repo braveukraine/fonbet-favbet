@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/outcome_layout" android:tag="layout/events_line_outcome_default_item_layout_0" android:background="@drawable/outcome_bg_selector" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="2.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:bind="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/events_line_outcome_default_item_layout_id" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="48.0dip">
+        <com.betinvest.android.views.RobotoBoldTextView android:textSize="14.0sp" android:textColor="@color/sportsbook_outcome_color_selector_default" android:layout_gravity="center" android:id="@id/outcome_coef_view" android:tag="binding_1" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:tag="binding_2" android:visibility="gone" android:layout_width="22.0dip" android:layout_height="22.0dip" android:src="@drawable/ic_lock" android:scaleType="centerInside" android:tint="?Line_StateButtonStyleText" android:layout_centerInParent="true" />
+        <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:tag="binding_3" android:visibility="gone" android:layout_width="22.0dip" android:layout_height="22.0dip" android:src="@drawable/ic_corona" android:scaleType="centerInside" android:tint="?Line_StateButtonStyleText" android:layout_centerInParent="true" />
+        <View android:id="@id/coefficient_up_indicator" style="@style/CoefficientUp" />
+        <View android:id="@id/coefficient_down_indicator" style="@style/CoefficientDown" />
+    </FrameLayout>
+</FrameLayout>

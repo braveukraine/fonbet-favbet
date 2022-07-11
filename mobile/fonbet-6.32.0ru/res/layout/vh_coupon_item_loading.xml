@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.facebook.shimmer.ShimmerFrameLayout android:layout_gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip">
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@drawable/space_h_4" android:showDividers="middle">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <View android:background="@drawable/bg_frame_rounded_2_s_900_a10" android:layout_width="120.0dip" android:layout_height="16.0dip" />
+                <Space android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+                <View android:background="@drawable/bg_frame_rounded_2_s_900_a40" android:layout_width="38.0dip" android:layout_height="18.0dip" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@drawable/space_w_8" android:showDividers="middle">
+                <View android:background="@drawable/bg_frame_rounded_2_s_900_a10" android:layout_width="70.0dip" android:layout_height="12.0dip" />
+                <View android:background="@drawable/bg_frame_rounded_2_s_900_a10" android:layout_width="110.0dip" android:layout_height="12.0dip" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@drawable/space_w_8" android:showDividers="middle">
+                <View android:background="@drawable/bg_frame_rounded_2_s_900_a10" android:layout_width="24.0dip" android:layout_height="12.0dip" />
+                <Space android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+                <View android:background="@drawable/bg_frame_rounded_16_s_900_a10" android:layout_width="16.0dip" android:layout_height="16.0dip" />
+            </LinearLayout>
+        </LinearLayout>
+    </com.facebook.shimmer.ShimmerFrameLayout>
+    <ImageView android:id="@id/remove_coupon_item_btn" android:background="?color_500_a20_base" android:layout_width="24.0dip" android:layout_height="78.0dip" android:src="@drawable/ic_close" android:contentDescription="@string/action.delete" android:paddingStart="6.0dip" android:paddingEnd="6.0dip" app:tint="?color_500" />
+</merge>

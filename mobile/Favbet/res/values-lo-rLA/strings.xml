@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mdtp_date_v1_monthyear">MMMM yyyy</string>
+    <string name="mdtp_date_v2_daymonthyear">EEE dd MMM</string>
+    <string name="mdtp_day_picker_description">ຕາຕະລາງວັນທີ</string>
+    <string name="mdtp_deleted_key">%1$s ຖືກລຶບແລ້ວ</string>
+    <string name="mdtp_done_label">ແລ້ວໆ</string>
+    <string name="mdtp_hour_picker_description">ໂຕໝຸນປັບຊົ່ວໂມງ</string>
+    <string name="mdtp_item_is_selected">%1$s ຖືກເລືອກແລ້ວ</string>
+    <string name="mdtp_minute_picker_description">ໂຕໝຸນປັບນາທີ</string>
+    <string name="mdtp_select_day">ເລືອກເດືອນ ແລະ ວັນ</string>
+    <string name="mdtp_select_hours">ເລືອກ​ຊົ່ວ​ໂມງ</string>
+    <string name="mdtp_select_minutes">ເລືອກນາ​ທີ</string>
+    <string name="mdtp_select_year">ເລືອກ​ປີ</string>
+    <string name="mdtp_year_picker_description">ລາຍການປີ</string>
+</resources>

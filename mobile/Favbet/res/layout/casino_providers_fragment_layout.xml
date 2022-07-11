@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/casino_providers_fragment_layout_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:id="@id/toolbar_panel" layout="@layout/casino_toolbar_panel_layout" />
+        <androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/providers_recycler_view" android:paddingLeft="34.0dip" android:paddingTop="24.0dip" android:paddingRight="34.0dip" android:paddingBottom="34.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="34.0dip" />
+        </androidx.core.widget.NestedScrollView>
+    </LinearLayout>
+    <include android:id="@id/progress_panel" android:visibility="gone" android:elevation="1.0dip" layout="@layout/progress_panel_layout" />
+</FrameLayout>

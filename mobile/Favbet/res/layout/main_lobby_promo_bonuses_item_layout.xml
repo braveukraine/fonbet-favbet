@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/container" android:tag="layout/main_lobby_promo_bonuses_item_layout_0" android:paddingTop="@dimen/dist_6" android:paddingBottom="@dimen/dist_6" android:layout_width="fill_parent" android:layout_height="65.0dip" android:paddingStart="@dimen/dist_6" android:paddingEnd="@dimen/dist_10"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:bind="http://schemas.android.com/apk/res-auto">
+    <com.betinvest.android.views.RobotoBoldTextView android:textSize="@dimen/text_14sp" android:textStyle="bold" android:textColor="?secondary_white1" android:ellipsize="end" android:layout_gravity="center|left|top" android:tag="binding_1" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:textAllCaps="true" />
+    <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="end|bottom|center" android:id="@id/go_to" android:tag="binding_2" android:layout_width="@dimen/dist_44" android:layout_height="@dimen/dist_44" android:src="@drawable/ic_bonus" android:tint="?secondary_white1" />
+</LinearLayout>

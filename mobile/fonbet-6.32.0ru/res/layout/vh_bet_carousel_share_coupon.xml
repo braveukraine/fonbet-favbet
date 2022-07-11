@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/main_container" android:layout_width="wrap_content" android:layout_height="fill_parent" android:paddingStart="12.0dip" android:paddingEnd="12.0dip">
+        <ImageView android:id="@id/random_selection_iv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_coupon_share" app:tint="?color_900" />
+    </LinearLayout>
+</merge>

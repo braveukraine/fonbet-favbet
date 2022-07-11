@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/main_lobby_navigable_panel_layout_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/header_panel" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" layout="@layout/main_lobby_header_panel_layout" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/list_view" android:clipToPadding="true" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

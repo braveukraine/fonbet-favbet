@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/market_template_default_item_layout_0" android:background="?line_tS_marketLine_Bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="-3.0dip" android:layout_marginRight="-3.0dip" android:layout_marginHorizontal="-3.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:bind="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:tag="binding_1" android:background="?selectableItemBackground" android:paddingTop="11.0dip" android:paddingBottom="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="36.0dip" android:paddingStart="5.0dip" android:paddingEnd="16.0dip">
+        <FrameLayout android:tag="binding_2" android:background="?selectableItemBackgroundBorderless" android:paddingLeft="11.0dip" android:paddingRight="11.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:paddingHorizontal="11.0dip">
+            <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:tag="binding_3" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/pin_selector" />
+        </FrameLayout>
+        <com.betinvest.android.views.RobotoBoldTextView android:textSize="16.0sp" android:textColor="?line_bS_marketLine_Title" android:tag="binding_4" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="11.0dip" android:layout_marginEnd="11.0dip" />
+        <androidx.appcompat.widget.AppCompatImageView android:tag="binding_5" android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@drawable/arrow_up_down_selector" android:tint="?line_bS_marketLine_Icon" />
+    </LinearLayout>
+    <View android:background="@drawable/round_top_2_bg" android:layout_width="fill_parent" android:layout_height="4.0dip" android:backgroundTint="?line_bS_marketLine_Border" />
+</LinearLayout>

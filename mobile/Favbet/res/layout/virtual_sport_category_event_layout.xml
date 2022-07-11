@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/virtual_sport_category_event_layout_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/tournament_block" layout="@layout/virtual_sport_tournament_name_layout" />
+    <include android:id="@id/favbet_stream_panel" layout="@layout/fav_tv_panel_layout" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/time_line_event_list_view" android:paddingLeft="15.0dip" android:paddingTop="10.0dip" android:paddingRight="15.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingHorizontal="15.0dip" />
+</LinearLayout>

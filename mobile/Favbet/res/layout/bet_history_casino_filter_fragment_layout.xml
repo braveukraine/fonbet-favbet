@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/bet_history_casino_filter_fragment_layout_0" android:background="?General_body_profile" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:bind="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/toolbar" layout="@layout/default_toolbar_panel_layout" />
+    <androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="32.0dip" android:layout_marginRight="32.0dip" android:layout_marginHorizontal="32.0dip">
+            <include android:id="@id/date_block" layout="@layout/date_filter_layout" />
+            <com.betinvest.android.views.RobotoBoldTextView android:textStyle="bold" android:textColor="?profile_txt2" android:id="@id/bets_filters_by_provider_text" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:layout_marginBottom="8.0dip" android:textAllCaps="true" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/by_provider_view" android:background="@drawable/bet_history_filter_button_bg_default" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="40.0dip">
+                <com.betinvest.android.views.RobotoBoldTextView android:textStyle="bold" android:textColor="?input_txt" android:layout_gravity="center" android:tag="binding_3" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="8.0dip" />
+                <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/ic_dropdown" android:scaleType="fitXY" android:tint="?input_txt" android:layout_marginStart="4.0dip" android:layout_marginEnd="16.0dip" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <include android:id="@id/apply_button_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dist_5" android:elevation="2.0dip" layout="@layout/primary1_btn_layout_with_bg" />
+</LinearLayout>

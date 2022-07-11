@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mdtp_cancel" />
+    <string name="mdtp_date_v1_monthyear">"yyyy('e')'ko' MMMM"</string>
+    <string name="mdtp_date_v2_daymonthyear">MMM dd, EEE</string>
+    <string name="mdtp_day_picker_description">Hilabete-ikuspegiko eguna aukeratzeko sareta</string>
+    <string name="mdtp_deleted_key">%1$s ezabatu da</string>
+    <string name="mdtp_done_label">Eginda</string>
+    <string name="mdtp_hour_picker_description">Ordua aukeratzeko ikuspegi zirkularra</string>
+    <string name="mdtp_item_is_selected">%1$s hautatu da</string>
+    <string name="mdtp_minute_picker_description">Minutuak aukeratzeko ikuspegi zirkularra</string>
+    <string name="mdtp_select_day">Hautatu hilabetea eta eguna</string>
+    <string name="mdtp_select_hours">Hautatu orduak</string>
+    <string name="mdtp_select_minutes">Hautatu minutuak</string>
+    <string name="mdtp_select_year">Hautatu urtea</string>
+    <string name="mdtp_year_picker_description">Urteen zerrenda</string>
+</resources>

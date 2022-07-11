@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="?color_100" android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@drawable/space_w_8" android:showDividers="middle" android:paddingVertical="12.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.textview.MaterialTextView android:textSize="14.0sp" android:textColor="?color_900" android:layout_gravity="center_vertical" android:id="@id/title_tv" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/bet_sell.drawer_title" android:layout_weight="1.0" style="@style/Widget.Fonbet.Text.Medium" />
+    <com.google.android.material.textview.MaterialTextView android:textSize="14.0sp" android:textColor="?color_900_a60" android:layout_gravity="center_vertical" android:id="@id/description_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bet_sell.settings.item_1_short" style="@style/Widget.Fonbet.Text.Regular" />
+    <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_app_chevron_right" app:tint="?color_500_a80" />
+</LinearLayout>

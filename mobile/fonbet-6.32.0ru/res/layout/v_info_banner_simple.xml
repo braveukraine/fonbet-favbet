@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="center_horizontal" android:id="@id/background_view" android:background="?color_700_a20" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/banner_iv" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    </FrameLayout>
+</merge>

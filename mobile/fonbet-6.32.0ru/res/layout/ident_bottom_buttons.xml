@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/buttons_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:divider="@drawable/space_w_8" android:showDividers="middle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.button.MaterialButton android:id="@id/cancel_btn" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/general.cancel" android:layout_weight="1.0" style="@style/Widget.Fonbet.Button.Outlined.Blue" />
+    <com.google.android.material.button.MaterialButton android:id="@id/submit_btn" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/general.proceed" android:layout_weight="1.0" style="@style/Widget.Fonbet.Button.Filled" />
+</LinearLayout>

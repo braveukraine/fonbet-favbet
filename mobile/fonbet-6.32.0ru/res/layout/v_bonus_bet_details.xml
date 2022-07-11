@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@drawable/space_w_4" android:showDividers="middle">
+        <com.google.android.material.textview.MaterialTextView android:id="@id/title_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="0.0dip" style="@style/DialogTitle" />
+        <com.google.android.material.textview.MaterialTextView android:textSize="20.0sp" android:textColor="?color_500" android:id="@id/subtitle_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:layout_marginBottom="14.0dip" style="@style/Widget.Fonbet.Text.Medium" />
+    </LinearLayout>
+    <com.google.android.material.textview.MaterialTextView android:textSize="14.0sp" android:textColor="?color_negative" android:id="@id/info_unavailable_tv" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:text="@string/profile.operation_details_missing" style="@style/Widget.Fonbet.Text.Medium" />
+    <com.fonbet.core.commons.ui.widget.epoxy.CustomEpoxyRecyclerView android:id="@id/history_rcv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" />
+</LinearLayout>

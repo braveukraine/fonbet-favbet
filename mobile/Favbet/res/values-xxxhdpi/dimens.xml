@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">16.0dip</dimen>
+    <dimen name="iproov_helpview_consent_text_max">13.0sp</dimen>
+    <dimen name="iproov_helpview_consent_text_min">9.0sp</dimen>
+    <dimen name="iproov_helpview_scan_instructions_text_max">18.0sp</dimen>
+    <dimen name="iproov_helpview_scan_instructions_text_min">12.0sp</dimen>
+    <dimen name="iproov_helpview_title_text_max">22.0sp</dimen>
+    <dimen name="iproov_helpview_title_text_min">13.0sp</dimen>
+    <dimen name="nv_helpview_container_padding_top">60.0dip</dimen>
+    <dimen name="nv_helpview_fallback_button_text">14.0sp</dimen>
+    <dimen name="nv_helpview_full_description_margin_top">35.0dip</dimen>
+    <dimen name="nv_helpview_full_padding_top">60.0dip</dimen>
+    <dimen name="nv_upload_container_padding_top">60.0dip</dimen>
+    <dimen name="nv_upload_description_text">18.0sp</dimen>
+    <dimen name="nv_upload_progress_info_text">16.0sp</dimen>
+    <dimen name="nv_upload_retry_button_landscape_text">15.0sp</dimen>
+    <dimen name="nv_upload_title_text">22.0sp</dimen>
+</resources>

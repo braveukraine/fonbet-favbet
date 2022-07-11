@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:tag="layout/casino_search_enter_game_name_layout_0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="30.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:layout_width="60.0dip" android:layout_height="60.0dip" android:src="@drawable/ill_typing" />
+    <com.betinvest.android.views.RobotoBoldTextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="?General_txt_color1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/native_casino_search_placeholder" android:textAllCaps="true" />
+    <com.betinvest.android.views.RobotoRegularTextView android:textSize="16.0sp" android:textColor="?General_txt_color1" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/native_casino_search_begin" />
+</LinearLayout>

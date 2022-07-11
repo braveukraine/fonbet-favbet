@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/divider0" android:background="@drawable/divider_color_500_a20" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@id/swipe_to_refresh_layout" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <com.fonbet.core.commons.ui.widget.epoxy.CustomEpoxyRecyclerView android:id="@id/messages_rcv" android:paddingTop="16.0dip" android:paddingBottom="24.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" />
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/available_messages_container" android:background="?color_150" android:paddingLeft="16.0dip" android:paddingTop="21.0dip" android:paddingRight="16.0dip" android:paddingBottom="21.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@drawable/space_h_2" android:showDividers="middle" android:paddingHorizontal="16.0dip" android:paddingVertical="21.0dip" />
+    <View android:id="@id/attachments_divider" android:background="@drawable/divider_color_500_a20" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <com.fonbet.core.commons.ui.widget.epoxy.CustomEpoxyRecyclerView android:id="@id/attachments_rcv" android:background="?color_100" android:paddingTop="10.0dip" android:paddingBottom="12.0dip" android:visibility="gone" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" />
+    <com.fonbet.core.support.impl.fon.ui.widget.NewMessageWidget android:gravity="center_vertical" android:id="@id/new_message_widget" android:background="?color_700_a10" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" />
+</LinearLayout>

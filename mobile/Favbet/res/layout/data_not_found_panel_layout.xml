@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/data_not_found_panel_layout_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/data_not_found_image_view" android:layout_width="60.0dip" android:layout_height="60.0dip" android:src="@drawable/ill_looking_for" android:scaleType="fitXY" />
+        <com.betinvest.android.views.RobotoBoldTextView android:textColor="?General_txt_color2" android:id="@id/data_not_found_message_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:textAllCaps="true" />
+    </LinearLayout>
+</FrameLayout>

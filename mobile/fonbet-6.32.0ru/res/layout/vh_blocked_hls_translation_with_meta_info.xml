@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.exoplayer2.ui.AspectRatioFrameLayout android:id="@id/container" android:layout_width="fill_parent" android:layout_height="240.0dip" android:keepScreenOn="true" app:resize_mode="fixed_width"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.fonbet.event.impl.ui.widget.eventheader.metainfo.EventLiveMetaHeaderWidget android:layout_gravity="top" android:id="@id/live_meta_header_widget" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="8.0dip" />
+    <com.fonbet.event.impl.ui.widget.eventheader.EventTranslationProblemWidget android:layout_gravity="center" android:id="@id/blocked_info_widget" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip" />
+</com.google.android.exoplayer2.ui.AspectRatioFrameLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="center_horizontal" android:id="@id/root_container" android:background="?color_700_a20" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.fonbet.core.commons.ui.widget.CustomImageView android:id="@id/banner_full_width_iv" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+        <com.fonbet.core.commons.ui.widget.CustomImageView android:id="@id/banner_right_align_iv" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="matrix" />
+        <LinearLayout android:gravity="bottom" android:orientation="vertical" android:id="@id/vertical_gradient_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <View android:id="@id/vertical_gradient_view" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="68.0dip" />
+            <View android:id="@id/vertical_gradient_solid_view" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="16.0dip" />
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@drawable/space_h_8" android:showDividers="middle">
+            <LinearLayout android:orientation="horizontal" android:id="@id/main_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@drawable/space_w_8" android:showDividers="middle" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip">
+                <com.fonbet.core.commons.ui.widget.CustomImageView android:layout_gravity="bottom" android:id="@id/logo_iv" android:layout_width="40.0dip" android:layout_height="40.0dip" android:scaleType="fitCenter" android:contentDescription="@null" />
+                <View android:layout_gravity="center_vertical" android:id="@id/logo_divider" android:background="?color_900_a20" android:layout_width="1.0dip" android:layout_height="fill_parent" android:layout_marginTop="4.0dip" android:layout_marginBottom="4.0dip" />
+                <com.google.android.material.textview.MaterialTextView android:textSize="12.0sp" android:layout_gravity="center_vertical" android:id="@id/text1_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" style="@style/Widget.Fonbet.Text.Bold" />
+            </LinearLayout>
+            <com.fonbet.core.commons.ui.widget.CustomImageView android:id="@id/regulators_logo_iv" android:layout_width="150.0dip" android:layout_height="12.0dip" android:layout_marginBottom="8.0dip" android:scaleType="fitStart" android:contentDescription="@null" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip" />
+        </LinearLayout>
+    </FrameLayout>
+</merge>

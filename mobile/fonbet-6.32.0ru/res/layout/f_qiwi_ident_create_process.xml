@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:id="@id/scroll_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/process_container_top_padding" android:paddingBottom="@dimen/process_container_bottom_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@drawable/space_h_16" android:showDividers="middle" android:paddingStart="@dimen/process_container_start_padding" android:paddingEnd="@dimen/process_container_end_padding">
+        <com.fonbet.core.impl.fon.ui.widget.inputlayout.CustomTextInputLayout android:id="@id/phone_il" android:layout_width="fill_parent" android:layout_height="wrap_content" app:ctil_isStaticText="true" style="@style/Widget.Fonbet.CustomTextInputLayout.Bold">
+            <com.fonbet.core.commons.ui.widget.inputlayout.edittext.CustomTextInputEditText android:id="@id/phone_et" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/field.phone_number" android:inputType="textNoSuggestions" />
+        </com.fonbet.core.impl.fon.ui.widget.inputlayout.CustomTextInputLayout>
+        <com.fonbet.process.commons.fon.ui.widget.CustomCheckboxWidget android:id="@id/checkbox_widget" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:text="@string/user_agreement.default_ident" app:parseTextAsAction="true" />
+        <include android:id="@id/submit_btn" layout="@layout/btn_next" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

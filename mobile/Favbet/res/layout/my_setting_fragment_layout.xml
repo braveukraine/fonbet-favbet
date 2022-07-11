@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/my_setting_fragment_layout_0" android:background="?General_body_profile" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:bind="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/toolbar" layout="@layout/default_toolbar_panel_layout" />
+    <LinearLayout android:orientation="vertical" android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="31.0dip" android:layout_marginRight="16.0dip" android:layout_marginHorizontal="16.0dip">
+        <include android:id="@id/my_profile_theme_panel" layout="@layout/my_profile_theme_layout" />
+        <include android:id="@id/my_profile_lang_panel" layout="@layout/my_profile_lang_layout" />
+        <include android:id="@id/my_profile_timezone_panel" layout="@layout/my_profile_timezone_layout" />
+        <include android:id="@id/my_profile_odds_panel" layout="@layout/my_profile_odds_layout" />
+        <include android:id="@id/my_profile_linetype_panel" layout="@layout/my_profile_linetype_layout" />
+    </LinearLayout>
+</LinearLayout>

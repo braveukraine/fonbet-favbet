@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.fonbet.core.impl.fon.ui.widget.inputlayout.CustomTextInputLayout android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Widget.Fonbet.CustomTextInputLayout.Medium">
+        <com.fonbet.core.commons.ui.widget.inputlayout.edittext.CustomTextInputEditText android:id="@id/account_edit_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/field.account" android:inputType="number" android:autofillHints="username" android:importantForAutofill="yes" />
+    </com.fonbet.core.impl.fon.ui.widget.inputlayout.CustomTextInputLayout>
+</merge>

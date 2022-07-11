@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.textview.MaterialTextView android:textSize="12.0sp" android:textColor="?color_blue" android:id="@id/gold_bet_message_tv" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginEnd="48.0dip" style="@style/Widget.Fonbet.Text.Medium" />
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/v_bet_settings_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_bet_settings" app:tint="?color_blue" />
+</merge>

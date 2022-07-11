@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:tag="layout/top_event_wide_list_item_layout_0" android:background="@drawable/sport_tab_bg_selector" android:paddingLeft="8.0dip" android:paddingTop="2.0dip" android:paddingRight="8.0dip" android:paddingBottom="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="2.0dip" android:minHeight="70.0dip" android:elevation="@dimen/dist_1" android:paddingHorizontal="8.0dip" android:paddingVertical="2.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:bind="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/icon_view" android:tag="binding_1" android:layout_width="56.0dip" android:layout_height="56.0dip" android:scaleType="fitXY" android:adjustViewBounds="true" />
+    <com.betinvest.android.views.RobotoBoldTextView android:textSize="12.0sp" android:textColor="?lobby_topEvents_eventTitle" android:gravity="center" android:id="@id/description_view" android:tag="binding_2" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="2" android:layout_weight="1.0" />
+</LinearLayout>

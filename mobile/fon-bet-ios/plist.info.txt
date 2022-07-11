@@ -1,0 +1,152 @@
+{
+    BuildMachineOSBuild = 21C52;
+    CFBundleDevelopmentRegion = en;
+    CFBundleDisplayName = Fonbet;
+    CFBundleExecutable = REDFonbet;
+    CFBundleIcons =     {
+        CFBundlePrimaryIcon =         {
+            CFBundleIconFiles =             (
+                "AppIconFon_Bet20x20",
+                "AppIconFon_Bet29x29",
+                "AppIconFon_Bet40x40",
+                "AppIconFon_Bet60x60"
+            );
+            CFBundleIconName = "AppIconFon_Bet";
+        };
+    };
+    "CFBundleIcons~ipad" =     {
+        CFBundlePrimaryIcon =         {
+            CFBundleIconFiles =             (
+                "AppIconFon_Bet20x20",
+                "AppIconFon_Bet29x29",
+                "AppIconFon_Bet40x40",
+                "AppIconFon_Bet60x60",
+                "AppIconFon_Bet76x76",
+                "AppIconFon_Bet83.5x83.5"
+            );
+            CFBundleIconName = "AppIconFon_Bet";
+        };
+    };
+    CFBundleIdentifier = "ru.bkfon.fonbet";
+    CFBundleInfoDictionaryVersion = "6.0";
+    CFBundleName = Fonbet;
+    CFBundlePackageType = APPL;
+    CFBundleShortVersionString = "7.38";
+    CFBundleSignature = "????";
+    CFBundleSupportedPlatforms =     (
+        iPhoneOS
+    );
+    CFBundleURLTypes =     (
+                {
+            CFBundleTypeRole = Editor;
+            CFBundleURLName = "ru.bkfon.fonbet";
+            CFBundleURLSchemes =             (
+                fon
+            );
+        },
+                {
+            CFBundleTypeRole = Editor;
+            CFBundleURLSchemes =             (
+                fb2019583261699810
+            );
+        }
+    );
+    CFBundleVersion = 2243;
+    DTAppStoreToolsBuild = 13F100;
+    DTCompiler = "com.apple.compilers.llvm.clang.1_0";
+    DTPlatformBuild = 19E239;
+    DTPlatformName = iphoneos;
+    DTPlatformVersion = "15.4";
+    DTSDKBuild = 19E239;
+    DTSDKName = "iphoneos15.4";
+    DTXcode = 1331;
+    DTXcodeBuild = 13E500a;
+    FacebookAdvertiserIDCollectionEnabled = 1;
+    FacebookAppID = 2019583261699810;
+    FacebookAutoLogAppEventsEnabled = 1;
+    FacebookDisplayName = "Fonbet (Ru)";
+    INAlternativeAppName = Fonbet;
+    ITSDRMScheme = v2;
+    LSApplicationQueriesSchemes =     (
+        sberpay,
+        yandexnavi,
+        comgooglemaps,
+        yandexmaps,
+        fbapi,
+        sparrow,
+        googlegmail,
+        "x-dispatch",
+        "readdle-spark",
+        airmail
+    );
+    LSRequiresIPhoneOS = 1;
+    Lokalise =     {
+        "API Token" = cb6af745d1ad7f8230d604b399cce781af8bfcd2;
+        "Project ID" = "384424575abd0e0095ca14.94283099";
+    };
+    MinimumOSVersion = "13.0";
+    NSAppTransportSecurity =     {
+        NSAllowsArbitraryLoads = 0;
+    };
+    NSAppleMusicUsageDescription = "\U0414\U043e\U0441\U0442\U0443\U043f \U043a \U0444\U043e\U0442\U043e";
+    NSCalendarsUsageDescription = "\U0414\U043e\U0441\U0442\U0443\U043f \U043a \U043a\U0430\U043b\U0435\U043d\U0434\U0430\U0440\U044e";
+    NSCameraUsageDescription = "\U0414\U043e\U0441\U0442\U0443\U043f \U043a \U043a\U0430\U043c\U0435\U0440\U0435";
+    NSFaceIDUsageDescription = "Face Id";
+    NSLocationAlwaysAndWhenInUseUsageDescription = "\U0414\U043e\U0441\U0442\U0443\U043f \U043a \U043b\U043e\U043a\U0430\U0446\U0438\U0438";
+    NSLocationAlwaysUsageDescription = "\U0414\U043e\U0441\U0442\U0443\U043f \U043a \U043b\U043e\U043a\U0430\U0446\U0438\U0438";
+    NSLocationWhenInUseUsageDescription = "\U0414\U043e\U0441\U0442\U0443\U043f \U043a \U043b\U043e\U043a\U0430\U0446\U0438\U0438";
+    NSMicrophoneUsageDescription = "\U0414\U043e\U0441\U0442\U0443\U043f \U043a \U043c\U0438\U043a\U0440\U043e\U0444\U043e\U043d\U0443";
+    NSPhotoLibraryUsageDescription = "\U0414\U043e\U0441\U0442\U0443\U043f \U043a \U0444\U043e\U0442\U043e";
+    NSUserTrackingUsageDescription = "Allow us to use your activity data to configure personalized advertising campaigns";
+    UIAppFonts =     (
+        "CeraPro-Bold.ttf",
+        "CeraPro-Black.ttf",
+        "CeraPro-Light.ttf",
+        "CeraPro-Medium.ttf",
+        "CeraPro-Regular.ttf",
+        "CeraPro-Thin.ttf"
+    );
+    UIApplicationShortcutItems =     (
+                {
+            UIApplicationShortcutItemIconFile = "ic_quick_side_live";
+            UIApplicationShortcutItemTitle = "sport.tab.name.live";
+            UIApplicationShortcutItemType = "ru.bkfon.fonbet.Live";
+        },
+                {
+            UIApplicationShortcutItemIconFile = "ic_quick_side_line";
+            UIApplicationShortcutItemTitle = "sport.tab.name.prematch";
+            UIApplicationShortcutItemType = "ru.bkfon.fonbet.Line";
+        }
+    );
+    UIBackgroundModes =     (
+        audio,
+        fetch,
+        "remote-notification"
+    );
+    UIDeviceFamily =     (
+        1,
+        2
+    );
+    UILaunchStoryboardName = LaunchScreenRus;
+    "UILaunchStoryboardName~ipad" = "LaunchScreenRus_ipad";
+    UIMainStoryboardFile = Main;
+    "UIMainStoryboardFile~ipad" = Main;
+    UIRequiredDeviceCapabilities =     (
+        armv7
+    );
+    UIRequiresFullScreen = 1;
+    UIStatusBarStyle = UIStatusBarStyleLightContent;
+    UISupportedDevices =     (
+        "iPhone8,1",
+        "iPhone8,4",
+        "iPod9,1"
+    );
+    UISupportedInterfaceOrientations =     (
+        UIInterfaceOrientationPortrait
+    );
+    "UISupportedInterfaceOrientations~ipad" =     (
+        UIInterfaceOrientationPortrait,
+        UIInterfaceOrientationPortraitUpsideDown
+    );
+    UIViewControllerBasedStatusBarAppearance = 1;
+}

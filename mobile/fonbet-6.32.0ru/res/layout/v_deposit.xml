@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="start|center" android:orientation="vertical" android:id="@id/monetary_balance_container" android:background="?color_700" android:paddingTop="4.0dip" android:paddingBottom="4.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:divider="@drawable/space_h_2" android:showDividers="middle" android:paddingStart="8.0dip" android:paddingEnd="8.0dip">
+        <com.google.android.material.textview.MaterialTextView android:textSize="10.0sp" android:textColor="?color_100" android:id="@id/monetary_balance_label_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Widget.Fonbet.Text.Medium" />
+        <com.google.android.material.textview.MaterialTextView android:textSize="14.0sp" android:textColor="?color_100" android:gravity="center_vertical" android:id="@id/monetary_balance_value_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawablePadding="6.0dip" android:drawableEnd="@drawable/ic_plus" style="@style/Widget.Fonbet.Text.Bold" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/balance_ratio_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <View android:id="@id/monetary_balance_fraction_view" android:background="?color_700" android:layout_width="0.0dip" android:layout_height="fill_parent" />
+        <View android:id="@id/bonus_balance_fraction_view" android:background="?color_700_a60" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:gravity="end|center" android:orientation="vertical" android:id="@id/bonus_balance_container" android:background="?color_700_a60" android:paddingTop="4.0dip" android:paddingBottom="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:divider="@drawable/space_h_2" android:showDividers="middle" android:paddingStart="8.0dip" android:paddingEnd="8.0dip">
+        <com.google.android.material.textview.MaterialTextView android:textSize="10.0sp" android:textColor="?color_100" android:id="@id/bonus_balance_label_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bonus_balance" style="@style/Widget.Fonbet.Text.Medium" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:divider="@drawable/space_w_6" android:showDividers="middle">
+            <ImageView android:layout_width="12.0dip" android:layout_height="wrap_content" android:src="@drawable/ic_free_bet_2" android:contentDescription="@null" />
+            <com.google.android.material.textview.MaterialTextView android:textSize="14.0sp" android:textColor="?color_100" android:gravity="center_vertical" android:id="@id/bonus_balance_value_tv" android:layout_width="wrap_content" android:layout_height="fill_parent" style="@style/Widget.Fonbet.Text.Bold" />
+        </LinearLayout>
+    </LinearLayout>
+</merge>

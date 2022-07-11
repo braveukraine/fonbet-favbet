@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:tag="layout/stream_video_panel_layout_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <VideoView android:id="@id/video_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" android:transitionName="shared_video_element" />
+    <include android:id="@id/controls_panel" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_alignTop="@id/video_view" android:layout_alignBottom="@id/video_view" android:layout_alignStart="@id/video_view" android:layout_alignEnd="@id/video_view" layout="@layout/video_controls_panel_layout" />
+    <include android:id="@id/progress_panel" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_alignTop="@id/video_view" android:layout_alignBottom="@id/video_view" android:layout_alignStart="@id/video_view" android:layout_alignEnd="@id/video_view" layout="@layout/progress_panel_layout" />
+</RelativeLayout>

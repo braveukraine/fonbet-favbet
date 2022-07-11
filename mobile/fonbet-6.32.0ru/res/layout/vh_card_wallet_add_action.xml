@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/container" android:paddingTop="24.0dip" android:paddingBottom="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@drawable/space_h_16" android:showDividers="middle" android:paddingStart="16.0dip" android:paddingEnd="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.button.MaterialButton android:id="@id/add_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/deposit_settings.add_card_and_wallet" style="@style/Widget.Fonbet.Button.Outlined.Blue" />
+    <TextView android:theme="@style/ThemeOverlay.Agreement" android:textSize="14.0sp" android:textColor="?color_900_a80" android:id="@id/text_view" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Widget.Fonbet.Text.Regular" />
+</LinearLayout>

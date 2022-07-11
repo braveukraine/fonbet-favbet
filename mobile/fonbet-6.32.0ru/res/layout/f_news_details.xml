@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.fonbet.core.commons.ui.widget.epoxy.CustomEpoxyRecyclerView android:id="@id/recycler" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <View android:layout_gravity="top" android:background="?color_500_a20" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+</FrameLayout>

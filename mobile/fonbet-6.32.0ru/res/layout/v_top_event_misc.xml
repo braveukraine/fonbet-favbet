@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/vh_top_event_misc_blocked_iv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_event_blocked" android:layout_marginEnd="4.0dip" app:tint="?color_900" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/icon_event_paused" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_event_paused" android:layout_marginEnd="4.0dip" app:tint="?color_red" />
+    <com.google.android.material.textview.MaterialTextView android:textSize="12.0sp" android:textColor="?color_900" android:id="@id/vh_top_event_misc_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="2.0dip" style="@style/Widget.Fonbet.Text.Bold" />
+    <com.google.android.material.textview.MaterialTextView android:textSize="12.0sp" android:textColor="?color_900" android:id="@id/vh_top_event_misc_additional_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="8.0dip" style="@style/Widget.Fonbet.Text.Regular" />
+    <ImageView android:id="@id/vh_top_event_match_of_the_day_icon" android:visibility="gone" android:layout_width="14.0dip" android:layout_height="14.0dip" android:src="@drawable/ic_matchoftheday_small" android:layout_marginEnd="8.0dip" />
+    <com.google.android.material.textview.MaterialTextView android:textSize="12.0sp" android:textColor="?color_blue" android:id="@id/vh_top_event_match_of_the_day_tv" android:background="@drawable/bg_frame_rounded_2_s_blue_a10" android:paddingTop="1.0dip" android:paddingBottom="1.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="2.0dip" android:paddingEnd="2.0dip" android:layout_marginEnd="8.0dip" style="@style/Widget.Fonbet.Text.Medium" />
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/vh_top_event_misc_icons_container" android:layout_width="0.0dip" android:layout_height="wrap_content" android:divider="@drawable/space_w_4" android:layout_weight="1.0" android:showDividers="middle">
+        <ImageView android:id="@id/vh_top_event_misc_icon_video" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_translation" app:tint="?color_500" />
+        <ImageView android:id="@id/vh_top_event_misc_icon_mc" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_match_center" app:tint="?color_500" />
+        <ImageView android:id="@id/vh_top_event_misc_icon_audio" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_audio_translation" app:tint="?color_blue" />
+        <ImageView android:id="@id/vh_top_event_misc_icon_statistics" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_statistics" app:tint="?color_500" />
+    </LinearLayout>
+</merge>

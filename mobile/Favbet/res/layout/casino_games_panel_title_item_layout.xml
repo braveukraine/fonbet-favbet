@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:tag="layout/casino_games_panel_title_item_layout_0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="4.0dip" android:layout_marginBottom="12.0dip" android:layout_marginHorizontal="4.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.betinvest.android.views.RobotoBoldTextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="?casino_Title" android:tag="binding_1" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:textAllCaps="true" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.betinvest.android.views.RobotoBoldTextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="?Btn_Tertiary_color_2" android:id="@id/view_all_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/native_casino_view_all" android:textAllCaps="true" android:layout_marginEnd="11.0dip" />
+        <androidx.appcompat.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_view_all" android:tint="?Btn_Tertiary_color_2" />
+    </LinearLayout>
+</LinearLayout>

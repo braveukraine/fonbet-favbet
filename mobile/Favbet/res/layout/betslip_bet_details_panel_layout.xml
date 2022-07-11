@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/betslip_bet_details_panel_layout_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/possible_win_panel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" layout="@layout/bet_detail_list_item_layout" />
+    <LinearLayout android:orientation="vertical" android:background="@drawable/round_2_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:backgroundTint="?General_body_betslip">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/extendable_container" android:tag="binding_1" android:background="@drawable/round_2_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingEnd="8.0dip" android:backgroundTint="?betslip_card_bg">
+            <FrameLayout android:id="@id/collapse_button_layout" android:duplicateParentState="true" android:layout_width="36.0dip" android:layout_height="40.0dip">
+                <FrameLayout android:layout_gravity="center" android:background="?selectableItemBackgroundBorderless" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <androidx.appcompat.widget.AppCompatImageView android:id="@id/extend_image_view" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/arrow_up_down_selector" android:scaleType="centerInside" android:adjustViewBounds="true" android:tint="?betslip_header_icon" />
+                </FrameLayout>
+            </FrameLayout>
+            <include android:id="@id/bet_without_tax_panel" layout="@layout/bet_detail_list_item_layout" />
+        </LinearLayout>
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/bet_details_recycler_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:overScrollMode="never" android:paddingStart="36.0dip" />
+    </LinearLayout>
+</LinearLayout>

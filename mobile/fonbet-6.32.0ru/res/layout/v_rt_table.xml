@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <HorizontalScrollView android:id="@id/content_container" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip">
+        <FrameLayout android:id="@id/table_container_parent" android:background="@drawable/bg_frame_rounded_4_f_500_a20_s_100" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@id/table_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="1.0dip" />
+        </FrameLayout>
+    </HorizontalScrollView>
+</merge>

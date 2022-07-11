@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:tag="layout/event_stats_web_view_panel_layout_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.betinvest.android.views.NestedScrollWebView android:id="@id/web_view" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+    <include android:id="@id/progress" android:visibility="gone" layout="@layout/progress_panel_layout" />
+</RelativeLayout>

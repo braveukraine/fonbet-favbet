@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="abc_action_bar_embed_tabs">true</bool>
+    <bool name="abc_config_actionMenuItemAllCaps">true</bool>
+    <bool name="accent_pay_enable">false</bool>
+    <bool name="bonus_activity_enable">true</bool>
+    <bool name="bonus_enable">true</bool>
+    <bool name="bpay_enable">false</bool>
+    <bool name="bpc_enable">true</bool>
+    <bool name="deposit_enable">true</bool>
+    <bool name="dk_dark_sport_color">true</bool>
+    <bool name="is_land">false</bool>
+    <bool name="is_tablet">false</bool>
+    <bool name="lt_dark_sport_color">false</bool>
+    <bool name="mdtp_title_all_caps">true</bool>
+    <bool name="mtrl_btn_textappearance_all_caps">true</bool>
+    <bool name="notify_enable">true</bool>
+    <bool name="outcomes_right">false</bool>
+    <bool name="stat_enable">true</bool>
+    <bool name="video_enable">true</bool>
+    <bool name="vip_betting_enable">false</bool>
+</resources>

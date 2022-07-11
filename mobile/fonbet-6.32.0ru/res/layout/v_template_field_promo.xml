@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.button.MaterialButton android:ellipsize="end" android:id="@id/action_btn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" android:maxLines="1" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" style="@style/Widget.Fonbet.Button.Outlined.Blue" />
+    <FrameLayout android:orientation="vertical" android:id="@id/promo_id_container" android:background="@drawable/bg_frame_rounded_4_f_500_a40_s_100" android:paddingLeft="12.0dip" android:paddingTop="16.0dip" android:paddingRight="12.0dip" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip">
+        <com.google.android.material.textview.MaterialTextView android:textSize="14.0sp" android:textColor="?color_900" android:layout_gravity="center_vertical" android:id="@id/promo_id_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Widget.Fonbet.Text.Bold" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/promo_container" android:background="@drawable/bg_frame_rounded_4_f_500_a40_s_100" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip">
+        <com.google.android.material.textview.MaterialTextView android:textSize="16.0sp" android:textColor="?color_900" android:id="@id/promo_caption_tv" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Widget.Fonbet.Text.Bold" />
+    </FrameLayout>
+</FrameLayout>

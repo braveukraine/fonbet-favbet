@@ -1,0 +1,434 @@
+.class public final Lcom/fonbet/betting/api/domain/data/BetStateStreams$Single;
+.super Lcom/fonbet/betting/api/domain/data/BetStateStreams;
+.source "BetStateStreams.kt"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/fonbet/betting/api/domain/data/BetStateStreams;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "Single"
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u0000J\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u000c\u0018\u00002\u00020\u0001B\u009b\u0001\u0012\u000c\u0010\u0002\u001a\u0008\u0012\u0004\u0012\u00020\u00040\u0003\u0012\u000c\u0010\u0005\u001a\u0008\u0012\u0004\u0012\u00020\u00060\u0003\u0012\u0012\u0010\u0007\u001a\u000e\u0012\n\u0012\u0008\u0012\u0004\u0012\u00020\t0\u00080\u0003\u0012\u0012\u0010\n\u001a\u000e\u0012\n\u0012\u0008\u0012\u0004\u0012\u00020\u000b0\u00080\u0003\u0012\u0012\u0010\u000c\u001a\u000e\u0012\n\u0012\u0008\u0012\u0004\u0012\u00020\r0\u00080\u0003\u0012\u000c\u0010\u000e\u001a\u0008\u0012\u0004\u0012\u00020\u000f0\u0003\u0012\u000c\u0010\u0010\u001a\u0008\u0012\u0004\u0012\u00020\u00110\u0003\u0012\u0012\u0010\u0012\u001a\u000e\u0012\n\u0012\u0008\u0012\u0004\u0012\u00020\u00130\u00080\u0003\u0012\u000c\u0010\u0014\u001a\u0008\u0012\u0004\u0012\u00020\u00150\u0003\u00a2\u0006\u0002\u0010\u0016R\u001d\u0010\u0012\u001a\u000e\u0012\n\u0012\u0008\u0012\u0004\u0012\u00020\u00130\u00080\u0003\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008\u0017\u0010\u0018R\u0017\u0010\u0005\u001a\u0008\u0012\u0004\u0012\u00020\u00060\u0003\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008\u0019\u0010\u0018R\u0017\u0010\u000e\u001a\u0008\u0012\u0004\u0012\u00020\u000f0\u0003\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008\u001a\u0010\u0018R\u001d\u0010\u0007\u001a\u000e\u0012\n\u0012\u0008\u0012\u0004\u0012\u00020\t0\u00080\u0003\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008\u001b\u0010\u0018R\u001d\u0010\n\u001a\u000e\u0012\n\u0012\u0008\u0012\u0004\u0012\u00020\u000b0\u00080\u0003\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008\u001c\u0010\u0018R\u0017\u0010\u0010\u001a\u0008\u0012\u0004\u0012\u00020\u00110\u0003\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008\u001d\u0010\u0018R\u0017\u0010\u0014\u001a\u0008\u0012\u0004\u0012\u00020\u00150\u0003\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008\u001e\u0010\u0018R\u001d\u0010\u000c\u001a\u000e\u0012\n\u0012\u0008\u0012\u0004\u0012\u00020\r0\u00080\u0003\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008\u001f\u0010\u0018R\u0017\u0010\u0002\u001a\u0008\u0012\u0004\u0012\u00020\u00040\u0003\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008 \u0010\u0018\u00a8\u0006!"
+    }
+    d2 = {
+        "Lcom/fonbet/betting/api/domain/data/BetStateStreams$Single;",
+        "Lcom/fonbet/betting/api/domain/data/BetStateStreams;",
+        "rxSingleBetInfoState",
+        "Lio/reactivex/Observable;",
+        "Lcom/fonbet/betting/api/domain/data/SingleBetInfoState;",
+        "rxBetSettingsState",
+        "Lcom/fonbet/coupon/api/domain/data/BetSettingsState;",
+        "rxCouponRestrictionState",
+        "Lcom/gojuno/koptional/Optional;",
+        "Lcom/fonbet/betting/api/domain/usecase/internal/data/CouponRestriction;",
+        "rxGoldBetRestrictionState",
+        "Lcom/fonbet/betting/api/domain/usecase/internal/data/GoldBetRestriction;",
+        "rxPostBetSubscriptionState",
+        "Lcom/fonbet/betting/api/domain/data/PostBetSubscriptionState;",
+        "rxCarouselState",
+        "Lcom/fonbet/betting/api/domain/data/BetCarouselState;",
+        "rxInputState",
+        "Lcom/fonbet/betting/api/domain/data/BetInputState;",
+        "rxBetPlaceStatus",
+        "Lcom/fonbet/betting/api/domain/data/BetPlaceStatus;",
+        "rxMakeDepositState",
+        "Lcom/fonbet/betting/api/domain/data/MakeDepositState;",
+        "(Lio/reactivex/Observable;Lio/reactivex/Observable;Lio/reactivex/Observable;Lio/reactivex/Observable;Lio/reactivex/Observable;Lio/reactivex/Observable;Lio/reactivex/Observable;Lio/reactivex/Observable;Lio/reactivex/Observable;)V",
+        "getRxBetPlaceStatus",
+        "()Lio/reactivex/Observable;",
+        "getRxBetSettingsState",
+        "getRxCarouselState",
+        "getRxCouponRestrictionState",
+        "getRxGoldBetRestrictionState",
+        "getRxInputState",
+        "getRxMakeDepositState",
+        "getRxPostBetSubscriptionState",
+        "getRxSingleBetInfoState",
+        "feature-betting-api_release"
+    }
+    k = 0x1
+    mv = {
+        0x1,
+        0x5,
+        0x1
+    }
+    xi = 0x30
+.end annotation
+
+
+# instance fields
+.field private final rxBetPlaceStatus:Lio/reactivex/Observable;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Lio/reactivex/Observable<",
+            "Lcom/gojuno/koptional/Optional<",
+            "Lcom/fonbet/betting/api/domain/data/BetPlaceStatus;",
+            ">;>;"
+        }
+    .end annotation
+.end field
+
+.field private final rxBetSettingsState:Lio/reactivex/Observable;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Lio/reactivex/Observable<",
+            "Lcom/fonbet/coupon/api/domain/data/BetSettingsState;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field private final rxCarouselState:Lio/reactivex/Observable;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Lio/reactivex/Observable<",
+            "Lcom/fonbet/betting/api/domain/data/BetCarouselState;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field private final rxCouponRestrictionState:Lio/reactivex/Observable;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Lio/reactivex/Observable<",
+            "Lcom/gojuno/koptional/Optional<",
+            "Lcom/fonbet/betting/api/domain/usecase/internal/data/CouponRestriction;",
+            ">;>;"
+        }
+    .end annotation
+.end field
+
+.field private final rxGoldBetRestrictionState:Lio/reactivex/Observable;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Lio/reactivex/Observable<",
+            "Lcom/gojuno/koptional/Optional<",
+            "Lcom/fonbet/betting/api/domain/usecase/internal/data/GoldBetRestriction;",
+            ">;>;"
+        }
+    .end annotation
+.end field
+
+.field private final rxInputState:Lio/reactivex/Observable;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Lio/reactivex/Observable<",
+            "Lcom/fonbet/betting/api/domain/data/BetInputState;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field private final rxMakeDepositState:Lio/reactivex/Observable;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Lio/reactivex/Observable<",
+            "Lcom/fonbet/betting/api/domain/data/MakeDepositState;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field private final rxPostBetSubscriptionState:Lio/reactivex/Observable;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Lio/reactivex/Observable<",
+            "Lcom/gojuno/koptional/Optional<",
+            "Lcom/fonbet/betting/api/domain/data/PostBetSubscriptionState;",
+            ">;>;"
+        }
+    .end annotation
+.end field
+
+.field private final rxSingleBetInfoState:Lio/reactivex/Observable;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Lio/reactivex/Observable<",
+            "Lcom/fonbet/betting/api/domain/data/SingleBetInfoState;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+
+# direct methods
+.method public constructor <init>(Lio/reactivex/Observable;Lio/reactivex/Observable;Lio/reactivex/Observable;Lio/reactivex/Observable;Lio/reactivex/Observable;Lio/reactivex/Observable;Lio/reactivex/Observable;Lio/reactivex/Observable;Lio/reactivex/Observable;)V
+    .locals 2
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lio/reactivex/Observable<",
+            "Lcom/fonbet/betting/api/domain/data/SingleBetInfoState;",
+            ">;",
+            "Lio/reactivex/Observable<",
+            "Lcom/fonbet/coupon/api/domain/data/BetSettingsState;",
+            ">;",
+            "Lio/reactivex/Observable<",
+            "Lcom/gojuno/koptional/Optional<",
+            "Lcom/fonbet/betting/api/domain/usecase/internal/data/CouponRestriction;",
+            ">;>;",
+            "Lio/reactivex/Observable<",
+            "Lcom/gojuno/koptional/Optional<",
+            "Lcom/fonbet/betting/api/domain/usecase/internal/data/GoldBetRestriction;",
+            ">;>;",
+            "Lio/reactivex/Observable<",
+            "Lcom/gojuno/koptional/Optional<",
+            "Lcom/fonbet/betting/api/domain/data/PostBetSubscriptionState;",
+            ">;>;",
+            "Lio/reactivex/Observable<",
+            "Lcom/fonbet/betting/api/domain/data/BetCarouselState;",
+            ">;",
+            "Lio/reactivex/Observable<",
+            "Lcom/fonbet/betting/api/domain/data/BetInputState;",
+            ">;",
+            "Lio/reactivex/Observable<",
+            "Lcom/gojuno/koptional/Optional<",
+            "Lcom/fonbet/betting/api/domain/data/BetPlaceStatus;",
+            ">;>;",
+            "Lio/reactivex/Observable<",
+            "Lcom/fonbet/betting/api/domain/data/MakeDepositState;",
+            ">;)V"
+        }
+    .end annotation
+
+    const-string v0, "rxSingleBetInfoState"
+
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    const-string v0, "rxBetSettingsState"
+
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    const-string v0, "rxCouponRestrictionState"
+
+    invoke-static {p3, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    const-string v0, "rxGoldBetRestrictionState"
+
+    invoke-static {p4, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    const-string v0, "rxPostBetSubscriptionState"
+
+    invoke-static {p5, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    const-string v0, "rxCarouselState"
+
+    invoke-static {p6, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    const-string v0, "rxInputState"
+
+    invoke-static {p7, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    const-string v0, "rxBetPlaceStatus"
+
+    invoke-static {p8, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    const-string v0, "rxMakeDepositState"
+
+    invoke-static {p9, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 41
+    sget-object v0, Lcom/fonbet/betting/api/domain/data/BetState$Single;->INSTANCE:Lcom/fonbet/betting/api/domain/data/BetState$Single;
+
+    check-cast v0, Lcom/fonbet/betting/api/domain/data/BetState;
+
+    const/4 v1, 0x0
+
+    invoke-direct {p0, v0, v1}, Lcom/fonbet/betting/api/domain/data/BetStateStreams;-><init>(Lcom/fonbet/betting/api/domain/data/BetState;Lkotlin/jvm/internal/DefaultConstructorMarker;)V
+
+    .line 32
+    iput-object p1, p0, Lcom/fonbet/betting/api/domain/data/BetStateStreams$Single;->rxSingleBetInfoState:Lio/reactivex/Observable;
+
+    .line 33
+    iput-object p2, p0, Lcom/fonbet/betting/api/domain/data/BetStateStreams$Single;->rxBetSettingsState:Lio/reactivex/Observable;
+
+    .line 34
+    iput-object p3, p0, Lcom/fonbet/betting/api/domain/data/BetStateStreams$Single;->rxCouponRestrictionState:Lio/reactivex/Observable;
+
+    .line 35
+    iput-object p4, p0, Lcom/fonbet/betting/api/domain/data/BetStateStreams$Single;->rxGoldBetRestrictionState:Lio/reactivex/Observable;
+
+    .line 36
+    iput-object p5, p0, Lcom/fonbet/betting/api/domain/data/BetStateStreams$Single;->rxPostBetSubscriptionState:Lio/reactivex/Observable;
+
+    .line 37
+    iput-object p6, p0, Lcom/fonbet/betting/api/domain/data/BetStateStreams$Single;->rxCarouselState:Lio/reactivex/Observable;
+
+    .line 38
+    iput-object p7, p0, Lcom/fonbet/betting/api/domain/data/BetStateStreams$Single;->rxInputState:Lio/reactivex/Observable;
+
+    .line 39
+    iput-object p8, p0, Lcom/fonbet/betting/api/domain/data/BetStateStreams$Single;->rxBetPlaceStatus:Lio/reactivex/Observable;
+
+    .line 40
+    iput-object p9, p0, Lcom/fonbet/betting/api/domain/data/BetStateStreams$Single;->rxMakeDepositState:Lio/reactivex/Observable;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final getRxBetPlaceStatus()Lio/reactivex/Observable;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Lio/reactivex/Observable<",
+            "Lcom/gojuno/koptional/Optional<",
+            "Lcom/fonbet/betting/api/domain/data/BetPlaceStatus;",
+            ">;>;"
+        }
+    .end annotation
+
+    .line 39
+    iget-object v0, p0, Lcom/fonbet/betting/api/domain/data/BetStateStreams$Single;->rxBetPlaceStatus:Lio/reactivex/Observable;
+
+    return-object v0
+.end method
+
+.method public final getRxBetSettingsState()Lio/reactivex/Observable;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Lio/reactivex/Observable<",
+            "Lcom/fonbet/coupon/api/domain/data/BetSettingsState;",
+            ">;"
+        }
+    .end annotation
+
+    .line 33
+    iget-object v0, p0, Lcom/fonbet/betting/api/domain/data/BetStateStreams$Single;->rxBetSettingsState:Lio/reactivex/Observable;
+
+    return-object v0
+.end method
+
+.method public final getRxCarouselState()Lio/reactivex/Observable;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Lio/reactivex/Observable<",
+            "Lcom/fonbet/betting/api/domain/data/BetCarouselState;",
+            ">;"
+        }
+    .end annotation
+
+    .line 37
+    iget-object v0, p0, Lcom/fonbet/betting/api/domain/data/BetStateStreams$Single;->rxCarouselState:Lio/reactivex/Observable;
+
+    return-object v0
+.end method
+
+.method public final getRxCouponRestrictionState()Lio/reactivex/Observable;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Lio/reactivex/Observable<",
+            "Lcom/gojuno/koptional/Optional<",
+            "Lcom/fonbet/betting/api/domain/usecase/internal/data/CouponRestriction;",
+            ">;>;"
+        }
+    .end annotation
+
+    .line 34
+    iget-object v0, p0, Lcom/fonbet/betting/api/domain/data/BetStateStreams$Single;->rxCouponRestrictionState:Lio/reactivex/Observable;
+
+    return-object v0
+.end method
+
+.method public final getRxGoldBetRestrictionState()Lio/reactivex/Observable;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Lio/reactivex/Observable<",
+            "Lcom/gojuno/koptional/Optional<",
+            "Lcom/fonbet/betting/api/domain/usecase/internal/data/GoldBetRestriction;",
+            ">;>;"
+        }
+    .end annotation
+
+    .line 35
+    iget-object v0, p0, Lcom/fonbet/betting/api/domain/data/BetStateStreams$Single;->rxGoldBetRestrictionState:Lio/reactivex/Observable;
+
+    return-object v0
+.end method
+
+.method public final getRxInputState()Lio/reactivex/Observable;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Lio/reactivex/Observable<",
+            "Lcom/fonbet/betting/api/domain/data/BetInputState;",
+            ">;"
+        }
+    .end annotation
+
+    .line 38
+    iget-object v0, p0, Lcom/fonbet/betting/api/domain/data/BetStateStreams$Single;->rxInputState:Lio/reactivex/Observable;
+
+    return-object v0
+.end method
+
+.method public final getRxMakeDepositState()Lio/reactivex/Observable;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Lio/reactivex/Observable<",
+            "Lcom/fonbet/betting/api/domain/data/MakeDepositState;",
+            ">;"
+        }
+    .end annotation
+
+    .line 40
+    iget-object v0, p0, Lcom/fonbet/betting/api/domain/data/BetStateStreams$Single;->rxMakeDepositState:Lio/reactivex/Observable;
+
+    return-object v0
+.end method
+
+.method public final getRxPostBetSubscriptionState()Lio/reactivex/Observable;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Lio/reactivex/Observable<",
+            "Lcom/gojuno/koptional/Optional<",
+            "Lcom/fonbet/betting/api/domain/data/PostBetSubscriptionState;",
+            ">;>;"
+        }
+    .end annotation
+
+    .line 36
+    iget-object v0, p0, Lcom/fonbet/betting/api/domain/data/BetStateStreams$Single;->rxPostBetSubscriptionState:Lio/reactivex/Observable;
+
+    return-object v0
+.end method
+
+.method public final getRxSingleBetInfoState()Lio/reactivex/Observable;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Lio/reactivex/Observable<",
+            "Lcom/fonbet/betting/api/domain/data/SingleBetInfoState;",
+            ">;"
+        }
+    .end annotation
+
+    .line 32
+    iget-object v0, p0, Lcom/fonbet/betting/api/domain/data/BetStateStreams$Single;->rxSingleBetInfoState:Lio/reactivex/Observable;
+
+    return-object v0
+.end method

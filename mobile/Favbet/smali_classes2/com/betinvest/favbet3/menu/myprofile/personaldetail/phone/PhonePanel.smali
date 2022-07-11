@@ -1,0 +1,279 @@
+.class public Lcom/betinvest/favbet3/menu/myprofile/personaldetail/phone/PhonePanel;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# instance fields
+.field private final changeNumberAllowed:Z
+
+.field private final confirmCodeViewDataLiveData:Lcom/betinvest/android/core/mvvm/BaseLiveData;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Lcom/betinvest/android/core/mvvm/BaseLiveData<",
+            "Lcom/betinvest/favbet3/menu/myprofile/personaldetail/phone/ConfirmCodeViewData;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field private final phoneVerificationEnabled:Z
+
+.field private final phoneViewDataLiveData:Lcom/betinvest/android/core/mvvm/BaseLiveData;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Lcom/betinvest/android/core/mvvm/BaseLiveData<",
+            "Lcom/betinvest/favbet3/menu/myprofile/personaldetail/phone/PhoneViewData;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field private final showConfirmCodeSectionLiveData:Lcom/betinvest/android/core/mvvm/BaseLiveData;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Lcom/betinvest/android/core/mvvm/BaseLiveData<",
+            "Ljava/lang/Boolean;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field private final verifyPhoneStatusLiveData:Lcom/betinvest/android/core/mvvm/BaseLiveData;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Lcom/betinvest/android/core/mvvm/BaseLiveData<",
+            "Ljava/lang/Boolean;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field private final verifyPhoneViewDataLiveData:Lcom/betinvest/android/core/mvvm/BaseLiveData;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Lcom/betinvest/android/core/mvvm/BaseLiveData<",
+            "Lcom/betinvest/favbet3/menu/myprofile/personaldetail/phone/PhoneViewData;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+
+# direct methods
+.method public constructor <init>(ZZ)V
+    .locals 1
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    new-instance v0, Lcom/betinvest/android/core/mvvm/BaseLiveData;
+
+    invoke-direct {v0}, Lcom/betinvest/android/core/mvvm/BaseLiveData;-><init>()V
+
+    iput-object v0, p0, Lcom/betinvest/favbet3/menu/myprofile/personaldetail/phone/PhonePanel;->phoneViewDataLiveData:Lcom/betinvest/android/core/mvvm/BaseLiveData;
+
+    .line 3
+    new-instance v0, Lcom/betinvest/android/core/mvvm/BaseLiveData;
+
+    invoke-direct {v0}, Lcom/betinvest/android/core/mvvm/BaseLiveData;-><init>()V
+
+    iput-object v0, p0, Lcom/betinvest/favbet3/menu/myprofile/personaldetail/phone/PhonePanel;->verifyPhoneViewDataLiveData:Lcom/betinvest/android/core/mvvm/BaseLiveData;
+
+    .line 4
+    new-instance v0, Lcom/betinvest/android/core/mvvm/BaseLiveData;
+
+    invoke-direct {v0}, Lcom/betinvest/android/core/mvvm/BaseLiveData;-><init>()V
+
+    iput-object v0, p0, Lcom/betinvest/favbet3/menu/myprofile/personaldetail/phone/PhonePanel;->confirmCodeViewDataLiveData:Lcom/betinvest/android/core/mvvm/BaseLiveData;
+
+    .line 5
+    new-instance v0, Lcom/betinvest/android/core/mvvm/BaseLiveData;
+
+    invoke-direct {v0}, Lcom/betinvest/android/core/mvvm/BaseLiveData;-><init>()V
+
+    iput-object v0, p0, Lcom/betinvest/favbet3/menu/myprofile/personaldetail/phone/PhonePanel;->showConfirmCodeSectionLiveData:Lcom/betinvest/android/core/mvvm/BaseLiveData;
+
+    .line 6
+    new-instance v0, Lcom/betinvest/android/core/mvvm/BaseLiveData;
+
+    invoke-direct {v0}, Lcom/betinvest/android/core/mvvm/BaseLiveData;-><init>()V
+
+    iput-object v0, p0, Lcom/betinvest/favbet3/menu/myprofile/personaldetail/phone/PhonePanel;->verifyPhoneStatusLiveData:Lcom/betinvest/android/core/mvvm/BaseLiveData;
+
+    .line 7
+    iput-boolean p1, p0, Lcom/betinvest/favbet3/menu/myprofile/personaldetail/phone/PhonePanel;->phoneVerificationEnabled:Z
+
+    .line 8
+    iput-boolean p2, p0, Lcom/betinvest/favbet3/menu/myprofile/personaldetail/phone/PhonePanel;->changeNumberAllowed:Z
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public getConfirmCodeViewDataLiveData()Lcom/betinvest/android/core/mvvm/BaseLiveData;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Lcom/betinvest/android/core/mvvm/BaseLiveData<",
+            "Lcom/betinvest/favbet3/menu/myprofile/personaldetail/phone/ConfirmCodeViewData;",
+            ">;"
+        }
+    .end annotation
+
+    .line 1
+    iget-object v0, p0, Lcom/betinvest/favbet3/menu/myprofile/personaldetail/phone/PhonePanel;->confirmCodeViewDataLiveData:Lcom/betinvest/android/core/mvvm/BaseLiveData;
+
+    return-object v0
+.end method
+
+.method public getPhoneViewDataLiveData()Lcom/betinvest/android/core/mvvm/BaseLiveData;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Lcom/betinvest/android/core/mvvm/BaseLiveData<",
+            "Lcom/betinvest/favbet3/menu/myprofile/personaldetail/phone/PhoneViewData;",
+            ">;"
+        }
+    .end annotation
+
+    .line 1
+    iget-object v0, p0, Lcom/betinvest/favbet3/menu/myprofile/personaldetail/phone/PhonePanel;->phoneViewDataLiveData:Lcom/betinvest/android/core/mvvm/BaseLiveData;
+
+    return-object v0
+.end method
+
+.method public getShowConfirmCodeSectionLiveData()Lcom/betinvest/android/core/mvvm/BaseLiveData;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Lcom/betinvest/android/core/mvvm/BaseLiveData<",
+            "Ljava/lang/Boolean;",
+            ">;"
+        }
+    .end annotation
+
+    .line 1
+    iget-object v0, p0, Lcom/betinvest/favbet3/menu/myprofile/personaldetail/phone/PhonePanel;->showConfirmCodeSectionLiveData:Lcom/betinvest/android/core/mvvm/BaseLiveData;
+
+    return-object v0
+.end method
+
+.method public getVerifyPhoneStatusLiveData()Lcom/betinvest/android/core/mvvm/BaseLiveData;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Lcom/betinvest/android/core/mvvm/BaseLiveData<",
+            "Ljava/lang/Boolean;",
+            ">;"
+        }
+    .end annotation
+
+    .line 1
+    iget-object v0, p0, Lcom/betinvest/favbet3/menu/myprofile/personaldetail/phone/PhonePanel;->verifyPhoneStatusLiveData:Lcom/betinvest/android/core/mvvm/BaseLiveData;
+
+    return-object v0
+.end method
+
+.method public getVerifyPhoneViewDataLiveData()Lcom/betinvest/android/core/mvvm/BaseLiveData;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Lcom/betinvest/android/core/mvvm/BaseLiveData<",
+            "Lcom/betinvest/favbet3/menu/myprofile/personaldetail/phone/PhoneViewData;",
+            ">;"
+        }
+    .end annotation
+
+    .line 1
+    iget-object v0, p0, Lcom/betinvest/favbet3/menu/myprofile/personaldetail/phone/PhonePanel;->verifyPhoneViewDataLiveData:Lcom/betinvest/android/core/mvvm/BaseLiveData;
+
+    return-object v0
+.end method
+
+.method public isChangeNumberAllowed()Z
+    .locals 1
+
+    .line 1
+    iget-boolean v0, p0, Lcom/betinvest/favbet3/menu/myprofile/personaldetail/phone/PhonePanel;->changeNumberAllowed:Z
+
+    return v0
+.end method
+
+.method public isPhoneVerificationEnabled()Z
+    .locals 1
+
+    .line 1
+    iget-boolean v0, p0, Lcom/betinvest/favbet3/menu/myprofile/personaldetail/phone/PhonePanel;->phoneVerificationEnabled:Z
+
+    return v0
+.end method
+
+.method public updateConfirmCodeViewData(Lcom/betinvest/favbet3/menu/myprofile/personaldetail/phone/ConfirmCodeViewData;)V
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lcom/betinvest/favbet3/menu/myprofile/personaldetail/phone/PhonePanel;->confirmCodeViewDataLiveData:Lcom/betinvest/android/core/mvvm/BaseLiveData;
+
+    invoke-virtual {v0, p1}, Lcom/betinvest/android/core/mvvm/BaseLiveData;->updateIfNotEqual(Ljava/lang/Object;)Z
+
+    return-void
+.end method
+
+.method public updatePhoneViewData(Lcom/betinvest/favbet3/menu/myprofile/personaldetail/phone/PhoneViewData;)V
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lcom/betinvest/favbet3/menu/myprofile/personaldetail/phone/PhonePanel;->phoneViewDataLiveData:Lcom/betinvest/android/core/mvvm/BaseLiveData;
+
+    invoke-virtual {v0, p1}, Lcom/betinvest/android/core/mvvm/BaseLiveData;->updateIfNotEqual(Ljava/lang/Object;)Z
+
+    return-void
+.end method
+
+.method public updateShowConfirmCodeSection(Z)V
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lcom/betinvest/favbet3/menu/myprofile/personaldetail/phone/PhonePanel;->showConfirmCodeSectionLiveData:Lcom/betinvest/android/core/mvvm/BaseLiveData;
+
+    invoke-static {p1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+
+    move-result-object p1
+
+    invoke-virtual {v0, p1}, Lcom/betinvest/android/core/mvvm/BaseLiveData;->updateIfNotEqual(Ljava/lang/Object;)Z
+
+    return-void
+.end method
+
+.method public updateVerifyPhoneStatus(Z)V
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lcom/betinvest/favbet3/menu/myprofile/personaldetail/phone/PhonePanel;->verifyPhoneStatusLiveData:Lcom/betinvest/android/core/mvvm/BaseLiveData;
+
+    invoke-static {p1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+
+    move-result-object p1
+
+    invoke-virtual {v0, p1}, Lcom/betinvest/android/core/mvvm/BaseLiveData;->updateIfNotEqual(Ljava/lang/Object;)Z
+
+    return-void
+.end method
+
+.method public updateVerifyPhoneViewData(Lcom/betinvest/favbet3/menu/myprofile/personaldetail/phone/PhoneViewData;)V
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lcom/betinvest/favbet3/menu/myprofile/personaldetail/phone/PhonePanel;->verifyPhoneViewDataLiveData:Lcom/betinvest/android/core/mvvm/BaseLiveData;
+
+    invoke-virtual {v0, p1}, Lcom/betinvest/android/core/mvvm/BaseLiveData;->updateIfNotEqual(Ljava/lang/Object;)Z
+
+    return-void
+.end method

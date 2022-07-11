@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:tag="layout/virtual_sport_tournament_name_layout_0" android:background="?stabs_bg_Default" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:bind="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:tag="binding_1" android:background="?state_Live" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="1.0" android:minHeight="25.0dip">
+        <com.betinvest.android.views.RobotoBoldTextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="?state_successTitle" android:gravity="center" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginHorizontal="10.0dip" />
+    </LinearLayout>
+    <LinearLayout android:tag="binding_3" android:background="?text_tab3_SelectedBg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="1.0" android:minHeight="25.0dip">
+        <com.betinvest.android.views.RobotoBoldTextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="?text_tab3_SelectedTitle" android:gravity="center" android:tag="binding_4" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginHorizontal="10.0dip" />
+    </LinearLayout>
+    <com.betinvest.android.views.RobotoBoldTextView android:textSize="10.0sp" android:textStyle="bold" android:textColor="?stabs_txt_Default" android:layout_gravity="center_vertical" android:tag="binding_5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAllCaps="true" android:layout_marginStart="9.0dip" />
+    <View android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_weight="1.0" />
+</LinearLayout>

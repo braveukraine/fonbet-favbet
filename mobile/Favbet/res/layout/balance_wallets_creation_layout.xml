@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.recyclerview.widget.RecyclerView android:id="@id/wallet_creation_recycle_items_view" android:tag="layout/balance_wallets_creation_layout_0" android:background="?General_body_profile" android:paddingTop="@dimen/dist_20" android:paddingBottom="@dimen/dist_20" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/dist_10" android:layout_marginEnd="@dimen/dist_10" android:paddingVertical="@dimen/dist_20"
+  xmlns:android="http://schemas.android.com/apk/res/android" />
